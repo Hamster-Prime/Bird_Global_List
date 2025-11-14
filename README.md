@@ -1,502 +1,543 @@
-# Global IP Address Lists
+# Global IP Address Lists by Country
 
-This repository contains IP address lists categorized by country.
+**Note:** This data is automatically updated daily from [ipinfo.io](https://ipinfo.io/).
 
-Last updated: Fri Nov 14 03:47:31 UTC 2025
+---
 
-## Files
+## 📊 Statistics
 
-- AD.conf
-- AD_IPv6.conf
-- AE.conf
-- AE_IPv6.conf
-- AF.conf
-- AF_IPv6.conf
-- AG.conf
-- AG_IPv6.conf
-- AI.conf
-- AI_IPv6.conf
-- AL.conf
-- AL_IPv6.conf
-- AM.conf
-- AM_IPv6.conf
-- AO.conf
-- AO_IPv6.conf
-- AQ.conf
-- AQ_IPv6.conf
-- AR.conf
-- AR_IPv6.conf
-- AS.conf
-- AS_IPv6.conf
-- AT.conf
-- AT_IPv6.conf
-- AU.conf
-- AU_IPv6.conf
-- AW.conf
-- AW_IPv6.conf
-- AX.conf
-- AX_IPv6.conf
-- AZ.conf
-- AZ_IPv6.conf
-- BA.conf
-- BA_IPv6.conf
-- BB.conf
-- BB_IPv6.conf
-- BD.conf
-- BD_IPv6.conf
-- BE.conf
-- BE_IPv6.conf
-- BF.conf
-- BF_IPv6.conf
-- BG.conf
-- BG_IPv6.conf
-- BH.conf
-- BH_IPv6.conf
-- BI.conf
-- BI_IPv6.conf
-- BJ.conf
-- BJ_IPv6.conf
-- BL.conf
-- BL_IPv6.conf
-- BM.conf
-- BM_IPv6.conf
-- BN.conf
-- BN_IPv6.conf
-- BO.conf
-- BO_IPv6.conf
-- BQ.conf
-- BQ_IPv6.conf
-- BR.conf
-- BR_IPv6.conf
-- BS.conf
-- BS_IPv6.conf
-- BT.conf
-- BT_IPv6.conf
-- BW.conf
-- BW_IPv6.conf
-- BY.conf
-- BY_IPv6.conf
-- BZ.conf
-- BZ_IPv6.conf
-- CA.conf
-- CA_IPv6.conf
-- CC.conf
-- CC_IPv6.conf
-- CD.conf
-- CD_IPv6.conf
-- CF.conf
-- CF_IPv6.conf
-- CG.conf
-- CG_IPv6.conf
-- CH.conf
-- CH_IPv6.conf
-- CI.conf
-- CI_IPv6.conf
-- CK.conf
-- CK_IPv6.conf
-- CL.conf
-- CL_IPv6.conf
-- CM.conf
-- CM_IPv6.conf
-- CN.conf
-- CN_IPv6.conf
-- CO.conf
-- CO_IPv6.conf
-- CR.conf
-- CR_IPv6.conf
-- CU.conf
-- CU_IPv6.conf
-- CV.conf
-- CV_IPv6.conf
-- CW.conf
-- CW_IPv6.conf
-- CX.conf
-- CX_IPv6.conf
-- CY.conf
-- CY_IPv6.conf
-- CZ.conf
-- CZ_IPv6.conf
-- DE.conf
-- DE_IPv6.conf
-- DJ.conf
-- DJ_IPv6.conf
-- DK.conf
-- DK_IPv6.conf
-- DM.conf
-- DM_IPv6.conf
-- DO.conf
-- DO_IPv6.conf
-- DZ.conf
-- DZ_IPv6.conf
-- EC.conf
-- EC_IPv6.conf
-- EE.conf
-- EE_IPv6.conf
-- EG.conf
-- EG_IPv6.conf
-- EH.conf
-- EH_IPv6.conf
-- ER.conf
-- ER_IPv6.conf
-- ES.conf
-- ES_IPv6.conf
-- ET.conf
-- ET_IPv6.conf
-- FI.conf
-- FI_IPv6.conf
-- FJ.conf
-- FJ_IPv6.conf
-- FK.conf
-- FK_IPv6.conf
-- FM.conf
-- FM_IPv6.conf
-- FO.conf
-- FO_IPv6.conf
-- FR.conf
-- FR_IPv6.conf
-- GA.conf
-- GA_IPv6.conf
-- GB.conf
-- GB_IPv6.conf
-- GD.conf
-- GD_IPv6.conf
-- GE.conf
-- GE_IPv6.conf
-- GF.conf
-- GF_IPv6.conf
-- GG.conf
-- GG_IPv6.conf
-- GH.conf
-- GH_IPv6.conf
-- GI.conf
-- GI_IPv6.conf
-- GL.conf
-- GL_IPv6.conf
-- GM.conf
-- GM_IPv6.conf
-- GN.conf
-- GN_IPv6.conf
-- GP.conf
-- GP_IPv6.conf
-- GQ.conf
-- GQ_IPv6.conf
-- GR.conf
-- GR_IPv6.conf
-- GS.conf
-- GS_IPv6.conf
-- GT.conf
-- GT_IPv6.conf
-- GU.conf
-- GU_IPv6.conf
-- GW.conf
-- GW_IPv6.conf
-- GY.conf
-- GY_IPv6.conf
-- HK.conf
-- HK_IPv6.conf
-- HN.conf
-- HN_IPv6.conf
-- HR.conf
-- HR_IPv6.conf
-- HT.conf
-- HT_IPv6.conf
-- HU.conf
-- HU_IPv6.conf
-- ID.conf
-- ID_IPv6.conf
-- IE.conf
-- IE_IPv6.conf
-- IL.conf
-- IL_IPv6.conf
-- IM.conf
-- IM_IPv6.conf
-- IN.conf
-- IN_IPv6.conf
-- IO.conf
-- IO_IPv6.conf
-- IQ.conf
-- IQ_IPv6.conf
-- IR.conf
-- IR_IPv6.conf
-- IS.conf
-- IS_IPv6.conf
-- IT.conf
-- IT_IPv6.conf
-- JE.conf
-- JE_IPv6.conf
-- JM.conf
-- JM_IPv6.conf
-- JO.conf
-- JO_IPv6.conf
-- JP.conf
-- JP_IPv6.conf
-- KE.conf
-- KE_IPv6.conf
-- KG.conf
-- KG_IPv6.conf
-- KH.conf
-- KH_IPv6.conf
-- KI.conf
-- KI_IPv6.conf
-- KM.conf
-- KM_IPv6.conf
-- KN.conf
-- KN_IPv6.conf
-- KP.conf
-- KP_IPv6.conf
-- KR.conf
-- KR_IPv6.conf
-- KW.conf
-- KW_IPv6.conf
-- KY.conf
-- KY_IPv6.conf
-- KZ.conf
-- KZ_IPv6.conf
-- LA.conf
-- LA_IPv6.conf
-- LB.conf
-- LB_IPv6.conf
-- LC.conf
-- LC_IPv6.conf
-- LI.conf
-- LI_IPv6.conf
-- LK.conf
-- LK_IPv6.conf
-- LR.conf
-- LR_IPv6.conf
-- LS.conf
-- LS_IPv6.conf
-- LT.conf
-- LT_IPv6.conf
-- LU.conf
-- LU_IPv6.conf
-- LV.conf
-- LV_IPv6.conf
-- LY.conf
-- LY_IPv6.conf
-- MA.conf
-- MA_IPv6.conf
-- MC.conf
-- MC_IPv6.conf
-- MD.conf
-- MD_IPv6.conf
-- ME.conf
-- ME_IPv6.conf
-- MF.conf
-- MF_IPv6.conf
-- MG.conf
-- MG_IPv6.conf
-- MH.conf
-- MH_IPv6.conf
-- MK.conf
-- MK_IPv6.conf
-- ML.conf
-- ML_IPv6.conf
-- MM.conf
-- MM_IPv6.conf
-- MN.conf
-- MN_IPv6.conf
-- MO.conf
-- MO_IPv6.conf
-- MP.conf
-- MP_IPv6.conf
-- MQ.conf
-- MQ_IPv6.conf
-- MR.conf
-- MR_IPv6.conf
-- MS.conf
-- MS_IPv6.conf
-- MT.conf
-- MT_IPv6.conf
-- MU.conf
-- MU_IPv6.conf
-- MV.conf
-- MV_IPv6.conf
-- MW.conf
-- MW_IPv6.conf
-- MX.conf
-- MX_IPv6.conf
-- MY.conf
-- MY_IPv6.conf
-- MZ.conf
-- MZ_IPv6.conf
-- NC.conf
-- NC_IPv6.conf
-- NE.conf
-- NE_IPv6.conf
-- NF.conf
-- NF_IPv6.conf
-- NG.conf
-- NG_IPv6.conf
-- NI.conf
-- NI_IPv6.conf
-- NL.conf
-- NL_IPv6.conf
-- NO.conf
-- NO_IPv6.conf
-- NP.conf
-- NP_IPv6.conf
-- NR.conf
-- NR_IPv6.conf
-- NU.conf
-- NU_IPv6.conf
-- NZ.conf
-- NZ_IPv6.conf
-- OM.conf
-- OM_IPv6.conf
-- PA.conf
-- PA_IPv6.conf
-- PE.conf
-- PE_IPv6.conf
-- PF.conf
-- PF_IPv6.conf
-- PG.conf
-- PG_IPv6.conf
-- PH.conf
-- PH_IPv6.conf
-- PK.conf
-- PK_IPv6.conf
-- PL.conf
-- PL_IPv6.conf
-- PM.conf
-- PM_IPv6.conf
-- PN.conf
-- PN_IPv6.conf
-- PR.conf
-- PR_IPv6.conf
-- PS.conf
-- PS_IPv6.conf
-- PT.conf
-- PT_IPv6.conf
-- PW.conf
-- PW_IPv6.conf
-- PY.conf
-- PY_IPv6.conf
-- QA.conf
-- QA_IPv6.conf
-- RE.conf
-- RE_IPv6.conf
-- RO.conf
-- RO_IPv6.conf
-- RS.conf
-- RS_IPv6.conf
-- RU.conf
-- RU_IPv6.conf
-- RW.conf
-- RW_IPv6.conf
-- SA.conf
-- SA_IPv6.conf
-- SB.conf
-- SB_IPv6.conf
-- SC.conf
-- SC_IPv6.conf
-- SD.conf
-- SD_IPv6.conf
-- SE.conf
-- SE_IPv6.conf
-- SG.conf
-- SG_IPv6.conf
-- SH.conf
-- SH_IPv6.conf
-- SI.conf
-- SI_IPv6.conf
-- SJ.conf
-- SJ_IPv6.conf
-- SK.conf
-- SK_IPv6.conf
-- SL.conf
-- SL_IPv6.conf
-- SM.conf
-- SM_IPv6.conf
-- SN.conf
-- SN_IPv6.conf
-- SO.conf
-- SO_IPv6.conf
-- SR.conf
-- SR_IPv6.conf
-- SS.conf
-- SS_IPv6.conf
-- ST.conf
-- ST_IPv6.conf
-- SV.conf
-- SV_IPv6.conf
-- SX.conf
-- SX_IPv6.conf
-- SY.conf
-- SY_IPv6.conf
-- SZ.conf
-- SZ_IPv6.conf
-- TC.conf
-- TC_IPv6.conf
-- TD.conf
-- TD_IPv6.conf
-- TF.conf
-- TF_IPv6.conf
-- TG.conf
-- TG_IPv6.conf
-- TH.conf
-- TH_IPv6.conf
-- TJ.conf
-- TJ_IPv6.conf
-- TK.conf
-- TK_IPv6.conf
-- TL.conf
-- TL_IPv6.conf
-- TM.conf
-- TM_IPv6.conf
-- TN.conf
-- TN_IPv6.conf
-- TO.conf
-- TO_IPv6.conf
-- TR.conf
-- TR_IPv6.conf
-- TT.conf
-- TT_IPv6.conf
-- TV.conf
-- TV_IPv6.conf
-- TW.conf
-- TW_IPv6.conf
-- TZ.conf
-- TZ_IPv6.conf
-- UA.conf
-- UA_IPv6.conf
-- UG.conf
-- UG_IPv6.conf
-- UM.conf
-- UM_IPv6.conf
-- US.conf
-- US_IPv6.conf
-- UY.conf
-- UY_IPv6.conf
-- UZ.conf
-- UZ_IPv6.conf
-- VA.conf
-- VA_IPv6.conf
-- VC.conf
-- VC_IPv6.conf
-- VE.conf
-- VE_IPv6.conf
-- VG.conf
-- VG_IPv6.conf
-- VI.conf
-- VI_IPv6.conf
-- VN.conf
-- VN_IPv6.conf
-- VU.conf
-- VU_IPv6.conf
-- WF.conf
-- WF_IPv6.conf
-- WS.conf
-- WS_IPv6.conf
-- XK.conf
-- XK_IPv6.conf
-- YE.conf
-- YE_IPv6.conf
-- YT.conf
-- YT_IPv6.conf
-- ZA.conf
-- ZA_IPv6.conf
-- ZM.conf
-- ZM_IPv6.conf
-- ZW.conf
-- ZW_IPv6.conf
+**Last Updated:** 2025-11-14T04:00:58+00:00
+
+### 📈 Overall
+- **Total Countries/Regions with data:** 494
+- **Total IP CIDR blocks:** 4483395
+
+### 🌍 Top 20 Countries by CIDR Count
+
+| Country Code | CIDR Count |
+|--------------|------------|
+| DE_IPv6      | 846114     |
+| US_IPv6      | 580814     |
+| US           | 405485     |
+| HU_IPv6      | 154663     |
+| NL_IPv6      | 152861     |
+| AU_IPv6      | 115769     |
+| RU_IPv6      | 92681      |
+| HK_IPv6      | 79483      |
+| DE           | 79426      |
+| CN_IPv6      | 77381      |
+| GB_IPv6      | 72191      |
+| GB           | 66223      |
+| JP_IPv6      | 66090      |
+| FR           | 49158      |
+| CA           | 47430      |
+| FR_IPv6      | 46695      |
+| SG_IPv6      | 44777      |
+| NL           | 44627      |
+| AL_IPv6      | 43614      |
+| UY_IPv6      | 42467      |
+
+### 📁 Generated Files
+
+All files are located in the `Country_CIDR/` directory.
+
+```
+AD.conf
+AD_IPv6.conf
+AE.conf
+AE_IPv6.conf
+AF.conf
+AF_IPv6.conf
+AG.conf
+AG_IPv6.conf
+AI.conf
+AI_IPv6.conf
+AL.conf
+AL_IPv6.conf
+AM.conf
+AM_IPv6.conf
+AO.conf
+AO_IPv6.conf
+AQ.conf
+AQ_IPv6.conf
+AR.conf
+AR_IPv6.conf
+AS.conf
+AS_IPv6.conf
+AT.conf
+AT_IPv6.conf
+AU.conf
+AU_IPv6.conf
+AW.conf
+AW_IPv6.conf
+AX.conf
+AX_IPv6.conf
+AZ.conf
+AZ_IPv6.conf
+BA.conf
+BA_IPv6.conf
+BB.conf
+BB_IPv6.conf
+BD.conf
+BD_IPv6.conf
+BE.conf
+BE_IPv6.conf
+BF.conf
+BF_IPv6.conf
+BG.conf
+BG_IPv6.conf
+BH.conf
+BH_IPv6.conf
+BI.conf
+BI_IPv6.conf
+BJ.conf
+BJ_IPv6.conf
+BL.conf
+BL_IPv6.conf
+BM.conf
+BM_IPv6.conf
+BN.conf
+BN_IPv6.conf
+BO.conf
+BO_IPv6.conf
+BQ.conf
+BQ_IPv6.conf
+BR.conf
+BR_IPv6.conf
+BS.conf
+BS_IPv6.conf
+BT.conf
+BT_IPv6.conf
+BW.conf
+BW_IPv6.conf
+BY.conf
+BY_IPv6.conf
+BZ.conf
+BZ_IPv6.conf
+CA.conf
+CA_IPv6.conf
+CC.conf
+CC_IPv6.conf
+CD.conf
+CD_IPv6.conf
+CF.conf
+CF_IPv6.conf
+CG.conf
+CG_IPv6.conf
+CH.conf
+CH_IPv6.conf
+CI.conf
+CI_IPv6.conf
+CK.conf
+CK_IPv6.conf
+CL.conf
+CL_IPv6.conf
+CM.conf
+CM_IPv6.conf
+CN.conf
+CN_IPv6.conf
+CO.conf
+CO_IPv6.conf
+CR.conf
+CR_IPv6.conf
+CU.conf
+CU_IPv6.conf
+CV.conf
+CV_IPv6.conf
+CW.conf
+CW_IPv6.conf
+CX.conf
+CX_IPv6.conf
+CY.conf
+CY_IPv6.conf
+CZ.conf
+CZ_IPv6.conf
+DE.conf
+DE_IPv6.conf
+DJ.conf
+DJ_IPv6.conf
+DK.conf
+DK_IPv6.conf
+DM.conf
+DM_IPv6.conf
+DO.conf
+DO_IPv6.conf
+DZ.conf
+DZ_IPv6.conf
+EC.conf
+EC_IPv6.conf
+EE.conf
+EE_IPv6.conf
+EG.conf
+EG_IPv6.conf
+EH.conf
+EH_IPv6.conf
+ER.conf
+ER_IPv6.conf
+ES.conf
+ES_IPv6.conf
+ET.conf
+ET_IPv6.conf
+FI.conf
+FI_IPv6.conf
+FJ.conf
+FJ_IPv6.conf
+FK.conf
+FK_IPv6.conf
+FM.conf
+FM_IPv6.conf
+FO.conf
+FO_IPv6.conf
+FR.conf
+FR_IPv6.conf
+GA.conf
+GA_IPv6.conf
+GB.conf
+GB_IPv6.conf
+GD.conf
+GD_IPv6.conf
+GE.conf
+GE_IPv6.conf
+GF.conf
+GF_IPv6.conf
+GG.conf
+GG_IPv6.conf
+GH.conf
+GH_IPv6.conf
+GI.conf
+GI_IPv6.conf
+GL.conf
+GL_IPv6.conf
+GM.conf
+GM_IPv6.conf
+GN.conf
+GN_IPv6.conf
+GP.conf
+GP_IPv6.conf
+GQ.conf
+GQ_IPv6.conf
+GR.conf
+GR_IPv6.conf
+GS.conf
+GS_IPv6.conf
+GT.conf
+GT_IPv6.conf
+GU.conf
+GU_IPv6.conf
+GW.conf
+GW_IPv6.conf
+GY.conf
+GY_IPv6.conf
+HK.conf
+HK_IPv6.conf
+HN.conf
+HN_IPv6.conf
+HR.conf
+HR_IPv6.conf
+HT.conf
+HT_IPv6.conf
+HU.conf
+HU_IPv6.conf
+ID.conf
+ID_IPv6.conf
+IE.conf
+IE_IPv6.conf
+IL.conf
+IL_IPv6.conf
+IM.conf
+IM_IPv6.conf
+IN.conf
+IN_IPv6.conf
+IO.conf
+IO_IPv6.conf
+IQ.conf
+IQ_IPv6.conf
+IR.conf
+IR_IPv6.conf
+IS.conf
+IS_IPv6.conf
+IT.conf
+IT_IPv6.conf
+JE.conf
+JE_IPv6.conf
+JM.conf
+JM_IPv6.conf
+JO.conf
+JO_IPv6.conf
+JP.conf
+JP_IPv6.conf
+KE.conf
+KE_IPv6.conf
+KG.conf
+KG_IPv6.conf
+KH.conf
+KH_IPv6.conf
+KI.conf
+KI_IPv6.conf
+KM.conf
+KM_IPv6.conf
+KN.conf
+KN_IPv6.conf
+KP.conf
+KP_IPv6.conf
+KR.conf
+KR_IPv6.conf
+KW.conf
+KW_IPv6.conf
+KY.conf
+KY_IPv6.conf
+KZ.conf
+KZ_IPv6.conf
+LA.conf
+LA_IPv6.conf
+LB.conf
+LB_IPv6.conf
+LC.conf
+LC_IPv6.conf
+LI.conf
+LI_IPv6.conf
+LK.conf
+LK_IPv6.conf
+LR.conf
+LR_IPv6.conf
+LS.conf
+LS_IPv6.conf
+LT.conf
+LT_IPv6.conf
+LU.conf
+LU_IPv6.conf
+LV.conf
+LV_IPv6.conf
+LY.conf
+LY_IPv6.conf
+MA.conf
+MA_IPv6.conf
+MC.conf
+MC_IPv6.conf
+MD.conf
+MD_IPv6.conf
+ME.conf
+ME_IPv6.conf
+MF.conf
+MF_IPv6.conf
+MG.conf
+MG_IPv6.conf
+MH.conf
+MH_IPv6.conf
+MK.conf
+MK_IPv6.conf
+ML.conf
+ML_IPv6.conf
+MM.conf
+MM_IPv6.conf
+MN.conf
+MN_IPv6.conf
+MO.conf
+MO_IPv6.conf
+MP.conf
+MP_IPv6.conf
+MQ.conf
+MQ_IPv6.conf
+MR.conf
+MR_IPv6.conf
+MS.conf
+MS_IPv6.conf
+MT.conf
+MT_IPv6.conf
+MU.conf
+MU_IPv6.conf
+MV.conf
+MV_IPv6.conf
+MW.conf
+MW_IPv6.conf
+MX.conf
+MX_IPv6.conf
+MY.conf
+MY_IPv6.conf
+MZ.conf
+MZ_IPv6.conf
+NC.conf
+NC_IPv6.conf
+NE.conf
+NE_IPv6.conf
+NF.conf
+NF_IPv6.conf
+NG.conf
+NG_IPv6.conf
+NI.conf
+NI_IPv6.conf
+NL.conf
+NL_IPv6.conf
+NO.conf
+NO_IPv6.conf
+NP.conf
+NP_IPv6.conf
+NR.conf
+NR_IPv6.conf
+NU.conf
+NU_IPv6.conf
+NZ.conf
+NZ_IPv6.conf
+OM.conf
+OM_IPv6.conf
+PA.conf
+PA_IPv6.conf
+PE.conf
+PE_IPv6.conf
+PF.conf
+PF_IPv6.conf
+PG.conf
+PG_IPv6.conf
+PH.conf
+PH_IPv6.conf
+PK.conf
+PK_IPv6.conf
+PL.conf
+PL_IPv6.conf
+PM.conf
+PM_IPv6.conf
+PN.conf
+PN_IPv6.conf
+PR.conf
+PR_IPv6.conf
+PS.conf
+PS_IPv6.conf
+PT.conf
+PT_IPv6.conf
+PW.conf
+PW_IPv6.conf
+PY.conf
+PY_IPv6.conf
+QA.conf
+QA_IPv6.conf
+RE.conf
+RE_IPv6.conf
+RO.conf
+RO_IPv6.conf
+RS.conf
+RS_IPv6.conf
+RU.conf
+RU_IPv6.conf
+RW.conf
+RW_IPv6.conf
+SA.conf
+SA_IPv6.conf
+SB.conf
+SB_IPv6.conf
+SC.conf
+SC_IPv6.conf
+SD.conf
+SD_IPv6.conf
+SE.conf
+SE_IPv6.conf
+SG.conf
+SG_IPv6.conf
+SH.conf
+SH_IPv6.conf
+SI.conf
+SI_IPv6.conf
+SJ.conf
+SJ_IPv6.conf
+SK.conf
+SK_IPv6.conf
+SL.conf
+SL_IPv6.conf
+SM.conf
+SM_IPv6.conf
+SN.conf
+SN_IPv6.conf
+SO.conf
+SO_IPv6.conf
+SR.conf
+SR_IPv6.conf
+SS.conf
+SS_IPv6.conf
+ST.conf
+ST_IPv6.conf
+SV.conf
+SV_IPv6.conf
+SX.conf
+SX_IPv6.conf
+SY.conf
+SY_IPv6.conf
+SZ.conf
+SZ_IPv6.conf
+TC.conf
+TC_IPv6.conf
+TD.conf
+TD_IPv6.conf
+TF.conf
+TF_IPv6.conf
+TG.conf
+TG_IPv6.conf
+TH.conf
+TH_IPv6.conf
+TJ.conf
+TJ_IPv6.conf
+TK.conf
+TK_IPv6.conf
+TL.conf
+TL_IPv6.conf
+TM.conf
+TM_IPv6.conf
+TN.conf
+TN_IPv6.conf
+TO.conf
+TO_IPv6.conf
+TR.conf
+TR_IPv6.conf
+TT.conf
+TT_IPv6.conf
+TV.conf
+TV_IPv6.conf
+TW.conf
+TW_IPv6.conf
+TZ.conf
+TZ_IPv6.conf
+UA.conf
+UA_IPv6.conf
+UG.conf
+UG_IPv6.conf
+UM.conf
+UM_IPv6.conf
+US.conf
+US_IPv6.conf
+UY.conf
+UY_IPv6.conf
+UZ.conf
+UZ_IPv6.conf
+VA.conf
+VA_IPv6.conf
+VC.conf
+VC_IPv6.conf
+VE.conf
+VE_IPv6.conf
+VG.conf
+VG_IPv6.conf
+VI.conf
+VI_IPv6.conf
+VN.conf
+VN_IPv6.conf
+VU.conf
+VU_IPv6.conf
+WF.conf
+WF_IPv6.conf
+WS.conf
+WS_IPv6.conf
+XK.conf
+XK_IPv6.conf
+YE.conf
+YE_IPv6.conf
+YT.conf
+YT_IPv6.conf
+ZA.conf
+ZA_IPv6.conf
+ZM.conf
+ZM_IPv6.conf
+ZW.conf
+ZW_IPv6.conf
+```
+
+---
+
+*This README was automatically generated on 2025-11-14T04:00:58+00:00*
