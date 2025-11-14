@@ -1,0 +1,53 @@
+name: Update IP List
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天 00:00 UTC 运行
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas
+
+    - name: Download and decompress IP list
+      run: |
+        curl -L "https://ipinfo.io/data/ipinfo_lite.csv.gz?token=7d8cffa0f56baf" -o ipinfo_lite.csv.gz
+        gzip -df ipinfo_lite.csv.gz
+
+    - name: Run extraction script
+      run: python extract.py
+
+    - name: Update README.md
+      run: |
+        echo "# Global IP Address Lists" > README.md
+        echo "" >> README.md
+        echo "This repository contains IP address lists categorized by country." >> README.md
+        echo "" >> README.md
+        echo "Last updated: $(date -u)" >> README.md
+        echo "" >> README.md
+        echo "## Files" >> README.md
+        echo "" >> README.md
+        ls -1 Country_CIDR/ | sed 's/^/- /' >> README.md
+
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Automated IP list update"
+        file_pattern: "Country_CIDR/*.conf README.md"
+        commit_user_name: "GitHub Actions"
+        commit_user_email: "actions@github.com"
+        commit_author: "GitHub Actions <actions@github.com>"
