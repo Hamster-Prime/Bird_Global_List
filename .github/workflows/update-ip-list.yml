@@ -2,8 +2,8 @@ name: Update IP List
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天 00:00 UTC 运行
-  workflow_dispatch: # 允许手动触发
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -35,49 +35,33 @@ jobs:
 
     - name: Update README.md
       run: |
-        # Set update time
         UPDATE_TIME=$(date -u --iso-8601=seconds)
-        # Start with a clean README.md
         > README.md
-        # Header
         echo "# Global IP Address Lists by Country" >> README.md
         echo "" >> README.md
         echo "**Note:** This data is automatically updated daily from [ipinfo.io](https://ipinfo.io/)." >> README.md
         echo "" >> README.md
         echo "---" >> README.md
         echo "" >> README.md
-        # Statistics Section
         echo "## 📊 Statistics" >> README.md
         echo "" >> README.md
         echo "**Last Updated:** ${UPDATE_TIME}" >> README.md
         echo "" >> README.md
-        # Overall Stats
         TOTAL_FILES=$(find Country_CIDR -type f -name "*.conf" | wc -l)
         TOTAL_CIDRS=$(grep -h "route" Country_CIDR/*.conf | wc -l)
         echo "### 📈 Overall" >> README.md
         echo "- **Total Countries/Regions with data:** ${TOTAL_FILES}" >> README.md
         echo "- **Total IP CIDR blocks:** ${TOTAL_CIDRS}" >> README.md
         echo "" >> README.md
-        # Top 20 Table
         echo "### 🌍 Top 20 Countries by CIDR Count" >> README.md
         echo "" >> README.md
         echo "| Country Code | CIDR Count |" >> README.md
         echo "|--------------|------------|" >> README.md
         grep -c "route" Country_CIDR/*.conf | sed -e 's/Country_CIDR\///' -e 's/.conf:/ /' | sort -k2 -nr | head -n 20 | awk '{printf "| %-12s | %-10s |\n", $1, $2}' >> README.md
         echo "" >> README.md
-        # File List Section
-        echo "### 📁 Generated Files" >> README.md
-        echo "" >> README.md
-        echo "All files are located in the \`Country_CIDR/\` directory." >> README.md
-        echo "" >> README.md
-        echo '```' >> README.md
-        ls -1 Country_CIDR/ >> README.md
-        echo '```' >> README.md
-        echo "" >> README.md
-        # Footer
         echo "---" >> README.md
         echo "" >> README.md
-        echo "*This README was automatically generated on ${UPDATE_TIME}*" >> README.md
+        echo "*This information was automatically updated by GitHub Actions on ${UPDATE_TIME}*" >> README.md
 
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v4
