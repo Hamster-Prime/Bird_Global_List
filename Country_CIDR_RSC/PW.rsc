@@ -1,13 +1,10 @@
 /log info "Loading PW IPv4 Address List"
 /ip firewall address-list
 :do { add list=PW address=38.150.36.0/23 } on-error={}
-:do { add list=PW address=45.74.19.128/27 } on-error={}
-:do { add list=PW address=45.74.19.160/30 } on-error={}
-:do { add list=PW address=45.74.19.164/32 } on-error={}
-:do { add list=PW address=45.74.19.166/31 } on-error={}
-:do { add list=PW address=45.74.19.168/29 } on-error={}
-:do { add list=PW address=45.74.19.176/28 } on-error={}
-:do { add list=PW address=45.74.19.192/26 } on-error={}
+:do { add list=PW address=45.74.19.192/29 } on-error={}
+:do { add list=PW address=45.74.19.204/30 } on-error={}
+:do { add list=PW address=45.74.19.208/28 } on-error={}
+:do { add list=PW address=45.74.19.224/27 } on-error={}
 :do { add list=PW address=57.70.176.0/23 } on-error={}
 :do { add list=PW address=57.70.240.0/20 } on-error={}
 :do { add list=PW address=64.86.255.0/27 } on-error={}
@@ -41,7 +38,6 @@
 :do { add list=PW address=104.28.248.204/30 } on-error={}
 :do { add list=PW address=104.28.248.208/30 } on-error={}
 :do { add list=PW address=109.104.159.0/24 } on-error={}
-:do { add list=PW address=131.125.101.138/32 } on-error={}
 :do { add list=PW address=136.23.24.19/32 } on-error={}
 :do { add list=PW address=136.23.34.192/32 } on-error={}
 :do { add list=PW address=140.248.48.32/31 } on-error={}
@@ -56,8 +52,7 @@
 :do { add list=PW address=146.75.132.124/31 } on-error={}
 :do { add list=PW address=146.75.154.18/31 } on-error={}
 :do { add list=PW address=146.75.160.124/31 } on-error={}
-:do { add list=PW address=150.48.183.96/31 } on-error={}
-:do { add list=PW address=157.5.114.29/32 } on-error={}
+:do { add list=PW address=154.18.44.2/32 } on-error={}
 :do { add list=PW address=163.116.192.110/31 } on-error={}
 :do { add list=PW address=163.116.223.107/32 } on-error={}
 :do { add list=PW address=163.116.223.108/32 } on-error={}

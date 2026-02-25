@@ -42,13 +42,10 @@
 :do { add list=BI address=146.75.168.10/31 } on-error={}
 :do { add list=BI address=146.75.185.10/31 } on-error={}
 :do { add list=BI address=146.75.198.2/31 } on-error={}
-:do { add list=BI address=150.48.149.116/30 } on-error={}
 :do { add list=BI address=154.73.40.0/22 } on-error={}
 :do { add list=BI address=154.73.104.0/22 } on-error={}
 :do { add list=BI address=154.117.192.0/18 } on-error={}
 :do { add list=BI address=154.119.0.0/19 } on-error={}
-:do { add list=BI address=157.5.101.16/32 } on-error={}
-:do { add list=BI address=157.5.109.16/32 } on-error={}
 :do { add list=BI address=163.116.164.143/32 } on-error={}
 :do { add list=BI address=163.116.164.152/32 } on-error={}
 :do { add list=BI address=163.116.170.97/32 } on-error={}

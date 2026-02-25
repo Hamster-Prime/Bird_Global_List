@@ -1,12 +1,11 @@
 /log info "Loading CU IPv4 Address List"
 /ip firewall address-list
-:do { add list=CU address=5.53.3.196/32 } on-error={}
 :do { add list=CU address=5.62.58.68/30 } on-error={}
 :do { add list=CU address=57.74.110.0/23 } on-error={}
 :do { add list=CU address=57.91.32.0/20 } on-error={}
 :do { add list=CU address=67.205.106.178/32 } on-error={}
-:do { add list=CU address=69.79.100.204/32 } on-error={}
 :do { add list=CU address=85.153.57.0/24 } on-error={}
+:do { add list=CU address=94.142.99.89/32 } on-error={}
 :do { add list=CU address=104.28.9.57/32 } on-error={}
 :do { add list=CU address=104.28.9.58/31 } on-error={}
 :do { add list=CU address=104.28.20.100/30 } on-error={}

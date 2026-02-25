@@ -39,14 +39,12 @@
 :do { add list=TO address=140.248.61.223/32 } on-error={}
 :do { add list=TO address=140.248.62.223/32 } on-error={}
 :do { add list=TO address=140.248.63.223/32 } on-error={}
+:do { add list=TO address=144.120.68.0/24 } on-error={}
 :do { add list=TO address=146.75.132.148/31 } on-error={}
 :do { add list=TO address=146.75.136.20/31 } on-error={}
 :do { add list=TO address=146.75.160.148/31 } on-error={}
 :do { add list=TO address=146.75.190.26/31 } on-error={}
-:do { add list=TO address=150.48.183.102/31 } on-error={}
 :do { add list=TO address=150.228.184.0/23 } on-error={}
-:do { add list=TO address=157.5.114.227/32 } on-error={}
-:do { add list=TO address=157.5.122.72/32 } on-error={}
 :do { add list=TO address=163.116.192.124/31 } on-error={}
 :do { add list=TO address=163.116.194.97/32 } on-error={}
 :do { add list=TO address=163.116.194.98/32 } on-error={}

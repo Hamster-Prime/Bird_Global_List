@@ -27,12 +27,6 @@
 :do { add list=WF address=140.248.63.242/32 } on-error={}
 :do { add list=WF address=146.75.182.64/31 } on-error={}
 :do { add list=WF address=146.75.210.64/31 } on-error={}
-:do { add list=WF address=150.48.183.108/31 } on-error={}
-:do { add list=WF address=157.5.67.191/32 } on-error={}
-:do { add list=WF address=157.5.73.244/32 } on-error={}
-:do { add list=WF address=157.5.80.222/32 } on-error={}
-:do { add list=WF address=157.5.83.215/32 } on-error={}
-:do { add list=WF address=157.5.91.190/32 } on-error={}
 :do { add list=WF address=162.120.202.232/32 } on-error={}
 :do { add list=WF address=162.120.204.63/32 } on-error={}
 :do { add list=WF address=163.116.192.130/31 } on-error={}

@@ -38,11 +38,8 @@
 :do { add list=ST address=146.75.182.62/31 } on-error={}
 :do { add list=ST address=146.75.185.174/31 } on-error={}
 :do { add list=ST address=146.75.210.62/31 } on-error={}
-:do { add list=ST address=150.48.152.100/31 } on-error={}
 :do { add list=ST address=150.228.96.0/23 } on-error={}
 :do { add list=ST address=154.72.12.0/22 } on-error={}
-:do { add list=ST address=157.5.101.174/32 } on-error={}
-:do { add list=ST address=157.5.109.174/32 } on-error={}
 :do { add list=ST address=160.224.10.0/24 } on-error={}
 :do { add list=ST address=162.120.206.20/32 } on-error={}
 :do { add list=ST address=162.120.208.10/32 } on-error={}

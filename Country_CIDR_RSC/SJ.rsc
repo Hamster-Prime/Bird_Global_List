@@ -15,9 +15,6 @@
 :do { add list=SJ address=140.248.61.200/32 } on-error={}
 :do { add list=SJ address=140.248.62.200/32 } on-error={}
 :do { add list=SJ address=140.248.63.200/32 } on-error={}
-:do { add list=SJ address=150.48.183.124/31 } on-error={}
-:do { add list=SJ address=157.5.99.253/32 } on-error={}
-:do { add list=SJ address=157.5.107.253/32 } on-error={}
 :do { add list=SJ address=162.120.206.16/32 } on-error={}
 :do { add list=SJ address=162.120.215.137/32 } on-error={}
 :do { add list=SJ address=185.112.132.46/32 } on-error={}

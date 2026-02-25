@@ -51,13 +51,9 @@
 :do { add list=GM address=146.75.182.32/31 } on-error={}
 :do { add list=GM address=146.75.210.32/31 } on-error={}
 :do { add list=GM address=146.196.128.0/17 } on-error={}
-:do { add list=GM address=150.48.150.162/31 } on-error={}
-:do { add list=GM address=150.48.150.164/31 } on-error={}
 :do { add list=GM address=153.67.64.0/23 } on-error={}
 :do { add list=GM address=154.53.192.0/23 } on-error={}
 :do { add list=GM address=155.251.0.0/16 } on-error={}
-:do { add list=GM address=157.5.101.59/32 } on-error={}
-:do { add list=GM address=157.5.109.59/32 } on-error={}
 :do { add list=GM address=159.26.127.56/30 } on-error={}
 :do { add list=GM address=160.182.0.0/15 } on-error={}
 :do { add list=GM address=162.120.204.75/32 } on-error={}

@@ -39,10 +39,7 @@
 :do { add list=GW address=146.75.174.110/31 } on-error={}
 :do { add list=GW address=146.75.182.36/31 } on-error={}
 :do { add list=GW address=146.75.210.36/31 } on-error={}
-:do { add list=GW address=150.48.150.176/31 } on-error={}
 :do { add list=GW address=154.73.60.0/22 } on-error={}
-:do { add list=GW address=157.5.101.65/32 } on-error={}
-:do { add list=GW address=157.5.109.65/32 } on-error={}
 :do { add list=GW address=162.120.204.76/32 } on-error={}
 :do { add list=GW address=162.120.214.8/32 } on-error={}
 :do { add list=GW address=163.116.169.141/32 } on-error={}

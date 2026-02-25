@@ -55,16 +55,7 @@
 :do { add list=KI address=146.75.132.66/31 } on-error={}
 :do { add list=KI address=146.75.146.10/31 } on-error={}
 :do { add list=KI address=146.75.160.66/31 } on-error={}
-:do { add list=KI address=150.48.183.48/30 } on-error={}
 :do { add list=KI address=150.228.216.0/23 } on-error={}
-:do { add list=KI address=157.5.67.184/31 } on-error={}
-:do { add list=KI address=157.5.73.235/32 } on-error={}
-:do { add list=KI address=157.5.73.236/32 } on-error={}
-:do { add list=KI address=157.5.91.183/32 } on-error={}
-:do { add list=KI address=157.5.91.184/32 } on-error={}
-:do { add list=KI address=157.5.113.70/31 } on-error={}
-:do { add list=KI address=157.5.122.49/32 } on-error={}
-:do { add list=KI address=157.5.122.50/32 } on-error={}
 :do { add list=KI address=162.120.200.153/32 } on-error={}
 :do { add list=KI address=162.120.202.103/32 } on-error={}
 :do { add list=KI address=163.116.192.102/31 } on-error={}
