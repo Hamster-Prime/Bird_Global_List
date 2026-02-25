@@ -14,6 +14,11 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        lfs: true
+
+    - name: Set up Git LFS
+      run: git lfs install --force
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -46,17 +51,17 @@ jobs:
         echo "" >> README.md
         echo "---" >> README.md
         echo "" >> README.md
-        echo "## 📊 Statistics" >> README.md
+        echo "## Statistics" >> README.md
         echo "" >> README.md
         echo "**Last Updated:** ${UPDATE_TIME}" >> README.md
         echo "" >> README.md
         TOTAL_FILES=$(find Country_CIDR -type f -name "*.conf" | wc -l)
         TOTAL_CIDRS=$(grep -h "route" Country_CIDR/*.conf | wc -l)
-        echo "### 📈 Overall" >> README.md
+        echo "### Overall" >> README.md
         echo "- **Total Countries/Regions with data:** ${TOTAL_FILES}" >> README.md
         echo "- **Total IP CIDR blocks:** ${TOTAL_CIDRS}" >> README.md
         echo "" >> README.md
-        echo "### 🌍 Top 20 Countries by CIDR Count" >> README.md
+        echo "### Top 20 Countries by CIDR Count" >> README.md
         echo "" >> README.md
         echo "| Country Code | CIDR Count |" >> README.md
         echo "|--------------|------------|" >> README.md
