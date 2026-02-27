@@ -1283,10 +1283,6 @@
 :do { add list=KE address=62.8.80.0/23 } on-error={}
 :do { add list=KE address=62.8.82.0/24 } on-error={}
 :do { add list=KE address=62.8.84.0/24 } on-error={}
-:do { add list=KE address=62.8.85.0/28 } on-error={}
-:do { add list=KE address=62.8.85.32/28 } on-error={}
-:do { add list=KE address=62.8.85.128/28 } on-error={}
-:do { add list=KE address=62.8.85.192/26 } on-error={}
 :do { add list=KE address=62.8.86.0/23 } on-error={}
 :do { add list=KE address=62.8.88.0/21 } on-error={}
 :do { add list=KE address=62.12.112.0/21 } on-error={}
@@ -1675,6 +1671,7 @@
 :do { add list=KE address=102.218.232.0/22 } on-error={}
 :do { add list=KE address=102.219.23.0/24 } on-error={}
 :do { add list=KE address=102.219.44.32/30 } on-error={}
+:do { add list=KE address=102.219.139.0/24 } on-error={}
 :do { add list=KE address=102.219.190.0/23 } on-error={}
 :do { add list=KE address=102.219.192.0/23 } on-error={}
 :do { add list=KE address=102.219.208.0/22 } on-error={}
@@ -1738,6 +1735,7 @@
 :do { add list=KE address=103.4.97.48/31 } on-error={}
 :do { add list=KE address=103.4.98.20/31 } on-error={}
 :do { add list=KE address=104.22.30.0/24 } on-error={}
+:do { add list=KE address=104.22.77.0/24 } on-error={}
 :do { add list=KE address=104.28.11.121/32 } on-error={}
 :do { add list=KE address=104.28.11.122/31 } on-error={}
 :do { add list=KE address=104.28.38.3/32 } on-error={}
@@ -2897,8 +2895,13 @@
 :do { add list=KE address=165.90.9.96/28 } on-error={}
 :do { add list=KE address=165.90.9.112/29 } on-error={}
 :do { add list=KE address=165.90.9.127/32 } on-error={}
+:do { add list=KE address=165.90.9.131/32 } on-error={}
 :do { add list=KE address=165.90.9.136/29 } on-error={}
 :do { add list=KE address=165.90.9.144/29 } on-error={}
+:do { add list=KE address=165.90.9.157/32 } on-error={}
+:do { add list=KE address=165.90.9.175/32 } on-error={}
+:do { add list=KE address=165.90.9.190/32 } on-error={}
+:do { add list=KE address=165.90.9.210/32 } on-error={}
 :do { add list=KE address=165.90.9.224/27 } on-error={}
 :do { add list=KE address=165.90.10.0/27 } on-error={}
 :do { add list=KE address=165.90.10.32/28 } on-error={}

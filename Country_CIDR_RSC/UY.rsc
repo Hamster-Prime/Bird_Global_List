@@ -236,8 +236,6 @@
 :do { add list=UY address=162.120.186.127/32 } on-error={}
 :do { add list=UY address=162.120.186.191/32 } on-error={}
 :do { add list=UY address=162.120.186.255/32 } on-error={}
-:do { add list=UY address=162.250.48.0/22 } on-error={}
-:do { add list=UY address=162.250.54.0/24 } on-error={}
 :do { add list=UY address=163.116.224.87/32 } on-error={}
 :do { add list=UY address=163.116.224.89/32 } on-error={}
 :do { add list=UY address=163.116.225.91/32 } on-error={}

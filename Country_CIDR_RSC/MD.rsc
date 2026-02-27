@@ -800,6 +800,8 @@
 :do { add list=MD address=195.20.18.0/24 } on-error={}
 :do { add list=MD address=195.20.19.0/24 } on-error={}
 :do { add list=MD address=195.22.224.0/19 } on-error={}
+:do { add list=MD address=195.40.82.0/23 } on-error={}
+:do { add list=MD address=195.40.94.0/23 } on-error={}
 :do { add list=MD address=195.93.218.0/23 } on-error={}
 :do { add list=MD address=195.138.96.0/22 } on-error={}
 :do { add list=MD address=195.138.100.0/23 } on-error={}

@@ -49,7 +49,8 @@
 :do { add list=BY address=46.56.32.0/21 } on-error={}
 :do { add list=BY address=46.56.40.0/21 } on-error={}
 :do { add list=BY address=46.56.48.0/22 } on-error={}
-:do { add list=BY address=46.56.52.0/22 } on-error={}
+:do { add list=BY address=46.56.52.0/23 } on-error={}
+:do { add list=BY address=46.56.54.0/23 } on-error={}
 :do { add list=BY address=46.56.56.0/21 } on-error={}
 :do { add list=BY address=46.56.64.0/18 } on-error={}
 :do { add list=BY address=46.56.128.0/24 } on-error={}

@@ -1,6 +1,5 @@
 /log info "Loading HN IPv4 Address List"
 /ip firewall address-list
-:do { add list=HN address=2.57.225.32/30 } on-error={}
 :do { add list=HN address=5.53.3.22/32 } on-error={}
 :do { add list=HN address=5.53.3.24/32 } on-error={}
 :do { add list=HN address=5.53.3.62/32 } on-error={}
@@ -315,6 +314,7 @@
 :do { add list=HN address=185.112.133.17/32 } on-error={}
 :do { add list=HN address=185.114.52.0/22 } on-error={}
 :do { add list=HN address=185.138.17.18/32 } on-error={}
+:do { add list=HN address=185.225.246.0/23 } on-error={}
 :do { add list=HN address=186.2.128.0/23 } on-error={}
 :do { add list=HN address=186.2.130.0/24 } on-error={}
 :do { add list=HN address=186.2.131.0/24 } on-error={}
@@ -499,7 +499,6 @@
 :do { add list=HN address=201.190.15.0/25 } on-error={}
 :do { add list=HN address=201.190.19.0/24 } on-error={}
 :do { add list=HN address=201.190.37.128/25 } on-error={}
-:do { add list=HN address=201.190.38.160/27 } on-error={}
 :do { add list=HN address=201.190.40.0/25 } on-error={}
 :do { add list=HN address=201.190.44.224/27 } on-error={}
 :do { add list=HN address=201.220.128.0/20 } on-error={}
@@ -514,6 +513,8 @@
 :do { add list=HN address=205.211.248.0/21 } on-error={}
 :do { add list=HN address=205.214.93.24/29 } on-error={}
 :do { add list=HN address=206.105.116.0/24 } on-error={}
+:do { add list=HN address=206.203.24.0/21 } on-error={}
+:do { add list=HN address=206.203.32.0/20 } on-error={}
 :do { add list=HN address=206.203.48.0/21 } on-error={}
 :do { add list=HN address=206.214.232.96/28 } on-error={}
 :do { add list=HN address=206.224.73.142/32 } on-error={}
@@ -533,3 +534,4 @@
 :do { add list=HN address=213.140.39.75/32 } on-error={}
 :do { add list=HN address=216.194.96.96/28 } on-error={}
 :do { add list=HN address=216.234.222.0/23 } on-error={}
+:do { add list=HN address=217.76.246.0/24 } on-error={}

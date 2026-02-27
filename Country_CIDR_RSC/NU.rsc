@@ -36,6 +36,7 @@
 :do { add list=NU address=146.75.213.0/31 } on-error={}
 :do { add list=NU address=162.120.204.56/32 } on-error={}
 :do { add list=NU address=162.120.216.70/32 } on-error={}
+:do { add list=NU address=162.120.228.72/32 } on-error={}
 :do { add list=NU address=172.225.65.160/27 } on-error={}
 :do { add list=NU address=172.225.230.208/28 } on-error={}
 :do { add list=NU address=172.225.244.144/28 } on-error={}

@@ -1,7 +1,5 @@
 /log info "Loading PA IPv4 Address List"
 /ip firewall address-list
-:do { add list=PA address=2.57.225.18/31 } on-error={}
-:do { add list=PA address=2.57.225.20/31 } on-error={}
 :do { add list=PA address=2.57.225.36/30 } on-error={}
 :do { add list=PA address=4.4.211.202/32 } on-error={}
 :do { add list=PA address=4.68.59.109/32 } on-error={}
@@ -1134,7 +1132,10 @@
 :do { add list=PA address=200.229.10.0/23 } on-error={}
 :do { add list=PA address=200.229.12.0/24 } on-error={}
 :do { add list=PA address=200.229.15.0/24 } on-error={}
+:do { add list=PA address=201.77.50.0/24 } on-error={}
+:do { add list=PA address=201.77.52.0/24 } on-error={}
 :do { add list=PA address=201.77.53.0/24 } on-error={}
+:do { add list=PA address=201.77.54.0/24 } on-error={}
 :do { add list=PA address=201.77.55.0/24 } on-error={}
 :do { add list=PA address=201.77.62.0/24 } on-error={}
 :do { add list=PA address=201.131.148.0/22 } on-error={}
@@ -1231,8 +1232,6 @@
 :do { add list=PA address=208.127.189.190/32 } on-error={}
 :do { add list=PA address=209.18.127.32/27 } on-error={}
 :do { add list=PA address=209.41.103.176/28 } on-error={}
-:do { add list=PA address=209.51.175.220/32 } on-error={}
-:do { add list=PA address=209.51.175.223/32 } on-error={}
 :do { add list=PA address=209.120.184.96/28 } on-error={}
 :do { add list=PA address=209.145.45.64/28 } on-error={}
 :do { add list=PA address=209.145.45.80/32 } on-error={}

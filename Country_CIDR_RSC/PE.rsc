@@ -1,6 +1,7 @@
 /log info "Loading PE IPv4 Address List"
 /ip firewall address-list
 :do { add list=PE address=2.23.232.0/22 } on-error={}
+:do { add list=PE address=2.57.225.64/29 } on-error={}
 :do { add list=PE address=3.172.121.0/24 } on-error={}
 :do { add list=PE address=3.175.42.0/23 } on-error={}
 :do { add list=PE address=3.175.45.0/24 } on-error={}
@@ -150,7 +151,10 @@
 :do { add list=PE address=38.7.100.0/23 } on-error={}
 :do { add list=PE address=38.9.38.0/23 } on-error={}
 :do { add list=PE address=38.9.40.0/22 } on-error={}
-:do { add list=PE address=38.9.192.0/20 } on-error={}
+:do { add list=PE address=38.9.192.0/21 } on-error={}
+:do { add list=PE address=38.9.200.0/22 } on-error={}
+:do { add list=PE address=38.9.205.0/24 } on-error={}
+:do { add list=PE address=38.9.206.0/23 } on-error={}
 :do { add list=PE address=38.10.104.0/22 } on-error={}
 :do { add list=PE address=38.10.154.0/24 } on-error={}
 :do { add list=PE address=38.10.247.0/24 } on-error={}
@@ -377,6 +381,7 @@
 :do { add list=PE address=45.81.107.0/24 } on-error={}
 :do { add list=PE address=45.88.219.0/24 } on-error={}
 :do { add list=PE address=45.135.54.64/26 } on-error={}
+:do { add list=PE address=45.150.86.0/23 } on-error={}
 :do { add list=PE address=45.166.72.0/24 } on-error={}
 :do { add list=PE address=45.167.228.0/22 } on-error={}
 :do { add list=PE address=45.169.36.0/24 } on-error={}
@@ -453,7 +458,6 @@
 :do { add list=PE address=52.95.218.12/31 } on-error={}
 :do { add list=PE address=52.222.222.0/24 } on-error={}
 :do { add list=PE address=52.222.224.0/24 } on-error={}
-:do { add list=PE address=54.25.68.0/24 } on-error={}
 :do { add list=PE address=54.230.124.0/24 } on-error={}
 :do { add list=PE address=54.240.173.0/24 } on-error={}
 :do { add list=PE address=57.74.208.0/22 } on-error={}
@@ -1015,6 +1019,7 @@
 :do { add list=PE address=151.101.228.0/22 } on-error={}
 :do { add list=PE address=151.106.249.0/24 } on-error={}
 :do { add list=PE address=152.179.236.102/32 } on-error={}
+:do { add list=PE address=152.233.125.0/24 } on-error={}
 :do { add list=PE address=153.67.28.0/23 } on-error={}
 :do { add list=PE address=153.72.24.128/26 } on-error={}
 :do { add list=PE address=154.24.18.69/32 } on-error={}
@@ -1048,6 +1053,9 @@
 :do { add list=PE address=154.93.94.0/24 } on-error={}
 :do { add list=PE address=154.201.48.0/22 } on-error={}
 :do { add list=PE address=154.201.52.0/24 } on-error={}
+:do { add list=PE address=154.201.96.0/20 } on-error={}
+:do { add list=PE address=154.201.112.0/21 } on-error={}
+:do { add list=PE address=154.201.120.0/22 } on-error={}
 :do { add list=PE address=154.203.154.0/23 } on-error={}
 :do { add list=PE address=154.219.0.0/24 } on-error={}
 :do { add list=PE address=154.219.2.0/23 } on-error={}
@@ -1490,11 +1498,7 @@
 :do { add list=PE address=181.199.132.0/23 } on-error={}
 :do { add list=PE address=181.199.134.0/24 } on-error={}
 :do { add list=PE address=181.199.135.0/25 } on-error={}
-:do { add list=PE address=181.199.136.0/23 } on-error={}
-:do { add list=PE address=181.199.138.0/24 } on-error={}
-:do { add list=PE address=181.199.139.64/26 } on-error={}
-:do { add list=PE address=181.199.139.128/25 } on-error={}
-:do { add list=PE address=181.199.140.0/22 } on-error={}
+:do { add list=PE address=181.199.136.0/21 } on-error={}
 :do { add list=PE address=181.199.208.24/29 } on-error={}
 :do { add list=PE address=181.224.36.0/22 } on-error={}
 :do { add list=PE address=181.224.200.0/23 } on-error={}
@@ -1537,8 +1541,9 @@
 :do { add list=PE address=185.190.11.105/32 } on-error={}
 :do { add list=PE address=185.190.11.117/32 } on-error={}
 :do { add list=PE address=185.239.151.0/24 } on-error={}
-:do { add list=PE address=185.240.164.0/22 } on-error={}
-:do { add list=PE address=185.241.122.0/24 } on-error={}
+:do { add list=PE address=185.240.164.0/23 } on-error={}
+:do { add list=PE address=185.240.167.0/24 } on-error={}
+:do { add list=PE address=185.241.122.0/23 } on-error={}
 :do { add list=PE address=186.1.135.0/28 } on-error={}
 :do { add list=PE address=186.1.135.16/30 } on-error={}
 :do { add list=PE address=186.1.135.20/32 } on-error={}
@@ -1561,7 +1566,9 @@
 :do { add list=PE address=186.33.37.0/24 } on-error={}
 :do { add list=PE address=186.33.38.0/24 } on-error={}
 :do { add list=PE address=186.33.39.0/24 } on-error={}
-:do { add list=PE address=186.64.124.0/22 } on-error={}
+:do { add list=PE address=186.64.124.0/23 } on-error={}
+:do { add list=PE address=186.64.126.0/24 } on-error={}
+:do { add list=PE address=186.64.127.0/25 } on-error={}
 :do { add list=PE address=186.148.196.0/22 } on-error={}
 :do { add list=PE address=186.160.0.0/19 } on-error={}
 :do { add list=PE address=186.160.32.0/20 } on-error={}
@@ -2047,6 +2054,7 @@
 :do { add list=PE address=201.71.0.139/32 } on-error={}
 :do { add list=PE address=201.71.0.160/28 } on-error={}
 :do { add list=PE address=201.77.48.0/24 } on-error={}
+:do { add list=PE address=201.77.49.0/24 } on-error={}
 :do { add list=PE address=201.77.61.0/24 } on-error={}
 :do { add list=PE address=201.130.24.0/22 } on-error={}
 :do { add list=PE address=201.131.67.0/24 } on-error={}
