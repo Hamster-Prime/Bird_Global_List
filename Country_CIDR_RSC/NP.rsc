@@ -298,6 +298,7 @@
 :do { add list=NP address=104.28.240.24/31 } on-error={}
 :do { add list=NP address=104.28.240.26/32 } on-error={}
 :do { add list=NP address=104.30.169.145/32 } on-error={}
+:do { add list=NP address=104.30.171.146/32 } on-error={}
 :do { add list=NP address=108.163.180.48/29 } on-error={}
 :do { add list=NP address=108.171.110.32/27 } on-error={}
 :do { add list=NP address=110.34.0.0/19 } on-error={}

@@ -60,6 +60,7 @@
 :do { add list=GD address=104.28.252.20/30 } on-error={}
 :do { add list=GD address=104.28.252.24/31 } on-error={}
 :do { add list=GD address=104.30.169.194/32 } on-error={}
+:do { add list=GD address=104.30.171.71/32 } on-error={}
 :do { add list=GD address=104.245.48.0/25 } on-error={}
 :do { add list=GD address=104.245.92.0/22 } on-error={}
 :do { add list=GD address=104.245.205.0/24 } on-error={}

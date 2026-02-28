@@ -54,6 +54,7 @@
 :do { add list=BN address=104.28.234.40/30 } on-error={}
 :do { add list=BN address=104.28.234.44/32 } on-error={}
 :do { add list=BN address=104.30.169.250/32 } on-error={}
+:do { add list=BN address=104.30.171.15/32 } on-error={}
 :do { add list=BN address=108.171.111.96/27 } on-error={}
 :do { add list=BN address=116.0.86.0/30 } on-error={}
 :do { add list=BN address=116.0.86.4/31 } on-error={}

@@ -170,6 +170,7 @@
 :do { add list=JO address=104.28.248.40/31 } on-error={}
 :do { add list=JO address=104.28.248.42/32 } on-error={}
 :do { add list=JO address=104.30.169.160/32 } on-error={}
+:do { add list=JO address=104.30.171.118/32 } on-error={}
 :do { add list=JO address=104.122.80.0/22 } on-error={}
 :do { add list=JO address=108.163.173.160/29 } on-error={}
 :do { add list=JO address=109.107.224.0/19 } on-error={}

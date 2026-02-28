@@ -82,7 +82,7 @@
 :do { add list=MW address=105.234.142.0/23 } on-error={}
 :do { add list=MW address=105.234.144.0/22 } on-error={}
 :do { add list=MW address=105.234.148.0/23 } on-error={}
-:do { add list=MW address=105.234.150.0/27 } on-error={}
+:do { add list=MW address=105.234.150.0/26 } on-error={}
 :do { add list=MW address=105.234.150.80/29 } on-error={}
 :do { add list=MW address=105.234.150.88/31 } on-error={}
 :do { add list=MW address=105.234.150.136/30 } on-error={}
@@ -107,7 +107,6 @@
 :do { add list=MW address=105.234.168.120/30 } on-error={}
 :do { add list=MW address=105.234.169.0/24 } on-error={}
 :do { add list=MW address=105.234.170.0/23 } on-error={}
-:do { add list=MW address=105.234.172.0/24 } on-error={}
 :do { add list=MW address=105.234.173.0/24 } on-error={}
 :do { add list=MW address=105.234.174.0/24 } on-error={}
 :do { add list=MW address=105.234.175.0/24 } on-error={}
@@ -174,14 +173,13 @@
 :do { add list=MW address=168.253.226.0/23 } on-error={}
 :do { add list=MW address=168.253.228.0/22 } on-error={}
 :do { add list=MW address=168.253.232.0/21 } on-error={}
-:do { add list=MW address=168.253.240.0/22 } on-error={}
-:do { add list=MW address=168.253.244.0/24 } on-error={}
-:do { add list=MW address=168.253.245.0/24 } on-error={}
+:do { add list=MW address=168.253.240.0/24 } on-error={}
+:do { add list=MW address=168.253.241.0/24 } on-error={}
+:do { add list=MW address=168.253.242.0/24 } on-error={}
+:do { add list=MW address=168.253.243.0/24 } on-error={}
+:do { add list=MW address=168.253.244.0/23 } on-error={}
 :do { add list=MW address=168.253.246.0/23 } on-error={}
-:do { add list=MW address=168.253.248.0/24 } on-error={}
-:do { add list=MW address=168.253.249.0/24 } on-error={}
-:do { add list=MW address=168.253.250.0/23 } on-error={}
-:do { add list=MW address=168.253.252.0/22 } on-error={}
+:do { add list=MW address=168.253.248.0/21 } on-error={}
 :do { add list=MW address=169.255.52.0/22 } on-error={}
 :do { add list=MW address=172.224.230.208/28 } on-error={}
 :do { add list=MW address=172.225.136.224/28 } on-error={}

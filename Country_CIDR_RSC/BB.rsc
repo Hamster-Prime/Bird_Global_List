@@ -143,6 +143,7 @@
 :do { add list=BB address=104.28.237.32/31 } on-error={}
 :do { add list=BB address=104.28.237.34/32 } on-error={}
 :do { add list=BB address=104.30.170.11/32 } on-error={}
+:do { add list=BB address=104.30.171.24/32 } on-error={}
 :do { add list=BB address=104.30.178.110/32 } on-error={}
 :do { add list=BB address=104.153.128.0/21 } on-error={}
 :do { add list=BB address=104.200.96.0/23 } on-error={}

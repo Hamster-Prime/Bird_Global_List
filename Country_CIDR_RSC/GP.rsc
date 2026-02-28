@@ -416,7 +416,7 @@
 :do { add list=GP address=104.250.31.232/30 } on-error={}
 :do { add list=GP address=107.191.208.0/20 } on-error={}
 :do { add list=GP address=109.62.36.0/25 } on-error={}
-:do { add list=GP address=109.62.38.128/25 } on-error={}
+:do { add list=GP address=109.62.38.0/25 } on-error={}
 :do { add list=GP address=109.62.71.0/24 } on-error={}
 :do { add list=GP address=109.62.119.128/25 } on-error={}
 :do { add list=GP address=136.23.23.41/32 } on-error={}
