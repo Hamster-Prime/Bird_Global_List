@@ -1,5 +1,7 @@
 /log info "Loading ER IPv4 Address List"
 /ip firewall address-list
+:do { add list=ER address=5.62.60.121/32 } on-error={}
+:do { add list=ER address=5.62.60.122/31 } on-error={}
 :do { add list=ER address=5.62.62.116/30 } on-error={}
 :do { add list=ER address=57.82.120.0/23 } on-error={}
 :do { add list=ER address=57.83.40.0/21 } on-error={}

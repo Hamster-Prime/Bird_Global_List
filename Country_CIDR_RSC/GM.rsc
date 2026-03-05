@@ -1,5 +1,7 @@
 /log info "Loading GM IPv4 Address List"
 /ip firewall address-list
+:do { add list=GM address=5.62.60.141/32 } on-error={}
+:do { add list=GM address=5.62.60.142/31 } on-error={}
 :do { add list=GM address=5.62.62.136/30 } on-error={}
 :do { add list=GM address=41.76.8.0/21 } on-error={}
 :do { add list=GM address=41.138.246.0/24 } on-error={}

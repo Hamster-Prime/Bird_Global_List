@@ -1,7 +1,12 @@
 /log info "Loading ET IPv4 Address List"
 /ip firewall address-list
+:do { add list=ET address=5.62.60.129/32 } on-error={}
+:do { add list=ET address=5.62.60.130/31 } on-error={}
 :do { add list=ET address=5.62.62.124/30 } on-error={}
 :do { add list=ET address=5.175.190.166/32 } on-error={}
+:do { add list=ET address=41.79.197.160/30 } on-error={}
+:do { add list=ET address=41.79.197.192/28 } on-error={}
+:do { add list=ET address=41.79.197.216/29 } on-error={}
 :do { add list=ET address=41.79.199.98/32 } on-error={}
 :do { add list=ET address=41.79.199.113/32 } on-error={}
 :do { add list=ET address=41.79.199.114/32 } on-error={}
@@ -109,17 +114,6 @@
 :do { add list=ET address=197.154.0.0/16 } on-error={}
 :do { add list=ET address=197.156.64.0/18 } on-error={}
 :do { add list=ET address=197.234.95.0/24 } on-error={}
-:do { add list=ET address=212.32.81.0/32 } on-error={}
-:do { add list=ET address=212.32.81.64/27 } on-error={}
-:do { add list=ET address=212.32.81.96/28 } on-error={}
-:do { add list=ET address=212.32.81.112/29 } on-error={}
-:do { add list=ET address=212.32.81.120/30 } on-error={}
-:do { add list=ET address=212.32.81.128/26 } on-error={}
-:do { add list=ET address=212.32.81.192/27 } on-error={}
-:do { add list=ET address=212.32.81.224/28 } on-error={}
-:do { add list=ET address=212.32.81.240/29 } on-error={}
-:do { add list=ET address=212.32.81.248/30 } on-error={}
-:do { add list=ET address=212.32.81.255/32 } on-error={}
 :do { add list=ET address=213.55.64.0/18 } on-error={}
 :do { add list=ET address=223.119.38.12/30 } on-error={}
 :do { add list=ET address=223.119.38.182/32 } on-error={}

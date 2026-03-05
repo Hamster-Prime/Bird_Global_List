@@ -1,5 +1,7 @@
 /log info "Loading CF IPv4 Address List"
 /ip firewall address-list
+:do { add list=CF address=5.62.60.77/32 } on-error={}
+:do { add list=CF address=5.62.60.78/31 } on-error={}
 :do { add list=CF address=5.62.62.76/30 } on-error={}
 :do { add list=CF address=41.78.120.0/22 } on-error={}
 :do { add list=CF address=41.223.184.0/22 } on-error={}

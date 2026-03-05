@@ -2,9 +2,6 @@
 /ip firewall address-list
 :do { add list=LC address=5.62.58.176/30 } on-error={}
 :do { add list=LC address=5.175.190.48/31 } on-error={}
-:do { add list=LC address=23.189.192.36/30 } on-error={}
-:do { add list=LC address=23.189.192.40/29 } on-error={}
-:do { add list=LC address=23.189.192.64/26 } on-error={}
 :do { add list=LC address=24.92.144.0/20 } on-error={}
 :do { add list=LC address=57.74.118.0/23 } on-error={}
 :do { add list=LC address=57.91.144.0/20 } on-error={}
@@ -14,10 +11,13 @@
 :do { add list=LC address=65.48.216.0/24 } on-error={}
 :do { add list=LC address=66.96.125.128/26 } on-error={}
 :do { add list=LC address=66.212.62.0/23 } on-error={}
-:do { add list=LC address=69.57.232.0/24 } on-error={}
+:do { add list=LC address=66.249.156.0/25 } on-error={}
+:do { add list=LC address=66.249.156.128/29 } on-error={}
+:do { add list=LC address=66.249.156.152/29 } on-error={}
+:do { add list=LC address=66.249.156.160/27 } on-error={}
+:do { add list=LC address=66.249.156.192/26 } on-error={}
 :do { add list=LC address=69.57.236.0/24 } on-error={}
 :do { add list=LC address=69.57.239.0/24 } on-error={}
-:do { add list=LC address=69.79.10.0/24 } on-error={}
 :do { add list=LC address=69.79.11.0/25 } on-error={}
 :do { add list=LC address=69.79.11.128/26 } on-error={}
 :do { add list=LC address=69.79.11.208/28 } on-error={}

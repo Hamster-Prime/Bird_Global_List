@@ -1,5 +1,7 @@
 /log info "Loading GI IPv4 Address List"
 /ip firewall address-list
+:do { add list=GI address=5.62.60.153/32 } on-error={}
+:do { add list=GI address=5.62.60.154/31 } on-error={}
 :do { add list=GI address=5.62.62.148/30 } on-error={}
 :do { add list=GI address=5.62.92.0/23 } on-error={}
 :do { add list=GI address=5.150.152.0/23 } on-error={}
@@ -45,11 +47,28 @@
 :do { add list=GI address=94.131.7.32/27 } on-error={}
 :do { add list=GI address=94.131.7.64/26 } on-error={}
 :do { add list=GI address=94.131.7.128/25 } on-error={}
+:do { add list=GI address=94.131.22.27/32 } on-error={}
+:do { add list=GI address=94.131.22.75/32 } on-error={}
+:do { add list=GI address=94.131.22.84/32 } on-error={}
+:do { add list=GI address=94.131.22.87/32 } on-error={}
+:do { add list=GI address=94.131.22.91/32 } on-error={}
+:do { add list=GI address=94.131.22.94/32 } on-error={}
+:do { add list=GI address=94.131.22.98/32 } on-error={}
+:do { add list=GI address=94.131.22.109/32 } on-error={}
+:do { add list=GI address=94.131.22.123/32 } on-error={}
+:do { add list=GI address=94.131.22.158/32 } on-error={}
+:do { add list=GI address=94.131.22.170/31 } on-error={}
+:do { add list=GI address=94.131.22.189/32 } on-error={}
+:do { add list=GI address=94.131.22.190/32 } on-error={}
+:do { add list=GI address=94.131.22.194/32 } on-error={}
+:do { add list=GI address=94.131.22.230/32 } on-error={}
+:do { add list=GI address=94.131.22.243/32 } on-error={}
 :do { add list=GI address=94.190.147.0/24 } on-error={}
 :do { add list=GI address=94.190.149.0/24 } on-error={}
 :do { add list=GI address=94.190.196.0/22 } on-error={}
 :do { add list=GI address=95.164.94.0/24 } on-error={}
-:do { add list=GI address=95.164.160.128/25 } on-error={}
+:do { add list=GI address=95.164.160.0/23 } on-error={}
+:do { add list=GI address=95.164.163.0/24 } on-error={}
 :do { add list=GI address=104.28.10.76/31 } on-error={}
 :do { add list=GI address=104.28.10.78/32 } on-error={}
 :do { add list=GI address=104.28.34.56/31 } on-error={}
@@ -135,8 +154,6 @@
 :do { add list=GI address=185.94.76.0/22 } on-error={}
 :do { add list=GI address=185.104.220.0/22 } on-error={}
 :do { add list=GI address=185.112.132.17/32 } on-error={}
-:do { add list=GI address=185.114.228.0/24 } on-error={}
-:do { add list=GI address=185.114.230.0/23 } on-error={}
 :do { add list=GI address=185.120.96.0/22 } on-error={}
 :do { add list=GI address=185.149.71.0/24 } on-error={}
 :do { add list=GI address=185.192.4.0/22 } on-error={}

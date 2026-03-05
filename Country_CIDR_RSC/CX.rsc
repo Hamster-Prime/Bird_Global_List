@@ -1,5 +1,7 @@
 /log info "Loading CX IPv4 Address List"
 /ip firewall address-list
+:do { add list=CX address=5.62.60.89/32 } on-error={}
+:do { add list=CX address=5.62.60.90/31 } on-error={}
 :do { add list=CX address=5.62.62.84/30 } on-error={}
 :do { add list=CX address=5.175.190.157/32 } on-error={}
 :do { add list=CX address=44.32.192.78/32 } on-error={}

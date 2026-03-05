@@ -1,5 +1,7 @@
 /log info "Loading KP IPv4 Address List"
 /ip firewall address-list
+:do { add list=KP address=5.62.61.65/32 } on-error={}
+:do { add list=KP address=5.62.61.66/31 } on-error={}
 :do { add list=KP address=23.169.169.169/32 } on-error={}
 :do { add list=KP address=31.6.16.15/32 } on-error={}
 :do { add list=KP address=44.32.192.70/31 } on-error={}

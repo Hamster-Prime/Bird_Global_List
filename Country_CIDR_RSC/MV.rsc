@@ -1,5 +1,7 @@
 /log info "Loading MV IPv4 Address List"
 /ip firewall address-list
+:do { add list=MV address=5.62.61.1/32 } on-error={}
+:do { add list=MV address=5.62.61.2/31 } on-error={}
 :do { add list=MV address=5.62.62.248/30 } on-error={}
 :do { add list=MV address=27.111.228.167/32 } on-error={}
 :do { add list=MV address=27.114.128.0/18 } on-error={}
@@ -7,21 +9,6 @@
 :do { add list=MV address=43.226.220.0/22 } on-error={}
 :do { add list=MV address=43.231.28.0/22 } on-error={}
 :do { add list=MV address=43.247.140.0/22 } on-error={}
-:do { add list=MV address=45.254.246.0/28 } on-error={}
-:do { add list=MV address=45.254.246.16/30 } on-error={}
-:do { add list=MV address=45.254.246.20/31 } on-error={}
-:do { add list=MV address=45.254.246.56/30 } on-error={}
-:do { add list=MV address=45.254.246.60/31 } on-error={}
-:do { add list=MV address=45.254.246.64/28 } on-error={}
-:do { add list=MV address=45.254.246.80/29 } on-error={}
-:do { add list=MV address=45.254.246.116/31 } on-error={}
-:do { add list=MV address=45.254.246.120/29 } on-error={}
-:do { add list=MV address=45.254.246.128/29 } on-error={}
-:do { add list=MV address=45.254.246.136/30 } on-error={}
-:do { add list=MV address=45.254.246.140/31 } on-error={}
-:do { add list=MV address=45.254.246.157/32 } on-error={}
-:do { add list=MV address=45.254.246.158/31 } on-error={}
-:do { add list=MV address=45.254.246.160/27 } on-error={}
 :do { add list=MV address=57.72.90.0/23 } on-error={}
 :do { add list=MV address=57.92.192.0/20 } on-error={}
 :do { add list=MV address=63.246.47.192/26 } on-error={}
@@ -54,11 +41,9 @@
 :do { add list=MV address=103.139.108.0/24 } on-error={}
 :do { add list=MV address=103.141.98.0/24 } on-error={}
 :do { add list=MV address=103.143.252.0/24 } on-error={}
-:do { add list=MV address=103.172.31.0/24 } on-error={}
 :do { add list=MV address=103.173.79.0/30 } on-error={}
 :do { add list=MV address=103.173.79.5/32 } on-error={}
 :do { add list=MV address=103.173.79.6/32 } on-error={}
-:do { add list=MV address=103.173.79.8/32 } on-error={}
 :do { add list=MV address=103.173.79.10/31 } on-error={}
 :do { add list=MV address=103.173.79.12/30 } on-error={}
 :do { add list=MV address=103.173.79.16/32 } on-error={}
@@ -67,13 +52,7 @@
 :do { add list=MV address=103.173.79.24/29 } on-error={}
 :do { add list=MV address=103.173.79.32/27 } on-error={}
 :do { add list=MV address=103.173.79.64/26 } on-error={}
-:do { add list=MV address=103.173.79.128/27 } on-error={}
-:do { add list=MV address=103.173.79.160/30 } on-error={}
-:do { add list=MV address=103.173.79.165/32 } on-error={}
-:do { add list=MV address=103.173.79.166/31 } on-error={}
-:do { add list=MV address=103.173.79.168/29 } on-error={}
-:do { add list=MV address=103.173.79.176/28 } on-error={}
-:do { add list=MV address=103.173.79.192/26 } on-error={}
+:do { add list=MV address=103.173.79.128/25 } on-error={}
 :do { add list=MV address=103.182.172.0/24 } on-error={}
 :do { add list=MV address=103.191.77.0/24 } on-error={}
 :do { add list=MV address=103.197.164.0/24 } on-error={}
@@ -175,7 +154,6 @@
 :do { add list=MV address=196.197.128.0/24 } on-error={}
 :do { add list=MV address=196.198.128.0/24 } on-error={}
 :do { add list=MV address=196.199.128.0/24 } on-error={}
-:do { add list=MV address=197.158.77.213/32 } on-error={}
 :do { add list=MV address=198.54.100.20/31 } on-error={}
 :do { add list=MV address=202.1.192.0/20 } on-error={}
 :do { add list=MV address=202.21.176.0/22 } on-error={}

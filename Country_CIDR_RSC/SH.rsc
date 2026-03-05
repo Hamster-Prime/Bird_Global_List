@@ -1,5 +1,7 @@
 /log info "Loading SH IPv4 Address List"
 /ip firewall address-list
+:do { add list=SH address=5.62.61.113/32 } on-error={}
+:do { add list=SH address=5.62.61.114/31 } on-error={}
 :do { add list=SH address=5.62.63.89/32 } on-error={}
 :do { add list=SH address=5.62.63.90/31 } on-error={}
 :do { add list=SH address=5.175.190.174/31 } on-error={}

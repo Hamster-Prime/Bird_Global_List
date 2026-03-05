@@ -1,21 +1,13 @@
 /log info "Loading TL IPv4 Address List"
 /ip firewall address-list
-:do { add list=TL address=43.243.120.0/27 } on-error={}
-:do { add list=TL address=43.243.120.32/29 } on-error={}
-:do { add list=TL address=43.243.120.40/30 } on-error={}
-:do { add list=TL address=43.243.120.44/31 } on-error={}
-:do { add list=TL address=43.243.120.47/32 } on-error={}
-:do { add list=TL address=43.243.120.48/28 } on-error={}
-:do { add list=TL address=43.243.120.64/26 } on-error={}
-:do { add list=TL address=43.243.120.128/25 } on-error={}
-:do { add list=TL address=43.243.121.0/24 } on-error={}
-:do { add list=TL address=43.243.122.0/23 } on-error={}
+:do { add list=TL address=43.243.120.0/22 } on-error={}
 :do { add list=TL address=43.243.176.0/22 } on-error={}
 :do { add list=TL address=43.254.56.0/22 } on-error={}
 :do { add list=TL address=45.115.72.0/23 } on-error={}
 :do { add list=TL address=45.115.74.0/24 } on-error={}
 :do { add list=TL address=45.115.75.0/24 } on-error={}
 :do { add list=TL address=59.153.132.0/22 } on-error={}
+:do { add list=TL address=62.115.174.209/32 } on-error={}
 :do { add list=TL address=103.26.95.0/24 } on-error={}
 :do { add list=TL address=103.30.112.0/22 } on-error={}
 :do { add list=TL address=103.55.48.0/22 } on-error={}

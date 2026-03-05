@@ -1,5 +1,7 @@
 /log info "Loading LS IPv4 Address List"
 /ip firewall address-list
+:do { add list=LS address=5.62.60.221/32 } on-error={}
+:do { add list=LS address=5.62.60.222/31 } on-error={}
 :do { add list=LS address=5.62.62.212/30 } on-error={}
 :do { add list=LS address=41.76.16.0/21 } on-error={}
 :do { add list=LS address=41.191.200.0/21 } on-error={}

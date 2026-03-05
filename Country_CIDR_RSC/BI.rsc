@@ -1,6 +1,8 @@
 /log info "Loading BI IPv4 Address List"
 /ip firewall address-list
 :do { add list=BI address=2.18.11.0/24 } on-error={}
+:do { add list=BI address=5.62.60.61/32 } on-error={}
+:do { add list=BI address=5.62.60.62/31 } on-error={}
 :do { add list=BI address=5.62.62.60/30 } on-error={}
 :do { add list=BI address=41.79.44.0/22 } on-error={}
 :do { add list=BI address=41.79.224.0/22 } on-error={}
