@@ -39,7 +39,6 @@
 :do { add list=CG address=102.220.18.0/24 } on-error={}
 :do { add list=CG address=102.220.244.0/22 } on-error={}
 :do { add list=CG address=102.223.220.0/22 } on-error={}
-:do { add list=CG address=103.21.52.0/24 } on-error={}
 :do { add list=CG address=104.28.9.21/32 } on-error={}
 :do { add list=CG address=104.28.9.22/31 } on-error={}
 :do { add list=CG address=104.28.34.21/32 } on-error={}

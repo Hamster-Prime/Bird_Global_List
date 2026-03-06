@@ -920,7 +920,6 @@
 :do { add list=PR address=209.242.240.61/32 } on-error={}
 :do { add list=PR address=216.24.51.0/24 } on-error={}
 :do { add list=PR address=216.39.232.0/22 } on-error={}
-:do { add list=PR address=216.45.54.0/24 } on-error={}
 :do { add list=PR address=216.177.195.0/25 } on-error={}
 :do { add list=PR address=216.177.201.0/24 } on-error={}
 :do { add list=PR address=216.177.202.0/23 } on-error={}

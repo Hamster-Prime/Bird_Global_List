@@ -2738,7 +2738,6 @@
 :do { add list=KE address=154.66.240.32/27 } on-error={}
 :do { add list=KE address=154.66.240.64/26 } on-error={}
 :do { add list=KE address=154.66.240.128/25 } on-error={}
-:do { add list=KE address=154.66.242.128/25 } on-error={}
 :do { add list=KE address=154.66.243.8/30 } on-error={}
 :do { add list=KE address=154.66.243.100/30 } on-error={}
 :do { add list=KE address=154.66.245.0/30 } on-error={}

@@ -645,7 +645,6 @@
 :do { add list=ZM address=160.242.65.0/24 } on-error={}
 :do { add list=ZM address=160.242.66.0/24 } on-error={}
 :do { add list=ZM address=160.242.112.0/24 } on-error={}
-:do { add list=ZM address=161.123.150.0/24 } on-error={}
 :do { add list=ZM address=163.116.162.183/32 } on-error={}
 :do { add list=ZM address=163.116.162.194/32 } on-error={}
 :do { add list=ZM address=163.116.164.94/32 } on-error={}

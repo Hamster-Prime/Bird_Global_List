@@ -335,8 +335,6 @@
 :do { add list=LB address=148.64.22.32/27 } on-error={}
 :do { add list=LB address=149.3.152.0/21 } on-error={}
 :do { add list=LB address=149.11.242.114/32 } on-error={}
-:do { add list=LB address=149.57.26.0/24 } on-error={}
-:do { add list=LB address=149.57.27.0/24 } on-error={}
 :do { add list=LB address=150.228.74.0/23 } on-error={}
 :do { add list=LB address=152.53.232.0/24 } on-error={}
 :do { add list=LB address=154.59.144.0/24 } on-error={}

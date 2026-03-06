@@ -1,7 +1,6 @@
 /log info "Loading VN IPv4 Address List"
 /ip firewall address-list
 :do { add list=VN address=1.52.0.0/14 } on-error={}
-:do { add list=VN address=2.59.0.0/23 } on-error={}
 :do { add list=VN address=3.161.67.0/24 } on-error={}
 :do { add list=VN address=3.162.48.0/21 } on-error={}
 :do { add list=VN address=3.162.56.0/22 } on-error={}
@@ -142,8 +141,7 @@
 :do { add list=VN address=27.118.16.0/20 } on-error={}
 :do { add list=VN address=27.124.16.0/24 } on-error={}
 :do { add list=VN address=27.124.19.0/24 } on-error={}
-:do { add list=VN address=27.124.48.0/23 } on-error={}
-:do { add list=VN address=27.124.50.0/24 } on-error={}
+:do { add list=VN address=27.124.48.0/24 } on-error={}
 :do { add list=VN address=27.124.56.0/27 } on-error={}
 :do { add list=VN address=27.124.56.38/31 } on-error={}
 :do { add list=VN address=27.124.56.40/30 } on-error={}
@@ -459,7 +457,6 @@
 :do { add list=VN address=74.82.50.58/31 } on-error={}
 :do { add list=VN address=74.82.50.60/30 } on-error={}
 :do { add list=VN address=79.108.216.0/21 } on-error={}
-:do { add list=VN address=80.89.2.0/24 } on-error={}
 :do { add list=VN address=81.200.232.0/24 } on-error={}
 :do { add list=VN address=82.23.171.0/24 } on-error={}
 :do { add list=VN address=82.117.82.0/24 } on-error={}
@@ -1338,7 +1335,6 @@
 :do { add list=VN address=103.173.254.0/23 } on-error={}
 :do { add list=VN address=103.174.72.0/23 } on-error={}
 :do { add list=VN address=103.174.74.0/23 } on-error={}
-:do { add list=VN address=103.174.202.0/23 } on-error={}
 :do { add list=VN address=103.174.212.0/23 } on-error={}
 :do { add list=VN address=103.174.216.0/23 } on-error={}
 :do { add list=VN address=103.174.218.0/23 } on-error={}
@@ -2766,7 +2762,6 @@
 :do { add list=VN address=154.203.164.0/24 } on-error={}
 :do { add list=VN address=154.205.140.0/24 } on-error={}
 :do { add list=VN address=154.205.142.0/23 } on-error={}
-:do { add list=VN address=155.94.169.0/24 } on-error={}
 :do { add list=VN address=155.102.16.0/22 } on-error={}
 :do { add list=VN address=155.102.20.0/24 } on-error={}
 :do { add list=VN address=155.102.135.0/24 } on-error={}
@@ -2867,7 +2862,6 @@
 :do { add list=VN address=157.167.236.72/32 } on-error={}
 :do { add list=VN address=157.240.68.51/32 } on-error={}
 :do { add list=VN address=157.240.88.183/32 } on-error={}
-:do { add list=VN address=158.46.205.0/24 } on-error={}
 :do { add list=VN address=158.220.67.0/24 } on-error={}
 :do { add list=VN address=160.19.78.0/23 } on-error={}
 :do { add list=VN address=160.19.150.0/23 } on-error={}
@@ -3682,8 +3676,6 @@
 :do { add list=VN address=203.209.180.0/22 } on-error={}
 :do { add list=VN address=203.210.128.0/17 } on-error={}
 :do { add list=VN address=203.235.22.9/32 } on-error={}
-:do { add list=VN address=204.1.217.0/24 } on-error={}
-:do { add list=VN address=204.1.218.0/24 } on-error={}
 :do { add list=VN address=204.3.55.0/24 } on-error={}
 :do { add list=VN address=204.3.174.0/24 } on-error={}
 :do { add list=VN address=204.3.176.0/23 } on-error={}
