@@ -412,6 +412,7 @@
 :do { add list=AF address=202.3.76.0/24 } on-error={}
 :do { add list=AF address=203.171.96.0/22 } on-error={}
 :do { add list=AF address=203.171.100.0/23 } on-error={}
+:do { add list=AF address=203.171.102.0/25 } on-error={}
 :do { add list=AF address=203.171.103.0/24 } on-error={}
 :do { add list=AF address=203.171.104.112/31 } on-error={}
 :do { add list=AF address=203.171.104.116/30 } on-error={}

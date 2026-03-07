@@ -1,8 +1,7 @@
 /log info "Loading GF IPv4 Address List"
 /ip firewall address-list
 :do { add list=GF address=5.102.79.0/24 } on-error={}
-:do { add list=GF address=45.169.164.0/23 } on-error={}
-:do { add list=GF address=45.169.166.0/24 } on-error={}
+:do { add list=GF address=45.169.164.0/22 } on-error={}
 :do { add list=GF address=46.193.3.116/32 } on-error={}
 :do { add list=GF address=46.193.53.128/32 } on-error={}
 :do { add list=GF address=46.193.54.15/32 } on-error={}
@@ -298,8 +297,6 @@
 :do { add list=GF address=92.142.48.0/22 } on-error={}
 :do { add list=GF address=92.142.52.0/24 } on-error={}
 :do { add list=GF address=92.142.53.0/25 } on-error={}
-:do { add list=GF address=92.142.53.128/26 } on-error={}
-:do { add list=GF address=92.142.53.192/27 } on-error={}
 :do { add list=GF address=92.142.54.0/23 } on-error={}
 :do { add list=GF address=92.142.56.0/21 } on-error={}
 :do { add list=GF address=92.142.64.0/22 } on-error={}
@@ -334,6 +331,7 @@
 :do { add list=GF address=92.142.118.0/23 } on-error={}
 :do { add list=GF address=92.142.120.0/21 } on-error={}
 :do { add list=GF address=93.176.32.7/32 } on-error={}
+:do { add list=GF address=93.176.33.0/25 } on-error={}
 :do { add list=GF address=94.124.156.0/24 } on-error={}
 :do { add list=GF address=94.198.182.1/32 } on-error={}
 :do { add list=GF address=94.198.182.2/31 } on-error={}
@@ -368,7 +366,9 @@
 :do { add list=GF address=109.62.63.64/26 } on-error={}
 :do { add list=GF address=109.62.63.128/25 } on-error={}
 :do { add list=GF address=109.62.65.210/32 } on-error={}
-:do { add list=GF address=109.62.66.0/24 } on-error={}
+:do { add list=GF address=109.62.66.128/26 } on-error={}
+:do { add list=GF address=109.62.66.192/28 } on-error={}
+:do { add list=GF address=109.62.66.224/27 } on-error={}
 :do { add list=GF address=109.62.67.133/32 } on-error={}
 :do { add list=GF address=109.62.67.146/31 } on-error={}
 :do { add list=GF address=109.62.67.148/30 } on-error={}
@@ -416,7 +416,6 @@
 :do { add list=GF address=185.21.213.248/29 } on-error={}
 :do { add list=GF address=186.2.244.0/22 } on-error={}
 :do { add list=GF address=188.115.113.0/25 } on-error={}
-:do { add list=GF address=188.115.115.0/25 } on-error={}
 :do { add list=GF address=192.166.1.0/24 } on-error={}
 :do { add list=GF address=192.252.227.189/32 } on-error={}
 :do { add list=GF address=193.48.161.0/24 } on-error={}
@@ -432,14 +431,12 @@
 :do { add list=GF address=193.50.134.0/24 } on-error={}
 :do { add list=GF address=193.51.118.0/24 } on-error={}
 :do { add list=GF address=193.220.88.0/21 } on-error={}
-:do { add list=GF address=193.251.163.160/30 } on-error={}
-:do { add list=GF address=193.251.163.167/32 } on-error={}
-:do { add list=GF address=193.251.163.172/30 } on-error={}
+:do { add list=GF address=193.251.163.163/32 } on-error={}
+:do { add list=GF address=193.251.163.171/32 } on-error={}
 :do { add list=GF address=193.251.163.176/29 } on-error={}
-:do { add list=GF address=193.251.163.188/31 } on-error={}
-:do { add list=GF address=193.251.163.192/28 } on-error={}
-:do { add list=GF address=193.251.163.214/31 } on-error={}
-:do { add list=GF address=193.251.163.216/30 } on-error={}
+:do { add list=GF address=193.251.163.194/31 } on-error={}
+:do { add list=GF address=193.251.163.196/30 } on-error={}
+:do { add list=GF address=193.251.163.200/29 } on-error={}
 :do { add list=GF address=193.251.231.112/30 } on-error={}
 :do { add list=GF address=193.251.231.121/32 } on-error={}
 :do { add list=GF address=194.3.218.0/24 } on-error={}

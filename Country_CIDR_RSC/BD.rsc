@@ -286,7 +286,6 @@
 :do { add list=BD address=61.247.176.0/20 } on-error={}
 :do { add list=BD address=63.220.198.175/32 } on-error={}
 :do { add list=BD address=63.246.42.192/26 } on-error={}
-:do { add list=BD address=64.204.52.0/24 } on-error={}
 :do { add list=BD address=64.205.132.0/22 } on-error={}
 :do { add list=BD address=64.205.140.0/22 } on-error={}
 :do { add list=BD address=64.205.148.0/22 } on-error={}
@@ -614,8 +613,7 @@
 :do { add list=BD address=103.38.16.0/22 } on-error={}
 :do { add list=BD address=103.38.54.0/23 } on-error={}
 :do { add list=BD address=103.39.120.0/23 } on-error={}
-:do { add list=BD address=103.39.196.0/24 } on-error={}
-:do { add list=BD address=103.39.197.0/24 } on-error={}
+:do { add list=BD address=103.39.196.0/23 } on-error={}
 :do { add list=BD address=103.40.52.0/23 } on-error={}
 :do { add list=BD address=103.40.82.0/23 } on-error={}
 :do { add list=BD address=103.40.156.0/23 } on-error={}
@@ -2389,9 +2387,7 @@
 :do { add list=BD address=103.209.196.0/23 } on-error={}
 :do { add list=BD address=103.209.198.0/24 } on-error={}
 :do { add list=BD address=103.209.199.0/24 } on-error={}
-:do { add list=BD address=103.210.16.0/23 } on-error={}
-:do { add list=BD address=103.210.18.128/25 } on-error={}
-:do { add list=BD address=103.210.19.0/24 } on-error={}
+:do { add list=BD address=103.210.16.0/22 } on-error={}
 :do { add list=BD address=103.210.56.0/23 } on-error={}
 :do { add list=BD address=103.210.58.0/24 } on-error={}
 :do { add list=BD address=103.210.59.0/24 } on-error={}
@@ -2565,7 +2561,8 @@
 :do { add list=BD address=103.252.47.0/24 } on-error={}
 :do { add list=BD address=103.252.120.0/24 } on-error={}
 :do { add list=BD address=103.252.121.0/24 } on-error={}
-:do { add list=BD address=103.252.126.0/25 } on-error={}
+:do { add list=BD address=103.252.126.16/29 } on-error={}
+:do { add list=BD address=103.252.126.116/30 } on-error={}
 :do { add list=BD address=103.252.127.0/24 } on-error={}
 :do { add list=BD address=103.252.224.0/22 } on-error={}
 :do { add list=BD address=103.253.38.0/23 } on-error={}

@@ -9,7 +9,6 @@
 :do { add list=GG address=46.31.240.216/32 } on-error={}
 :do { add list=GG address=46.31.240.231/32 } on-error={}
 :do { add list=GG address=46.31.240.244/32 } on-error={}
-:do { add list=GG address=46.31.241.128/25 } on-error={}
 :do { add list=GG address=46.31.243.94/31 } on-error={}
 :do { add list=GG address=46.31.244.0/27 } on-error={}
 :do { add list=GG address=46.31.244.32/28 } on-error={}
@@ -47,6 +46,7 @@
 :do { add list=GG address=78.41.1.90/32 } on-error={}
 :do { add list=GG address=78.41.1.110/32 } on-error={}
 :do { add list=GG address=78.41.1.200/31 } on-error={}
+:do { add list=GG address=78.41.3.128/25 } on-error={}
 :do { add list=GG address=78.41.4.8/30 } on-error={}
 :do { add list=GG address=78.41.5.0/25 } on-error={}
 :do { add list=GG address=78.41.5.128/27 } on-error={}
@@ -168,21 +168,6 @@
 :do { add list=GG address=195.226.129.218/31 } on-error={}
 :do { add list=GG address=195.226.133.128/25 } on-error={}
 :do { add list=GG address=195.226.135.124/31 } on-error={}
-:do { add list=GG address=195.226.136.0/30 } on-error={}
-:do { add list=GG address=195.226.136.6/31 } on-error={}
-:do { add list=GG address=195.226.136.8/30 } on-error={}
-:do { add list=GG address=195.226.136.184/29 } on-error={}
-:do { add list=GG address=195.226.136.192/28 } on-error={}
-:do { add list=GG address=195.226.136.208/30 } on-error={}
-:do { add list=GG address=195.226.136.212/31 } on-error={}
-:do { add list=GG address=195.226.136.215/32 } on-error={}
-:do { add list=GG address=195.226.136.216/29 } on-error={}
-:do { add list=GG address=195.226.136.224/28 } on-error={}
-:do { add list=GG address=195.226.136.240/29 } on-error={}
-:do { add list=GG address=195.226.136.248/31 } on-error={}
-:do { add list=GG address=195.226.136.250/32 } on-error={}
-:do { add list=GG address=195.226.136.252/32 } on-error={}
-:do { add list=GG address=195.226.136.254/31 } on-error={}
 :do { add list=GG address=195.226.137.32/31 } on-error={}
 :do { add list=GG address=195.226.137.40/31 } on-error={}
 :do { add list=GG address=195.226.140.0/24 } on-error={}
