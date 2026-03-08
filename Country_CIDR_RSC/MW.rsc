@@ -93,10 +93,13 @@
 :do { add list=MW address=105.234.144.0/22 } on-error={}
 :do { add list=MW address=105.234.148.0/23 } on-error={}
 :do { add list=MW address=105.234.150.0/26 } on-error={}
-:do { add list=MW address=105.234.150.80/29 } on-error={}
-:do { add list=MW address=105.234.150.88/30 } on-error={}
-:do { add list=MW address=105.234.150.136/30 } on-error={}
-:do { add list=MW address=105.234.150.166/31 } on-error={}
+:do { add list=MW address=105.234.150.64/27 } on-error={}
+:do { add list=MW address=105.234.150.96/29 } on-error={}
+:do { add list=MW address=105.234.150.104/30 } on-error={}
+:do { add list=MW address=105.234.150.108/32 } on-error={}
+:do { add list=MW address=105.234.150.110/31 } on-error={}
+:do { add list=MW address=105.234.150.112/28 } on-error={}
+:do { add list=MW address=105.234.150.128/25 } on-error={}
 :do { add list=MW address=105.234.151.0/24 } on-error={}
 :do { add list=MW address=105.234.152.0/21 } on-error={}
 :do { add list=MW address=105.234.160.0/23 } on-error={}

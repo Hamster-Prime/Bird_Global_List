@@ -144,6 +144,9 @@
 :do { add list=GE address=62.182.8.0/21 } on-error={}
 :do { add list=GE address=62.212.32.0/19 } on-error={}
 :do { add list=GE address=72.14.201.160/32 } on-error={}
+:do { add list=GE address=72.56.43.0/24 } on-error={}
+:do { add list=GE address=72.56.44.0/23 } on-error={}
+:do { add list=GE address=72.56.48.0/23 } on-error={}
 :do { add list=GE address=72.56.50.41/32 } on-error={}
 :do { add list=GE address=72.56.50.42/31 } on-error={}
 :do { add list=GE address=72.56.50.44/30 } on-error={}
@@ -152,6 +155,9 @@
 :do { add list=GE address=72.56.50.80/29 } on-error={}
 :do { add list=GE address=72.56.50.104/29 } on-error={}
 :do { add list=GE address=72.56.50.112/28 } on-error={}
+:do { add list=GE address=72.56.56.0/23 } on-error={}
+:do { add list=GE address=72.56.61.0/24 } on-error={}
+:do { add list=GE address=72.56.254.0/23 } on-error={}
 :do { add list=GE address=74.1.222.0/23 } on-error={}
 :do { add list=GE address=77.74.40.0/21 } on-error={}
 :do { add list=GE address=77.91.67.0/24 } on-error={}
@@ -175,6 +181,9 @@
 :do { add list=GE address=78.25.75.152/30 } on-error={}
 :do { add list=GE address=78.25.75.200/30 } on-error={}
 :do { add list=GE address=78.25.75.224/29 } on-error={}
+:do { add list=GE address=78.25.76.200/32 } on-error={}
+:do { add list=GE address=78.25.76.202/31 } on-error={}
+:do { add list=GE address=78.25.76.206/31 } on-error={}
 :do { add list=GE address=78.25.77.19/32 } on-error={}
 :do { add list=GE address=78.25.77.20/30 } on-error={}
 :do { add list=GE address=78.25.77.24/29 } on-error={}
@@ -604,9 +613,7 @@
 :do { add list=GE address=192.122.253.0/24 } on-error={}
 :do { add list=GE address=192.166.124.0/26 } on-error={}
 :do { add list=GE address=192.166.124.64/27 } on-error={}
-:do { add list=GE address=192.166.124.96/28 } on-error={}
 :do { add list=GE address=192.166.124.128/25 } on-error={}
-:do { add list=GE address=192.166.125.0/24 } on-error={}
 :do { add list=GE address=192.166.127.0/25 } on-error={}
 :do { add list=GE address=193.24.126.0/24 } on-error={}
 :do { add list=GE address=193.29.184.0/23 } on-error={}

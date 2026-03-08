@@ -167,3 +167,5 @@
 :do { add list=SS address=197.251.38.0/24 } on-error={}
 :do { add list=SS address=213.156.254.15/32 } on-error={}
 :do { add list=SS address=213.209.163.0/24 } on-error={}
+:do { add list=SS address=216.66.84.128/32 } on-error={}
+:do { add list=SS address=216.66.84.131/32 } on-error={}

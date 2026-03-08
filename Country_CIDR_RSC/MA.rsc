@@ -127,6 +127,8 @@
 :do { add list=MA address=80.250.34.0/23 } on-error={}
 :do { add list=MA address=80.250.36.0/22 } on-error={}
 :do { add list=MA address=80.250.40.0/22 } on-error={}
+:do { add list=MA address=80.250.44.0/23 } on-error={}
+:do { add list=MA address=80.250.46.0/24 } on-error={}
 :do { add list=MA address=80.250.47.0/24 } on-error={}
 :do { add list=MA address=81.192.0.0/17 } on-error={}
 :do { add list=MA address=81.192.128.0/18 } on-error={}

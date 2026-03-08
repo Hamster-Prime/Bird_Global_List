@@ -1656,7 +1656,7 @@
 :do { add list=NG address=154.65.16.24/30 } on-error={}
 :do { add list=NG address=154.65.16.30/32 } on-error={}
 :do { add list=NG address=154.65.16.38/32 } on-error={}
-:do { add list=NG address=154.65.16.56/30 } on-error={}
+:do { add list=NG address=154.65.16.57/32 } on-error={}
 :do { add list=NG address=154.65.16.65/32 } on-error={}
 :do { add list=NG address=154.65.16.80/32 } on-error={}
 :do { add list=NG address=154.65.16.82/31 } on-error={}

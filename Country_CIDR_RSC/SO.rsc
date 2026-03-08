@@ -119,9 +119,7 @@
 :do { add list=SO address=154.115.200.0/23 } on-error={}
 :do { add list=SO address=154.115.202.0/24 } on-error={}
 :do { add list=SO address=154.115.203.0/24 } on-error={}
-:do { add list=SO address=154.115.204.0/23 } on-error={}
-:do { add list=SO address=154.115.206.0/24 } on-error={}
-:do { add list=SO address=154.115.207.0/24 } on-error={}
+:do { add list=SO address=154.115.204.0/22 } on-error={}
 :do { add list=SO address=154.115.208.0/24 } on-error={}
 :do { add list=SO address=154.115.209.0/24 } on-error={}
 :do { add list=SO address=154.115.210.0/23 } on-error={}

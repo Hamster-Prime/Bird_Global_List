@@ -88,8 +88,6 @@
 :do { add list=GA address=172.225.242.160/28 } on-error={}
 :do { add list=GA address=184.107.216.248/29 } on-error={}
 :do { add list=GA address=185.138.17.137/32 } on-error={}
-:do { add list=GA address=185.183.228.249/32 } on-error={}
-:do { add list=GA address=185.183.228.250/31 } on-error={}
 :do { add list=GA address=192.188.164.0/22 } on-error={}
 :do { add list=GA address=192.189.139.0/24 } on-error={}
 :do { add list=GA address=192.189.140.0/24 } on-error={}
