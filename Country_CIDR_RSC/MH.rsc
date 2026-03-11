@@ -5,6 +5,7 @@
 :do { add list=MH address=57.70.186.0/23 } on-error={}
 :do { add list=MH address=57.70.188.0/22 } on-error={}
 :do { add list=MH address=64.86.23.0/24 } on-error={}
+:do { add list=MH address=64.86.76.0/24 } on-error={}
 :do { add list=MH address=103.202.148.0/23 } on-error={}
 :do { add list=MH address=103.202.150.0/23 } on-error={}
 :do { add list=MH address=104.28.11.210/31 } on-error={}

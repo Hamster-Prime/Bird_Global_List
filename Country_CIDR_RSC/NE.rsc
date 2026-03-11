@@ -1,5 +1,9 @@
 /log info "Loading NE IPv4 Address List"
 /ip firewall address-list
+:do { add list=NE address=5.22.194.0/23 } on-error={}
+:do { add list=NE address=5.22.196.0/24 } on-error={}
+:do { add list=NE address=5.22.197.128/25 } on-error={}
+:do { add list=NE address=5.22.199.72/29 } on-error={}
 :do { add list=NE address=5.62.61.57/32 } on-error={}
 :do { add list=NE address=5.62.61.58/31 } on-error={}
 :do { add list=NE address=5.62.63.48/30 } on-error={}
@@ -19,7 +23,6 @@
 :do { add list=NE address=102.217.97.12/31 } on-error={}
 :do { add list=NE address=102.217.97.18/31 } on-error={}
 :do { add list=NE address=102.217.97.20/30 } on-error={}
-:do { add list=NE address=102.217.97.24/29 } on-error={}
 :do { add list=NE address=102.217.97.32/31 } on-error={}
 :do { add list=NE address=102.217.97.34/32 } on-error={}
 :do { add list=NE address=102.217.97.36/31 } on-error={}

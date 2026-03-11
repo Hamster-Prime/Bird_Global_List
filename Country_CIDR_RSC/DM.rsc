@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=DM address=5.62.58.72/30 } on-error={}
 :do { add list=DM address=23.186.240.0/24 } on-error={}
-:do { add list=DM address=45.9.150.0/25 } on-error={}
 :do { add list=DM address=45.9.151.0/24 } on-error={}
 :do { add list=DM address=45.62.191.96/28 } on-error={}
 :do { add list=DM address=57.74.96.0/23 } on-error={}
@@ -82,10 +81,9 @@
 :do { add list=DM address=199.189.113.0/24 } on-error={}
 :do { add list=DM address=199.189.114.0/23 } on-error={}
 :do { add list=DM address=199.195.220.0/24 } on-error={}
-:do { add list=DM address=205.217.232.0/24 } on-error={}
 :do { add list=DM address=205.217.233.0/25 } on-error={}
-:do { add list=DM address=205.217.233.192/26 } on-error={}
-:do { add list=DM address=205.217.234.0/23 } on-error={}
+:do { add list=DM address=205.217.234.128/25 } on-error={}
+:do { add list=DM address=205.217.235.0/24 } on-error={}
 :do { add list=DM address=205.217.236.0/22 } on-error={}
 :do { add list=DM address=205.217.252.0/24 } on-error={}
 :do { add list=DM address=205.217.255.0/24 } on-error={}
@@ -97,12 +95,14 @@
 :do { add list=DM address=205.252.161.128/27 } on-error={}
 :do { add list=DM address=205.252.161.224/28 } on-error={}
 :do { add list=DM address=206.53.141.0/24 } on-error={}
+:do { add list=DM address=206.161.130.160/28 } on-error={}
 :do { add list=DM address=206.214.10.0/23 } on-error={}
 :do { add list=DM address=206.214.12.0/24 } on-error={}
 :do { add list=DM address=207.42.134.0/23 } on-error={}
 :do { add list=DM address=208.0.224.0/24 } on-error={}
 :do { add list=DM address=208.0.230.0/24 } on-error={}
 :do { add list=DM address=208.169.74.0/29 } on-error={}
+:do { add list=DM address=208.169.74.12/30 } on-error={}
 :do { add list=DM address=208.169.74.16/28 } on-error={}
 :do { add list=DM address=208.169.74.32/27 } on-error={}
 :do { add list=DM address=208.169.74.64/26 } on-error={}

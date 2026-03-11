@@ -16,7 +16,10 @@
 :do { add list=BB address=63.143.76.0/24 } on-error={}
 :do { add list=BB address=63.170.68.0/23 } on-error={}
 :do { add list=BB address=63.175.156.0/22 } on-error={}
-:do { add list=BB address=63.245.54.0/24 } on-error={}
+:do { add list=BB address=63.245.54.0/25 } on-error={}
+:do { add list=BB address=63.245.54.128/26 } on-error={}
+:do { add list=BB address=63.245.54.208/28 } on-error={}
+:do { add list=BB address=63.245.54.224/27 } on-error={}
 :do { add list=BB address=64.119.192.0/20 } on-error={}
 :do { add list=BB address=64.210.40.0/21 } on-error={}
 :do { add list=BB address=65.48.128.0/22 } on-error={}
@@ -62,8 +65,7 @@
 :do { add list=BB address=65.166.240.0/21 } on-error={}
 :do { add list=BB address=65.172.24.0/22 } on-error={}
 :do { add list=BB address=66.96.114.0/26 } on-error={}
-:do { add list=BB address=66.249.150.0/24 } on-error={}
-:do { add list=BB address=67.230.96.165/32 } on-error={}
+:do { add list=BB address=66.249.150.161/32 } on-error={}
 :do { add list=BB address=69.73.192.0/23 } on-error={}
 :do { add list=BB address=69.73.196.0/23 } on-error={}
 :do { add list=BB address=69.73.198.0/24 } on-error={}
@@ -84,7 +86,8 @@
 :do { add list=BB address=69.73.250.0/24 } on-error={}
 :do { add list=BB address=69.73.251.0/24 } on-error={}
 :do { add list=BB address=69.73.252.0/22 } on-error={}
-:do { add list=BB address=69.80.0.0/23 } on-error={}
+:do { add list=BB address=69.80.0.0/30 } on-error={}
+:do { add list=BB address=69.80.1.0/24 } on-error={}
 :do { add list=BB address=69.80.51.0/24 } on-error={}
 :do { add list=BB address=69.80.52.0/24 } on-error={}
 :do { add list=BB address=69.80.53.0/24 } on-error={}
@@ -118,8 +121,6 @@
 :do { add list=BB address=72.51.117.0/24 } on-error={}
 :do { add list=BB address=72.51.118.0/23 } on-error={}
 :do { add list=BB address=72.51.120.0/23 } on-error={}
-:do { add list=BB address=72.51.125.0/24 } on-error={}
-:do { add list=BB address=81.248.135.211/32 } on-error={}
 :do { add list=BB address=104.28.8.93/32 } on-error={}
 :do { add list=BB address=104.28.8.94/31 } on-error={}
 :do { add list=BB address=104.28.36.2/31 } on-error={}
@@ -193,7 +194,11 @@
 :do { add list=BB address=185.112.133.2/32 } on-error={}
 :do { add list=BB address=185.138.17.26/32 } on-error={}
 :do { add list=BB address=190.242.193.0/24 } on-error={}
+:do { add list=BB address=192.65.160.0/24 } on-error={}
+:do { add list=BB address=192.65.161.0/24 } on-error={}
 :do { add list=BB address=192.65.162.0/24 } on-error={}
+:do { add list=BB address=192.65.163.0/24 } on-error={}
+:do { add list=BB address=192.65.164.0/22 } on-error={}
 :do { add list=BB address=192.171.120.0/21 } on-error={}
 :do { add list=BB address=192.214.112.0/24 } on-error={}
 :do { add list=BB address=192.214.115.0/24 } on-error={}
@@ -201,7 +206,6 @@
 :do { add list=BB address=192.214.124.0/23 } on-error={}
 :do { add list=BB address=192.235.48.0/20 } on-error={}
 :do { add list=BB address=194.50.99.18/32 } on-error={}
-:do { add list=BB address=196.1.160.0/24 } on-error={}
 :do { add list=BB address=196.1.162.0/24 } on-error={}
 :do { add list=BB address=196.1.163.0/24 } on-error={}
 :do { add list=BB address=196.1.164.0/23 } on-error={}
@@ -217,8 +221,6 @@
 :do { add list=BB address=196.197.46.0/24 } on-error={}
 :do { add list=BB address=196.198.46.0/24 } on-error={}
 :do { add list=BB address=196.199.46.0/24 } on-error={}
-:do { add list=BB address=197.14.153.206/32 } on-error={}
-:do { add list=BB address=198.56.60.0/22 } on-error={}
 :do { add list=BB address=198.245.160.0/24 } on-error={}
 :do { add list=BB address=198.246.229.0/24 } on-error={}
 :do { add list=BB address=198.246.230.0/24 } on-error={}
@@ -257,7 +259,6 @@
 :do { add list=BB address=205.214.198.0/24 } on-error={}
 :do { add list=BB address=205.214.200.0/23 } on-error={}
 :do { add list=BB address=205.214.202.0/24 } on-error={}
-:do { add list=BB address=205.214.206.0/24 } on-error={}
 :do { add list=BB address=205.214.208.0/24 } on-error={}
 :do { add list=BB address=205.214.209.0/24 } on-error={}
 :do { add list=BB address=205.214.212.0/24 } on-error={}
