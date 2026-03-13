@@ -3,9 +3,7 @@
 :do { add list=DJ address=5.62.61.97/32 } on-error={}
 :do { add list=DJ address=5.62.61.98/31 } on-error={}
 :do { add list=DJ address=5.62.63.72/30 } on-error={}
-:do { add list=DJ address=41.79.196.192/28 } on-error={}
-:do { add list=DJ address=41.79.196.232/29 } on-error={}
-:do { add list=DJ address=41.79.196.248/30 } on-error={}
+:do { add list=DJ address=41.79.196.8/29 } on-error={}
 :do { add list=DJ address=41.189.224.0/22 } on-error={}
 :do { add list=DJ address=41.189.228.0/24 } on-error={}
 :do { add list=DJ address=41.189.229.0/24 } on-error={}
