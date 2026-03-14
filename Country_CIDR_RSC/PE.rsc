@@ -303,6 +303,7 @@
 :do { add list=PE address=38.226.245.0/24 } on-error={}
 :do { add list=PE address=38.226.246.0/24 } on-error={}
 :do { add list=PE address=38.236.105.0/24 } on-error={}
+:do { add list=PE address=38.236.114.0/24 } on-error={}
 :do { add list=PE address=38.236.161.0/24 } on-error={}
 :do { add list=PE address=38.236.184.0/21 } on-error={}
 :do { add list=PE address=38.250.6.0/24 } on-error={}
@@ -2028,7 +2029,9 @@
 :do { add list=PE address=200.4.192.0/18 } on-error={}
 :do { add list=PE address=200.10.64.0/19 } on-error={}
 :do { add list=PE address=200.10.130.0/23 } on-error={}
+:do { add list=PE address=200.10.163.0/24 } on-error={}
 :do { add list=PE address=200.10.188.0/24 } on-error={}
+:do { add list=PE address=200.10.204.0/24 } on-error={}
 :do { add list=PE address=200.10.250.0/24 } on-error={}
 :do { add list=PE address=200.11.32.0/24 } on-error={}
 :do { add list=PE address=200.11.34.0/23 } on-error={}

@@ -45,6 +45,7 @@
 :do { add list=EC address=38.77.199.0/24 } on-error={}
 :do { add list=EC address=38.92.31.0/24 } on-error={}
 :do { add list=EC address=38.94.196.0/22 } on-error={}
+:do { add list=EC address=38.97.235.0/24 } on-error={}
 :do { add list=EC address=38.121.225.0/24 } on-error={}
 :do { add list=EC address=38.129.2.0/23 } on-error={}
 :do { add list=EC address=38.156.254.0/24 } on-error={}

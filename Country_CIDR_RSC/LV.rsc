@@ -52,7 +52,8 @@
 :do { add list=LV address=31.131.90.0/23 } on-error={}
 :do { add list=LV address=31.170.16.0/22 } on-error={}
 :do { add list=LV address=31.170.20.0/22 } on-error={}
-:do { add list=LV address=31.212.118.0/24 } on-error={}
+:do { add list=LV address=31.213.222.0/23 } on-error={}
+:do { add list=LV address=31.213.224.0/24 } on-error={}
 :do { add list=LV address=31.222.233.0/24 } on-error={}
 :do { add list=LV address=37.114.87.0/24 } on-error={}
 :do { add list=LV address=37.128.204.0/22 } on-error={}

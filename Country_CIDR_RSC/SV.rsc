@@ -34,6 +34,7 @@
 :do { add list=SV address=45.170.28.0/22 } on-error={}
 :do { add list=SV address=45.170.232.0/22 } on-error={}
 :do { add list=SV address=45.173.56.0/22 } on-error={}
+:do { add list=SV address=45.174.226.0/24 } on-error={}
 :do { add list=SV address=45.180.240.0/22 } on-error={}
 :do { add list=SV address=45.181.6.0/24 } on-error={}
 :do { add list=SV address=45.184.100.0/23 } on-error={}

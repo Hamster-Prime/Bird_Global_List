@@ -66,7 +66,8 @@
 :do { add list=AZ address=31.171.108.0/23 } on-error={}
 :do { add list=AZ address=31.171.110.0/24 } on-error={}
 :do { add list=AZ address=31.171.111.0/24 } on-error={}
-:do { add list=AZ address=31.171.112.0/22 } on-error={}
+:do { add list=AZ address=31.171.112.0/23 } on-error={}
+:do { add list=AZ address=31.171.114.0/23 } on-error={}
 :do { add list=AZ address=31.171.116.0/23 } on-error={}
 :do { add list=AZ address=31.171.118.0/24 } on-error={}
 :do { add list=AZ address=31.171.119.0/24 } on-error={}
