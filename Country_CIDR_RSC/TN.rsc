@@ -61,7 +61,8 @@
 :do { add list=TN address=41.229.0.0/16 } on-error={}
 :do { add list=TN address=41.230.0.0/17 } on-error={}
 :do { add list=TN address=41.230.128.0/18 } on-error={}
-:do { add list=TN address=41.230.192.0/20 } on-error={}
+:do { add list=TN address=41.230.192.0/21 } on-error={}
+:do { add list=TN address=41.230.200.0/21 } on-error={}
 :do { add list=TN address=41.230.208.0/22 } on-error={}
 :do { add list=TN address=41.230.212.0/22 } on-error={}
 :do { add list=TN address=41.230.216.0/21 } on-error={}

@@ -373,7 +373,8 @@
 :do { add list=PL address=31.57.132.0/24 } on-error={}
 :do { add list=PL address=31.57.152.0/24 } on-error={}
 :do { add list=PL address=31.57.161.0/24 } on-error={}
-:do { add list=PL address=31.57.190.0/23 } on-error={}
+:do { add list=PL address=31.57.190.0/24 } on-error={}
+:do { add list=PL address=31.57.191.0/24 } on-error={}
 :do { add list=PL address=31.57.196.0/24 } on-error={}
 :do { add list=PL address=31.57.221.0/24 } on-error={}
 :do { add list=PL address=31.57.238.0/24 } on-error={}

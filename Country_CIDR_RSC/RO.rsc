@@ -5257,7 +5257,8 @@
 :do { add list=RO address=185.114.119.0/24 } on-error={}
 :do { add list=RO address=185.115.28.0/22 } on-error={}
 :do { add list=RO address=185.115.220.0/22 } on-error={}
-:do { add list=RO address=185.118.4.0/22 } on-error={}
+:do { add list=RO address=185.118.4.0/23 } on-error={}
+:do { add list=RO address=185.118.6.0/23 } on-error={}
 :do { add list=RO address=185.118.200.0/22 } on-error={}
 :do { add list=RO address=185.120.144.0/22 } on-error={}
 :do { add list=RO address=185.122.220.0/24 } on-error={}

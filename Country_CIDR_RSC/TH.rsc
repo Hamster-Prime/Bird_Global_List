@@ -144,7 +144,11 @@
 :do { add list=TH address=14.207.194.0/23 } on-error={}
 :do { add list=TH address=14.207.196.0/22 } on-error={}
 :do { add list=TH address=14.207.200.0/21 } on-error={}
-:do { add list=TH address=14.207.208.0/20 } on-error={}
+:do { add list=TH address=14.207.208.0/23 } on-error={}
+:do { add list=TH address=14.207.210.0/24 } on-error={}
+:do { add list=TH address=14.207.211.0/24 } on-error={}
+:do { add list=TH address=14.207.212.0/22 } on-error={}
+:do { add list=TH address=14.207.216.0/21 } on-error={}
 :do { add list=TH address=14.207.224.0/19 } on-error={}
 :do { add list=TH address=15.177.103.0/24 } on-error={}
 :do { add list=TH address=15.190.80.0/20 } on-error={}
@@ -3409,11 +3413,7 @@
 :do { add list=TH address=122.154.133.0/24 } on-error={}
 :do { add list=TH address=122.154.134.0/23 } on-error={}
 :do { add list=TH address=122.154.136.0/21 } on-error={}
-:do { add list=TH address=122.154.144.0/21 } on-error={}
-:do { add list=TH address=122.154.152.0/24 } on-error={}
-:do { add list=TH address=122.154.153.0/24 } on-error={}
-:do { add list=TH address=122.154.154.0/23 } on-error={}
-:do { add list=TH address=122.154.156.0/22 } on-error={}
+:do { add list=TH address=122.154.144.0/20 } on-error={}
 :do { add list=TH address=122.154.160.0/19 } on-error={}
 :do { add list=TH address=122.154.192.0/18 } on-error={}
 :do { add list=TH address=122.155.0.0/20 } on-error={}
