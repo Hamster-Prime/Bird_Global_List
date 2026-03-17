@@ -3,17 +3,7 @@
 :do { add list=CU address=5.62.58.68/30 } on-error={}
 :do { add list=CU address=57.74.110.0/23 } on-error={}
 :do { add list=CU address=57.91.32.0/20 } on-error={}
-:do { add list=CU address=62.115.61.54/32 } on-error={}
 :do { add list=CU address=67.205.106.178/32 } on-error={}
-:do { add list=CU address=79.140.83.13/32 } on-error={}
-:do { add list=CU address=79.140.83.14/32 } on-error={}
-:do { add list=CU address=79.140.83.22/32 } on-error={}
-:do { add list=CU address=79.140.83.32/32 } on-error={}
-:do { add list=CU address=79.140.83.54/32 } on-error={}
-:do { add list=CU address=79.140.83.64/32 } on-error={}
-:do { add list=CU address=79.140.83.74/31 } on-error={}
-:do { add list=CU address=79.140.83.76/32 } on-error={}
-:do { add list=CU address=79.140.83.82/31 } on-error={}
 :do { add list=CU address=80.239.160.219/32 } on-error={}
 :do { add list=CU address=84.16.12.29/32 } on-error={}
 :do { add list=CU address=85.153.57.0/24 } on-error={}
@@ -73,7 +63,6 @@
 :do { add list=CU address=163.116.250.141/32 } on-error={}
 :do { add list=CU address=163.116.250.142/32 } on-error={}
 :do { add list=CU address=169.158.0.0/16 } on-error={}
-:do { add list=CU address=177.38.100.218/32 } on-error={}
 :do { add list=CU address=181.225.224.0/19 } on-error={}
 :do { add list=CU address=185.112.133.12/32 } on-error={}
 :do { add list=CU address=190.6.64.0/19 } on-error={}
@@ -87,6 +76,7 @@
 :do { add list=CU address=196.197.72.0/24 } on-error={}
 :do { add list=CU address=196.198.72.0/24 } on-error={}
 :do { add list=CU address=196.199.72.0/24 } on-error={}
+:do { add list=CU address=199.48.207.0/24 } on-error={}
 :do { add list=CU address=200.0.16.0/24 } on-error={}
 :do { add list=CU address=200.0.24.0/22 } on-error={}
 :do { add list=CU address=200.5.12.0/22 } on-error={}
@@ -95,3 +85,5 @@
 :do { add list=CU address=200.55.128.0/18 } on-error={}
 :do { add list=CU address=200.123.198.224/27 } on-error={}
 :do { add list=CU address=201.220.192.0/19 } on-error={}
+:do { add list=CU address=213.140.37.102/32 } on-error={}
+:do { add list=CU address=213.140.37.132/32 } on-error={}

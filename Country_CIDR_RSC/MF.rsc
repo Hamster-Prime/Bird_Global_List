@@ -1,10 +1,9 @@
 /log info "Loading MF IPv4 Address List"
 /ip firewall address-list
 :do { add list=MF address=5.102.77.0/24 } on-error={}
-:do { add list=MF address=5.187.111.88/30 } on-error={}
-:do { add list=MF address=5.187.111.112/28 } on-error={}
-:do { add list=MF address=5.187.121.4/30 } on-error={}
-:do { add list=MF address=5.187.121.12/30 } on-error={}
+:do { add list=MF address=5.187.111.124/30 } on-error={}
+:do { add list=MF address=5.187.116.64/28 } on-error={}
+:do { add list=MF address=5.187.121.140/30 } on-error={}
 :do { add list=MF address=5.187.126.200/30 } on-error={}
 :do { add list=MF address=23.138.120.0/24 } on-error={}
 :do { add list=MF address=45.15.196.0/22 } on-error={}
