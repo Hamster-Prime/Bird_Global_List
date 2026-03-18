@@ -424,7 +424,6 @@
 :do { add list=GF address=109.62.60.0/23 } on-error={}
 :do { add list=GF address=109.62.63.0/24 } on-error={}
 :do { add list=GF address=109.62.65.210/32 } on-error={}
-:do { add list=GF address=109.62.66.64/26 } on-error={}
 :do { add list=GF address=109.62.66.128/26 } on-error={}
 :do { add list=GF address=109.62.66.192/27 } on-error={}
 :do { add list=GF address=109.62.67.133/32 } on-error={}
@@ -432,6 +431,7 @@
 :do { add list=GF address=109.62.67.147/32 } on-error={}
 :do { add list=GF address=109.62.67.148/30 } on-error={}
 :do { add list=GF address=109.62.67.158/32 } on-error={}
+:do { add list=GF address=109.62.69.64/28 } on-error={}
 :do { add list=GF address=128.201.88.0/22 } on-error={}
 :do { add list=GF address=140.248.24.48/31 } on-error={}
 :do { add list=GF address=140.248.34.104/31 } on-error={}

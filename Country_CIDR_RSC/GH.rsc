@@ -50,7 +50,6 @@
 :do { add list=GH address=41.222.232.0/22 } on-error={}
 :do { add list=GH address=41.242.112.0/32 } on-error={}
 :do { add list=GH address=41.242.112.2/32 } on-error={}
-:do { add list=GH address=41.242.112.4/31 } on-error={}
 :do { add list=GH address=41.242.112.8/29 } on-error={}
 :do { add list=GH address=41.242.112.17/32 } on-error={}
 :do { add list=GH address=41.242.112.18/31 } on-error={}
@@ -287,7 +286,6 @@
 :do { add list=GH address=102.64.111.48/28 } on-error={}
 :do { add list=GH address=102.64.111.64/26 } on-error={}
 :do { add list=GH address=102.64.111.128/25 } on-error={}
-:do { add list=GH address=102.67.96.0/31 } on-error={}
 :do { add list=GH address=102.67.96.12/30 } on-error={}
 :do { add list=GH address=102.67.96.44/32 } on-error={}
 :do { add list=GH address=102.67.96.56/29 } on-error={}

@@ -404,9 +404,9 @@
 :do { add list=RS address=89.39.144.205/32 } on-error={}
 :do { add list=RS address=89.39.144.206/31 } on-error={}
 :do { add list=RS address=89.39.144.208/28 } on-error={}
-:do { add list=RS address=89.39.144.224/32 } on-error={}
-:do { add list=RS address=89.39.144.237/32 } on-error={}
-:do { add list=RS address=89.39.144.238/31 } on-error={}
+:do { add list=RS address=89.39.144.224/31 } on-error={}
+:do { add list=RS address=89.39.144.229/32 } on-error={}
+:do { add list=RS address=89.39.144.232/29 } on-error={}
 :do { add list=RS address=89.39.144.240/28 } on-error={}
 :do { add list=RS address=89.39.145.0/26 } on-error={}
 :do { add list=RS address=89.39.145.64/28 } on-error={}

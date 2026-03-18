@@ -110,7 +110,7 @@
 :do { add list=SS address=105.235.212.24/29 } on-error={}
 :do { add list=SS address=105.235.212.32/27 } on-error={}
 :do { add list=SS address=105.235.212.64/27 } on-error={}
-:do { add list=SS address=105.235.212.120/29 } on-error={}
+:do { add list=SS address=105.235.212.112/28 } on-error={}
 :do { add list=SS address=105.235.213.0/24 } on-error={}
 :do { add list=SS address=105.235.214.0/23 } on-error={}
 :do { add list=SS address=129.222.116.0/24 } on-error={}
