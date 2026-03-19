@@ -6,6 +6,7 @@
 :do { add list=ET address=5.175.190.166/32 } on-error={}
 :do { add list=ET address=41.79.196.21/32 } on-error={}
 :do { add list=ET address=41.79.196.222/32 } on-error={}
+:do { add list=ET address=41.79.197.128/26 } on-error={}
 :do { add list=ET address=41.79.197.192/28 } on-error={}
 :do { add list=ET address=41.79.197.216/29 } on-error={}
 :do { add list=ET address=41.79.199.98/32 } on-error={}
