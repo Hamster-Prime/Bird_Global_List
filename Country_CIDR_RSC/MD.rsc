@@ -32,7 +32,8 @@
 :do { add list=MD address=31.31.30.0/24 } on-error={}
 :do { add list=MD address=31.31.31.0/31 } on-error={}
 :do { add list=MD address=31.31.31.3/32 } on-error={}
-:do { add list=MD address=31.31.31.4/30 } on-error={}
+:do { add list=MD address=31.31.31.5/32 } on-error={}
+:do { add list=MD address=31.31.31.6/32 } on-error={}
 :do { add list=MD address=31.31.31.8/29 } on-error={}
 :do { add list=MD address=31.31.31.16/28 } on-error={}
 :do { add list=MD address=31.31.31.32/27 } on-error={}

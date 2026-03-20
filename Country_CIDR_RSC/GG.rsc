@@ -63,10 +63,10 @@
 :do { add list=GG address=92.43.215.64/26 } on-error={}
 :do { add list=GG address=92.43.215.128/25 } on-error={}
 :do { add list=GG address=93.187.3.0/24 } on-error={}
-:do { add list=GG address=93.187.6.0/23 } on-error={}
+:do { add list=GG address=93.187.6.0/25 } on-error={}
+:do { add list=GG address=93.187.7.0/24 } on-error={}
 :do { add list=GG address=93.187.144.0/21 } on-error={}
 :do { add list=GG address=93.189.161.0/24 } on-error={}
-:do { add list=GG address=93.189.162.128/27 } on-error={}
 :do { add list=GG address=104.28.10.70/31 } on-error={}
 :do { add list=GG address=104.28.10.72/32 } on-error={}
 :do { add list=GG address=104.28.40.89/32 } on-error={}

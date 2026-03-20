@@ -4,7 +4,6 @@
 :do { add list=UY address=23.208.208.0/22 } on-error={}
 :do { add list=UY address=38.19.250.0/24 } on-error={}
 :do { add list=UY address=38.20.2.0/24 } on-error={}
-:do { add list=UY address=38.44.104.0/22 } on-error={}
 :do { add list=UY address=45.6.120.0/22 } on-error={}
 :do { add list=UY address=45.68.105.0/24 } on-error={}
 :do { add list=UY address=45.68.113.0/24 } on-error={}

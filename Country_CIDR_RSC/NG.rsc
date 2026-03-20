@@ -400,7 +400,6 @@
 :do { add list=NG address=41.223.147.0/24 } on-error={}
 :do { add list=NG address=41.242.48.0/20 } on-error={}
 :do { add list=NG address=41.242.64.0/20 } on-error={}
-:do { add list=NG address=41.242.112.4/30 } on-error={}
 :do { add list=NG address=41.242.112.30/32 } on-error={}
 :do { add list=NG address=41.242.112.37/32 } on-error={}
 :do { add list=NG address=41.242.112.51/32 } on-error={}

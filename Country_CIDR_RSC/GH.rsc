@@ -50,6 +50,7 @@
 :do { add list=GH address=41.222.232.0/22 } on-error={}
 :do { add list=GH address=41.242.112.0/32 } on-error={}
 :do { add list=GH address=41.242.112.2/32 } on-error={}
+:do { add list=GH address=41.242.112.4/31 } on-error={}
 :do { add list=GH address=41.242.112.8/29 } on-error={}
 :do { add list=GH address=41.242.112.17/32 } on-error={}
 :do { add list=GH address=41.242.112.18/31 } on-error={}
