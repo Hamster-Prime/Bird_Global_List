@@ -602,7 +602,9 @@
 :do { add list=CR address=186.177.8.0/24 } on-error={}
 :do { add list=CR address=186.177.9.0/24 } on-error={}
 :do { add list=CR address=186.177.10.0/23 } on-error={}
-:do { add list=CR address=186.177.12.0/22 } on-error={}
+:do { add list=CR address=186.177.12.0/23 } on-error={}
+:do { add list=CR address=186.177.14.0/24 } on-error={}
+:do { add list=CR address=186.177.15.0/24 } on-error={}
 :do { add list=CR address=186.177.16.0/20 } on-error={}
 :do { add list=CR address=186.177.32.0/20 } on-error={}
 :do { add list=CR address=186.177.48.0/21 } on-error={}

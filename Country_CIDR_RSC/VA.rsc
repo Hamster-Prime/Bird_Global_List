@@ -114,6 +114,7 @@
 :do { add list=VA address=212.77.4.0/22 } on-error={}
 :do { add list=VA address=212.77.8.0/22 } on-error={}
 :do { add list=VA address=212.77.12.0/24 } on-error={}
+:do { add list=VA address=212.77.13.0/26 } on-error={}
 :do { add list=VA address=212.77.13.128/25 } on-error={}
 :do { add list=VA address=212.77.14.0/23 } on-error={}
 :do { add list=VA address=212.77.16.0/22 } on-error={}

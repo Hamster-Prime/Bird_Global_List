@@ -164,12 +164,6 @@
 :do { add list=KH address=79.109.240.0/23 } on-error={}
 :do { add list=KH address=79.109.248.0/22 } on-error={}
 :do { add list=KH address=79.109.252.0/23 } on-error={}
-:do { add list=KH address=79.109.254.0/26 } on-error={}
-:do { add list=KH address=79.109.254.96/28 } on-error={}
-:do { add list=KH address=79.109.254.120/29 } on-error={}
-:do { add list=KH address=79.109.254.160/27 } on-error={}
-:do { add list=KH address=79.109.254.192/27 } on-error={}
-:do { add list=KH address=79.109.254.224/28 } on-error={}
 :do { add list=KH address=79.109.255.0/24 } on-error={}
 :do { add list=KH address=87.247.160.0/21 } on-error={}
 :do { add list=KH address=92.243.74.0/23 } on-error={}
@@ -724,7 +718,6 @@
 :do { add list=KH address=185.138.17.92/32 } on-error={}
 :do { add list=KH address=185.164.53.48/28 } on-error={}
 :do { add list=KH address=185.175.228.0/22 } on-error={}
-:do { add list=KH address=185.177.24.0/24 } on-error={}
 :do { add list=KH address=191.96.158.64/26 } on-error={}
 :do { add list=KH address=191.96.158.128/25 } on-error={}
 :do { add list=KH address=192.109.41.32/29 } on-error={}

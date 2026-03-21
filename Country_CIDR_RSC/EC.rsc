@@ -1930,6 +1930,7 @@
 :do { add list=EC address=205.235.4.0/24 } on-error={}
 :do { add list=EC address=205.235.5.0/24 } on-error={}
 :do { add list=EC address=205.235.6.0/23 } on-error={}
+:do { add list=EC address=206.73.39.192/27 } on-error={}
 :do { add list=EC address=206.132.99.0/24 } on-error={}
 :do { add list=EC address=206.165.204.0/23 } on-error={}
 :do { add list=EC address=207.209.121.0/26 } on-error={}

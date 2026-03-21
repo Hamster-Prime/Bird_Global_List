@@ -4128,9 +4128,7 @@
 :do { add list=CZ address=185.159.92.0/22 } on-error={}
 :do { add list=CZ address=185.159.132.0/22 } on-error={}
 :do { add list=CZ address=185.159.168.0/22 } on-error={}
-:do { add list=CZ address=185.160.20.0/23 } on-error={}
-:do { add list=CZ address=185.160.22.0/24 } on-error={}
-:do { add list=CZ address=185.160.23.0/24 } on-error={}
+:do { add list=CZ address=185.160.20.0/22 } on-error={}
 :do { add list=CZ address=185.160.208.0/22 } on-error={}
 :do { add list=CZ address=185.161.240.0/22 } on-error={}
 :do { add list=CZ address=185.162.4.0/22 } on-error={}

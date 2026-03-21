@@ -1,7 +1,6 @@
 /log info "Loading GY IPv4 Address List"
 /ip firewall address-list
 :do { add list=GY address=5.62.58.108/30 } on-error={}
-:do { add list=GY address=38.246.40.0/24 } on-error={}
 :do { add list=GY address=57.74.246.0/23 } on-error={}
 :do { add list=GY address=57.75.112.0/21 } on-error={}
 :do { add list=GY address=104.28.10.113/32 } on-error={}
