@@ -773,7 +773,9 @@
 :do { add list=NG address=102.207.211.46/31 } on-error={}
 :do { add list=NG address=102.207.211.64/26 } on-error={}
 :do { add list=NG address=102.207.211.128/25 } on-error={}
+:do { add list=NG address=102.207.240.0/22 } on-error={}
 :do { add list=NG address=102.207.244.0/22 } on-error={}
+:do { add list=NG address=102.207.249.0/24 } on-error={}
 :do { add list=NG address=102.207.252.0/23 } on-error={}
 :do { add list=NG address=102.207.254.0/23 } on-error={}
 :do { add list=NG address=102.208.53.0/24 } on-error={}

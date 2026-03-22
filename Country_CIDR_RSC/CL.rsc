@@ -1045,6 +1045,8 @@
 :do { add list=CL address=96.0.131.0/24 } on-error={}
 :do { add list=CL address=96.0.152.0/21 } on-error={}
 :do { add list=CL address=96.17.16.0/20 } on-error={}
+:do { add list=CL address=96.62.122.0/24 } on-error={}
+:do { add list=CL address=96.62.147.0/24 } on-error={}
 :do { add list=CL address=98.97.128.0/23 } on-error={}
 :do { add list=CL address=98.98.9.0/24 } on-error={}
 :do { add list=CL address=98.98.28.0/24 } on-error={}
@@ -1589,7 +1591,6 @@
 :do { add list=CL address=138.0.123.0/24 } on-error={}
 :do { add list=CL address=138.36.252.0/22 } on-error={}
 :do { add list=CL address=138.84.32.0/22 } on-error={}
-:do { add list=CL address=138.84.47.0/24 } on-error={}
 :do { add list=CL address=138.99.224.0/22 } on-error={}
 :do { add list=CL address=138.113.83.0/24 } on-error={}
 :do { add list=CL address=138.113.228.0/24 } on-error={}
@@ -1665,12 +1666,7 @@
 :do { add list=CL address=142.250.62.144/31 } on-error={}
 :do { add list=CL address=142.250.62.158/31 } on-error={}
 :do { add list=CL address=142.250.63.60/31 } on-error={}
-:do { add list=CL address=142.250.78.0/32 } on-error={}
-:do { add list=CL address=142.250.78.2/31 } on-error={}
-:do { add list=CL address=142.250.78.4/30 } on-error={}
-:do { add list=CL address=142.250.78.8/29 } on-error={}
-:do { add list=CL address=142.250.78.16/28 } on-error={}
-:do { add list=CL address=142.250.78.32/27 } on-error={}
+:do { add list=CL address=142.250.78.0/26 } on-error={}
 :do { add list=CL address=142.250.78.64/27 } on-error={}
 :do { add list=CL address=142.250.78.224/27 } on-error={}
 :do { add list=CL address=142.250.79.224/27 } on-error={}
@@ -2018,7 +2014,6 @@
 :do { add list=CL address=148.222.224.0/24 } on-error={}
 :do { add list=CL address=148.227.64.0/22 } on-error={}
 :do { add list=CL address=148.227.96.0/22 } on-error={}
-:do { add list=CL address=148.227.110.0/23 } on-error={}
 :do { add list=CL address=148.227.114.0/23 } on-error={}
 :do { add list=CL address=148.230.1.0/24 } on-error={}
 :do { add list=CL address=148.230.2.0/23 } on-error={}

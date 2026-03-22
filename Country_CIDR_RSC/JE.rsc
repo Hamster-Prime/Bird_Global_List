@@ -141,11 +141,10 @@
 :do { add list=JE address=92.43.215.32/27 } on-error={}
 :do { add list=JE address=92.43.215.64/26 } on-error={}
 :do { add list=JE address=92.43.215.128/25 } on-error={}
-:do { add list=JE address=93.187.0.0/23 } on-error={}
+:do { add list=JE address=93.187.0.0/24 } on-error={}
+:do { add list=JE address=93.187.1.1/32 } on-error={}
 :do { add list=JE address=93.187.2.0/24 } on-error={}
 :do { add list=JE address=93.187.4.0/23 } on-error={}
-:do { add list=JE address=93.187.6.0/27 } on-error={}
-:do { add list=JE address=93.187.6.64/26 } on-error={}
 :do { add list=JE address=93.187.6.128/25 } on-error={}
 :do { add list=JE address=93.189.160.0/24 } on-error={}
 :do { add list=JE address=93.189.162.0/23 } on-error={}

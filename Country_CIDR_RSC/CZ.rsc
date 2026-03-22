@@ -3010,6 +3010,7 @@
 :do { add list=CZ address=149.57.232.0/21 } on-error={}
 :do { add list=CZ address=149.62.144.0/21 } on-error={}
 :do { add list=CZ address=149.102.235.0/24 } on-error={}
+:do { add list=CZ address=149.174.128.0/23 } on-error={}
 :do { add list=CZ address=149.255.64.0/19 } on-error={}
 :do { add list=CZ address=150.171.67.6/31 } on-error={}
 :do { add list=CZ address=150.228.34.0/23 } on-error={}

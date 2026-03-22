@@ -514,4 +514,3 @@
 :do { add list=BW address=213.193.47.8/30 } on-error={}
 :do { add list=BW address=213.193.47.12/31 } on-error={}
 :do { add list=BW address=213.193.47.15/32 } on-error={}
-:do { add list=BW address=216.234.219.0/24 } on-error={}

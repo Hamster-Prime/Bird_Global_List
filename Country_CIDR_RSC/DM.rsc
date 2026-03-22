@@ -2,8 +2,6 @@
 /ip firewall address-list
 :do { add list=DM address=5.62.58.72/30 } on-error={}
 :do { add list=DM address=23.186.240.0/24 } on-error={}
-:do { add list=DM address=45.9.150.0/25 } on-error={}
-:do { add list=DM address=45.9.150.203/32 } on-error={}
 :do { add list=DM address=45.9.151.0/24 } on-error={}
 :do { add list=DM address=45.62.191.96/28 } on-error={}
 :do { add list=DM address=57.74.96.0/23 } on-error={}
