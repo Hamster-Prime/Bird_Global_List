@@ -9,7 +9,6 @@
 :do { add list=SI address=2.58.48.79/32 } on-error={}
 :do { add list=SI address=2.58.48.119/32 } on-error={}
 :do { add list=SI address=2.58.48.121/32 } on-error={}
-:do { add list=SI address=2.58.48.145/32 } on-error={}
 :do { add list=SI address=2.58.48.147/32 } on-error={}
 :do { add list=SI address=2.58.48.155/32 } on-error={}
 :do { add list=SI address=2.58.48.167/32 } on-error={}
@@ -90,7 +89,7 @@
 :do { add list=SI address=34.103.137.192/26 } on-error={}
 :do { add list=SI address=34.103.200.0/23 } on-error={}
 :do { add list=SI address=34.103.245.0/24 } on-error={}
-:do { add list=SI address=37.1.89.128/26 } on-error={}
+:do { add list=SI address=37.1.89.128/25 } on-error={}
 :do { add list=SI address=37.18.224.0/20 } on-error={}
 :do { add list=SI address=37.230.133.0/24 } on-error={}
 :do { add list=SI address=37.252.224.0/24 } on-error={}
@@ -108,7 +107,6 @@
 :do { add list=SI address=45.15.44.100/30 } on-error={}
 :do { add list=SI address=45.15.44.156/32 } on-error={}
 :do { add list=SI address=45.15.44.253/32 } on-error={}
-:do { add list=SI address=45.15.44.255/32 } on-error={}
 :do { add list=SI address=45.15.47.0/24 } on-error={}
 :do { add list=SI address=45.66.162.0/32 } on-error={}
 :do { add list=SI address=45.66.162.10/31 } on-error={}
@@ -183,7 +181,8 @@
 :do { add list=SI address=80.68.153.0/24 } on-error={}
 :do { add list=SI address=80.95.224.0/20 } on-error={}
 :do { add list=SI address=80.246.224.0/24 } on-error={}
-:do { add list=SI address=80.246.225.160/27 } on-error={}
+:do { add list=SI address=80.246.225.0/25 } on-error={}
+:do { add list=SI address=80.246.225.176/28 } on-error={}
 :do { add list=SI address=80.246.225.192/26 } on-error={}
 :do { add list=SI address=81.17.224.0/25 } on-error={}
 :do { add list=SI address=81.17.224.128/28 } on-error={}
@@ -219,8 +218,6 @@
 :do { add list=SI address=81.17.229.73/32 } on-error={}
 :do { add list=SI address=81.17.229.75/32 } on-error={}
 :do { add list=SI address=81.17.229.81/32 } on-error={}
-:do { add list=SI address=81.17.229.85/32 } on-error={}
-:do { add list=SI address=81.17.229.89/32 } on-error={}
 :do { add list=SI address=81.17.229.194/32 } on-error={}
 :do { add list=SI address=81.17.234.0/24 } on-error={}
 :do { add list=SI address=81.22.143.0/24 } on-error={}
@@ -253,7 +250,6 @@
 :do { add list=SI address=82.214.96.66/31 } on-error={}
 :do { add list=SI address=82.214.96.146/32 } on-error={}
 :do { add list=SI address=82.214.96.158/32 } on-error={}
-:do { add list=SI address=82.214.96.226/32 } on-error={}
 :do { add list=SI address=82.214.98.106/32 } on-error={}
 :do { add list=SI address=82.214.102.2/32 } on-error={}
 :do { add list=SI address=82.214.103.250/32 } on-error={}
@@ -288,7 +284,6 @@
 :do { add list=SI address=84.41.86.0/24 } on-error={}
 :do { add list=SI address=84.41.87.0/32 } on-error={}
 :do { add list=SI address=84.41.87.2/31 } on-error={}
-:do { add list=SI address=84.41.87.4/30 } on-error={}
 :do { add list=SI address=84.41.87.248/29 } on-error={}
 :do { add list=SI address=84.41.88.0/32 } on-error={}
 :do { add list=SI address=84.41.88.8/29 } on-error={}
@@ -572,7 +567,7 @@
 :do { add list=SI address=113.29.64.48/28 } on-error={}
 :do { add list=SI address=113.29.64.64/26 } on-error={}
 :do { add list=SI address=113.29.66.0/24 } on-error={}
-:do { add list=SI address=113.29.68.128/28 } on-error={}
+:do { add list=SI address=113.29.68.136/32 } on-error={}
 :do { add list=SI address=113.29.69.0/24 } on-error={}
 :do { add list=SI address=113.29.70.0/23 } on-error={}
 :do { add list=SI address=113.29.73.0/24 } on-error={}
@@ -1005,9 +1000,7 @@
 :do { add list=SI address=185.190.83.0/32 } on-error={}
 :do { add list=SI address=185.190.83.32/31 } on-error={}
 :do { add list=SI address=185.190.83.40/29 } on-error={}
-:do { add list=SI address=185.190.83.48/29 } on-error={}
-:do { add list=SI address=185.190.83.59/32 } on-error={}
-:do { add list=SI address=185.190.83.60/30 } on-error={}
+:do { add list=SI address=185.190.83.48/28 } on-error={}
 :do { add list=SI address=185.190.83.128/25 } on-error={}
 :do { add list=SI address=185.194.185.112/28 } on-error={}
 :do { add list=SI address=185.194.185.176/28 } on-error={}
@@ -1403,6 +1396,7 @@
 :do { add list=SI address=212.85.160.0/19 } on-error={}
 :do { add list=SI address=212.93.224.0/19 } on-error={}
 :do { add list=SI address=212.101.128.0/18 } on-error={}
+:do { add list=SI address=212.102.154.0/24 } on-error={}
 :do { add list=SI address=212.103.128.0/25 } on-error={}
 :do { add list=SI address=212.103.128.128/32 } on-error={}
 :do { add list=SI address=212.103.128.130/31 } on-error={}

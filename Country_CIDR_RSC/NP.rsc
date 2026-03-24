@@ -554,4 +554,3 @@
 :do { add list=NP address=212.32.52.0/23 } on-error={}
 :do { add list=NP address=212.212.109.0/24 } on-error={}
 :do { add list=NP address=213.156.251.5/32 } on-error={}
-:do { add list=NP address=223.120.2.254/32 } on-error={}

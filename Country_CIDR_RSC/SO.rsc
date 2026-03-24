@@ -54,8 +54,6 @@
 :do { add list=SO address=41.79.199.168/29 } on-error={}
 :do { add list=SO address=41.79.199.176/28 } on-error={}
 :do { add list=SO address=41.79.199.192/26 } on-error={}
-:do { add list=SO address=41.138.248.96/28 } on-error={}
-:do { add list=SO address=41.138.248.112/30 } on-error={}
 :do { add list=SO address=41.223.108.0/23 } on-error={}
 :do { add list=SO address=41.223.110.0/24 } on-error={}
 :do { add list=SO address=41.223.111.0/24 } on-error={}
