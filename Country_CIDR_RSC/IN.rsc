@@ -3345,8 +3345,7 @@
 :do { add list=IN address=45.112.56.0/22 } on-error={}
 :do { add list=IN address=45.112.68.0/22 } on-error={}
 :do { add list=IN address=45.112.136.0/22 } on-error={}
-:do { add list=IN address=45.112.144.0/24 } on-error={}
-:do { add list=IN address=45.112.145.0/24 } on-error={}
+:do { add list=IN address=45.112.144.0/23 } on-error={}
 :do { add list=IN address=45.112.146.0/23 } on-error={}
 :do { add list=IN address=45.112.148.0/23 } on-error={}
 :do { add list=IN address=45.112.150.0/24 } on-error={}
@@ -6928,9 +6927,7 @@
 :do { add list=IN address=103.13.42.0/23 } on-error={}
 :do { add list=IN address=103.13.72.0/23 } on-error={}
 :do { add list=IN address=103.13.96.0/22 } on-error={}
-:do { add list=IN address=103.13.104.0/23 } on-error={}
-:do { add list=IN address=103.13.106.0/24 } on-error={}
-:do { add list=IN address=103.13.107.0/24 } on-error={}
+:do { add list=IN address=103.13.104.0/22 } on-error={}
 :do { add list=IN address=103.13.108.0/22 } on-error={}
 :do { add list=IN address=103.13.112.0/22 } on-error={}
 :do { add list=IN address=103.13.135.0/24 } on-error={}
@@ -7052,8 +7049,7 @@
 :do { add list=IN address=103.19.17.0/24 } on-error={}
 :do { add list=IN address=103.19.18.0/23 } on-error={}
 :do { add list=IN address=103.19.52.0/23 } on-error={}
-:do { add list=IN address=103.19.54.0/24 } on-error={}
-:do { add list=IN address=103.19.55.0/24 } on-error={}
+:do { add list=IN address=103.19.54.0/23 } on-error={}
 :do { add list=IN address=103.19.88.0/22 } on-error={}
 :do { add list=IN address=103.19.120.0/23 } on-error={}
 :do { add list=IN address=103.19.128.0/23 } on-error={}
@@ -23489,7 +23485,8 @@
 :do { add list=IN address=164.164.48.0/20 } on-error={}
 :do { add list=IN address=164.164.64.0/19 } on-error={}
 :do { add list=IN address=164.164.96.0/20 } on-error={}
-:do { add list=IN address=164.164.112.0/23 } on-error={}
+:do { add list=IN address=164.164.112.0/24 } on-error={}
+:do { add list=IN address=164.164.113.0/24 } on-error={}
 :do { add list=IN address=164.164.114.0/23 } on-error={}
 :do { add list=IN address=164.164.116.0/24 } on-error={}
 :do { add list=IN address=164.164.117.0/24 } on-error={}
@@ -27666,7 +27663,8 @@
 :do { add list=IN address=203.193.156.0/23 } on-error={}
 :do { add list=IN address=203.193.158.0/24 } on-error={}
 :do { add list=IN address=203.193.159.0/24 } on-error={}
-:do { add list=IN address=203.193.160.0/23 } on-error={}
+:do { add list=IN address=203.193.160.0/24 } on-error={}
+:do { add list=IN address=203.193.161.0/24 } on-error={}
 :do { add list=IN address=203.193.162.0/23 } on-error={}
 :do { add list=IN address=203.193.164.0/23 } on-error={}
 :do { add list=IN address=203.193.166.0/24 } on-error={}

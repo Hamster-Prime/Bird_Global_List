@@ -4345,7 +4345,8 @@
 :do { add list=PL address=89.231.128.0/17 } on-error={}
 :do { add list=PL address=89.234.192.0/21 } on-error={}
 :do { add list=PL address=89.234.200.0/22 } on-error={}
-:do { add list=PL address=89.234.204.0/23 } on-error={}
+:do { add list=PL address=89.234.204.0/24 } on-error={}
+:do { add list=PL address=89.234.205.0/24 } on-error={}
 :do { add list=PL address=89.234.206.0/24 } on-error={}
 :do { add list=PL address=89.234.207.0/24 } on-error={}
 :do { add list=PL address=89.234.208.0/20 } on-error={}

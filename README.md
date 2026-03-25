@@ -6,37 +6,37 @@
 
 ## Statistics
 
-**Last Updated:** 2026-03-24T02:39:54+00:00
+**Last Updated:** 2026-03-25T02:45:33+00:00
 
 ### Overall
 - **Total Countries/Regions with data:** 494
-- **Total IP CIDR blocks:** 5261402
+- **Total IP CIDR blocks:** 5261577
 
 ### Top 20 Countries by CIDR Count
 
 | Country Code | CIDR Count |
 |--------------|------------|
-| US_IPv6      | 1054993    |
-| DE_IPv6      | 902465     |
-| US           | 399730     |
-| RU_IPv6      | 189008     |
+| US_IPv6      | 1054608    |
+| DE_IPv6      | 902457     |
+| US           | 399633     |
+| RU_IPv6      | 189005     |
 | GB_IPv6      | 170058     |
-| NL_IPv6      | 156644     |
+| NL_IPv6      | 156637     |
 | HU_IPv6      | 154216     |
 | AU_IPv6      | 118978     |
-| DE           | 81442      |
+| DE           | 81453      |
 | GB           | 67759      |
-| FR_IPv6      | 66711      |
-| CN_IPv6      | 66537      |
-| CA_IPv6      | 63670      |
+| FR_IPv6      | 66713      |
+| CN_IPv6      | 66536      |
+| CA_IPv6      | 63672      |
 | JP_IPv6      | 51456      |
-| FR           | 49763      |
-| CA           | 47714      |
+| FR           | 49758      |
+| CA           | 47704      |
 | UA_IPv6      | 46161      |
-| NL           | 44640      |
+| NL           | 44641      |
 | UY_IPv6      | 43058      |
-| CN           | 41275      |
+| CN           | 41267      |
 
 ---
 
-*This information was automatically updated by GitHub Actions on 2026-03-24T02:39:54+00:00*
+*This information was automatically updated by GitHub Actions on 2026-03-25T02:45:33+00:00*

@@ -2662,7 +2662,9 @@
 :do { add list=CL address=168.196.200.0/22 } on-error={}
 :do { add list=CL address=168.197.88.0/22 } on-error={}
 :do { add list=CL address=168.205.204.0/22 } on-error={}
-:do { add list=CL address=168.228.248.0/22 } on-error={}
+:do { add list=CL address=168.228.248.0/23 } on-error={}
+:do { add list=CL address=168.228.250.0/24 } on-error={}
+:do { add list=CL address=168.228.251.0/24 } on-error={}
 :do { add list=CL address=168.231.0.0/18 } on-error={}
 :do { add list=CL address=168.231.128.0/18 } on-error={}
 :do { add list=CL address=168.231.192.0/21 } on-error={}
