@@ -1,5 +1,7 @@
 /log info "Loading SR IPv4 Address List"
 /ip firewall address-list
+:do { add list=SR address=5.62.56.217/32 } on-error={}
+:do { add list=SR address=5.62.56.218/31 } on-error={}
 :do { add list=SR address=5.62.58.196/30 } on-error={}
 :do { add list=SR address=45.68.20.0/24 } on-error={}
 :do { add list=SR address=45.68.21.0/24 } on-error={}

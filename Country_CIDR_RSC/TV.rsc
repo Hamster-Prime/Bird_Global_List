@@ -1,5 +1,7 @@
 /log info "Loading TV IPv4 Address List"
 /ip firewall address-list
+:do { add list=TV address=5.62.56.241/32 } on-error={}
+:do { add list=TV address=5.62.56.242/31 } on-error={}
 :do { add list=TV address=5.62.58.220/30 } on-error={}
 :do { add list=TV address=57.70.170.0/23 } on-error={}
 :do { add list=TV address=57.71.64.0/20 } on-error={}
@@ -44,6 +46,7 @@
 :do { add list=TV address=172.225.62.192/27 } on-error={}
 :do { add list=TV address=172.225.231.96/28 } on-error={}
 :do { add list=TV address=172.225.245.32/28 } on-error={}
+:do { add list=TV address=185.55.242.0/24 } on-error={}
 :do { add list=TV address=196.48.196.0/24 } on-error={}
 :do { add list=TV address=196.56.196.0/24 } on-error={}
 :do { add list=TV address=196.57.196.0/24 } on-error={}

@@ -1,5 +1,7 @@
 /log info "Loading NC IPv4 Address List"
 /ip firewall address-list
+:do { add list=NC address=5.62.56.145/32 } on-error={}
+:do { add list=NC address=5.62.56.146/31 } on-error={}
 :do { add list=NC address=5.62.58.136/30 } on-error={}
 :do { add list=NC address=27.122.0.0/22 } on-error={}
 :do { add list=NC address=43.224.192.0/22 } on-error={}

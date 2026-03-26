@@ -1,5 +1,7 @@
 /log info "Loading PG IPv4 Address List"
 /ip firewall address-list
+:do { add list=PG address=5.62.56.173/32 } on-error={}
+:do { add list=PG address=5.62.56.174/31 } on-error={}
 :do { add list=PG address=5.62.61.85/32 } on-error={}
 :do { add list=PG address=5.62.61.86/31 } on-error={}
 :do { add list=PG address=14.1.80.0/23 } on-error={}
@@ -58,7 +60,14 @@
 :do { add list=PG address=103.152.8.0/24 } on-error={}
 :do { add list=PG address=103.153.108.0/24 } on-error={}
 :do { add list=PG address=103.153.158.202/31 } on-error={}
-:do { add list=PG address=103.153.159.0/24 } on-error={}
+:do { add list=PG address=103.153.159.0/25 } on-error={}
+:do { add list=PG address=103.153.159.128/26 } on-error={}
+:do { add list=PG address=103.153.159.192/27 } on-error={}
+:do { add list=PG address=103.153.159.224/28 } on-error={}
+:do { add list=PG address=103.153.159.240/29 } on-error={}
+:do { add list=PG address=103.153.159.248/30 } on-error={}
+:do { add list=PG address=103.153.159.252/31 } on-error={}
+:do { add list=PG address=103.153.159.255/32 } on-error={}
 :do { add list=PG address=103.155.112.0/24 } on-error={}
 :do { add list=PG address=103.167.47.0/24 } on-error={}
 :do { add list=PG address=103.172.16.0/24 } on-error={}

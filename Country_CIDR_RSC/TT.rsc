@@ -1,10 +1,12 @@
 /log info "Loading TT IPv4 Address List"
 /ip firewall address-list
+:do { add list=TT address=5.62.56.233/32 } on-error={}
+:do { add list=TT address=5.62.56.234/31 } on-error={}
 :do { add list=TT address=5.62.58.212/30 } on-error={}
 :do { add list=TT address=23.3.72.0/24 } on-error={}
 :do { add list=TT address=23.164.224.254/32 } on-error={}
 :do { add list=TT address=38.18.32.0/19 } on-error={}
-:do { add list=TT address=38.99.236.48/29 } on-error={}
+:do { add list=TT address=38.88.164.248/31 } on-error={}
 :do { add list=TT address=38.190.137.0/24 } on-error={}
 :do { add list=TT address=38.190.138.0/23 } on-error={}
 :do { add list=TT address=38.190.140.0/22 } on-error={}
@@ -21,17 +23,6 @@
 :do { add list=TT address=66.96.115.0/26 } on-error={}
 :do { add list=TT address=66.102.45.0/26 } on-error={}
 :do { add list=TT address=76.74.77.32/29 } on-error={}
-:do { add list=TT address=82.149.78.0/32 } on-error={}
-:do { add list=TT address=82.149.78.64/27 } on-error={}
-:do { add list=TT address=82.149.78.96/28 } on-error={}
-:do { add list=TT address=82.149.78.112/29 } on-error={}
-:do { add list=TT address=82.149.78.120/30 } on-error={}
-:do { add list=TT address=82.149.78.128/26 } on-error={}
-:do { add list=TT address=82.149.78.192/27 } on-error={}
-:do { add list=TT address=82.149.78.224/28 } on-error={}
-:do { add list=TT address=82.149.78.240/29 } on-error={}
-:do { add list=TT address=82.149.78.248/30 } on-error={}
-:do { add list=TT address=82.149.78.255/32 } on-error={}
 :do { add list=TT address=83.137.198.64/29 } on-error={}
 :do { add list=TT address=83.137.199.64/29 } on-error={}
 :do { add list=TT address=104.22.75.0/24 } on-error={}
@@ -202,7 +193,8 @@
 :do { add list=TT address=196.3.132.0/22 } on-error={}
 :do { add list=TT address=196.3.136.0/21 } on-error={}
 :do { add list=TT address=196.3.144.0/22 } on-error={}
-:do { add list=TT address=196.29.64.0/19 } on-error={}
+:do { add list=TT address=196.29.64.0/23 } on-error={}
+:do { add list=TT address=196.29.80.0/24 } on-error={}
 :do { add list=TT address=196.32.32.0/19 } on-error={}
 :do { add list=TT address=196.48.193.0/24 } on-error={}
 :do { add list=TT address=196.56.193.0/24 } on-error={}

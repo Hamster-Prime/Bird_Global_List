@@ -1,5 +1,7 @@
 /log info "Loading CK IPv4 Address List"
 /ip firewall address-list
+:do { add list=CK address=5.62.56.65/32 } on-error={}
+:do { add list=CK address=5.62.56.66/31 } on-error={}
 :do { add list=CK address=5.62.58.60/30 } on-error={}
 :do { add list=CK address=14.137.41.0/24 } on-error={}
 :do { add list=CK address=44.32.192.81/32 } on-error={}
@@ -19,6 +21,7 @@
 :do { add list=CK address=104.28.218.96/30 } on-error={}
 :do { add list=CK address=104.28.250.94/31 } on-error={}
 :do { add list=CK address=104.28.250.96/30 } on-error={}
+:do { add list=CK address=110.5.112.0/24 } on-error={}
 :do { add list=CK address=116.199.201.0/24 } on-error={}
 :do { add list=CK address=136.23.22.33/32 } on-error={}
 :do { add list=CK address=136.23.23.33/32 } on-error={}
@@ -49,8 +52,7 @@
 :do { add list=CK address=172.225.230.80/28 } on-error={}
 :do { add list=CK address=172.225.244.16/28 } on-error={}
 :do { add list=CK address=172.226.77.96/27 } on-error={}
-:do { add list=CK address=202.4.37.5/32 } on-error={}
-:do { add list=CK address=202.4.37.9/32 } on-error={}
+:do { add list=CK address=202.4.37.0/24 } on-error={}
 :do { add list=CK address=202.65.32.0/24 } on-error={}
 :do { add list=CK address=202.65.34.0/23 } on-error={}
 :do { add list=CK address=202.65.36.0/22 } on-error={}

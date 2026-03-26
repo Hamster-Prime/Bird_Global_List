@@ -1,5 +1,7 @@
 /log info "Loading VC IPv4 Address List"
 /ip firewall address-list
+:do { add list=VC address=5.62.56.205/32 } on-error={}
+:do { add list=VC address=5.62.56.206/31 } on-error={}
 :do { add list=VC address=5.62.58.184/30 } on-error={}
 :do { add list=VC address=5.175.190.207/32 } on-error={}
 :do { add list=VC address=23.170.80.0/24 } on-error={}
@@ -21,11 +23,11 @@
 :do { add list=VC address=69.80.55.0/24 } on-error={}
 :do { add list=VC address=69.80.56.0/23 } on-error={}
 :do { add list=VC address=69.80.58.0/24 } on-error={}
-:do { add list=VC address=72.14.99.160/30 } on-error={}
-:do { add list=VC address=72.14.99.164/31 } on-error={}
-:do { add list=VC address=72.14.99.168/31 } on-error={}
-:do { add list=VC address=72.14.99.170/32 } on-error={}
-:do { add list=VC address=72.14.99.172/30 } on-error={}
+:do { add list=VC address=72.14.99.160/28 } on-error={}
+:do { add list=VC address=72.14.99.176/29 } on-error={}
+:do { add list=VC address=72.14.99.184/30 } on-error={}
+:do { add list=VC address=72.14.99.188/32 } on-error={}
+:do { add list=VC address=72.14.99.190/31 } on-error={}
 :do { add list=VC address=72.22.138.0/23 } on-error={}
 :do { add list=VC address=72.51.76.0/22 } on-error={}
 :do { add list=VC address=72.51.87.0/24 } on-error={}
@@ -101,3 +103,4 @@
 :do { add list=VC address=216.110.119.0/24 } on-error={}
 :do { add list=VC address=216.110.120.0/23 } on-error={}
 :do { add list=VC address=216.110.122.0/24 } on-error={}
+:do { add list=VC address=216.110.123.0/24 } on-error={}

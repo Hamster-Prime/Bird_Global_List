@@ -1,5 +1,7 @@
 /log info "Loading HT IPv4 Address List"
 /ip firewall address-list
+:do { add list=HT address=5.62.56.121/32 } on-error={}
+:do { add list=HT address=5.62.56.122/31 } on-error={}
 :do { add list=HT address=5.62.58.112/30 } on-error={}
 :do { add list=HT address=57.74.112.0/23 } on-error={}
 :do { add list=HT address=57.91.96.0/20 } on-error={}

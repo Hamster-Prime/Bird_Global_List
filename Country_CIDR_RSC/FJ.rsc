@@ -1,5 +1,7 @@
 /log info "Loading FJ IPv4 Address List"
 /ip firewall address-list
+:do { add list=FJ address=5.62.56.97/32 } on-error={}
+:do { add list=FJ address=5.62.56.98/31 } on-error={}
 :do { add list=FJ address=5.62.58.92/30 } on-error={}
 :do { add list=FJ address=5.175.190.160/32 } on-error={}
 :do { add list=FJ address=14.137.51.0/24 } on-error={}
@@ -59,7 +61,14 @@
 :do { add list=FJ address=140.248.61.70/32 } on-error={}
 :do { add list=FJ address=140.248.62.70/32 } on-error={}
 :do { add list=FJ address=140.248.63.70/32 } on-error={}
-:do { add list=FJ address=144.120.0.0/16 } on-error={}
+:do { add list=FJ address=144.120.0.0/18 } on-error={}
+:do { add list=FJ address=144.120.64.0/22 } on-error={}
+:do { add list=FJ address=144.120.69.0/24 } on-error={}
+:do { add list=FJ address=144.120.70.0/23 } on-error={}
+:do { add list=FJ address=144.120.72.0/21 } on-error={}
+:do { add list=FJ address=144.120.80.0/20 } on-error={}
+:do { add list=FJ address=144.120.96.0/19 } on-error={}
+:do { add list=FJ address=144.120.128.0/17 } on-error={}
 :do { add list=FJ address=146.75.132.18/31 } on-error={}
 :do { add list=FJ address=146.75.136.6/31 } on-error={}
 :do { add list=FJ address=146.75.160.18/31 } on-error={}
@@ -111,7 +120,7 @@
 :do { add list=FJ address=183.81.136.128/26 } on-error={}
 :do { add list=FJ address=183.81.136.192/27 } on-error={}
 :do { add list=FJ address=183.81.136.224/28 } on-error={}
-:do { add list=FJ address=183.81.136.240/30 } on-error={}
+:do { add list=FJ address=183.81.136.240/29 } on-error={}
 :do { add list=FJ address=183.81.136.248/31 } on-error={}
 :do { add list=FJ address=183.81.136.251/32 } on-error={}
 :do { add list=FJ address=183.81.136.252/30 } on-error={}
