@@ -1,5 +1,7 @@
 /log info "Loading GE IPv4 Address List"
 /ip firewall address-list
+:do { add list=GE address=2.27.26.192/27 } on-error={}
+:do { add list=GE address=2.27.27.192/27 } on-error={}
 :do { add list=GE address=2.57.60.0/24 } on-error={}
 :do { add list=GE address=2.57.61.0/24 } on-error={}
 :do { add list=GE address=2.57.62.0/23 } on-error={}
@@ -93,10 +95,7 @@
 :do { add list=GE address=62.128.122.123/32 } on-error={}
 :do { add list=GE address=62.128.122.124/32 } on-error={}
 :do { add list=GE address=62.168.160.0/19 } on-error={}
-:do { add list=GE address=62.182.8.0/24 } on-error={}
-:do { add list=GE address=62.182.10.0/23 } on-error={}
-:do { add list=GE address=62.182.12.0/24 } on-error={}
-:do { add list=GE address=62.182.14.0/24 } on-error={}
+:do { add list=GE address=62.182.8.0/21 } on-error={}
 :do { add list=GE address=62.212.32.0/19 } on-error={}
 :do { add list=GE address=72.14.201.160/32 } on-error={}
 :do { add list=GE address=72.56.43.0/24 } on-error={}
@@ -534,7 +533,7 @@
 :do { add list=GE address=193.186.4.160/32 } on-error={}
 :do { add list=GE address=193.228.126.0/24 } on-error={}
 :do { add list=GE address=193.243.183.0/26 } on-error={}
-:do { add list=GE address=194.15.98.0/24 } on-error={}
+:do { add list=GE address=194.15.98.128/25 } on-error={}
 :do { add list=GE address=194.31.8.0/24 } on-error={}
 :do { add list=GE address=194.31.204.116/31 } on-error={}
 :do { add list=GE address=194.31.204.125/32 } on-error={}

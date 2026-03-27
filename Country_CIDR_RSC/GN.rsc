@@ -94,9 +94,7 @@
 :do { add list=GN address=197.149.208.0/23 } on-error={}
 :do { add list=GN address=197.149.210.0/24 } on-error={}
 :do { add list=GN address=197.149.211.0/24 } on-error={}
-:do { add list=GN address=197.149.212.0/24 } on-error={}
-:do { add list=GN address=197.149.213.0/24 } on-error={}
-:do { add list=GN address=197.149.214.0/23 } on-error={}
+:do { add list=GN address=197.149.212.0/22 } on-error={}
 :do { add list=GN address=197.149.216.0/24 } on-error={}
 :do { add list=GN address=197.149.217.0/24 } on-error={}
 :do { add list=GN address=197.149.218.0/23 } on-error={}

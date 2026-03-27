@@ -404,7 +404,11 @@
 :do { add list=UY address=190.99.105.0/24 } on-error={}
 :do { add list=UY address=190.99.106.0/23 } on-error={}
 :do { add list=UY address=190.99.108.0/22 } on-error={}
-:do { add list=UY address=190.108.0.0/19 } on-error={}
+:do { add list=UY address=190.108.0.0/20 } on-error={}
+:do { add list=UY address=190.108.16.0/22 } on-error={}
+:do { add list=UY address=190.108.20.0/23 } on-error={}
+:do { add list=UY address=190.108.22.0/23 } on-error={}
+:do { add list=UY address=190.108.24.0/21 } on-error={}
 :do { add list=UY address=190.110.245.0/24 } on-error={}
 :do { add list=UY address=190.112.52.0/22 } on-error={}
 :do { add list=UY address=190.132.0.0/14 } on-error={}

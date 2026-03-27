@@ -1,6 +1,8 @@
 /log info "Loading AM IPv4 Address List"
 /ip firewall address-list
 :do { add list=AM address=2.17.249.0/24 } on-error={}
+:do { add list=AM address=2.27.26.224/27 } on-error={}
+:do { add list=AM address=2.27.27.224/27 } on-error={}
 :do { add list=AM address=2.56.118.0/24 } on-error={}
 :do { add list=AM address=2.56.204.0/22 } on-error={}
 :do { add list=AM address=5.10.214.0/23 } on-error={}
@@ -348,6 +350,7 @@
 :do { add list=AM address=130.193.27.0/24 } on-error={}
 :do { add list=AM address=130.193.120.0/21 } on-error={}
 :do { add list=AM address=130.248.84.0/23 } on-error={}
+:do { add list=AM address=138.249.135.0/24 } on-error={}
 :do { add list=AM address=139.28.4.0/24 } on-error={}
 :do { add list=AM address=139.45.214.0/23 } on-error={}
 :do { add list=AM address=140.248.36.6/31 } on-error={}
@@ -405,7 +408,6 @@
 :do { add list=AM address=172.225.36.0/27 } on-error={}
 :do { add list=AM address=172.225.40.32/27 } on-error={}
 :do { add list=AM address=172.225.226.16/28 } on-error={}
-:do { add list=AM address=173.239.197.48/28 } on-error={}
 :do { add list=AM address=174.142.78.0/29 } on-error={}
 :do { add list=AM address=176.32.192.0/21 } on-error={}
 :do { add list=AM address=176.113.118.0/24 } on-error={}

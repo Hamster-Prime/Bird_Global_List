@@ -1,5 +1,7 @@
 /log info "Loading AQ IPv4 Address List"
 /ip firewall address-list
+:do { add list=AQ address=2.27.26.128/27 } on-error={}
+:do { add list=AQ address=2.27.27.128/27 } on-error={}
 :do { add list=AQ address=5.175.190.176/30 } on-error={}
 :do { add list=AQ address=31.6.14.0/29 } on-error={}
 :do { add list=AQ address=31.6.14.8/31 } on-error={}
