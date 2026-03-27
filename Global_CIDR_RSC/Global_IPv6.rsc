@@ -3338,15 +3338,7 @@
 :do { add list=Global address=2406:44::/30 } on-error={}
 :do { add list=Global address=2406:42::/31 } on-error={}
 :do { add list=Global address=2406:41::/32 } on-error={}
-:do { add list=Global address=2405:fe00::/24 } on-error={}
-:do { add list=Global address=2405:ff00::/25 } on-error={}
-:do { add list=Global address=2405:ffc0::/26 } on-error={}
-:do { add list=Global address=2405:ffa0::/27 } on-error={}
-:do { add list=Global address=2405:ff90::/28 } on-error={}
-:do { add list=Global address=2405:ff88::/29 } on-error={}
-:do { add list=Global address=2405:ff84::/30 } on-error={}
-:do { add list=Global address=2405:ff82::/31 } on-error={}
-:do { add list=Global address=2405:ff81::/32 } on-error={}
+:do { add list=Global address=2405:fe00::/23 } on-error={}
 :do { add list=Global address=2405:fc00::/24 } on-error={}
 :do { add list=Global address=2405:fd00::/25 } on-error={}
 :do { add list=Global address=2405:fd80::/26 } on-error={}
