@@ -537,6 +537,7 @@
 :do { add list=BY address=172.225.36.96/27 } on-error={}
 :do { add list=BY address=172.225.104.32/28 } on-error={}
 :do { add list=BY address=172.225.226.80/28 } on-error={}
+:do { add list=BY address=173.239.197.64/28 } on-error={}
 :do { add list=BY address=173.253.123.224/29 } on-error={}
 :do { add list=BY address=176.58.43.194/31 } on-error={}
 :do { add list=BY address=176.58.53.0/24 } on-error={}

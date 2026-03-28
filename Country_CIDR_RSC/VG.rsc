@@ -1,5 +1,6 @@
 /log info "Loading VG IPv4 Address List"
 /ip firewall address-list
+:do { add list=VG address=2.27.68.0/22 } on-error={}
 :do { add list=VG address=5.35.175.0/24 } on-error={}
 :do { add list=VG address=5.62.56.45/32 } on-error={}
 :do { add list=VG address=5.62.56.46/31 } on-error={}
@@ -20,6 +21,7 @@
 :do { add list=VG address=37.77.83.0/24 } on-error={}
 :do { add list=VG address=44.32.192.106/32 } on-error={}
 :do { add list=VG address=45.62.191.32/28 } on-error={}
+:do { add list=VG address=45.81.112.0/24 } on-error={}
 :do { add list=VG address=45.88.1.0/31 } on-error={}
 :do { add list=VG address=45.88.2.0/31 } on-error={}
 :do { add list=VG address=45.130.180.0/22 } on-error={}

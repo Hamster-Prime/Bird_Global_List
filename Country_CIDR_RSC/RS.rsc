@@ -378,6 +378,7 @@
 :do { add list=RS address=89.23.95.0/24 } on-error={}
 :do { add list=RS address=89.31.121.0/24 } on-error={}
 :do { add list=RS address=89.34.2.0/24 } on-error={}
+:do { add list=RS address=89.35.239.0/24 } on-error={}
 :do { add list=RS address=89.38.224.0/24 } on-error={}
 :do { add list=RS address=89.39.144.0/25 } on-error={}
 :do { add list=RS address=89.39.144.128/26 } on-error={}

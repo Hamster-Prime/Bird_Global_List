@@ -636,9 +636,6 @@
 :do { add list=MQ address=192.149.46.0/24 } on-error={}
 :do { add list=MQ address=192.163.24.0/22 } on-error={}
 :do { add list=MQ address=193.54.136.0/24 } on-error={}
-:do { add list=MQ address=193.251.163.16/32 } on-error={}
-:do { add list=MQ address=193.251.163.248/31 } on-error={}
-:do { add list=MQ address=193.251.163.250/32 } on-error={}
 :do { add list=MQ address=193.251.230.68/31 } on-error={}
 :do { add list=MQ address=193.251.230.71/32 } on-error={}
 :do { add list=MQ address=193.251.230.72/29 } on-error={}

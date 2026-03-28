@@ -1960,7 +1960,6 @@
 :do { add list=TW address=52.123.224.192/27 } on-error={}
 :do { add list=TW address=52.253.219.0/24 } on-error={}
 :do { add list=TW address=52.253.220.0/23 } on-error={}
-:do { add list=TW address=54.25.78.0/24 } on-error={}
 :do { add list=TW address=54.54.0.0/15 } on-error={}
 :do { add list=TW address=54.239.46.181/32 } on-error={}
 :do { add list=TW address=57.73.160.0/19 } on-error={}
@@ -2405,7 +2404,12 @@
 :do { add list=TW address=63.221.82.0/24 } on-error={}
 :do { add list=TW address=63.221.84.0/24 } on-error={}
 :do { add list=TW address=63.221.86.0/23 } on-error={}
-:do { add list=TW address=63.221.192.128/26 } on-error={}
+:do { add list=TW address=63.221.192.128/31 } on-error={}
+:do { add list=TW address=63.221.192.130/32 } on-error={}
+:do { add list=TW address=63.221.192.132/30 } on-error={}
+:do { add list=TW address=63.221.192.136/29 } on-error={}
+:do { add list=TW address=63.221.192.144/28 } on-error={}
+:do { add list=TW address=63.221.192.160/27 } on-error={}
 :do { add list=TW address=63.221.192.248/29 } on-error={}
 :do { add list=TW address=63.221.193.224/29 } on-error={}
 :do { add list=TW address=63.221.194.192/27 } on-error={}
@@ -2702,7 +2706,8 @@
 :do { add list=TW address=82.41.131.0/24 } on-error={}
 :do { add list=TW address=82.41.132.0/24 } on-error={}
 :do { add list=TW address=82.41.133.0/24 } on-error={}
-:do { add list=TW address=82.41.134.0/23 } on-error={}
+:do { add list=TW address=82.41.134.0/24 } on-error={}
+:do { add list=TW address=82.41.135.0/24 } on-error={}
 :do { add list=TW address=82.41.136.0/22 } on-error={}
 :do { add list=TW address=82.41.140.0/24 } on-error={}
 :do { add list=TW address=82.41.142.0/23 } on-error={}
@@ -2948,6 +2953,10 @@
 :do { add list=TW address=102.134.35.142/32 } on-error={}
 :do { add list=TW address=102.134.35.144/31 } on-error={}
 :do { add list=TW address=102.134.36.0/22 } on-error={}
+:do { add list=TW address=102.134.56.0/23 } on-error={}
+:do { add list=TW address=102.134.59.0/24 } on-error={}
+:do { add list=TW address=102.134.60.0/23 } on-error={}
+:do { add list=TW address=102.134.62.0/24 } on-error={}
 :do { add list=TW address=102.212.4.0/24 } on-error={}
 :do { add list=TW address=103.1.66.129/32 } on-error={}
 :do { add list=TW address=103.1.67.142/32 } on-error={}
@@ -6951,6 +6960,7 @@
 :do { add list=TW address=180.87.130.108/32 } on-error={}
 :do { add list=TW address=180.87.130.190/31 } on-error={}
 :do { add list=TW address=180.87.130.248/29 } on-error={}
+:do { add list=TW address=180.87.185.135/32 } on-error={}
 :do { add list=TW address=180.92.0.0/20 } on-error={}
 :do { add list=TW address=180.111.29.40/32 } on-error={}
 :do { add list=TW address=180.176.0.0/15 } on-error={}
@@ -8124,6 +8134,7 @@
 :do { add list=TW address=203.135.71.0/24 } on-error={}
 :do { add list=TW address=203.135.72.0/21 } on-error={}
 :do { add list=TW address=203.135.80.0/20 } on-error={}
+:do { add list=TW address=203.145.95.252/32 } on-error={}
 :do { add list=TW address=203.145.192.0/21 } on-error={}
 :do { add list=TW address=203.145.200.0/21 } on-error={}
 :do { add list=TW address=203.145.208.0/20 } on-error={}
@@ -8294,8 +8305,6 @@
 :do { add list=TW address=205.199.1.64/30 } on-error={}
 :do { add list=TW address=205.248.48.0/24 } on-error={}
 :do { add list=TW address=205.248.68.0/23 } on-error={}
-:do { add list=TW address=205.252.14.0/32 } on-error={}
-:do { add list=TW address=205.252.14.2/31 } on-error={}
 :do { add list=TW address=205.252.16.0/23 } on-error={}
 :do { add list=TW address=205.252.18.0/24 } on-error={}
 :do { add list=TW address=205.252.58.66/31 } on-error={}
@@ -8468,7 +8477,7 @@
 :do { add list=TW address=210.17.84.0/22 } on-error={}
 :do { add list=TW address=210.17.88.0/21 } on-error={}
 :do { add list=TW address=210.17.96.0/19 } on-error={}
-:do { add list=TW address=210.57.4.56/30 } on-error={}
+:do { add list=TW address=210.57.4.48/28 } on-error={}
 :do { add list=TW address=210.57.4.80/28 } on-error={}
 :do { add list=TW address=210.57.14.32/27 } on-error={}
 :do { add list=TW address=210.57.22.192/28 } on-error={}

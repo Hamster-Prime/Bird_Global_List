@@ -6,10 +6,7 @@
 :do { add list=SO address=41.78.72.0/22 } on-error={}
 :do { add list=SO address=41.79.196.0/24 } on-error={}
 :do { add list=SO address=41.79.197.0/25 } on-error={}
-:do { add list=SO address=41.79.197.128/27 } on-error={}
-:do { add list=SO address=41.79.197.164/30 } on-error={}
-:do { add list=SO address=41.79.197.168/29 } on-error={}
-:do { add list=SO address=41.79.197.176/28 } on-error={}
+:do { add list=SO address=41.79.197.128/26 } on-error={}
 :do { add list=SO address=41.79.197.192/27 } on-error={}
 :do { add list=SO address=41.79.197.224/28 } on-error={}
 :do { add list=SO address=41.79.197.240/29 } on-error={}
