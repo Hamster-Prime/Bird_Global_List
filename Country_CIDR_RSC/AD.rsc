@@ -222,8 +222,7 @@
 :do { add list=AD address=194.158.87.112/29 } on-error={}
 :do { add list=AD address=194.158.87.120/31 } on-error={}
 :do { add list=AD address=194.158.87.122/32 } on-error={}
-:do { add list=AD address=194.158.87.124/31 } on-error={}
-:do { add list=AD address=194.158.87.126/32 } on-error={}
+:do { add list=AD address=194.158.87.124/30 } on-error={}
 :do { add list=AD address=194.158.87.128/28 } on-error={}
 :do { add list=AD address=194.158.87.144/31 } on-error={}
 :do { add list=AD address=194.158.87.146/32 } on-error={}

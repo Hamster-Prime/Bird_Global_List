@@ -1402,6 +1402,7 @@
 :do { add list=AT address=62.200.2.0/24 } on-error={}
 :do { add list=AT address=62.200.3.0/28 } on-error={}
 :do { add list=AT address=62.200.4.0/22 } on-error={}
+:do { add list=AT address=62.208.39.192/28 } on-error={}
 :do { add list=AT address=62.208.246.0/24 } on-error={}
 :do { add list=AT address=62.212.160.0/19 } on-error={}
 :do { add list=AT address=62.218.0.0/17 } on-error={}
@@ -1693,7 +1694,7 @@
 :do { add list=AT address=78.152.39.80/29 } on-error={}
 :do { add list=AT address=78.152.64.0/19 } on-error={}
 :do { add list=AT address=79.101.123.41/32 } on-error={}
-:do { add list=AT address=79.132.67.0/24 } on-error={}
+:do { add list=AT address=79.132.66.0/23 } on-error={}
 :do { add list=AT address=79.133.32.0/23 } on-error={}
 :do { add list=AT address=79.133.43.0/24 } on-error={}
 :do { add list=AT address=79.134.224.35/32 } on-error={}
@@ -2781,6 +2782,7 @@
 :do { add list=AT address=91.188.202.0/24 } on-error={}
 :do { add list=AT address=91.189.184.0/23 } on-error={}
 :do { add list=AT address=91.189.186.0/24 } on-error={}
+:do { add list=AT address=91.190.47.0/24 } on-error={}
 :do { add list=AT address=91.192.48.0/22 } on-error={}
 :do { add list=AT address=91.194.148.0/24 } on-error={}
 :do { add list=AT address=91.194.248.0/23 } on-error={}
@@ -3885,7 +3887,10 @@
 :do { add list=AT address=147.78.34.0/23 } on-error={}
 :do { add list=AT address=147.78.220.0/23 } on-error={}
 :do { add list=AT address=147.78.248.0/22 } on-error={}
+:do { add list=AT address=147.90.73.0/24 } on-error={}
 :do { add list=AT address=147.125.0.0/17 } on-error={}
+:do { add list=AT address=147.125.137.0/24 } on-error={}
+:do { add list=AT address=147.125.138.0/23 } on-error={}
 :do { add list=AT address=147.161.130.0/23 } on-error={}
 :do { add list=AT address=147.243.4.128/26 } on-error={}
 :do { add list=AT address=147.243.7.32/27 } on-error={}
@@ -4086,8 +4091,7 @@
 :do { add list=AT address=154.14.195.68/30 } on-error={}
 :do { add list=AT address=154.14.224.168/29 } on-error={}
 :do { add list=AT address=154.14.225.240/29 } on-error={}
-:do { add list=AT address=154.14.226.179/32 } on-error={}
-:do { add list=AT address=154.14.226.180/30 } on-error={}
+:do { add list=AT address=154.14.226.176/29 } on-error={}
 :do { add list=AT address=154.14.227.192/29 } on-error={}
 :do { add list=AT address=154.14.228.152/29 } on-error={}
 :do { add list=AT address=154.14.229.104/30 } on-error={}

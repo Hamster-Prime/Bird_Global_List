@@ -90,6 +90,7 @@
 :do { add list=VG address=98.158.110.0/25 } on-error={}
 :do { add list=VG address=98.158.111.2/32 } on-error={}
 :do { add list=VG address=103.92.130.0/24 } on-error={}
+:do { add list=VG address=103.102.229.0/24 } on-error={}
 :do { add list=VG address=104.28.15.78/31 } on-error={}
 :do { add list=VG address=104.28.15.80/32 } on-error={}
 :do { add list=VG address=104.28.25.90/31 } on-error={}
@@ -179,6 +180,9 @@
 :do { add list=VG address=146.75.148.12/31 } on-error={}
 :do { add list=VG address=146.75.244.12/31 } on-error={}
 :do { add list=VG address=146.75.252.10/31 } on-error={}
+:do { add list=VG address=150.251.141.0/24 } on-error={}
+:do { add list=VG address=150.251.142.0/23 } on-error={}
+:do { add list=VG address=150.251.144.0/24 } on-error={}
 :do { add list=VG address=151.242.35.0/24 } on-error={}
 :do { add list=VG address=153.67.168.0/23 } on-error={}
 :do { add list=VG address=157.167.117.0/24 } on-error={}

@@ -50,6 +50,7 @@
 :do { add list=NE address=140.248.61.161/32 } on-error={}
 :do { add list=NE address=140.248.62.161/32 } on-error={}
 :do { add list=NE address=140.248.63.161/32 } on-error={}
+:do { add list=NE address=143.105.74.0/23 } on-error={}
 :do { add list=NE address=146.75.174.128/31 } on-error={}
 :do { add list=NE address=146.75.182.50/31 } on-error={}
 :do { add list=NE address=146.75.197.34/31 } on-error={}
@@ -93,6 +94,7 @@
 :do { add list=NE address=197.214.18.0/23 } on-error={}
 :do { add list=NE address=197.214.20.0/22 } on-error={}
 :do { add list=NE address=197.214.26.0/24 } on-error={}
+:do { add list=NE address=197.214.27.0/24 } on-error={}
 :do { add list=NE address=197.214.28.0/24 } on-error={}
 :do { add list=NE address=197.214.30.0/23 } on-error={}
 :do { add list=NE address=197.214.32.0/22 } on-error={}

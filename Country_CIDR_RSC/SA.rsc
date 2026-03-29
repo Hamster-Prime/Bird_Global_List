@@ -494,6 +494,7 @@
 :do { add list=SA address=66.9.192.0/18 } on-error={}
 :do { add list=SA address=66.33.114.0/23 } on-error={}
 :do { add list=SA address=66.35.22.124/32 } on-error={}
+:do { add list=SA address=66.92.3.0/24 } on-error={}
 :do { add list=SA address=66.103.25.128/30 } on-error={}
 :do { add list=SA address=66.103.25.132/31 } on-error={}
 :do { add list=SA address=66.103.25.134/32 } on-error={}

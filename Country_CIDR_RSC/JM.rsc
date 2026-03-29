@@ -86,6 +86,7 @@
 :do { add list=JM address=66.249.147.0/24 } on-error={}
 :do { add list=JM address=66.249.148.0/23 } on-error={}
 :do { add list=JM address=66.249.151.0/24 } on-error={}
+:do { add list=JM address=66.249.152.0/23 } on-error={}
 :do { add list=JM address=66.249.155.0/24 } on-error={}
 :do { add list=JM address=66.249.157.0/24 } on-error={}
 :do { add list=JM address=66.249.158.0/23 } on-error={}
