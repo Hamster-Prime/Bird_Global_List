@@ -2884,7 +2884,8 @@
 :do { add list=BD address=118.179.138.0/23 } on-error={}
 :do { add list=BD address=118.179.140.0/24 } on-error={}
 :do { add list=BD address=118.179.141.0/24 } on-error={}
-:do { add list=BD address=118.179.142.0/23 } on-error={}
+:do { add list=BD address=118.179.142.0/24 } on-error={}
+:do { add list=BD address=118.179.143.0/24 } on-error={}
 :do { add list=BD address=118.179.144.0/22 } on-error={}
 :do { add list=BD address=118.179.148.0/23 } on-error={}
 :do { add list=BD address=118.179.150.0/24 } on-error={}
@@ -3853,15 +3854,7 @@
 :do { add list=BD address=182.48.66.232/29 } on-error={}
 :do { add list=BD address=182.48.66.240/28 } on-error={}
 :do { add list=BD address=182.48.67.0/24 } on-error={}
-:do { add list=BD address=182.48.68.0/24 } on-error={}
-:do { add list=BD address=182.48.69.0/25 } on-error={}
-:do { add list=BD address=182.48.69.128/26 } on-error={}
-:do { add list=BD address=182.48.69.192/28 } on-error={}
-:do { add list=BD address=182.48.69.208/29 } on-error={}
-:do { add list=BD address=182.48.69.216/32 } on-error={}
-:do { add list=BD address=182.48.69.218/31 } on-error={}
-:do { add list=BD address=182.48.69.220/30 } on-error={}
-:do { add list=BD address=182.48.69.224/27 } on-error={}
+:do { add list=BD address=182.48.68.0/23 } on-error={}
 :do { add list=BD address=182.48.70.0/24 } on-error={}
 :do { add list=BD address=182.48.71.0/24 } on-error={}
 :do { add list=BD address=182.48.72.0/22 } on-error={}
@@ -4028,9 +4021,7 @@
 :do { add list=BD address=202.173.121.172/32 } on-error={}
 :do { add list=BD address=202.173.121.174/31 } on-error={}
 :do { add list=BD address=202.173.121.176/28 } on-error={}
-:do { add list=BD address=202.173.121.192/30 } on-error={}
-:do { add list=BD address=202.173.121.196/31 } on-error={}
-:do { add list=BD address=202.173.121.199/32 } on-error={}
+:do { add list=BD address=202.173.121.195/32 } on-error={}
 :do { add list=BD address=202.173.121.200/29 } on-error={}
 :do { add list=BD address=202.173.121.208/28 } on-error={}
 :do { add list=BD address=202.173.121.224/29 } on-error={}

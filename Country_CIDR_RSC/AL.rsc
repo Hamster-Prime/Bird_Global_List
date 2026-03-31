@@ -399,8 +399,6 @@
 :do { add list=AL address=184.104.227.232/32 } on-error={}
 :do { add list=AL address=184.104.227.235/32 } on-error={}
 :do { add list=AL address=184.104.231.64/30 } on-error={}
-:do { add list=AL address=184.104.231.68/32 } on-error={}
-:do { add list=AL address=184.104.231.71/32 } on-error={}
 :do { add list=AL address=184.104.231.72/32 } on-error={}
 :do { add list=AL address=184.104.231.75/32 } on-error={}
 :do { add list=AL address=184.104.231.80/28 } on-error={}

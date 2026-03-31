@@ -1776,7 +1776,6 @@
 :do { add list=RS address=213.240.32.128/30 } on-error={}
 :do { add list=RS address=213.240.32.132/31 } on-error={}
 :do { add list=RS address=213.240.32.134/32 } on-error={}
-:do { add list=RS address=213.240.32.136/29 } on-error={}
 :do { add list=RS address=213.240.32.144/28 } on-error={}
 :do { add list=RS address=213.240.32.160/27 } on-error={}
 :do { add list=RS address=213.240.32.192/26 } on-error={}

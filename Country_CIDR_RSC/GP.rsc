@@ -397,10 +397,17 @@
 :do { add list=GP address=94.198.180.98/32 } on-error={}
 :do { add list=GP address=94.198.181.1/32 } on-error={}
 :do { add list=GP address=94.198.181.2/32 } on-error={}
+:do { add list=GP address=94.198.181.16/31 } on-error={}
+:do { add list=GP address=94.198.181.20/30 } on-error={}
 :do { add list=GP address=94.198.181.33/32 } on-error={}
 :do { add list=GP address=94.198.181.34/32 } on-error={}
+:do { add list=GP address=94.198.181.83/32 } on-error={}
+:do { add list=GP address=94.198.181.92/30 } on-error={}
+:do { add list=GP address=94.198.181.133/32 } on-error={}
 :do { add list=GP address=94.198.181.153/32 } on-error={}
 :do { add list=GP address=94.198.181.154/32 } on-error={}
+:do { add list=GP address=94.198.181.176/30 } on-error={}
+:do { add list=GP address=94.198.181.202/32 } on-error={}
 :do { add list=GP address=95.138.122.1/32 } on-error={}
 :do { add list=GP address=95.138.122.2/32 } on-error={}
 :do { add list=GP address=95.138.122.4/32 } on-error={}
@@ -433,7 +440,8 @@
 :do { add list=GP address=104.250.18.8/30 } on-error={}
 :do { add list=GP address=104.250.19.0/24 } on-error={}
 :do { add list=GP address=104.250.22.0/23 } on-error={}
-:do { add list=GP address=104.250.24.0/22 } on-error={}
+:do { add list=GP address=104.250.24.0/23 } on-error={}
+:do { add list=GP address=104.250.26.0/24 } on-error={}
 :do { add list=GP address=104.250.30.0/24 } on-error={}
 :do { add list=GP address=104.250.31.232/30 } on-error={}
 :do { add list=GP address=107.191.208.0/24 } on-error={}

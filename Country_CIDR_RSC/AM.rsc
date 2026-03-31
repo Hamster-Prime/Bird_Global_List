@@ -441,11 +441,7 @@
 :do { add list=AM address=178.160.196.0/22 } on-error={}
 :do { add list=AM address=178.160.200.0/21 } on-error={}
 :do { add list=AM address=178.160.208.0/20 } on-error={}
-:do { add list=AM address=178.160.224.0/20 } on-error={}
-:do { add list=AM address=178.160.240.0/22 } on-error={}
-:do { add list=AM address=178.160.244.0/23 } on-error={}
-:do { add list=AM address=178.160.246.0/24 } on-error={}
-:do { add list=AM address=178.160.248.0/21 } on-error={}
+:do { add list=AM address=178.160.224.0/19 } on-error={}
 :do { add list=AM address=178.219.48.0/21 } on-error={}
 :do { add list=AM address=178.219.56.0/21 } on-error={}
 :do { add list=AM address=185.3.188.0/24 } on-error={}

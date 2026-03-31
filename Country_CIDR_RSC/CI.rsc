@@ -110,7 +110,6 @@
 :do { add list=CI address=102.130.226.64/26 } on-error={}
 :do { add list=CI address=102.130.226.128/25 } on-error={}
 :do { add list=CI address=102.130.227.0/24 } on-error={}
-:do { add list=CI address=102.130.228.0/22 } on-error={}
 :do { add list=CI address=102.135.184.0/22 } on-error={}
 :do { add list=CI address=102.135.191.0/24 } on-error={}
 :do { add list=CI address=102.136.0.0/14 } on-error={}
