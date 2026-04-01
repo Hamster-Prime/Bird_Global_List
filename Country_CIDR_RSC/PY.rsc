@@ -1,7 +1,6 @@
 /log info "Loading PY IPv4 Address List"
 /ip firewall address-list
-:do { add list=PY address=5.62.56.177/32 } on-error={}
-:do { add list=PY address=5.62.56.178/31 } on-error={}
+:do { add list=PY address=5.62.56.176/30 } on-error={}
 :do { add list=PY address=5.62.58.156/30 } on-error={}
 :do { add list=PY address=5.253.204.115/32 } on-error={}
 :do { add list=PY address=5.253.204.131/32 } on-error={}

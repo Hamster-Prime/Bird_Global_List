@@ -1,8 +1,6 @@
 /log info "Loading NI IPv4 Address List"
 /ip firewall address-list
-:do { add list=NI address=5.53.0.137/32 } on-error={}
-:do { add list=NI address=5.62.56.149/32 } on-error={}
-:do { add list=NI address=5.62.56.150/31 } on-error={}
+:do { add list=NI address=5.62.56.148/30 } on-error={}
 :do { add list=NI address=5.62.58.140/30 } on-error={}
 :do { add list=NI address=8.243.238.184/31 } on-error={}
 :do { add list=NI address=8.243.238.212/31 } on-error={}
@@ -11,17 +9,12 @@
 :do { add list=NI address=45.5.216.0/22 } on-error={}
 :do { add list=NI address=45.170.224.0/22 } on-error={}
 :do { add list=NI address=45.182.142.0/24 } on-error={}
-:do { add list=NI address=45.238.28.224/27 } on-error={}
-:do { add list=NI address=45.238.29.0/24 } on-error={}
-:do { add list=NI address=45.238.30.64/26 } on-error={}
-:do { add list=NI address=45.238.30.128/25 } on-error={}
-:do { add list=NI address=45.238.31.0/24 } on-error={}
+:do { add list=NI address=45.238.28.0/22 } on-error={}
 :do { add list=NI address=57.74.72.0/22 } on-error={}
 :do { add list=NI address=57.75.176.0/20 } on-error={}
 :do { add list=NI address=67.205.115.104/29 } on-error={}
 :do { add list=NI address=69.167.93.48/29 } on-error={}
 :do { add list=NI address=70.35.150.192/26 } on-error={}
-:do { add list=NI address=72.252.2.0/24 } on-error={}
 :do { add list=NI address=98.97.50.0/23 } on-error={}
 :do { add list=NI address=104.28.12.27/32 } on-error={}
 :do { add list=NI address=104.28.12.28/31 } on-error={}
@@ -274,7 +267,6 @@
 :do { add list=NI address=190.212.64.0/25 } on-error={}
 :do { add list=NI address=190.212.64.128/26 } on-error={}
 :do { add list=NI address=190.212.67.32/28 } on-error={}
-:do { add list=NI address=190.212.69.128/26 } on-error={}
 :do { add list=NI address=190.212.75.128/25 } on-error={}
 :do { add list=NI address=190.212.84.0/24 } on-error={}
 :do { add list=NI address=190.212.85.0/25 } on-error={}

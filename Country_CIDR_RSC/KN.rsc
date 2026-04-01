@@ -1,7 +1,6 @@
 /log info "Loading KN IPv4 Address List"
 /ip firewall address-list
-:do { add list=KN address=5.62.56.197/32 } on-error={}
-:do { add list=KN address=5.62.56.198/31 } on-error={}
+:do { add list=KN address=5.62.56.196/30 } on-error={}
 :do { add list=KN address=5.62.58.172/30 } on-error={}
 :do { add list=KN address=5.175.190.199/32 } on-error={}
 :do { add list=KN address=23.131.208.0/24 } on-error={}
@@ -21,14 +20,6 @@
 :do { add list=KN address=69.57.254.0/23 } on-error={}
 :do { add list=KN address=76.76.168.0/22 } on-error={}
 :do { add list=KN address=76.76.180.0/24 } on-error={}
-:do { add list=KN address=80.71.235.22/32 } on-error={}
-:do { add list=KN address=80.71.235.216/32 } on-error={}
-:do { add list=KN address=80.71.235.218/31 } on-error={}
-:do { add list=KN address=80.71.235.224/30 } on-error={}
-:do { add list=KN address=80.71.235.229/32 } on-error={}
-:do { add list=KN address=80.71.235.230/31 } on-error={}
-:do { add list=KN address=80.71.235.232/29 } on-error={}
-:do { add list=KN address=80.71.235.240/28 } on-error={}
 :do { add list=KN address=104.28.11.136/31 } on-error={}
 :do { add list=KN address=104.28.11.138/32 } on-error={}
 :do { add list=KN address=104.28.36.144/31 } on-error={}
@@ -102,6 +93,7 @@
 :do { add list=KN address=172.226.67.240/28 } on-error={}
 :do { add list=KN address=172.226.143.32/27 } on-error={}
 :do { add list=KN address=173.249.168.0/22 } on-error={}
+:do { add list=KN address=185.193.124.0/24 } on-error={}
 :do { add list=KN address=190.123.16.120/29 } on-error={}
 :do { add list=KN address=190.123.16.164/32 } on-error={}
 :do { add list=KN address=190.123.16.192/29 } on-error={}
@@ -142,6 +134,7 @@
 :do { add list=KN address=209.59.67.0/24 } on-error={}
 :do { add list=KN address=209.59.72.0/22 } on-error={}
 :do { add list=KN address=209.59.83.0/24 } on-error={}
+:do { add list=KN address=209.59.91.7/32 } on-error={}
 :do { add list=KN address=209.59.91.31/32 } on-error={}
 :do { add list=KN address=209.59.91.51/32 } on-error={}
 :do { add list=KN address=209.59.91.62/32 } on-error={}

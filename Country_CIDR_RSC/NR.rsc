@@ -1,7 +1,6 @@
 /log info "Loading NR IPv4 Address List"
 /ip firewall address-list
-:do { add list=NR address=5.62.56.141/32 } on-error={}
-:do { add list=NR address=5.62.56.142/31 } on-error={}
+:do { add list=NR address=5.62.56.140/30 } on-error={}
 :do { add list=NR address=5.62.58.132/30 } on-error={}
 :do { add list=NR address=5.175.190.197/32 } on-error={}
 :do { add list=NR address=43.230.6.0/24 } on-error={}
@@ -51,8 +50,11 @@
 :do { add list=NR address=196.197.144.0/24 } on-error={}
 :do { add list=NR address=196.198.144.0/24 } on-error={}
 :do { add list=NR address=196.199.144.0/24 } on-error={}
+:do { add list=NR address=203.98.229.0/24 } on-error={}
 :do { add list=NR address=203.98.230.0/23 } on-error={}
-:do { add list=NR address=203.98.232.0/21 } on-error={}
+:do { add list=NR address=203.98.232.0/22 } on-error={}
+:do { add list=NR address=203.98.236.0/23 } on-error={}
+:do { add list=NR address=203.98.238.0/24 } on-error={}
 :do { add list=NR address=203.98.241.0/24 } on-error={}
 :do { add list=NR address=203.98.242.0/23 } on-error={}
 :do { add list=NR address=203.98.244.0/22 } on-error={}

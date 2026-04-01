@@ -1,7 +1,6 @@
 /log info "Loading SZ IPv4 Address List"
 /ip firewall address-list
-:do { add list=SZ address=5.62.56.221/32 } on-error={}
-:do { add list=SZ address=5.62.56.222/31 } on-error={}
+:do { add list=SZ address=5.62.56.220/30 } on-error={}
 :do { add list=SZ address=5.62.58.200/30 } on-error={}
 :do { add list=SZ address=41.77.232.0/21 } on-error={}
 :do { add list=SZ address=41.84.224.0/19 } on-error={}
@@ -41,12 +40,7 @@
 :do { add list=SZ address=69.63.75.43/32 } on-error={}
 :do { add list=SZ address=69.63.75.44/30 } on-error={}
 :do { add list=SZ address=69.63.75.48/28 } on-error={}
-:do { add list=SZ address=69.63.75.64/32 } on-error={}
-:do { add list=SZ address=69.63.75.66/31 } on-error={}
-:do { add list=SZ address=69.63.75.68/30 } on-error={}
-:do { add list=SZ address=69.63.75.72/29 } on-error={}
-:do { add list=SZ address=69.63.75.80/28 } on-error={}
-:do { add list=SZ address=69.63.75.96/27 } on-error={}
+:do { add list=SZ address=69.63.75.64/26 } on-error={}
 :do { add list=SZ address=69.63.75.128/28 } on-error={}
 :do { add list=SZ address=69.63.75.144/29 } on-error={}
 :do { add list=SZ address=69.63.75.152/31 } on-error={}

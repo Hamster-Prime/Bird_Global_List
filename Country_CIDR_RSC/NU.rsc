@@ -1,7 +1,6 @@
 /log info "Loading NU IPv4 Address List"
 /ip firewall address-list
-:do { add list=NU address=5.62.56.153/32 } on-error={}
-:do { add list=NU address=5.62.56.154/31 } on-error={}
+:do { add list=NU address=5.62.56.152/30 } on-error={}
 :do { add list=NU address=5.62.58.144/30 } on-error={}
 :do { add list=NU address=5.175.190.158/31 } on-error={}
 :do { add list=NU address=14.1.76.0/23 } on-error={}

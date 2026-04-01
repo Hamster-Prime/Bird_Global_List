@@ -1,7 +1,6 @@
 /log info "Loading PN IPv4 Address List"
 /ip firewall address-list
-:do { add list=PN address=5.62.56.189/32 } on-error={}
-:do { add list=PN address=5.62.56.190/31 } on-error={}
+:do { add list=PN address=5.62.56.188/30 } on-error={}
 :do { add list=PN address=5.62.58.164/30 } on-error={}
 :do { add list=PN address=104.28.12.135/32 } on-error={}
 :do { add list=PN address=104.28.12.136/31 } on-error={}

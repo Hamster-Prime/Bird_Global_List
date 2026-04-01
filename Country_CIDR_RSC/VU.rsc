@@ -1,7 +1,6 @@
 /log info "Loading VU IPv4 Address List"
 /ip firewall address-list
-:do { add list=VU address=5.62.57.97/32 } on-error={}
-:do { add list=VU address=5.62.57.98/31 } on-error={}
+:do { add list=VU address=5.62.57.96/30 } on-error={}
 :do { add list=VU address=5.62.59.76/30 } on-error={}
 :do { add list=VU address=57.70.164.0/23 } on-error={}
 :do { add list=VU address=57.71.80.0/20 } on-error={}

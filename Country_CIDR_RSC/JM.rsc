@@ -1,7 +1,6 @@
 /log info "Loading JM IPv4 Address List"
 /ip firewall address-list
-:do { add list=JM address=5.62.56.129/32 } on-error={}
-:do { add list=JM address=5.62.56.130/31 } on-error={}
+:do { add list=JM address=5.62.56.128/30 } on-error={}
 :do { add list=JM address=5.62.58.120/30 } on-error={}
 :do { add list=JM address=17.118.108.0/22 } on-error={}
 :do { add list=JM address=23.156.32.0/24 } on-error={}
@@ -61,21 +60,8 @@
 :do { add list=JM address=63.143.118.0/24 } on-error={}
 :do { add list=JM address=63.143.119.0/24 } on-error={}
 :do { add list=JM address=63.143.120.0/21 } on-error={}
-:do { add list=JM address=63.245.5.25/32 } on-error={}
-:do { add list=JM address=63.245.5.32/30 } on-error={}
-:do { add list=JM address=63.245.5.39/32 } on-error={}
-:do { add list=JM address=63.245.5.43/32 } on-error={}
-:do { add list=JM address=63.245.5.49/32 } on-error={}
-:do { add list=JM address=63.245.5.52/30 } on-error={}
-:do { add list=JM address=63.245.5.69/32 } on-error={}
-:do { add list=JM address=63.245.5.96/30 } on-error={}
-:do { add list=JM address=63.245.5.112/28 } on-error={}
-:do { add list=JM address=63.245.5.192/28 } on-error={}
-:do { add list=JM address=63.245.5.208/30 } on-error={}
-:do { add list=JM address=63.245.5.216/29 } on-error={}
 :do { add list=JM address=64.64.117.64/27 } on-error={}
 :do { add list=JM address=64.112.16.0/22 } on-error={}
-:do { add list=JM address=65.48.156.0/24 } on-error={}
 :do { add list=JM address=65.183.0.0/20 } on-error={}
 :do { add list=JM address=66.9.166.0/23 } on-error={}
 :do { add list=JM address=66.54.112.0/21 } on-error={}
@@ -87,6 +73,8 @@
 :do { add list=JM address=66.249.148.0/23 } on-error={}
 :do { add list=JM address=66.249.151.0/24 } on-error={}
 :do { add list=JM address=66.249.152.0/23 } on-error={}
+:do { add list=JM address=66.249.154.32/27 } on-error={}
+:do { add list=JM address=66.249.154.64/26 } on-error={}
 :do { add list=JM address=66.249.155.0/24 } on-error={}
 :do { add list=JM address=66.249.157.0/24 } on-error={}
 :do { add list=JM address=66.249.158.0/23 } on-error={}
@@ -106,11 +94,6 @@
 :do { add list=JM address=67.230.64.0/20 } on-error={}
 :do { add list=JM address=67.230.80.0/24 } on-error={}
 :do { add list=JM address=67.230.82.0/23 } on-error={}
-:do { add list=JM address=67.230.86.0/25 } on-error={}
-:do { add list=JM address=67.230.86.128/26 } on-error={}
-:do { add list=JM address=67.230.86.192/27 } on-error={}
-:do { add list=JM address=67.230.88.128/27 } on-error={}
-:do { add list=JM address=67.230.88.192/30 } on-error={}
 :do { add list=JM address=67.230.89.0/24 } on-error={}
 :do { add list=JM address=67.230.90.0/24 } on-error={}
 :do { add list=JM address=67.230.91.0/27 } on-error={}

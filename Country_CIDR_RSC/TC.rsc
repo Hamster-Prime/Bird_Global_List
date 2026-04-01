@@ -1,7 +1,6 @@
 /log info "Loading TC IPv4 Address List"
 /ip firewall address-list
-:do { add list=TC address=5.62.56.237/32 } on-error={}
-:do { add list=TC address=5.62.56.238/31 } on-error={}
+:do { add list=TC address=5.62.56.236/30 } on-error={}
 :do { add list=TC address=5.62.58.216/30 } on-error={}
 :do { add list=TC address=5.175.190.46/31 } on-error={}
 :do { add list=TC address=45.62.191.192/28 } on-error={}
@@ -74,10 +73,7 @@
 :do { add list=TC address=208.169.78.74/32 } on-error={}
 :do { add list=TC address=208.169.78.76/31 } on-error={}
 :do { add list=TC address=208.169.78.78/32 } on-error={}
-:do { add list=TC address=208.169.78.80/30 } on-error={}
-:do { add list=TC address=208.169.78.84/32 } on-error={}
-:do { add list=TC address=208.169.78.86/31 } on-error={}
-:do { add list=TC address=208.169.78.88/29 } on-error={}
+:do { add list=TC address=208.169.78.80/28 } on-error={}
 :do { add list=TC address=208.169.78.96/27 } on-error={}
 :do { add list=TC address=208.169.78.128/26 } on-error={}
 :do { add list=TC address=208.169.78.192/29 } on-error={}

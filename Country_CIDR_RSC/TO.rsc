@@ -1,7 +1,6 @@
 /log info "Loading TO IPv4 Address List"
 /ip firewall address-list
-:do { add list=TO address=5.62.56.229/32 } on-error={}
-:do { add list=TO address=5.62.56.230/31 } on-error={}
+:do { add list=TO address=5.62.56.228/30 } on-error={}
 :do { add list=TO address=5.62.58.208/30 } on-error={}
 :do { add list=TO address=43.255.148.0/22 } on-error={}
 :do { add list=TO address=57.70.166.0/23 } on-error={}

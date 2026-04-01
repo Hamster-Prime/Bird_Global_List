@@ -69,7 +69,6 @@
 :do { add list=MM address=38.225.238.0/23 } on-error={}
 :do { add list=MM address=42.156.32.0/22 } on-error={}
 :do { add list=MM address=43.109.51.126/32 } on-error={}
-:do { add list=MM address=43.109.79.0/24 } on-error={}
 :do { add list=MM address=43.146.46.0/23 } on-error={}
 :do { add list=MM address=43.168.170.0/23 } on-error={}
 :do { add list=MM address=43.175.126.0/24 } on-error={}

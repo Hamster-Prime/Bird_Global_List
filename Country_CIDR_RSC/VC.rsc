@@ -1,7 +1,6 @@
 /log info "Loading VC IPv4 Address List"
 /ip firewall address-list
-:do { add list=VC address=5.62.56.205/32 } on-error={}
-:do { add list=VC address=5.62.56.206/31 } on-error={}
+:do { add list=VC address=5.62.56.204/30 } on-error={}
 :do { add list=VC address=5.62.58.184/30 } on-error={}
 :do { add list=VC address=5.175.190.207/32 } on-error={}
 :do { add list=VC address=23.170.80.0/24 } on-error={}
