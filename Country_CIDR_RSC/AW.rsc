@@ -1,7 +1,6 @@
 /log info "Loading AW IPv4 Address List"
 /ip firewall address-list
-:do { add list=AW address=5.62.56.21/32 } on-error={}
-:do { add list=AW address=5.62.56.22/31 } on-error={}
+:do { add list=AW address=5.62.56.20/30 } on-error={}
 :do { add list=AW address=5.62.58.20/30 } on-error={}
 :do { add list=AW address=5.175.190.80/32 } on-error={}
 :do { add list=AW address=57.74.102.0/23 } on-error={}
@@ -75,12 +74,16 @@
 :do { add list=AW address=186.148.216.0/22 } on-error={}
 :do { add list=AW address=186.189.0.0/21 } on-error={}
 :do { add list=AW address=186.189.8.0/23 } on-error={}
+:do { add list=AW address=186.189.10.0/23 } on-error={}
 :do { add list=AW address=186.189.12.0/22 } on-error={}
 :do { add list=AW address=186.189.16.0/22 } on-error={}
+:do { add list=AW address=186.189.20.0/23 } on-error={}
 :do { add list=AW address=186.189.22.0/23 } on-error={}
 :do { add list=AW address=186.189.24.0/22 } on-error={}
 :do { add list=AW address=186.189.28.0/23 } on-error={}
+:do { add list=AW address=186.189.30.0/23 } on-error={}
 :do { add list=AW address=186.189.32.0/21 } on-error={}
+:do { add list=AW address=186.189.40.0/23 } on-error={}
 :do { add list=AW address=186.189.42.0/23 } on-error={}
 :do { add list=AW address=186.189.44.0/22 } on-error={}
 :do { add list=AW address=186.189.48.0/20 } on-error={}

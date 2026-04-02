@@ -1,7 +1,6 @@
 /log info "Loading GD IPv4 Address List"
 /ip firewall address-list
-:do { add list=GD address=5.62.56.101/32 } on-error={}
-:do { add list=GD address=5.62.56.102/31 } on-error={}
+:do { add list=GD address=5.62.56.100/30 } on-error={}
 :do { add list=GD address=5.62.58.96/30 } on-error={}
 :do { add list=GD address=23.128.4.0/24 } on-error={}
 :do { add list=GD address=23.130.168.0/24 } on-error={}
@@ -65,7 +64,8 @@
 :do { add list=GD address=104.28.252.24/31 } on-error={}
 :do { add list=GD address=104.30.169.194/32 } on-error={}
 :do { add list=GD address=104.30.171.71/32 } on-error={}
-:do { add list=GD address=104.245.48.0/22 } on-error={}
+:do { add list=GD address=104.245.48.0/24 } on-error={}
+:do { add list=GD address=104.245.51.0/24 } on-error={}
 :do { add list=GD address=104.245.92.0/22 } on-error={}
 :do { add list=GD address=104.245.205.0/24 } on-error={}
 :do { add list=GD address=136.23.22.40/32 } on-error={}
@@ -94,6 +94,16 @@
 :do { add list=GD address=172.225.238.176/28 } on-error={}
 :do { add list=GD address=172.226.10.112/28 } on-error={}
 :do { add list=GD address=190.242.166.33/32 } on-error={}
+:do { add list=GD address=192.147.231.13/32 } on-error={}
+:do { add list=GD address=192.147.231.14/31 } on-error={}
+:do { add list=GD address=192.147.231.32/27 } on-error={}
+:do { add list=GD address=192.147.231.64/26 } on-error={}
+:do { add list=GD address=192.147.231.160/28 } on-error={}
+:do { add list=GD address=192.147.231.176/29 } on-error={}
+:do { add list=GD address=192.147.231.184/31 } on-error={}
+:do { add list=GD address=192.147.231.187/32 } on-error={}
+:do { add list=GD address=192.147.231.188/30 } on-error={}
+:do { add list=GD address=192.147.231.192/27 } on-error={}
 :do { add list=GD address=192.214.126.0/23 } on-error={}
 :do { add list=GD address=196.3.73.0/24 } on-error={}
 :do { add list=GD address=196.48.92.0/24 } on-error={}

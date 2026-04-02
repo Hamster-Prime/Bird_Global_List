@@ -16,4 +16,5 @@
 :do { add list=KP address=196.48.114.0/24 } on-error={}
 :do { add list=KP address=196.56.114.0/24 } on-error={}
 :do { add list=KP address=196.199.114.0/24 } on-error={}
+:do { add list=KP address=202.97.12.141/32 } on-error={}
 :do { add list=KP address=223.17.11.167/32 } on-error={}

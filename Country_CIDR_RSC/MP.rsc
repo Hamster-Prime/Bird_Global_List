@@ -2,6 +2,14 @@
 /ip firewall address-list
 :do { add list=MP address=5.62.60.165/32 } on-error={}
 :do { add list=MP address=65.181.29.0/24 } on-error={}
+:do { add list=MP address=69.88.16.0/30 } on-error={}
+:do { add list=MP address=69.88.16.4/31 } on-error={}
+:do { add list=MP address=69.88.16.96/31 } on-error={}
+:do { add list=MP address=69.88.16.128/31 } on-error={}
+:do { add list=MP address=69.88.16.131/32 } on-error={}
+:do { add list=MP address=69.88.16.192/31 } on-error={}
+:do { add list=MP address=69.88.16.194/32 } on-error={}
+:do { add list=MP address=69.88.17.0/24 } on-error={}
 :do { add list=MP address=104.28.11.229/32 } on-error={}
 :do { add list=MP address=104.28.11.230/31 } on-error={}
 :do { add list=MP address=104.28.85.18/31 } on-error={}

@@ -1,7 +1,6 @@
 /log info "Loading KY IPv4 Address List"
 /ip firewall address-list
-:do { add list=KY address=5.62.56.49/32 } on-error={}
-:do { add list=KY address=5.62.56.50/31 } on-error={}
+:do { add list=KY address=5.62.56.48/30 } on-error={}
 :do { add list=KY address=5.62.58.48/30 } on-error={}
 :do { add list=KY address=5.175.190.44/31 } on-error={}
 :do { add list=KY address=23.188.0.0/24 } on-error={}
@@ -30,9 +29,6 @@
 :do { add list=KY address=74.222.64.0/19 } on-error={}
 :do { add list=KY address=74.244.186.0/23 } on-error={}
 :do { add list=KY address=94.199.135.80/30 } on-error={}
-:do { add list=KY address=95.214.112.45/32 } on-error={}
-:do { add list=KY address=95.214.112.46/31 } on-error={}
-:do { add list=KY address=95.214.112.48/28 } on-error={}
 :do { add list=KY address=98.159.232.128/27 } on-error={}
 :do { add list=KY address=104.28.11.153/32 } on-error={}
 :do { add list=KY address=104.28.11.154/31 } on-error={}
@@ -129,7 +125,6 @@
 :do { add list=KY address=208.169.64.0/22 } on-error={}
 :do { add list=KY address=208.169.68.0/23 } on-error={}
 :do { add list=KY address=208.169.76.0/23 } on-error={}
-:do { add list=KY address=208.169.78.75/32 } on-error={}
 :do { add list=KY address=208.169.78.79/32 } on-error={}
 :do { add list=KY address=208.169.78.201/32 } on-error={}
 :do { add list=KY address=208.169.80.0/24 } on-error={}
