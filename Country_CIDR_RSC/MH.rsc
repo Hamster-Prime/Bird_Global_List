@@ -1,7 +1,7 @@
 /log info "Loading MH IPv4 Address List"
 /ip firewall address-list
 :do { add list=MH address=23.181.56.0/24 } on-error={}
-:do { add list=MH address=45.254.247.16/28 } on-error={}
+:do { add list=MH address=45.254.247.0/27 } on-error={}
 :do { add list=MH address=45.254.247.48/30 } on-error={}
 :do { add list=MH address=45.254.247.56/29 } on-error={}
 :do { add list=MH address=45.254.247.72/29 } on-error={}

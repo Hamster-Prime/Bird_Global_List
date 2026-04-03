@@ -46,6 +46,7 @@
 :do { add list=MT address=62.115.35.49/32 } on-error={}
 :do { add list=MT address=62.173.0.0/19 } on-error={}
 :do { add list=MT address=66.84.64.0/24 } on-error={}
+:do { add list=MT address=66.84.65.128/25 } on-error={}
 :do { add list=MT address=66.84.67.0/24 } on-error={}
 :do { add list=MT address=66.212.244.40/29 } on-error={}
 :do { add list=MT address=69.6.32.0/19 } on-error={}
@@ -145,6 +146,16 @@
 :do { add list=MT address=81.94.220.0/23 } on-error={}
 :do { add list=MT address=81.94.223.0/24 } on-error={}
 :do { add list=MT address=82.38.43.112/28 } on-error={}
+:do { add list=MT address=82.149.80.0/32 } on-error={}
+:do { add list=MT address=82.149.80.96/28 } on-error={}
+:do { add list=MT address=82.149.80.112/29 } on-error={}
+:do { add list=MT address=82.149.80.120/30 } on-error={}
+:do { add list=MT address=82.149.80.128/26 } on-error={}
+:do { add list=MT address=82.149.80.192/27 } on-error={}
+:do { add list=MT address=82.149.80.224/28 } on-error={}
+:do { add list=MT address=82.149.80.240/29 } on-error={}
+:do { add list=MT address=82.149.80.248/30 } on-error={}
+:do { add list=MT address=82.149.80.255/32 } on-error={}
 :do { add list=MT address=83.97.88.129/32 } on-error={}
 :do { add list=MT address=83.97.88.131/32 } on-error={}
 :do { add list=MT address=83.142.248.0/22 } on-error={}
@@ -154,6 +165,8 @@
 :do { add list=MT address=84.255.0.0/18 } on-error={}
 :do { add list=MT address=85.119.120.0/21 } on-error={}
 :do { add list=MT address=85.184.96.0/26 } on-error={}
+:do { add list=MT address=85.184.97.153/32 } on-error={}
+:do { add list=MT address=85.184.97.192/26 } on-error={}
 :do { add list=MT address=85.184.98.0/23 } on-error={}
 :do { add list=MT address=85.184.104.0/25 } on-error={}
 :do { add list=MT address=85.184.104.133/32 } on-error={}
@@ -187,7 +200,7 @@
 :do { add list=MT address=94.125.57.48/29 } on-error={}
 :do { add list=MT address=94.125.57.192/29 } on-error={}
 :do { add list=MT address=94.125.59.0/24 } on-error={}
-:do { add list=MT address=94.125.62.0/24 } on-error={}
+:do { add list=MT address=94.125.62.0/23 } on-error={}
 :do { add list=MT address=94.138.224.0/19 } on-error={}
 :do { add list=MT address=95.131.232.0/21 } on-error={}
 :do { add list=MT address=95.134.54.0/24 } on-error={}
@@ -214,7 +227,6 @@
 :do { add list=MT address=104.28.239.228/30 } on-error={}
 :do { add list=MT address=104.28.239.232/32 } on-error={}
 :do { add list=MT address=104.204.191.29/32 } on-error={}
-:do { add list=MT address=104.250.177.16/28 } on-error={}
 :do { add list=MT address=104.250.177.32/27 } on-error={}
 :do { add list=MT address=104.250.177.64/26 } on-error={}
 :do { add list=MT address=104.250.177.128/25 } on-error={}
@@ -394,6 +406,7 @@
 :do { add list=MT address=193.29.40.0/23 } on-error={}
 :do { add list=MT address=193.29.98.112/28 } on-error={}
 :do { add list=MT address=193.31.212.0/25 } on-error={}
+:do { add list=MT address=193.31.212.192/26 } on-error={}
 :do { add list=MT address=193.31.213.0/24 } on-error={}
 :do { add list=MT address=193.31.218.0/23 } on-error={}
 :do { add list=MT address=193.34.192.128/25 } on-error={}
@@ -421,8 +434,7 @@
 :do { add list=MT address=195.38.30.0/24 } on-error={}
 :do { add list=MT address=195.72.36.0/22 } on-error={}
 :do { add list=MT address=195.138.224.0/21 } on-error={}
-:do { add list=MT address=195.149.126.0/25 } on-error={}
-:do { add list=MT address=195.149.126.240/28 } on-error={}
+:do { add list=MT address=195.149.126.0/24 } on-error={}
 :do { add list=MT address=195.158.64.0/18 } on-error={}
 :do { add list=MT address=195.160.232.0/25 } on-error={}
 :do { add list=MT address=195.160.233.0/24 } on-error={}
@@ -441,6 +453,7 @@
 :do { add list=MT address=203.61.118.80/28 } on-error={}
 :do { add list=MT address=205.147.21.0/24 } on-error={}
 :do { add list=MT address=205.204.94.248/29 } on-error={}
+:do { add list=MT address=209.61.165.192/29 } on-error={}
 :do { add list=MT address=209.206.29.0/28 } on-error={}
 :do { add list=MT address=212.56.128.0/22 } on-error={}
 :do { add list=MT address=212.56.132.0/24 } on-error={}

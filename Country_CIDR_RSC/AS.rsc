@@ -2,6 +2,11 @@
 /ip firewall address-list
 :do { add list=AS address=5.62.56.4/30 } on-error={}
 :do { add list=AS address=5.62.58.4/30 } on-error={}
+:do { add list=AS address=8.41.133.0/24 } on-error={}
+:do { add list=AS address=67.218.48.0/21 } on-error={}
+:do { add list=AS address=67.218.56.0/22 } on-error={}
+:do { add list=AS address=67.218.60.0/23 } on-error={}
+:do { add list=AS address=67.218.62.0/24 } on-error={}
 :do { add list=AS address=103.117.168.0/22 } on-error={}
 :do { add list=AS address=104.28.8.40/31 } on-error={}
 :do { add list=AS address=104.28.8.42/32 } on-error={}
@@ -50,14 +55,11 @@
 :do { add list=AS address=194.50.99.11/32 } on-error={}
 :do { add list=AS address=198.52.28.0/26 } on-error={}
 :do { add list=AS address=198.52.29.0/24 } on-error={}
-:do { add list=AS address=198.52.30.130/31 } on-error={}
-:do { add list=AS address=198.52.30.136/29 } on-error={}
-:do { add list=AS address=198.52.30.160/27 } on-error={}
-:do { add list=AS address=198.52.30.192/26 } on-error={}
+:do { add list=AS address=198.52.30.0/23 } on-error={}
 :do { add list=AS address=202.70.112.0/20 } on-error={}
 :do { add list=AS address=203.21.140.0/24 } on-error={}
 :do { add list=AS address=203.193.117.0/25 } on-error={}
 :do { add list=AS address=205.161.14.0/24 } on-error={}
+:do { add list=AS address=205.161.15.0/25 } on-error={}
 :do { add list=AS address=206.80.28.0/24 } on-error={}
-:do { add list=AS address=206.80.31.0/25 } on-error={}
 :do { add list=AS address=208.136.102.0/24 } on-error={}
