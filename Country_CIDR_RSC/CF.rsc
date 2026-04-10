@@ -54,6 +54,10 @@
 :do { add list=CF address=172.225.98.128/27 } on-error={}
 :do { add list=CF address=172.225.226.112/28 } on-error={}
 :do { add list=CF address=172.225.242.64/28 } on-error={}
+:do { add list=CF address=185.21.168.16/28 } on-error={}
+:do { add list=CF address=185.21.169.16/28 } on-error={}
+:do { add list=CF address=185.21.170.16/28 } on-error={}
+:do { add list=CF address=185.21.171.16/28 } on-error={}
 :do { add list=CF address=196.48.64.0/24 } on-error={}
 :do { add list=CF address=196.56.64.0/24 } on-error={}
 :do { add list=CF address=196.197.64.0/24 } on-error={}

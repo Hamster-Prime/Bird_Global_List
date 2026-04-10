@@ -1,5 +1,6 @@
 /log info "Loading FM IPv4 Address List"
 /ip firewall address-list
+:do { add list=FM address=14.1.90.0/23 } on-error={}
 :do { add list=FM address=43.248.156.0/23 } on-error={}
 :do { add list=FM address=43.248.158.0/23 } on-error={}
 :do { add list=FM address=57.70.180.0/23 } on-error={}
@@ -41,7 +42,9 @@
 :do { add list=FM address=104.28.243.128/31 } on-error={}
 :do { add list=FM address=104.28.243.130/32 } on-error={}
 :do { add list=FM address=119.252.112.0/25 } on-error={}
-:do { add list=FM address=119.252.112.128/29 } on-error={}
+:do { add list=FM address=119.252.112.128/30 } on-error={}
+:do { add list=FM address=119.252.112.132/31 } on-error={}
+:do { add list=FM address=119.252.112.134/32 } on-error={}
 :do { add list=FM address=119.252.112.138/31 } on-error={}
 :do { add list=FM address=119.252.112.140/30 } on-error={}
 :do { add list=FM address=119.252.112.144/28 } on-error={}
