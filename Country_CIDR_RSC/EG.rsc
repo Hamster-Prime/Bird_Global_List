@@ -704,6 +704,7 @@
 :do { add list=EG address=102.164.114.0/23 } on-error={}
 :do { add list=EG address=102.164.122.0/24 } on-error={}
 :do { add list=EG address=102.184.0.0/13 } on-error={}
+:do { add list=EG address=102.202.222.0/24 } on-error={}
 :do { add list=EG address=102.204.121.0/24 } on-error={}
 :do { add list=EG address=102.206.80.0/24 } on-error={}
 :do { add list=EG address=102.206.132.0/22 } on-error={}

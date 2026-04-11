@@ -48,6 +48,7 @@
 :do { add list=TM address=140.248.63.221/32 } on-error={}
 :do { add list=TM address=146.75.162.96/31 } on-error={}
 :do { add list=TM address=146.75.202.12/31 } on-error={}
+:do { add list=TM address=158.173.246.192/27 } on-error={}
 :do { add list=TM address=160.25.104.122/32 } on-error={}
 :do { add list=TM address=160.25.105.122/32 } on-error={}
 :do { add list=TM address=160.225.248.0/24 } on-error={}

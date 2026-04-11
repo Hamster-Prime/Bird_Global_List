@@ -62,3 +62,5 @@
 :do { add list=ST address=196.198.170.0/24 } on-error={}
 :do { add list=ST address=196.199.170.0/24 } on-error={}
 :do { add list=ST address=197.159.160.0/19 } on-error={}
+:do { add list=ST address=216.66.84.56/32 } on-error={}
+:do { add list=ST address=216.66.84.59/32 } on-error={}
