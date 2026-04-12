@@ -5,6 +5,8 @@
 :do { add list=TJ address=5.62.61.170/31 } on-error={}
 :do { add list=TJ address=5.62.63.148/30 } on-error={}
 :do { add list=TJ address=37.98.152.0/21 } on-error={}
+:do { add list=TJ address=45.15.177.12/30 } on-error={}
+:do { add list=TJ address=45.15.177.76/30 } on-error={}
 :do { add list=TJ address=45.81.37.0/24 } on-error={}
 :do { add list=TJ address=45.94.216.0/22 } on-error={}
 :do { add list=TJ address=45.124.96.0/23 } on-error={}

@@ -43,7 +43,6 @@
 :do { add list=ER address=146.75.187.4/31 } on-error={}
 :do { add list=ER address=159.26.127.40/30 } on-error={}
 :do { add list=ER address=162.120.205.3/32 } on-error={}
-:do { add list=ER address=162.120.216.66/32 } on-error={}
 :do { add list=ER address=162.120.228.69/32 } on-error={}
 :do { add list=ER address=163.116.164.157/32 } on-error={}
 :do { add list=ER address=163.116.164.158/32 } on-error={}

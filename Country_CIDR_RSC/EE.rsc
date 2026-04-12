@@ -1,6 +1,6 @@
 /log info "Loading EE IPv4 Address List"
 /ip firewall address-list
-:do { add list=EE address=2.27.94.128/25 } on-error={}
+:do { add list=EE address=2.27.94.0/24 } on-error={}
 :do { add list=EE address=2.57.220.0/23 } on-error={}
 :do { add list=EE address=2.57.222.0/23 } on-error={}
 :do { add list=EE address=2.59.164.0/23 } on-error={}
@@ -447,7 +447,6 @@
 :do { add list=EE address=90.137.132.0/23 } on-error={}
 :do { add list=EE address=90.139.101.64/27 } on-error={}
 :do { add list=EE address=90.190.0.0/15 } on-error={}
-:do { add list=EE address=90.228.171.159/32 } on-error={}
 :do { add list=EE address=91.92.21.183/32 } on-error={}
 :do { add list=EE address=91.92.21.185/32 } on-error={}
 :do { add list=EE address=91.95.0.0/16 } on-error={}
@@ -709,6 +708,12 @@
 :do { add list=EE address=150.241.74.0/24 } on-error={}
 :do { add list=EE address=150.241.101.0/24 } on-error={}
 :do { add list=EE address=151.237.188.0/24 } on-error={}
+:do { add list=EE address=152.55.221.32/28 } on-error={}
+:do { add list=EE address=152.55.221.58/32 } on-error={}
+:do { add list=EE address=152.55.221.67/32 } on-error={}
+:do { add list=EE address=152.55.221.79/32 } on-error={}
+:do { add list=EE address=152.55.221.96/27 } on-error={}
+:do { add list=EE address=152.55.221.128/25 } on-error={}
 :do { add list=EE address=154.14.6.176/29 } on-error={}
 :do { add list=EE address=154.14.224.72/29 } on-error={}
 :do { add list=EE address=154.14.230.216/29 } on-error={}
@@ -957,8 +962,6 @@
 :do { add list=EE address=184.104.199.249/32 } on-error={}
 :do { add list=EE address=184.104.199.250/32 } on-error={}
 :do { add list=EE address=184.104.205.100/30 } on-error={}
-:do { add list=EE address=184.104.208.156/32 } on-error={}
-:do { add list=EE address=184.104.208.159/32 } on-error={}
 :do { add list=EE address=184.104.224.120/29 } on-error={}
 :do { add list=EE address=184.104.224.244/31 } on-error={}
 :do { add list=EE address=184.105.80.37/32 } on-error={}

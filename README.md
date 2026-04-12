@@ -6,37 +6,37 @@
 
 ## Statistics
 
-**Last Updated:** 2026-04-11T02:47:25+00:00
+**Last Updated:** 2026-04-12T03:26:32+00:00
 
 ### Overall
 - **Total Countries/Regions with data:** 494
-- **Total IP CIDR blocks:** 4334657
+- **Total IP CIDR blocks:** 4304154
 
 ### Top 20 Countries by CIDR Count
 
 | Country Code | CIDR Count |
 |--------------|------------|
-| US_IPv6      | 1053004    |
-| US           | 403821     |
-| DE_IPv6      | 171992     |
-| GB_IPv6      | 166550     |
-| NL_IPv6      | 162992     |
-| RU_IPv6      | 147979     |
-| AU_IPv6      | 125219     |
-| CA_IPv6      | 85191      |
-| DE           | 83736      |
-| GB           | 71604      |
-| CN_IPv6      | 64343      |
-| FR_IPv6      | 58017      |
-| FR           | 55479      |
-| CA           | 49206      |
-| NL           | 46405      |
+| US_IPv6      | 1053258    |
+| US           | 404533     |
+| DE_IPv6      | 171620     |
+| GB_IPv6      | 157630     |
+| NL_IPv6      | 151803     |
+| RU_IPv6      | 147136     |
+| AU_IPv6      | 125232     |
+| CA_IPv6      | 85105      |
+| DE           | 80832      |
+| GB           | 71460      |
+| CN_IPv6      | 64330      |
+| FR           | 55488      |
+| FR_IPv6      | 55372      |
+| CA           | 49086      |
+| NL           | 46541      |
 | VN_IPv6      | 43065      |
-| CN           | 42856      |
-| UY_IPv6      | 42741      |
-| JP_IPv6      | 38508      |
-| SG_IPv6      | 37267      |
+| CN           | 42869      |
+| UY_IPv6      | 42738      |
+| JP_IPv6      | 38670      |
+| SG_IPv6      | 37170      |
 
 ---
 
-*This information was automatically updated by GitHub Actions on 2026-04-11T02:47:25+00:00*
+*This information was automatically updated by GitHub Actions on 2026-04-12T03:26:32+00:00*
