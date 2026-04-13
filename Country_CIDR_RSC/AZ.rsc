@@ -110,6 +110,8 @@
 :do { add list=AZ address=45.15.43.0/24 } on-error={}
 :do { add list=AZ address=45.15.177.8/30 } on-error={}
 :do { add list=AZ address=45.15.177.72/30 } on-error={}
+:do { add list=AZ address=45.89.99.8/30 } on-error={}
+:do { add list=AZ address=45.89.99.72/30 } on-error={}
 :do { add list=AZ address=45.136.164.0/22 } on-error={}
 :do { add list=AZ address=45.145.23.0/24 } on-error={}
 :do { add list=AZ address=45.156.112.0/24 } on-error={}

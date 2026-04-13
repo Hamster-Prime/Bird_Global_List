@@ -410,7 +410,7 @@
 :do { add list=PY address=170.82.144.0/22 } on-error={}
 :do { add list=PY address=170.83.240.0/22 } on-error={}
 :do { add list=PY address=170.84.172.0/22 } on-error={}
-:do { add list=PY address=170.233.112.32/27 } on-error={}
+:do { add list=PY address=170.233.112.32/28 } on-error={}
 :do { add list=PY address=170.233.112.96/27 } on-error={}
 :do { add list=PY address=170.233.112.184/29 } on-error={}
 :do { add list=PY address=170.233.112.208/28 } on-error={}

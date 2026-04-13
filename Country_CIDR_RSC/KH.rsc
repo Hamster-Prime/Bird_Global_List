@@ -190,10 +190,9 @@
 :do { add list=KH address=79.109.252.0/23 } on-error={}
 :do { add list=KH address=79.109.254.0/26 } on-error={}
 :do { add list=KH address=79.109.254.96/27 } on-error={}
-:do { add list=KH address=79.109.254.160/28 } on-error={}
-:do { add list=KH address=79.109.254.176/30 } on-error={}
-:do { add list=KH address=79.109.254.184/29 } on-error={}
+:do { add list=KH address=79.109.254.160/27 } on-error={}
 :do { add list=KH address=79.109.255.0/26 } on-error={}
+:do { add list=KH address=79.109.255.64/27 } on-error={}
 :do { add list=KH address=79.109.255.128/27 } on-error={}
 :do { add list=KH address=79.109.255.176/28 } on-error={}
 :do { add list=KH address=79.109.255.192/26 } on-error={}

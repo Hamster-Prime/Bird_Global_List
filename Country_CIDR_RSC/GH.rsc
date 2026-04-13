@@ -608,6 +608,7 @@
 :do { add list=GH address=193.194.164.0/22 } on-error={}
 :do { add list=GH address=193.194.168.0/21 } on-error={}
 :do { add list=GH address=193.194.176.0/20 } on-error={}
+:do { add list=GH address=195.8.10.193/32 } on-error={}
 :do { add list=GH address=195.8.10.194/32 } on-error={}
 :do { add list=GH address=195.8.10.206/32 } on-error={}
 :do { add list=GH address=195.110.184.2/31 } on-error={}
