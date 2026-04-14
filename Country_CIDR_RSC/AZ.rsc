@@ -806,6 +806,7 @@
 :do { add list=AZ address=188.64.8.0/21 } on-error={}
 :do { add list=AZ address=188.65.162.0/24 } on-error={}
 :do { add list=AZ address=188.72.128.0/18 } on-error={}
+:do { add list=AZ address=188.212.102.198/32 } on-error={}
 :do { add list=AZ address=188.227.208.0/20 } on-error={}
 :do { add list=AZ address=188.253.128.0/19 } on-error={}
 :do { add list=AZ address=188.253.160.0/19 } on-error={}

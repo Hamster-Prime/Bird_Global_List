@@ -1703,7 +1703,7 @@
 :do { add list=LU address=193.186.162.81/32 } on-error={}
 :do { add list=LU address=193.186.162.82/31 } on-error={}
 :do { add list=LU address=193.186.162.250/31 } on-error={}
-:do { add list=LU address=193.239.179.0/26 } on-error={}
+:do { add list=LU address=193.239.179.0/24 } on-error={}
 :do { add list=LU address=193.240.109.160/27 } on-error={}
 :do { add list=LU address=194.0.23.0/24 } on-error={}
 :do { add list=LU address=194.0.42.0/24 } on-error={}

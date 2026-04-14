@@ -138,7 +138,7 @@
 :do { add list=GP address=5.187.127.64/26 } on-error={}
 :do { add list=GP address=5.187.127.128/25 } on-error={}
 :do { add list=GP address=37.8.160.0/22 } on-error={}
-:do { add list=GP address=37.8.168.0/22 } on-error={}
+:do { add list=GP address=37.8.168.0/21 } on-error={}
 :do { add list=GP address=45.62.191.144/28 } on-error={}
 :do { add list=GP address=46.193.4.15/32 } on-error={}
 :do { add list=GP address=46.193.53.125/32 } on-error={}

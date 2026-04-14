@@ -8,7 +8,12 @@
 :do { add list=SD address=41.78.109.120/29 } on-error={}
 :do { add list=SD address=41.78.109.248/29 } on-error={}
 :do { add list=SD address=41.95.0.0/17 } on-error={}
-:do { add list=SD address=41.95.128.0/20 } on-error={}
+:do { add list=SD address=41.95.128.0/24 } on-error={}
+:do { add list=SD address=41.95.129.0/24 } on-error={}
+:do { add list=SD address=41.95.130.0/24 } on-error={}
+:do { add list=SD address=41.95.131.0/24 } on-error={}
+:do { add list=SD address=41.95.132.0/22 } on-error={}
+:do { add list=SD address=41.95.136.0/21 } on-error={}
 :do { add list=SD address=41.95.144.0/21 } on-error={}
 :do { add list=SD address=41.95.152.0/23 } on-error={}
 :do { add list=SD address=41.95.154.0/23 } on-error={}

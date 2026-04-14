@@ -416,7 +416,6 @@
 :do { add list=SC address=185.231.34.0/23 } on-error={}
 :do { add list=SC address=192.109.41.184/29 } on-error={}
 :do { add list=SC address=193.169.201.0/24 } on-error={}
-:do { add list=SC address=195.182.16.0/24 } on-error={}
 :do { add list=SC address=196.1.120.0/21 } on-error={}
 :do { add list=SC address=196.13.208.0/24 } on-error={}
 :do { add list=SC address=196.16.0.0/23 } on-error={}

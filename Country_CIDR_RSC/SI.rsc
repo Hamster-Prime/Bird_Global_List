@@ -599,16 +599,7 @@
 :do { add list=SI address=109.202.125.0/24 } on-error={}
 :do { add list=SI address=109.202.126.0/24 } on-error={}
 :do { add list=SI address=109.202.127.0/24 } on-error={}
-:do { add list=SI address=109.224.228.0/23 } on-error={}
-:do { add list=SI address=109.224.230.0/27 } on-error={}
-:do { add list=SI address=109.224.230.32/32 } on-error={}
-:do { add list=SI address=109.224.230.36/32 } on-error={}
-:do { add list=SI address=109.224.230.38/32 } on-error={}
-:do { add list=SI address=109.224.230.40/29 } on-error={}
-:do { add list=SI address=109.224.230.48/28 } on-error={}
-:do { add list=SI address=109.224.230.64/26 } on-error={}
-:do { add list=SI address=109.224.230.128/25 } on-error={}
-:do { add list=SI address=109.224.231.0/24 } on-error={}
+:do { add list=SI address=109.224.228.0/22 } on-error={}
 :do { add list=SI address=109.239.176.0/20 } on-error={}
 :do { add list=SI address=113.29.64.0/27 } on-error={}
 :do { add list=SI address=113.29.65.0/26 } on-error={}

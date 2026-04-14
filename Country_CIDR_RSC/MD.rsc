@@ -658,8 +658,7 @@
 :do { add list=MD address=185.108.36.0/23 } on-error={}
 :do { add list=MD address=185.108.38.0/23 } on-error={}
 :do { add list=MD address=185.108.136.0/23 } on-error={}
-:do { add list=MD address=185.108.138.0/24 } on-error={}
-:do { add list=MD address=185.108.139.0/24 } on-error={}
+:do { add list=MD address=185.108.138.0/23 } on-error={}
 :do { add list=MD address=185.108.144.0/22 } on-error={}
 :do { add list=MD address=185.108.152.0/22 } on-error={}
 :do { add list=MD address=185.108.180.0/22 } on-error={}

@@ -84,11 +84,9 @@
 :do { add list=MW address=104.28.234.111/32 } on-error={}
 :do { add list=MW address=104.28.234.112/30 } on-error={}
 :do { add list=MW address=105.234.0.0/17 } on-error={}
-:do { add list=MW address=105.234.128.0/21 } on-error={}
-:do { add list=MW address=105.234.136.0/22 } on-error={}
-:do { add list=MW address=105.234.140.0/23 } on-error={}
-:do { add list=MW address=105.234.142.0/23 } on-error={}
-:do { add list=MW address=105.234.144.0/22 } on-error={}
+:do { add list=MW address=105.234.128.0/20 } on-error={}
+:do { add list=MW address=105.234.144.0/23 } on-error={}
+:do { add list=MW address=105.234.146.0/23 } on-error={}
 :do { add list=MW address=105.234.148.0/24 } on-error={}
 :do { add list=MW address=105.234.149.0/24 } on-error={}
 :do { add list=MW address=105.234.150.0/27 } on-error={}
@@ -98,8 +96,10 @@
 :do { add list=MW address=105.234.151.0/24 } on-error={}
 :do { add list=MW address=105.234.152.0/23 } on-error={}
 :do { add list=MW address=105.234.154.0/23 } on-error={}
-:do { add list=MW address=105.234.156.0/22 } on-error={}
-:do { add list=MW address=105.234.160.0/23 } on-error={}
+:do { add list=MW address=105.234.156.0/23 } on-error={}
+:do { add list=MW address=105.234.158.0/23 } on-error={}
+:do { add list=MW address=105.234.160.0/24 } on-error={}
+:do { add list=MW address=105.234.161.0/24 } on-error={}
 :do { add list=MW address=105.234.162.0/24 } on-error={}
 :do { add list=MW address=105.234.163.0/24 } on-error={}
 :do { add list=MW address=105.234.164.0/24 } on-error={}
@@ -201,7 +201,8 @@
 :do { add list=MW address=168.253.232.0/21 } on-error={}
 :do { add list=MW address=168.253.240.0/24 } on-error={}
 :do { add list=MW address=168.253.241.0/24 } on-error={}
-:do { add list=MW address=168.253.242.0/23 } on-error={}
+:do { add list=MW address=168.253.242.0/24 } on-error={}
+:do { add list=MW address=168.253.243.0/24 } on-error={}
 :do { add list=MW address=168.253.244.0/23 } on-error={}
 :do { add list=MW address=168.253.246.0/23 } on-error={}
 :do { add list=MW address=168.253.248.0/22 } on-error={}
