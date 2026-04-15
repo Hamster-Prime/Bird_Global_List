@@ -384,7 +384,6 @@
 :do { add list=LT address=80.65.210.0/24 } on-error={}
 :do { add list=LT address=80.77.164.0/24 } on-error={}
 :do { add list=LT address=80.77.166.1/32 } on-error={}
-:do { add list=LT address=80.77.166.248/29 } on-error={}
 :do { add list=LT address=80.77.167.11/32 } on-error={}
 :do { add list=LT address=80.77.167.40/32 } on-error={}
 :do { add list=LT address=80.77.167.60/32 } on-error={}

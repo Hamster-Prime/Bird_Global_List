@@ -6595,7 +6595,6 @@
 :do { add list=ZA address=152.111.254.0/24 } on-error={}
 :do { add list=ZA address=152.111.255.0/24 } on-error={}
 :do { add list=ZA address=152.112.0.0/16 } on-error={}
-:do { add list=ZA address=152.233.125.0/24 } on-error={}
 :do { add list=ZA address=153.45.224.0/23 } on-error={}
 :do { add list=ZA address=153.54.40.0/23 } on-error={}
 :do { add list=ZA address=153.72.36.64/26 } on-error={}

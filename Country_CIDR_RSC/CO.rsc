@@ -824,6 +824,7 @@
 :do { add list=CO address=70.35.158.0/26 } on-error={}
 :do { add list=CO address=70.35.158.64/28 } on-error={}
 :do { add list=CO address=71.18.75.0/24 } on-error={}
+:do { add list=CO address=72.1.70.0/24 } on-error={}
 :do { add list=CO address=72.14.193.89/32 } on-error={}
 :do { add list=CO address=72.14.193.228/30 } on-error={}
 :do { add list=CO address=72.14.193.232/31 } on-error={}

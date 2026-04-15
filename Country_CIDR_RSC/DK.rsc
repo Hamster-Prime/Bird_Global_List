@@ -4650,7 +4650,8 @@
 :do { add list=DK address=193.3.80.0/20 } on-error={}
 :do { add list=DK address=193.3.96.0/19 } on-error={}
 :do { add list=DK address=193.3.130.0/23 } on-error={}
-:do { add list=DK address=193.3.132.0/23 } on-error={}
+:do { add list=DK address=193.3.132.0/24 } on-error={}
+:do { add list=DK address=193.3.133.0/24 } on-error={}
 :do { add list=DK address=193.3.138.0/23 } on-error={}
 :do { add list=DK address=193.3.140.0/23 } on-error={}
 :do { add list=DK address=193.3.142.0/24 } on-error={}

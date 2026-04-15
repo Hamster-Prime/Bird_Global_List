@@ -572,8 +572,7 @@
 :do { add list=DO address=170.254.64.0/22 } on-error={}
 :do { add list=DO address=172.69.77.0/24 } on-error={}
 :do { add list=DO address=172.70.226.0/24 } on-error={}
-:do { add list=DO address=172.121.176.0/24 } on-error={}
-:do { add list=DO address=172.121.177.0/24 } on-error={}
+:do { add list=DO address=172.121.176.0/23 } on-error={}
 :do { add list=DO address=172.225.32.96/27 } on-error={}
 :do { add list=DO address=172.225.33.240/28 } on-error={}
 :do { add list=DO address=172.225.92.96/28 } on-error={}
