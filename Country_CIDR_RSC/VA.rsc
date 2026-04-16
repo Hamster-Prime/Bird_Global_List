@@ -3,7 +3,6 @@
 :do { add list=VA address=5.62.61.209/32 } on-error={}
 :do { add list=VA address=5.62.61.210/31 } on-error={}
 :do { add list=VA address=5.62.63.196/30 } on-error={}
-:do { add list=VA address=44.32.192.166/31 } on-error={}
 :do { add list=VA address=57.79.216.0/21 } on-error={}
 :do { add list=VA address=104.28.15.69/32 } on-error={}
 :do { add list=VA address=104.28.15.70/31 } on-error={}

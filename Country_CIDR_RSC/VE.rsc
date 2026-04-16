@@ -750,7 +750,6 @@
 :do { add list=VE address=156.255.156.0/22 } on-error={}
 :do { add list=VE address=156.255.160.0/19 } on-error={}
 :do { add list=VE address=156.255.192.0/18 } on-error={}
-:do { add list=VE address=157.167.25.0/24 } on-error={}
 :do { add list=VE address=159.63.23.241/32 } on-error={}
 :do { add list=VE address=159.63.23.242/32 } on-error={}
 :do { add list=VE address=159.63.49.41/32 } on-error={}

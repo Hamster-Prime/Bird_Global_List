@@ -1967,11 +1967,9 @@
 :do { add list=GP address=109.62.39.192/26 } on-error={}
 :do { add list=GP address=109.62.43.128/25 } on-error={}
 :do { add list=GP address=109.62.69.48/32 } on-error={}
-:do { add list=GP address=109.62.69.52/30 } on-error={}
-:do { add list=GP address=109.62.69.58/32 } on-error={}
-:do { add list=GP address=109.62.69.62/31 } on-error={}
-:do { add list=GP address=109.62.71.80/29 } on-error={}
-:do { add list=GP address=109.62.71.96/28 } on-error={}
+:do { add list=GP address=109.62.69.52/31 } on-error={}
+:do { add list=GP address=109.62.69.60/30 } on-error={}
+:do { add list=GP address=109.62.71.0/24 } on-error={}
 :do { add list=GP address=109.62.119.128/25 } on-error={}
 :do { add list=GP address=136.23.23.41/32 } on-error={}
 :do { add list=GP address=136.23.27.25/32 } on-error={}

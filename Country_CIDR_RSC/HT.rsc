@@ -61,7 +61,6 @@
 :do { add list=HT address=146.75.244.8/31 } on-error={}
 :do { add list=HT address=148.102.128.0/17 } on-error={}
 :do { add list=HT address=153.67.86.0/23 } on-error={}
-:do { add list=HT address=157.167.121.0/24 } on-error={}
 :do { add list=HT address=161.0.128.0/20 } on-error={}
 :do { add list=HT address=161.0.144.0/21 } on-error={}
 :do { add list=HT address=162.120.199.172/32 } on-error={}

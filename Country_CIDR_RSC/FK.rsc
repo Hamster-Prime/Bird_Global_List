@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=FK address=5.62.56.92/30 } on-error={}
 :do { add list=FK address=5.62.58.88/30 } on-error={}
-:do { add list=FK address=44.32.192.134/32 } on-error={}
 :do { add list=FK address=80.73.208.0/21 } on-error={}
 :do { add list=FK address=80.73.216.0/23 } on-error={}
 :do { add list=FK address=104.28.9.197/32 } on-error={}
