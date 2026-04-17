@@ -5,7 +5,7 @@
 :do { add list=KN address=5.175.190.199/32 } on-error={}
 :do { add list=KN address=23.131.208.0/24 } on-error={}
 :do { add list=KN address=23.137.40.0/24 } on-error={}
-:do { add list=KN address=31.57.169.0/24 } on-error={}
+:do { add list=KN address=38.86.181.26/32 } on-error={}
 :do { add list=KN address=45.42.252.0/22 } on-error={}
 :do { add list=KN address=57.74.108.0/23 } on-error={}
 :do { add list=KN address=57.91.128.0/20 } on-error={}
@@ -13,6 +13,7 @@
 :do { add list=KN address=66.198.225.0/24 } on-error={}
 :do { add list=KN address=66.201.77.192/27 } on-error={}
 :do { add list=KN address=66.205.22.224/28 } on-error={}
+:do { add list=KN address=67.230.96.49/32 } on-error={}
 :do { add list=KN address=69.56.54.0/29 } on-error={}
 :do { add list=KN address=69.56.54.248/29 } on-error={}
 :do { add list=KN address=69.57.238.0/24 } on-error={}
@@ -81,6 +82,7 @@
 :do { add list=KN address=146.75.248.26/31 } on-error={}
 :do { add list=KN address=149.112.30.0/24 } on-error={}
 :do { add list=KN address=153.67.162.0/23 } on-error={}
+:do { add list=KN address=157.167.124.0/24 } on-error={}
 :do { add list=KN address=162.120.193.228/32 } on-error={}
 :do { add list=KN address=162.120.202.217/32 } on-error={}
 :do { add list=KN address=163.116.250.106/31 } on-error={}
@@ -110,13 +112,9 @@
 :do { add list=KN address=202.72.99.16/29 } on-error={}
 :do { add list=KN address=204.14.254.95/32 } on-error={}
 :do { add list=KN address=204.16.8.0/22 } on-error={}
-:do { add list=KN address=204.16.112.0/32 } on-error={}
-:do { add list=KN address=204.16.112.7/32 } on-error={}
 :do { add list=KN address=204.16.112.32/32 } on-error={}
 :do { add list=KN address=204.16.112.50/32 } on-error={}
-:do { add list=KN address=204.16.112.65/32 } on-error={}
 :do { add list=KN address=204.16.112.69/32 } on-error={}
-:do { add list=KN address=204.16.112.103/32 } on-error={}
 :do { add list=KN address=204.19.200.0/22 } on-error={}
 :do { add list=KN address=204.137.192.0/19 } on-error={}
 :do { add list=KN address=205.214.203.0/24 } on-error={}

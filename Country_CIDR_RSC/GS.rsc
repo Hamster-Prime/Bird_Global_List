@@ -14,4 +14,5 @@
 :do { add list=GS address=140.248.61.89/32 } on-error={}
 :do { add list=GS address=140.248.62.89/32 } on-error={}
 :do { add list=GS address=140.248.63.89/32 } on-error={}
+:do { add list=GS address=179.64.28.0/23 } on-error={}
 :do { add list=GS address=197.215.211.32/28 } on-error={}

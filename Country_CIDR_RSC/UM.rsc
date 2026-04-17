@@ -14,3 +14,4 @@
 :do { add list=UM address=140.248.63.231/32 } on-error={}
 :do { add list=UM address=162.120.214.16/32 } on-error={}
 :do { add list=UM address=162.120.216.178/32 } on-error={}
+:do { add list=UM address=179.64.24.0/23 } on-error={}

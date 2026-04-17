@@ -36,3 +36,4 @@
 :do { add list=WF address=172.225.63.0/27 } on-error={}
 :do { add list=WF address=172.225.231.128/28 } on-error={}
 :do { add list=WF address=172.225.245.64/28 } on-error={}
+:do { add list=WF address=179.65.154.0/23 } on-error={}

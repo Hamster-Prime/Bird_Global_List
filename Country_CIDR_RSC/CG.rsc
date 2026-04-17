@@ -30,15 +30,7 @@
 :do { add list=CG address=102.64.118.0/24 } on-error={}
 :do { add list=CG address=102.64.119.0/24 } on-error={}
 :do { add list=CG address=102.129.65.0/24 } on-error={}
-:do { add list=CG address=102.129.66.0/29 } on-error={}
-:do { add list=CG address=102.129.66.8/32 } on-error={}
-:do { add list=CG address=102.129.66.10/31 } on-error={}
-:do { add list=CG address=102.129.66.12/30 } on-error={}
-:do { add list=CG address=102.129.66.16/28 } on-error={}
-:do { add list=CG address=102.129.66.32/27 } on-error={}
-:do { add list=CG address=102.129.66.64/26 } on-error={}
-:do { add list=CG address=102.129.66.128/25 } on-error={}
-:do { add list=CG address=102.129.67.0/24 } on-error={}
+:do { add list=CG address=102.129.66.0/23 } on-error={}
 :do { add list=CG address=102.129.68.0/22 } on-error={}
 :do { add list=CG address=102.129.72.0/21 } on-error={}
 :do { add list=CG address=102.129.80.0/24 } on-error={}
@@ -52,6 +44,7 @@
 :do { add list=CG address=102.129.92.0/23 } on-error={}
 :do { add list=CG address=102.129.94.0/24 } on-error={}
 :do { add list=CG address=102.129.95.0/24 } on-error={}
+:do { add list=CG address=102.130.68.77/32 } on-error={}
 :do { add list=CG address=102.141.0.0/18 } on-error={}
 :do { add list=CG address=102.204.124.0/24 } on-error={}
 :do { add list=CG address=102.209.72.0/22 } on-error={}
@@ -122,7 +115,6 @@
 :do { add list=CG address=197.157.252.0/22 } on-error={}
 :do { add list=CG address=197.214.128.0/17 } on-error={}
 :do { add list=CG address=197.255.176.0/20 } on-error={}
-:do { add list=CG address=213.248.100.20/32 } on-error={}
 :do { add list=CG address=217.113.65.0/24 } on-error={}
 :do { add list=CG address=217.113.69.0/24 } on-error={}
 :do { add list=CG address=217.113.78.0/24 } on-error={}
