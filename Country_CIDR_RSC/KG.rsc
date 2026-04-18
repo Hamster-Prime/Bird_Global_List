@@ -228,7 +228,6 @@
 :do { add list=KG address=195.38.160.0/19 } on-error={}
 :do { add list=KG address=195.54.180.0/23 } on-error={}
 :do { add list=KG address=195.114.240.0/20 } on-error={}
-:do { add list=KG address=195.208.208.137/32 } on-error={}
 :do { add list=KG address=195.208.210.194/32 } on-error={}
 :do { add list=KG address=195.216.237.0/24 } on-error={}
 :do { add list=KG address=196.48.117.0/24 } on-error={}

@@ -5,8 +5,6 @@
 :do { add list=HT address=57.74.112.0/23 } on-error={}
 :do { add list=HT address=57.91.96.0/20 } on-error={}
 :do { add list=HT address=63.243.134.0/23 } on-error={}
-:do { add list=HT address=64.86.54.4/30 } on-error={}
-:do { add list=HT address=64.86.54.8/29 } on-error={}
 :do { add list=HT address=64.86.54.16/28 } on-error={}
 :do { add list=HT address=64.86.54.32/27 } on-error={}
 :do { add list=HT address=64.86.54.64/26 } on-error={}

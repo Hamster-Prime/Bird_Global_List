@@ -8,7 +8,6 @@
 :do { add list=SR address=57.74.244.0/23 } on-error={}
 :do { add list=SR address=57.75.120.0/21 } on-error={}
 :do { add list=SR address=63.246.37.128/26 } on-error={}
-:do { add list=SR address=67.230.96.153/32 } on-error={}
 :do { add list=SR address=104.28.13.40/31 } on-error={}
 :do { add list=SR address=104.28.13.42/32 } on-error={}
 :do { add list=SR address=104.28.36.150/31 } on-error={}

@@ -99,7 +99,6 @@
 :do { add list=CI address=95.210.163.0/24 } on-error={}
 :do { add list=CI address=95.210.191.0/24 } on-error={}
 :do { add list=CI address=102.22.100.0/22 } on-error={}
-:do { add list=CI address=102.67.96.27/32 } on-error={}
 :do { add list=CI address=102.67.192.0/18 } on-error={}
 :do { add list=CI address=102.130.224.0/23 } on-error={}
 :do { add list=CI address=102.130.226.0/27 } on-error={}
@@ -257,13 +256,7 @@
 :do { add list=CI address=179.64.84.0/23 } on-error={}
 :do { add list=CI address=184.25.239.0/24 } on-error={}
 :do { add list=CI address=184.107.200.72/29 } on-error={}
-:do { add list=CI address=185.56.51.0/27 } on-error={}
-:do { add list=CI address=185.56.51.33/32 } on-error={}
-:do { add list=CI address=185.56.51.34/31 } on-error={}
-:do { add list=CI address=185.56.51.36/30 } on-error={}
-:do { add list=CI address=185.56.51.40/29 } on-error={}
-:do { add list=CI address=185.56.51.48/28 } on-error={}
-:do { add list=CI address=185.56.51.64/26 } on-error={}
+:do { add list=CI address=185.56.51.0/25 } on-error={}
 :do { add list=CI address=185.56.51.128/26 } on-error={}
 :do { add list=CI address=185.56.51.224/28 } on-error={}
 :do { add list=CI address=185.56.51.240/30 } on-error={}

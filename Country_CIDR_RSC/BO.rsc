@@ -1,7 +1,5 @@
 /log info "Loading BO IPv4 Address List"
 /ip firewall address-list
-:do { add list=BO address=5.53.0.242/32 } on-error={}
-:do { add list=BO address=5.53.0.245/32 } on-error={}
 :do { add list=BO address=5.62.56.40/30 } on-error={}
 :do { add list=BO address=5.62.58.40/30 } on-error={}
 :do { add list=BO address=23.249.54.5/32 } on-error={}

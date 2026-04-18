@@ -723,4 +723,3 @@
 :do { add list=UZ address=217.65.77.0/24 } on-error={}
 :do { add list=UZ address=217.107.81.182/32 } on-error={}
 :do { add list=UZ address=217.217.217.0/24 } on-error={}
-:do { add list=UZ address=223.121.2.93/32 } on-error={}

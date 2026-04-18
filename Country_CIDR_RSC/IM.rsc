@@ -8,7 +8,8 @@
 :do { add list=IM address=5.62.85.28/32 } on-error={}
 :do { add list=IM address=5.62.85.33/32 } on-error={}
 :do { add list=IM address=5.62.85.34/31 } on-error={}
-:do { add list=IM address=5.62.85.36/30 } on-error={}
+:do { add list=IM address=5.62.85.37/32 } on-error={}
+:do { add list=IM address=5.62.85.38/31 } on-error={}
 :do { add list=IM address=5.62.85.40/31 } on-error={}
 :do { add list=IM address=5.62.85.43/32 } on-error={}
 :do { add list=IM address=5.62.85.44/31 } on-error={}
@@ -252,11 +253,6 @@
 :do { add list=IM address=84.246.200.0/22 } on-error={}
 :do { add list=IM address=84.246.204.0/23 } on-error={}
 :do { add list=IM address=84.246.206.0/24 } on-error={}
-:do { add list=IM address=84.246.207.1/32 } on-error={}
-:do { add list=IM address=84.246.207.6/32 } on-error={}
-:do { add list=IM address=84.246.207.49/32 } on-error={}
-:do { add list=IM address=84.246.207.129/32 } on-error={}
-:do { add list=IM address=84.246.207.133/32 } on-error={}
 :do { add list=IM address=85.184.200.0/21 } on-error={}
 :do { add list=IM address=85.184.208.0/20 } on-error={}
 :do { add list=IM address=86.38.4.0/24 } on-error={}
@@ -416,10 +412,10 @@
 :do { add list=IM address=195.10.108.32/31 } on-error={}
 :do { add list=IM address=195.10.108.34/32 } on-error={}
 :do { add list=IM address=195.10.108.36/30 } on-error={}
-:do { add list=IM address=195.10.108.40/31 } on-error={}
+:do { add list=IM address=195.10.108.40/32 } on-error={}
 :do { add list=IM address=195.10.108.42/32 } on-error={}
 :do { add list=IM address=195.10.108.44/32 } on-error={}
-:do { add list=IM address=195.10.108.46/32 } on-error={}
+:do { add list=IM address=195.10.108.46/31 } on-error={}
 :do { add list=IM address=195.10.108.49/32 } on-error={}
 :do { add list=IM address=195.10.108.50/31 } on-error={}
 :do { add list=IM address=195.10.108.56/29 } on-error={}
@@ -446,7 +442,10 @@
 :do { add list=IM address=199.45.179.74/31 } on-error={}
 :do { add list=IM address=199.45.179.76/31 } on-error={}
 :do { add list=IM address=199.45.179.79/32 } on-error={}
-:do { add list=IM address=199.45.179.80/29 } on-error={}
+:do { add list=IM address=199.45.179.81/32 } on-error={}
+:do { add list=IM address=199.45.179.82/31 } on-error={}
+:do { add list=IM address=199.45.179.85/32 } on-error={}
+:do { add list=IM address=199.45.179.86/31 } on-error={}
 :do { add list=IM address=199.45.179.92/31 } on-error={}
 :do { add list=IM address=199.45.179.101/32 } on-error={}
 :do { add list=IM address=199.45.179.102/31 } on-error={}
