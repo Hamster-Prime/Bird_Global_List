@@ -241,6 +241,15 @@
 :do { add list=RE address=109.122.128.0/19 } on-error={}
 :do { add list=RE address=109.122.160.0/20 } on-error={}
 :do { add list=RE address=109.122.176.0/23 } on-error={}
+:do { add list=RE address=109.122.178.0/27 } on-error={}
+:do { add list=RE address=109.122.178.36/30 } on-error={}
+:do { add list=RE address=109.122.178.44/31 } on-error={}
+:do { add list=RE address=109.122.178.50/32 } on-error={}
+:do { add list=RE address=109.122.178.53/32 } on-error={}
+:do { add list=RE address=109.122.178.56/31 } on-error={}
+:do { add list=RE address=109.122.178.60/32 } on-error={}
+:do { add list=RE address=109.122.178.64/26 } on-error={}
+:do { add list=RE address=109.122.178.128/25 } on-error={}
 :do { add list=RE address=109.122.179.0/24 } on-error={}
 :do { add list=RE address=109.122.180.0/22 } on-error={}
 :do { add list=RE address=109.122.184.0/21 } on-error={}
