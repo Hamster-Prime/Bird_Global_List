@@ -293,7 +293,7 @@
 :do { add list=SY address=185.200.36.220/30 } on-error={}
 :do { add list=SY address=185.200.36.228/31 } on-error={}
 :do { add list=SY address=185.200.36.234/32 } on-error={}
-:do { add list=SY address=185.200.36.236/30 } on-error={}
+:do { add list=SY address=185.200.36.238/31 } on-error={}
 :do { add list=SY address=185.200.36.240/28 } on-error={}
 :do { add list=SY address=185.200.37.9/32 } on-error={}
 :do { add list=SY address=185.200.37.12/30 } on-error={}
