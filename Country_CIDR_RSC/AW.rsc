@@ -112,14 +112,7 @@
 :do { add list=AW address=201.229.4.0/22 } on-error={}
 :do { add list=AW address=201.229.8.0/21 } on-error={}
 :do { add list=AW address=201.229.16.0/20 } on-error={}
-:do { add list=AW address=201.229.32.0/22 } on-error={}
-:do { add list=AW address=201.229.36.0/24 } on-error={}
-:do { add list=AW address=201.229.37.0/26 } on-error={}
-:do { add list=AW address=201.229.37.68/31 } on-error={}
-:do { add list=AW address=201.229.37.72/29 } on-error={}
-:do { add list=AW address=201.229.37.80/31 } on-error={}
-:do { add list=AW address=201.229.38.0/23 } on-error={}
-:do { add list=AW address=201.229.40.0/21 } on-error={}
+:do { add list=AW address=201.229.32.0/20 } on-error={}
 :do { add list=AW address=201.229.48.0/21 } on-error={}
 :do { add list=AW address=201.229.56.0/22 } on-error={}
 :do { add list=AW address=201.229.60.0/22 } on-error={}
