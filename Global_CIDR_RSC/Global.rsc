@@ -3930,7 +3930,7 @@
 :do { add list=Global address=103.152.196.0/22 } on-error={}
 :do { add list=Global address=103.152.194.0/23 } on-error={}
 :do { add list=Global address=103.152.176.0/21 } on-error={}
-:do { add list=Global address=103.152.188.0/23 } on-error={}
+:do { add list=Global address=103.152.188.0/22 } on-error={}
 :do { add list=Global address=103.152.184.0/23 } on-error={}
 :do { add list=Global address=103.152.160.0/21 } on-error={}
 :do { add list=Global address=103.152.172.0/22 } on-error={}
@@ -9707,7 +9707,9 @@
 :do { add list=Global address=163.130.0.0/15 } on-error={}
 :do { add list=Global address=163.129.0.0/16 } on-error={}
 :do { add list=Global address=163.128.192.0/19 } on-error={}
-:do { add list=Global address=163.128.240.0/20 } on-error={}
+:do { add list=Global address=163.128.240.0/21 } on-error={}
+:do { add list=Global address=163.128.248.0/22 } on-error={}
+:do { add list=Global address=163.128.252.0/23 } on-error={}
 :do { add list=Global address=163.128.224.0/21 } on-error={}
 :do { add list=Global address=163.128.232.0/22 } on-error={}
 :do { add list=Global address=163.128.238.0/23 } on-error={}
