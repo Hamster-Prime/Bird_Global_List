@@ -507,6 +507,8 @@
 :do { add list=GU address=204.44.191.104/29 } on-error={}
 :do { add list=GU address=204.44.191.112/28 } on-error={}
 :do { add list=GU address=204.44.191.128/25 } on-error={}
+:do { add list=GU address=204.218.128.24/30 } on-error={}
+:do { add list=GU address=204.218.128.28/31 } on-error={}
 :do { add list=GU address=205.198.96.0/21 } on-error={}
 :do { add list=GU address=205.199.1.97/32 } on-error={}
 :do { add list=GU address=205.199.1.98/32 } on-error={}

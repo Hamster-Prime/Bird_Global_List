@@ -668,6 +668,8 @@
 :do { add list=MA address=197.253.128.0/17 } on-error={}
 :do { add list=MA address=198.45.244.152/29 } on-error={}
 :do { add list=MA address=199.116.175.48/28 } on-error={}
+:do { add list=MA address=204.153.9.32/29 } on-error={}
+:do { add list=MA address=204.153.9.64/26 } on-error={}
 :do { add list=MA address=209.206.30.0/24 } on-error={}
 :do { add list=MA address=212.217.0.0/17 } on-error={}
 :do { add list=MA address=213.62.94.0/23 } on-error={}

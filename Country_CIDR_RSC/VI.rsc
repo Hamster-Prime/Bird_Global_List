@@ -6,6 +6,12 @@
 :do { add list=VI address=5.175.190.220/30 } on-error={}
 :do { add list=VI address=5.175.190.228/30 } on-error={}
 :do { add list=VI address=12.174.240.172/30 } on-error={}
+:do { add list=VI address=12.204.8.16/29 } on-error={}
+:do { add list=VI address=12.204.8.80/29 } on-error={}
+:do { add list=VI address=12.204.8.160/29 } on-error={}
+:do { add list=VI address=12.204.9.64/29 } on-error={}
+:do { add list=VI address=12.204.13.112/29 } on-error={}
+:do { add list=VI address=12.204.13.152/29 } on-error={}
 :do { add list=VI address=23.143.120.0/24 } on-error={}
 :do { add list=VI address=38.134.168.0/23 } on-error={}
 :do { add list=VI address=45.42.0.0/22 } on-error={}

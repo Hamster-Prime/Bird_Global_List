@@ -74,6 +74,11 @@
 :do { add list=KG address=91.188.250.176/32 } on-error={}
 :do { add list=KG address=91.192.64.0/22 } on-error={}
 :do { add list=KG address=91.199.112.0/24 } on-error={}
+:do { add list=KG address=91.205.48.0/26 } on-error={}
+:do { add list=KG address=91.205.48.64/27 } on-error={}
+:do { add list=KG address=91.205.48.96/28 } on-error={}
+:do { add list=KG address=91.205.48.112/29 } on-error={}
+:do { add list=KG address=91.205.48.121/32 } on-error={}
 :do { add list=KG address=91.205.48.128/25 } on-error={}
 :do { add list=KG address=91.205.49.0/24 } on-error={}
 :do { add list=KG address=91.205.50.0/23 } on-error={}

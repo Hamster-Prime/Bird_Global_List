@@ -797,7 +797,9 @@
 :do { add list=GP address=90.15.40.0/22 } on-error={}
 :do { add list=GP address=90.15.46.0/24 } on-error={}
 :do { add list=GP address=90.15.48.0/21 } on-error={}
-:do { add list=GP address=90.15.56.0/22 } on-error={}
+:do { add list=GP address=90.15.56.0/24 } on-error={}
+:do { add list=GP address=90.15.57.0/25 } on-error={}
+:do { add list=GP address=90.15.58.0/23 } on-error={}
 :do { add list=GP address=90.15.61.0/24 } on-error={}
 :do { add list=GP address=90.15.62.0/23 } on-error={}
 :do { add list=GP address=90.15.64.0/22 } on-error={}
