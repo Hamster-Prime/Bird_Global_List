@@ -99,8 +99,7 @@
 :do { add list=JO address=81.10.124.80/28 } on-error={}
 :do { add list=JO address=81.10.124.96/27 } on-error={}
 :do { add list=JO address=81.10.124.128/25 } on-error={}
-:do { add list=JO address=81.21.0.0/24 } on-error={}
-:do { add list=JO address=81.21.1.0/24 } on-error={}
+:do { add list=JO address=81.21.0.0/23 } on-error={}
 :do { add list=JO address=81.21.2.0/24 } on-error={}
 :do { add list=JO address=81.21.5.0/24 } on-error={}
 :do { add list=JO address=81.21.6.0/24 } on-error={}

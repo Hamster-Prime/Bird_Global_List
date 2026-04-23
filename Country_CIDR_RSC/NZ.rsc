@@ -1344,9 +1344,11 @@
 :do { add list=NZ address=103.231.91.126/31 } on-error={}
 :do { add list=NZ address=103.231.91.128/26 } on-error={}
 :do { add list=NZ address=103.231.91.192/27 } on-error={}
+:do { add list=NZ address=103.231.91.224/32 } on-error={}
 :do { add list=NZ address=103.231.91.226/31 } on-error={}
 :do { add list=NZ address=103.231.91.228/30 } on-error={}
 :do { add list=NZ address=103.231.91.232/29 } on-error={}
+:do { add list=NZ address=103.231.91.240/28 } on-error={}
 :do { add list=NZ address=103.231.156.0/23 } on-error={}
 :do { add list=NZ address=103.232.104.0/22 } on-error={}
 :do { add list=NZ address=103.232.108.0/24 } on-error={}
@@ -2986,7 +2988,7 @@
 :do { add list=NZ address=167.179.211.0/24 } on-error={}
 :do { add list=NZ address=167.179.216.0/21 } on-error={}
 :do { add list=NZ address=168.80.8.0/23 } on-error={}
-:do { add list=NZ address=168.149.171.0/24 } on-error={}
+:do { add list=NZ address=168.149.170.0/23 } on-error={}
 :do { add list=NZ address=168.199.240.0/22 } on-error={}
 :do { add list=NZ address=168.199.252.0/22 } on-error={}
 :do { add list=NZ address=170.62.184.0/22 } on-error={}
@@ -3022,7 +3024,6 @@
 :do { add list=NZ address=172.235.118.0/23 } on-error={}
 :do { add list=NZ address=173.44.27.0/24 } on-error={}
 :do { add list=NZ address=173.82.77.0/24 } on-error={}
-:do { add list=NZ address=173.82.123.0/24 } on-error={}
 :do { add list=NZ address=173.82.125.0/24 } on-error={}
 :do { add list=NZ address=173.223.228.0/22 } on-error={}
 :do { add list=NZ address=174.142.13.168/29 } on-error={}
@@ -4298,10 +4299,7 @@
 :do { add list=NZ address=210.54.90.0/24 } on-error={}
 :do { add list=NZ address=210.54.91.0/24 } on-error={}
 :do { add list=NZ address=210.54.92.0/22 } on-error={}
-:do { add list=NZ address=210.54.96.0/23 } on-error={}
-:do { add list=NZ address=210.54.98.0/24 } on-error={}
-:do { add list=NZ address=210.54.99.0/24 } on-error={}
-:do { add list=NZ address=210.54.100.0/22 } on-error={}
+:do { add list=NZ address=210.54.96.0/21 } on-error={}
 :do { add list=NZ address=210.54.104.0/21 } on-error={}
 :do { add list=NZ address=210.54.112.0/22 } on-error={}
 :do { add list=NZ address=210.54.116.0/23 } on-error={}

@@ -864,6 +864,8 @@
 :do { add list=PA address=181.214.137.0/24 } on-error={}
 :do { add list=PA address=181.214.158.0/23 } on-error={}
 :do { add list=PA address=181.214.192.0/23 } on-error={}
+:do { add list=PA address=184.104.209.252/32 } on-error={}
+:do { add list=PA address=184.104.209.255/32 } on-error={}
 :do { add list=PA address=184.107.137.104/29 } on-error={}
 :do { add list=PA address=184.107.151.80/29 } on-error={}
 :do { add list=PA address=184.107.154.8/29 } on-error={}

@@ -178,7 +178,15 @@
 :do { add list=BO address=136.227.141.84/30 } on-error={}
 :do { add list=BO address=138.36.76.0/22 } on-error={}
 :do { add list=BO address=138.84.36.0/23 } on-error={}
-:do { add list=BO address=138.84.50.0/23 } on-error={}
+:do { add list=BO address=138.84.50.32/27 } on-error={}
+:do { add list=BO address=138.84.50.64/26 } on-error={}
+:do { add list=BO address=138.84.50.128/26 } on-error={}
+:do { add list=BO address=138.84.50.192/27 } on-error={}
+:do { add list=BO address=138.84.51.36/31 } on-error={}
+:do { add list=BO address=138.84.51.42/31 } on-error={}
+:do { add list=BO address=138.84.51.144/31 } on-error={}
+:do { add list=BO address=138.84.51.148/31 } on-error={}
+:do { add list=BO address=138.84.51.192/30 } on-error={}
 :do { add list=BO address=138.204.15.0/24 } on-error={}
 :do { add list=BO address=140.248.25.4/31 } on-error={}
 :do { add list=BO address=140.248.32.0/31 } on-error={}

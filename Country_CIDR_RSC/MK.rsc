@@ -332,7 +332,13 @@
 :do { add list=MK address=146.255.94.0/23 } on-error={}
 :do { add list=MK address=148.64.22.32/27 } on-error={}
 :do { add list=MK address=149.11.98.0/24 } on-error={}
-:do { add list=MK address=149.29.10.0/25 } on-error={}
+:do { add list=MK address=149.29.10.0/28 } on-error={}
+:do { add list=MK address=149.29.10.16/31 } on-error={}
+:do { add list=MK address=149.29.10.19/32 } on-error={}
+:do { add list=MK address=149.29.10.20/30 } on-error={}
+:do { add list=MK address=149.29.10.24/29 } on-error={}
+:do { add list=MK address=149.29.10.32/27 } on-error={}
+:do { add list=MK address=149.29.10.64/26 } on-error={}
 :do { add list=MK address=149.126.9.120/29 } on-error={}
 :do { add list=MK address=150.40.120.0/24 } on-error={}
 :do { add list=MK address=150.228.44.0/23 } on-error={}
@@ -553,7 +559,6 @@
 :do { add list=MK address=213.250.42.178/32 } on-error={}
 :do { add list=MK address=213.250.42.210/32 } on-error={}
 :do { add list=MK address=216.66.80.122/31 } on-error={}
-:do { add list=MK address=216.66.81.32/27 } on-error={}
 :do { add list=MK address=216.218.253.230/32 } on-error={}
 :do { add list=MK address=217.9.244.0/26 } on-error={}
 :do { add list=MK address=217.9.244.64/28 } on-error={}

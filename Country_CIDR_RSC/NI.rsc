@@ -204,8 +204,7 @@
 :do { add list=NI address=165.98.244.0/23 } on-error={}
 :do { add list=NI address=165.98.246.0/24 } on-error={}
 :do { add list=NI address=165.98.247.0/24 } on-error={}
-:do { add list=NI address=165.98.248.0/24 } on-error={}
-:do { add list=NI address=165.98.249.0/24 } on-error={}
+:do { add list=NI address=165.98.248.0/23 } on-error={}
 :do { add list=NI address=165.98.250.0/24 } on-error={}
 :do { add list=NI address=165.98.251.0/24 } on-error={}
 :do { add list=NI address=165.98.252.0/22 } on-error={}

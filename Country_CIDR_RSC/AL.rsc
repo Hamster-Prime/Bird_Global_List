@@ -406,15 +406,7 @@
 :do { add list=AL address=172.94.48.0/24 } on-error={}
 :do { add list=AL address=172.94.69.0/24 } on-error={}
 :do { add list=AL address=172.94.83.0/24 } on-error={}
-:do { add list=AL address=172.111.165.0/30 } on-error={}
-:do { add list=AL address=172.111.165.8/29 } on-error={}
-:do { add list=AL address=172.111.165.16/28 } on-error={}
-:do { add list=AL address=172.111.165.32/28 } on-error={}
-:do { add list=AL address=172.111.165.52/30 } on-error={}
-:do { add list=AL address=172.111.165.56/29 } on-error={}
-:do { add list=AL address=172.111.165.64/26 } on-error={}
-:do { add list=AL address=172.111.165.128/26 } on-error={}
-:do { add list=AL address=172.111.165.192/27 } on-error={}
+:do { add list=AL address=172.111.165.0/24 } on-error={}
 :do { add list=AL address=172.111.207.0/24 } on-error={}
 :do { add list=AL address=172.111.209.0/24 } on-error={}
 :do { add list=AL address=172.111.217.0/24 } on-error={}
