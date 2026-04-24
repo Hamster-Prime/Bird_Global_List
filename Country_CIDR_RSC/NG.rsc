@@ -67,7 +67,6 @@
 :do { add list=NG address=34.103.146.0/23 } on-error={}
 :do { add list=NG address=34.103.219.0/24 } on-error={}
 :do { add list=NG address=34.175.220.157/32 } on-error={}
-:do { add list=NG address=38.159.182.0/24 } on-error={}
 :do { add list=NG address=40.90.65.136/32 } on-error={}
 :do { add list=NG address=41.57.120.0/22 } on-error={}
 :do { add list=NG address=41.58.0.0/16 } on-error={}
@@ -1644,7 +1643,12 @@
 :do { add list=NG address=154.113.152.0/21 } on-error={}
 :do { add list=NG address=154.113.160.0/19 } on-error={}
 :do { add list=NG address=154.113.192.0/18 } on-error={}
-:do { add list=NG address=154.117.64.0/19 } on-error={}
+:do { add list=NG address=154.117.64.0/20 } on-error={}
+:do { add list=NG address=154.117.80.0/25 } on-error={}
+:do { add list=NG address=154.117.81.0/24 } on-error={}
+:do { add list=NG address=154.117.82.0/23 } on-error={}
+:do { add list=NG address=154.117.84.0/22 } on-error={}
+:do { add list=NG address=154.117.88.0/21 } on-error={}
 :do { add list=NG address=154.117.96.0/20 } on-error={}
 :do { add list=NG address=154.117.112.0/22 } on-error={}
 :do { add list=NG address=154.117.116.0/23 } on-error={}
@@ -2138,7 +2142,14 @@
 :do { add list=NG address=196.13.242.0/24 } on-error={}
 :do { add list=NG address=196.13.245.0/24 } on-error={}
 :do { add list=NG address=196.22.6.0/24 } on-error={}
-:do { add list=NG address=196.27.128.0/17 } on-error={}
+:do { add list=NG address=196.27.128.0/21 } on-error={}
+:do { add list=NG address=196.27.136.0/24 } on-error={}
+:do { add list=NG address=196.27.137.0/24 } on-error={}
+:do { add list=NG address=196.27.138.0/23 } on-error={}
+:do { add list=NG address=196.27.140.0/22 } on-error={}
+:do { add list=NG address=196.27.144.0/20 } on-error={}
+:do { add list=NG address=196.27.160.0/19 } on-error={}
+:do { add list=NG address=196.27.192.0/18 } on-error={}
 :do { add list=NG address=196.28.10.0/24 } on-error={}
 :do { add list=NG address=196.29.44.0/22 } on-error={}
 :do { add list=NG address=196.32.224.0/23 } on-error={}

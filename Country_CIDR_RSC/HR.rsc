@@ -1449,8 +1449,6 @@
 :do { add list=HR address=212.221.7.16/29 } on-error={}
 :do { add list=HR address=212.221.116.112/29 } on-error={}
 :do { add list=HR address=212.221.117.232/30 } on-error={}
-:do { add list=HR address=212.222.41.64/29 } on-error={}
-:do { add list=HR address=212.222.41.72/30 } on-error={}
 :do { add list=HR address=212.222.196.128/29 } on-error={}
 :do { add list=HR address=213.5.56.0/21 } on-error={}
 :do { add list=HR address=213.19.207.0/32 } on-error={}

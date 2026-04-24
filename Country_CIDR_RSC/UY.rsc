@@ -555,13 +555,6 @@
 :do { add list=UY address=200.71.0.0/24 } on-error={}
 :do { add list=UY address=200.71.1.0/24 } on-error={}
 :do { add list=UY address=200.71.2.0/24 } on-error={}
-:do { add list=UY address=200.71.3.128/26 } on-error={}
-:do { add list=UY address=200.71.3.192/29 } on-error={}
-:do { add list=UY address=200.71.3.200/31 } on-error={}
-:do { add list=UY address=200.71.3.202/32 } on-error={}
-:do { add list=UY address=200.71.3.204/30 } on-error={}
-:do { add list=UY address=200.71.3.208/28 } on-error={}
-:do { add list=UY address=200.71.3.224/27 } on-error={}
 :do { add list=UY address=200.71.4.0/22 } on-error={}
 :do { add list=UY address=200.71.8.0/21 } on-error={}
 :do { add list=UY address=200.71.16.0/22 } on-error={}

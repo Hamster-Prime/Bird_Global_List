@@ -932,6 +932,12 @@
 :do { add list=LU address=149.14.54.112/29 } on-error={}
 :do { add list=LU address=150.107.125.0/24 } on-error={}
 :do { add list=LU address=151.80.172.64/29 } on-error={}
+:do { add list=LU address=151.186.180.159/32 } on-error={}
+:do { add list=LU address=151.186.180.222/32 } on-error={}
+:do { add list=LU address=151.186.181.161/32 } on-error={}
+:do { add list=LU address=151.186.181.226/32 } on-error={}
+:do { add list=LU address=151.186.187.41/32 } on-error={}
+:do { add list=LU address=151.186.187.104/32 } on-error={}
 :do { add list=LU address=152.53.24.0/24 } on-error={}
 :do { add list=LU address=153.92.48.0/27 } on-error={}
 :do { add list=LU address=153.92.48.32/29 } on-error={}
@@ -2065,6 +2071,7 @@
 :do { add list=LU address=212.222.20.56/29 } on-error={}
 :do { add list=LU address=212.222.32.100/30 } on-error={}
 :do { add list=LU address=212.222.32.224/30 } on-error={}
+:do { add list=LU address=212.222.40.144/29 } on-error={}
 :do { add list=LU address=212.222.84.100/30 } on-error={}
 :do { add list=LU address=212.222.85.80/29 } on-error={}
 :do { add list=LU address=212.222.93.0/29 } on-error={}
@@ -2214,8 +2221,6 @@
 :do { add list=LU address=216.66.93.56/30 } on-error={}
 :do { add list=LU address=216.66.94.41/32 } on-error={}
 :do { add list=LU address=216.66.94.42/32 } on-error={}
-:do { add list=LU address=216.66.95.88/32 } on-error={}
-:do { add list=LU address=216.66.95.90/31 } on-error={}
 :do { add list=LU address=216.131.68.0/24 } on-error={}
 :do { add list=LU address=216.172.0.0/24 } on-error={}
 :do { add list=LU address=216.172.4.0/25 } on-error={}
@@ -2288,5 +2293,6 @@
 :do { add list=LU address=217.146.21.0/24 } on-error={}
 :do { add list=LU address=217.150.156.56/29 } on-error={}
 :do { add list=LU address=217.171.176.0/20 } on-error={}
-:do { add list=LU address=217.180.16.0/23 } on-error={}
+:do { add list=LU address=217.180.16.0/24 } on-error={}
+:do { add list=LU address=217.180.17.0/24 } on-error={}
 :do { add list=LU address=217.182.190.254/31 } on-error={}
