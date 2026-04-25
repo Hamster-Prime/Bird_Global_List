@@ -315,6 +315,7 @@
 :do { add list=SI address=86.61.0.0/17 } on-error={}
 :do { add list=SI address=87.119.128.0/19 } on-error={}
 :do { add list=SI address=88.200.0.0/17 } on-error={}
+:do { add list=SI address=89.32.182.32/28 } on-error={}
 :do { add list=SI address=89.127.240.0/24 } on-error={}
 :do { add list=SI address=89.127.241.0/24 } on-error={}
 :do { add list=SI address=89.127.242.0/23 } on-error={}

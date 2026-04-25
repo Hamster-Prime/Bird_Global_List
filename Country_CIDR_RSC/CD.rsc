@@ -608,7 +608,7 @@
 :do { add list=CD address=172.225.242.48/28 } on-error={}
 :do { add list=CD address=174.142.171.24/29 } on-error={}
 :do { add list=CD address=185.8.44.0/22 } on-error={}
-:do { add list=CD address=185.10.166.0/24 } on-error={}
+:do { add list=CD address=185.10.166.128/25 } on-error={}
 :do { add list=CD address=185.138.17.135/32 } on-error={}
 :do { add list=CD address=185.199.166.126/32 } on-error={}
 :do { add list=CD address=185.199.166.134/32 } on-error={}

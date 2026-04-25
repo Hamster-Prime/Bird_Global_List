@@ -264,8 +264,6 @@
 :do { add list=GT address=154.196.0.0/24 } on-error={}
 :do { add list=GT address=154.202.6.64/26 } on-error={}
 :do { add list=GT address=154.202.6.128/25 } on-error={}
-:do { add list=GT address=154.202.7.192/27 } on-error={}
-:do { add list=GT address=154.202.7.224/28 } on-error={}
 :do { add list=GT address=154.223.128.0/24 } on-error={}
 :do { add list=GT address=157.167.14.0/24 } on-error={}
 :do { add list=GT address=157.167.224.25/32 } on-error={}

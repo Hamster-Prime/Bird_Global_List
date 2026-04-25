@@ -190,7 +190,8 @@
 :do { add list=PE address=38.56.106.0/24 } on-error={}
 :do { add list=PE address=38.56.107.0/24 } on-error={}
 :do { add list=PE address=38.56.109.0/24 } on-error={}
-:do { add list=PE address=38.56.110.0/23 } on-error={}
+:do { add list=PE address=38.56.110.0/24 } on-error={}
+:do { add list=PE address=38.56.111.0/24 } on-error={}
 :do { add list=PE address=38.56.112.0/24 } on-error={}
 :do { add list=PE address=38.56.113.0/24 } on-error={}
 :do { add list=PE address=38.56.114.0/23 } on-error={}
@@ -349,7 +350,8 @@
 :do { add list=PE address=38.255.8.0/24 } on-error={}
 :do { add list=PE address=38.255.104.0/21 } on-error={}
 :do { add list=PE address=43.132.86.77/32 } on-error={}
-:do { add list=PE address=43.146.0.0/22 } on-error={}
+:do { add list=PE address=43.146.0.0/23 } on-error={}
+:do { add list=PE address=43.146.2.0/23 } on-error={}
 :do { add list=PE address=43.152.20.0/24 } on-error={}
 :do { add list=PE address=43.152.52.0/24 } on-error={}
 :do { add list=PE address=43.168.72.0/24 } on-error={}
@@ -1117,6 +1119,7 @@
 :do { add list=PE address=155.204.168.0/21 } on-error={}
 :do { add list=PE address=156.224.5.0/24 } on-error={}
 :do { add list=PE address=156.224.6.0/23 } on-error={}
+:do { add list=PE address=156.224.65.0/24 } on-error={}
 :do { add list=PE address=156.224.68.0/24 } on-error={}
 :do { add list=PE address=156.224.70.0/23 } on-error={}
 :do { add list=PE address=156.224.72.0/24 } on-error={}
@@ -1619,9 +1622,7 @@
 :do { add list=PE address=186.1.142.0/24 } on-error={}
 :do { add list=PE address=186.1.145.128/26 } on-error={}
 :do { add list=PE address=186.1.158.0/24 } on-error={}
-:do { add list=PE address=186.33.36.0/23 } on-error={}
-:do { add list=PE address=186.33.38.0/24 } on-error={}
-:do { add list=PE address=186.33.39.0/24 } on-error={}
+:do { add list=PE address=186.33.36.0/22 } on-error={}
 :do { add list=PE address=186.64.124.0/22 } on-error={}
 :do { add list=PE address=186.148.196.0/22 } on-error={}
 :do { add list=PE address=186.160.0.0/19 } on-error={}
