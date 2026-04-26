@@ -778,6 +778,11 @@
 :do { add list=CY address=178.83.176.0/24 } on-error={}
 :do { add list=CY address=178.175.182.0/24 } on-error={}
 :do { add list=CY address=178.255.204.0/24 } on-error={}
+:do { add list=CY address=184.104.215.0/32 } on-error={}
+:do { add list=CY address=184.104.215.2/31 } on-error={}
+:do { add list=CY address=184.104.215.4/30 } on-error={}
+:do { add list=CY address=184.104.215.8/29 } on-error={}
+:do { add list=CY address=184.104.215.16/28 } on-error={}
 :do { add list=CY address=184.107.181.96/29 } on-error={}
 :do { add list=CY address=185.1.207.0/24 } on-error={}
 :do { add list=CY address=185.2.96.0/22 } on-error={}

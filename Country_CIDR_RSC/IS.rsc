@@ -827,6 +827,7 @@
 :do { add list=IS address=213.181.125.128/25 } on-error={}
 :do { add list=IS address=213.181.126.0/23 } on-error={}
 :do { add list=IS address=213.190.96.0/19 } on-error={}
+:do { add list=IS address=213.193.235.0/24 } on-error={}
 :do { add list=IS address=213.213.128.0/19 } on-error={}
 :do { add list=IS address=213.220.64.0/18 } on-error={}
 :do { add list=IS address=216.86.168.0/21 } on-error={}

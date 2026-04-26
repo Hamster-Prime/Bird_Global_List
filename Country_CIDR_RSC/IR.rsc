@@ -2135,7 +2135,8 @@
 :do { add list=IR address=94.139.184.0/22 } on-error={}
 :do { add list=IR address=94.139.188.0/24 } on-error={}
 :do { add list=IR address=94.139.189.0/24 } on-error={}
-:do { add list=IR address=94.139.190.0/23 } on-error={}
+:do { add list=IR address=94.139.190.0/24 } on-error={}
+:do { add list=IR address=94.139.191.0/25 } on-error={}
 :do { add list=IR address=94.176.8.0/21 } on-error={}
 :do { add list=IR address=94.176.32.0/21 } on-error={}
 :do { add list=IR address=94.177.72.0/21 } on-error={}
@@ -2456,7 +2457,6 @@
 :do { add list=IR address=104.28.246.168/32 } on-error={}
 :do { add list=IR address=109.70.76.0/23 } on-error={}
 :do { add list=IR address=109.70.78.0/24 } on-error={}
-:do { add list=IR address=109.70.237.128/25 } on-error={}
 :do { add list=IR address=109.72.192.0/20 } on-error={}
 :do { add list=IR address=109.74.224.0/20 } on-error={}
 :do { add list=IR address=109.94.164.0/24 } on-error={}
@@ -3357,9 +3357,7 @@
 :do { add list=IR address=185.187.51.0/24 } on-error={}
 :do { add list=IR address=185.187.84.0/23 } on-error={}
 :do { add list=IR address=185.187.86.0/23 } on-error={}
-:do { add list=IR address=185.188.104.10/32 } on-error={}
-:do { add list=IR address=185.188.105.128/25 } on-error={}
-:do { add list=IR address=185.188.106.0/23 } on-error={}
+:do { add list=IR address=185.188.104.0/22 } on-error={}
 :do { add list=IR address=185.188.112.0/23 } on-error={}
 :do { add list=IR address=185.188.114.0/23 } on-error={}
 :do { add list=IR address=185.189.120.0/22 } on-error={}

@@ -505,6 +505,7 @@
 :do { add list=HR address=91.142.139.0/24 } on-error={}
 :do { add list=HR address=91.194.242.0/23 } on-error={}
 :do { add list=HR address=91.198.216.0/24 } on-error={}
+:do { add list=HR address=91.199.42.0/24 } on-error={}
 :do { add list=HR address=91.199.77.0/24 } on-error={}
 :do { add list=HR address=91.199.79.0/24 } on-error={}
 :do { add list=HR address=91.205.69.68/30 } on-error={}
