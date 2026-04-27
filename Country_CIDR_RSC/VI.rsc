@@ -119,7 +119,6 @@
 :do { add list=VI address=199.77.133.192/26 } on-error={}
 :do { add list=VI address=199.77.134.0/26 } on-error={}
 :do { add list=VI address=199.77.134.64/27 } on-error={}
-:do { add list=VI address=199.77.134.224/27 } on-error={}
 :do { add list=VI address=199.77.135.128/26 } on-error={}
 :do { add list=VI address=199.77.135.252/30 } on-error={}
 :do { add list=VI address=199.77.205.128/25 } on-error={}

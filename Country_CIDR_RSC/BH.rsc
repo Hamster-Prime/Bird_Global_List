@@ -294,6 +294,7 @@
 :do { add list=BH address=172.225.160.32/28 } on-error={}
 :do { add list=BH address=172.225.196.0/28 } on-error={}
 :do { add list=BH address=172.225.220.32/28 } on-error={}
+:do { add list=BH address=173.82.230.0/24 } on-error={}
 :do { add list=BH address=174.142.160.80/29 } on-error={}
 :do { add list=BH address=174.142.172.200/29 } on-error={}
 :do { add list=BH address=178.132.32.0/20 } on-error={}

@@ -1523,6 +1523,10 @@
 :do { add list=LV address=185.250.150.0/24 } on-error={}
 :do { add list=LV address=185.251.36.0/24 } on-error={}
 :do { add list=LV address=185.253.61.0/24 } on-error={}
+:do { add list=LV address=186.243.168.0/24 } on-error={}
+:do { add list=LV address=186.243.215.0/24 } on-error={}
+:do { add list=LV address=186.246.71.0/24 } on-error={}
+:do { add list=LV address=186.246.113.0/24 } on-error={}
 :do { add list=LV address=188.64.142.0/24 } on-error={}
 :do { add list=LV address=188.64.178.0/23 } on-error={}
 :do { add list=LV address=188.92.16.0/21 } on-error={}
