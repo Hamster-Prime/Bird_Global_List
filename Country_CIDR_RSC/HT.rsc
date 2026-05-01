@@ -5,17 +5,6 @@
 :do { add list=HT address=57.74.112.0/23 } on-error={}
 :do { add list=HT address=57.91.96.0/20 } on-error={}
 :do { add list=HT address=63.243.134.0/23 } on-error={}
-:do { add list=HT address=64.86.54.16/28 } on-error={}
-:do { add list=HT address=64.86.54.32/27 } on-error={}
-:do { add list=HT address=64.86.54.64/26 } on-error={}
-:do { add list=HT address=64.86.54.128/29 } on-error={}
-:do { add list=HT address=64.86.54.140/30 } on-error={}
-:do { add list=HT address=64.86.54.144/28 } on-error={}
-:do { add list=HT address=64.86.54.160/29 } on-error={}
-:do { add list=HT address=64.86.54.169/32 } on-error={}
-:do { add list=HT address=64.86.54.172/30 } on-error={}
-:do { add list=HT address=64.86.54.176/28 } on-error={}
-:do { add list=HT address=64.86.54.192/26 } on-error={}
 :do { add list=HT address=64.86.55.0/24 } on-error={}
 :do { add list=HT address=66.9.168.0/23 } on-error={}
 :do { add list=HT address=66.96.122.0/26 } on-error={}

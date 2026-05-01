@@ -101,15 +101,12 @@
 :do { add list=WS address=196.197.168.0/24 } on-error={}
 :do { add list=WS address=196.198.168.0/24 } on-error={}
 :do { add list=WS address=196.199.168.0/24 } on-error={}
-:do { add list=WS address=202.4.32.16/31 } on-error={}
-:do { add list=WS address=202.4.32.20/30 } on-error={}
-:do { add list=WS address=202.4.32.24/29 } on-error={}
 :do { add list=WS address=202.4.33.0/24 } on-error={}
 :do { add list=WS address=202.4.34.0/23 } on-error={}
-:do { add list=WS address=202.4.36.0/24 } on-error={}
-:do { add list=WS address=202.4.38.0/23 } on-error={}
+:do { add list=WS address=202.4.36.0/22 } on-error={}
 :do { add list=WS address=202.4.40.0/21 } on-error={}
 :do { add list=WS address=202.4.48.0/20 } on-error={}
 :do { add list=WS address=202.87.208.0/22 } on-error={}
 :do { add list=WS address=203.99.156.0/22 } on-error={}
 :do { add list=WS address=203.99.255.0/24 } on-error={}
+:do { add list=WS address=209.51.179.0/24 } on-error={}
