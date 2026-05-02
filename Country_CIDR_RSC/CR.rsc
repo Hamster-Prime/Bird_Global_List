@@ -577,7 +577,8 @@
 :do { add list=CR address=186.176.3.0/24 } on-error={}
 :do { add list=CR address=186.176.4.0/22 } on-error={}
 :do { add list=CR address=186.176.8.0/22 } on-error={}
-:do { add list=CR address=186.176.12.0/23 } on-error={}
+:do { add list=CR address=186.176.12.0/24 } on-error={}
+:do { add list=CR address=186.176.13.0/24 } on-error={}
 :do { add list=CR address=186.176.14.0/23 } on-error={}
 :do { add list=CR address=186.176.16.0/20 } on-error={}
 :do { add list=CR address=186.176.32.0/21 } on-error={}

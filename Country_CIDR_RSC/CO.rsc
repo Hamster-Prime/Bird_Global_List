@@ -67,6 +67,7 @@
 :do { add list=CO address=8.242.190.0/24 } on-error={}
 :do { add list=CO address=8.242.191.0/24 } on-error={}
 :do { add list=CO address=8.242.208.0/21 } on-error={}
+:do { add list=CO address=8.242.248.0/24 } on-error={}
 :do { add list=CO address=8.243.64.0/19 } on-error={}
 :do { add list=CO address=8.243.160.0/21 } on-error={}
 :do { add list=CO address=8.243.168.0/23 } on-error={}
@@ -382,7 +383,9 @@
 :do { add list=CO address=38.199.69.0/24 } on-error={}
 :do { add list=CO address=38.199.70.0/24 } on-error={}
 :do { add list=CO address=38.199.71.0/24 } on-error={}
-:do { add list=CO address=38.199.72.0/22 } on-error={}
+:do { add list=CO address=38.199.72.0/24 } on-error={}
+:do { add list=CO address=38.199.73.0/24 } on-error={}
+:do { add list=CO address=38.199.74.0/23 } on-error={}
 :do { add list=CO address=38.199.76.0/24 } on-error={}
 :do { add list=CO address=38.199.77.0/24 } on-error={}
 :do { add list=CO address=38.199.78.0/23 } on-error={}
@@ -395,7 +398,6 @@
 :do { add list=CO address=38.199.90.0/24 } on-error={}
 :do { add list=CO address=38.199.91.0/24 } on-error={}
 :do { add list=CO address=38.199.93.0/24 } on-error={}
-:do { add list=CO address=38.199.212.0/24 } on-error={}
 :do { add list=CO address=38.199.238.0/24 } on-error={}
 :do { add list=CO address=38.199.241.0/24 } on-error={}
 :do { add list=CO address=38.199.242.0/23 } on-error={}
@@ -2246,15 +2248,8 @@
 :do { add list=CO address=166.0.13.0/24 } on-error={}
 :do { add list=CO address=166.63.23.112/29 } on-error={}
 :do { add list=CO address=166.63.31.240/29 } on-error={}
-:do { add list=CO address=166.210.0.0/22 } on-error={}
-:do { add list=CO address=166.210.4.0/22 } on-error={}
-:do { add list=CO address=166.210.8.0/21 } on-error={}
-:do { add list=CO address=166.210.16.0/20 } on-error={}
-:do { add list=CO address=166.210.32.0/19 } on-error={}
-:do { add list=CO address=166.210.64.0/19 } on-error={}
-:do { add list=CO address=166.210.96.0/19 } on-error={}
-:do { add list=CO address=166.210.128.0/19 } on-error={}
-:do { add list=CO address=166.210.160.0/19 } on-error={}
+:do { add list=CO address=166.210.0.0/17 } on-error={}
+:do { add list=CO address=166.210.128.0/18 } on-error={}
 :do { add list=CO address=166.210.192.0/19 } on-error={}
 :do { add list=CO address=166.210.224.0/20 } on-error={}
 :do { add list=CO address=166.210.240.0/20 } on-error={}
@@ -3359,7 +3354,7 @@
 :do { add list=CO address=186.30.112.0/21 } on-error={}
 :do { add list=CO address=186.30.120.0/23 } on-error={}
 :do { add list=CO address=186.30.122.96/27 } on-error={}
-:do { add list=CO address=186.30.122.128/25 } on-error={}
+:do { add list=CO address=186.30.122.128/26 } on-error={}
 :do { add list=CO address=186.30.123.0/24 } on-error={}
 :do { add list=CO address=186.30.124.0/22 } on-error={}
 :do { add list=CO address=186.30.128.0/17 } on-error={}
@@ -3510,9 +3505,7 @@
 :do { add list=CO address=186.82.172.0/22 } on-error={}
 :do { add list=CO address=186.82.176.0/20 } on-error={}
 :do { add list=CO address=186.82.192.0/21 } on-error={}
-:do { add list=CO address=186.82.200.0/23 } on-error={}
-:do { add list=CO address=186.82.202.0/24 } on-error={}
-:do { add list=CO address=186.82.203.0/24 } on-error={}
+:do { add list=CO address=186.82.200.0/22 } on-error={}
 :do { add list=CO address=186.82.204.0/22 } on-error={}
 :do { add list=CO address=186.82.208.0/21 } on-error={}
 :do { add list=CO address=186.82.216.0/23 } on-error={}
@@ -5576,10 +5569,7 @@
 :do { add list=CO address=191.102.63.0/24 } on-error={}
 :do { add list=CO address=191.102.64.0/18 } on-error={}
 :do { add list=CO address=191.102.192.0/19 } on-error={}
-:do { add list=CO address=191.102.224.0/24 } on-error={}
-:do { add list=CO address=191.102.225.0/24 } on-error={}
-:do { add list=CO address=191.102.226.0/23 } on-error={}
-:do { add list=CO address=191.102.228.0/22 } on-error={}
+:do { add list=CO address=191.102.224.0/21 } on-error={}
 :do { add list=CO address=191.102.232.0/22 } on-error={}
 :do { add list=CO address=191.102.236.0/23 } on-error={}
 :do { add list=CO address=191.102.238.0/23 } on-error={}

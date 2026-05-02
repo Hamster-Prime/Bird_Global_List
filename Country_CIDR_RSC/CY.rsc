@@ -491,8 +491,6 @@
 :do { add list=CY address=95.0.73.16/29 } on-error={}
 :do { add list=CY address=95.0.73.26/31 } on-error={}
 :do { add list=CY address=95.0.73.28/30 } on-error={}
-:do { add list=CY address=95.0.73.32/30 } on-error={}
-:do { add list=CY address=95.0.73.36/31 } on-error={}
 :do { add list=CY address=95.0.73.48/28 } on-error={}
 :do { add list=CY address=95.0.73.64/28 } on-error={}
 :do { add list=CY address=95.0.73.96/28 } on-error={}

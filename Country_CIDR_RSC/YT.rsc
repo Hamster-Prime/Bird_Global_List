@@ -12,7 +12,9 @@
 :do { add list=YT address=92.142.151.0/24 } on-error={}
 :do { add list=YT address=92.142.152.0/23 } on-error={}
 :do { add list=YT address=92.142.154.0/25 } on-error={}
-:do { add list=YT address=92.142.168.0/22 } on-error={}
+:do { add list=YT address=92.142.168.0/23 } on-error={}
+:do { add list=YT address=92.142.170.0/24 } on-error={}
+:do { add list=YT address=92.142.171.0/25 } on-error={}
 :do { add list=YT address=92.142.172.0/24 } on-error={}
 :do { add list=YT address=92.142.192.0/23 } on-error={}
 :do { add list=YT address=92.142.194.128/25 } on-error={}
@@ -22,8 +24,6 @@
 :do { add list=YT address=92.142.218.0/23 } on-error={}
 :do { add list=YT address=92.142.221.0/24 } on-error={}
 :do { add list=YT address=92.142.222.0/24 } on-error={}
-:do { add list=YT address=102.135.226.0/23 } on-error={}
-:do { add list=YT address=102.135.229.0/24 } on-error={}
 :do { add list=YT address=104.28.15.100/31 } on-error={}
 :do { add list=YT address=104.28.15.102/32 } on-error={}
 :do { add list=YT address=104.28.27.150/31 } on-error={}

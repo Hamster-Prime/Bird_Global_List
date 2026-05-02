@@ -416,6 +416,7 @@
 :do { add list=IS address=162.120.216.86/32 } on-error={}
 :do { add list=IS address=163.116.165.72/31 } on-error={}
 :do { add list=IS address=163.116.168.156/31 } on-error={}
+:do { add list=IS address=164.37.40.0/24 } on-error={}
 :do { add list=IS address=167.17.185.0/24 } on-error={}
 :do { add list=IS address=168.199.128.0/24 } on-error={}
 :do { add list=IS address=170.168.206.0/24 } on-error={}

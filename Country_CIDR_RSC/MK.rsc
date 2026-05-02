@@ -575,7 +575,6 @@
 :do { add list=MK address=217.9.244.112/28 } on-error={}
 :do { add list=MK address=217.9.244.128/25 } on-error={}
 :do { add list=MK address=217.16.64.0/19 } on-error={}
-:do { add list=MK address=217.119.244.0/23 } on-error={}
 :do { add list=MK address=217.119.248.0/21 } on-error={}
 :do { add list=MK address=217.196.192.0/20 } on-error={}
 :do { add list=MK address=217.239.55.70/32 } on-error={}
