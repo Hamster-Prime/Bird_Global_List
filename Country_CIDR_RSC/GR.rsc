@@ -1733,7 +1733,8 @@
 :do { add list=GR address=185.246.166.0/23 } on-error={}
 :do { add list=GR address=185.247.160.0/22 } on-error={}
 :do { add list=GR address=185.252.87.0/24 } on-error={}
-:do { add list=GR address=185.254.216.0/23 } on-error={}
+:do { add list=GR address=185.254.216.0/24 } on-error={}
+:do { add list=GR address=185.254.217.0/24 } on-error={}
 :do { add list=GR address=185.254.218.0/24 } on-error={}
 :do { add list=GR address=185.254.219.0/24 } on-error={}
 :do { add list=GR address=186.243.225.0/24 } on-error={}

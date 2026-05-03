@@ -10,7 +10,8 @@
 :do { add list=LY address=37.1.187.128/28 } on-error={}
 :do { add list=LY address=38.7.144.0/24 } on-error={}
 :do { add list=LY address=38.50.0.0/20 } on-error={}
-:do { add list=LY address=38.50.16.0/21 } on-error={}
+:do { add list=LY address=38.50.16.0/22 } on-error={}
+:do { add list=LY address=38.50.20.0/22 } on-error={}
 :do { add list=LY address=38.50.24.0/23 } on-error={}
 :do { add list=LY address=38.50.26.0/23 } on-error={}
 :do { add list=LY address=38.50.28.0/22 } on-error={}

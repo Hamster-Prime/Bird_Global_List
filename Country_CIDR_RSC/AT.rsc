@@ -6468,13 +6468,7 @@
 :do { add list=AT address=194.106.224.0/19 } on-error={}
 :do { add list=AT address=194.107.0.0/20 } on-error={}
 :do { add list=AT address=194.107.20.0/24 } on-error={}
-:do { add list=AT address=194.107.24.0/27 } on-error={}
-:do { add list=AT address=194.107.24.48/28 } on-error={}
-:do { add list=AT address=194.107.24.64/26 } on-error={}
-:do { add list=AT address=194.107.24.128/25 } on-error={}
-:do { add list=AT address=194.107.25.0/24 } on-error={}
-:do { add list=AT address=194.107.26.0/23 } on-error={}
-:do { add list=AT address=194.107.28.0/22 } on-error={}
+:do { add list=AT address=194.107.24.0/21 } on-error={}
 :do { add list=AT address=194.107.32.0/21 } on-error={}
 :do { add list=AT address=194.107.40.0/21 } on-error={}
 :do { add list=AT address=194.107.48.0/22 } on-error={}
