@@ -1215,8 +1215,7 @@
 :do { add list=RS address=185.13.8.42/32 } on-error={}
 :do { add list=RS address=185.13.8.44/31 } on-error={}
 :do { add list=RS address=185.13.8.46/32 } on-error={}
-:do { add list=RS address=185.13.8.53/32 } on-error={}
-:do { add list=RS address=185.13.8.54/31 } on-error={}
+:do { add list=RS address=185.13.8.52/30 } on-error={}
 :do { add list=RS address=185.13.8.56/29 } on-error={}
 :do { add list=RS address=185.13.8.64/26 } on-error={}
 :do { add list=RS address=185.13.8.128/25 } on-error={}

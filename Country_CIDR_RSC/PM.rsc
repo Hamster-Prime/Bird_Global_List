@@ -56,4 +56,3 @@
 :do { add list=PM address=172.225.139.32/27 } on-error={}
 :do { add list=PM address=172.225.236.64/27 } on-error={}
 :do { add list=PM address=172.225.255.160/27 } on-error={}
-:do { add list=PM address=209.198.150.0/24 } on-error={}

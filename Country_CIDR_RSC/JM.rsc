@@ -165,7 +165,8 @@
 :do { add list=JM address=67.230.126.255/32 } on-error={}
 :do { add list=JM address=67.230.127.0/24 } on-error={}
 :do { add list=JM address=69.79.0.0/21 } on-error={}
-:do { add list=JM address=69.79.8.0/22 } on-error={}
+:do { add list=JM address=69.79.8.0/23 } on-error={}
+:do { add list=JM address=69.79.10.0/24 } on-error={}
 :do { add list=JM address=69.79.14.0/23 } on-error={}
 :do { add list=JM address=69.79.16.0/21 } on-error={}
 :do { add list=JM address=69.79.24.0/22 } on-error={}

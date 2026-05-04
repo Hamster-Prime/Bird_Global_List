@@ -1,20 +1,11 @@
 /log info "Loading MP IPv4 Address List"
 /ip firewall address-list
 :do { add list=MP address=5.62.60.165/32 } on-error={}
-:do { add list=MP address=8.3.127.0/32 } on-error={}
-:do { add list=MP address=8.3.127.2/31 } on-error={}
-:do { add list=MP address=8.3.127.4/30 } on-error={}
-:do { add list=MP address=8.3.127.8/29 } on-error={}
-:do { add list=MP address=8.3.127.16/28 } on-error={}
-:do { add list=MP address=8.3.127.32/27 } on-error={}
-:do { add list=MP address=8.3.127.64/26 } on-error={}
-:do { add list=MP address=8.3.127.128/25 } on-error={}
 :do { add list=MP address=45.117.196.120/29 } on-error={}
 :do { add list=MP address=45.117.196.152/29 } on-error={}
 :do { add list=MP address=45.117.197.0/29 } on-error={}
 :do { add list=MP address=64.86.72.0/23 } on-error={}
 :do { add list=MP address=64.86.74.0/24 } on-error={}
-:do { add list=MP address=65.181.29.0/24 } on-error={}
 :do { add list=MP address=69.44.203.172/30 } on-error={}
 :do { add list=MP address=103.57.232.0/26 } on-error={}
 :do { add list=MP address=103.57.232.72/29 } on-error={}

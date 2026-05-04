@@ -269,6 +269,7 @@
 :do { add list=SY address=185.200.36.104/31 } on-error={}
 :do { add list=SY address=185.200.36.108/31 } on-error={}
 :do { add list=SY address=185.200.36.146/31 } on-error={}
+:do { add list=SY address=185.200.36.161/32 } on-error={}
 :do { add list=SY address=185.200.36.162/31 } on-error={}
 :do { add list=SY address=185.200.36.164/31 } on-error={}
 :do { add list=SY address=185.200.36.168/29 } on-error={}
@@ -276,13 +277,14 @@
 :do { add list=SY address=185.200.36.212/31 } on-error={}
 :do { add list=SY address=185.200.36.216/30 } on-error={}
 :do { add list=SY address=185.200.36.220/31 } on-error={}
-:do { add list=SY address=185.200.36.228/31 } on-error={}
+:do { add list=SY address=185.200.36.228/32 } on-error={}
 :do { add list=SY address=185.200.36.236/30 } on-error={}
 :do { add list=SY address=185.200.37.9/32 } on-error={}
 :do { add list=SY address=185.200.37.14/31 } on-error={}
 :do { add list=SY address=185.200.37.34/31 } on-error={}
 :do { add list=SY address=185.200.37.36/30 } on-error={}
-:do { add list=SY address=185.200.37.40/30 } on-error={}
+:do { add list=SY address=185.200.37.40/31 } on-error={}
+:do { add list=SY address=185.200.37.42/32 } on-error={}
 :do { add list=SY address=185.200.37.44/32 } on-error={}
 :do { add list=SY address=185.200.37.46/31 } on-error={}
 :do { add list=SY address=185.200.37.48/32 } on-error={}
@@ -296,7 +298,6 @@
 :do { add list=SY address=185.200.38.16/28 } on-error={}
 :do { add list=SY address=185.200.38.54/32 } on-error={}
 :do { add list=SY address=185.200.38.56/31 } on-error={}
-:do { add list=SY address=185.200.38.60/30 } on-error={}
 :do { add list=SY address=185.200.38.64/30 } on-error={}
 :do { add list=SY address=185.200.38.68/31 } on-error={}
 :do { add list=SY address=185.200.38.70/32 } on-error={}
@@ -306,7 +307,6 @@
 :do { add list=SY address=185.200.38.139/32 } on-error={}
 :do { add list=SY address=185.200.38.140/30 } on-error={}
 :do { add list=SY address=185.200.38.146/31 } on-error={}
-:do { add list=SY address=185.200.38.153/32 } on-error={}
 :do { add list=SY address=185.200.38.156/30 } on-error={}
 :do { add list=SY address=185.200.38.200/29 } on-error={}
 :do { add list=SY address=185.200.38.208/31 } on-error={}

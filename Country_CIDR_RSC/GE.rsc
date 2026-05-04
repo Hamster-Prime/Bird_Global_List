@@ -592,7 +592,7 @@
 :do { add list=GE address=185.228.132.0/24 } on-error={}
 :do { add list=GE address=185.228.133.0/25 } on-error={}
 :do { add list=GE address=185.228.133.128/26 } on-error={}
-:do { add list=GE address=185.228.133.192/30 } on-error={}
+:do { add list=GE address=185.228.133.192/29 } on-error={}
 :do { add list=GE address=185.228.133.200/31 } on-error={}
 :do { add list=GE address=185.228.133.203/32 } on-error={}
 :do { add list=GE address=185.228.133.204/30 } on-error={}

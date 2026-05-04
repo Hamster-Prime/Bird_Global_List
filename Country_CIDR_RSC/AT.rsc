@@ -2217,7 +2217,13 @@
 :do { add list=AT address=82.21.146.0/24 } on-error={}
 :do { add list=AT address=82.25.168.0/23 } on-error={}
 :do { add list=AT address=82.29.204.0/24 } on-error={}
-:do { add list=AT address=82.47.186.0/24 } on-error={}
+:do { add list=AT address=82.47.186.0/26 } on-error={}
+:do { add list=AT address=82.47.186.64/30 } on-error={}
+:do { add list=AT address=82.47.186.68/31 } on-error={}
+:do { add list=AT address=82.47.186.72/29 } on-error={}
+:do { add list=AT address=82.47.186.80/28 } on-error={}
+:do { add list=AT address=82.47.186.96/27 } on-error={}
+:do { add list=AT address=82.47.186.128/25 } on-error={}
 :do { add list=AT address=82.102.29.22/31 } on-error={}
 :do { add list=AT address=82.102.29.40/30 } on-error={}
 :do { add list=AT address=82.102.29.137/32 } on-error={}

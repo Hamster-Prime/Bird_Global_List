@@ -2,7 +2,17 @@
 /ip firewall address-list
 :do { add list=EE address=2.26.128.0/23 } on-error={}
 :do { add list=EE address=2.26.130.0/24 } on-error={}
-:do { add list=EE address=2.26.135.0/24 } on-error={}
+:do { add list=EE address=2.26.135.0/26 } on-error={}
+:do { add list=EE address=2.26.135.64/29 } on-error={}
+:do { add list=EE address=2.26.135.80/28 } on-error={}
+:do { add list=EE address=2.26.135.96/29 } on-error={}
+:do { add list=EE address=2.26.135.128/27 } on-error={}
+:do { add list=EE address=2.26.135.160/28 } on-error={}
+:do { add list=EE address=2.26.135.176/30 } on-error={}
+:do { add list=EE address=2.26.135.208/28 } on-error={}
+:do { add list=EE address=2.26.135.224/28 } on-error={}
+:do { add list=EE address=2.26.135.244/30 } on-error={}
+:do { add list=EE address=2.26.135.248/29 } on-error={}
 :do { add list=EE address=2.26.139.0/24 } on-error={}
 :do { add list=EE address=2.27.170.0/24 } on-error={}
 :do { add list=EE address=2.27.233.0/24 } on-error={}
