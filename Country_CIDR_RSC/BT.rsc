@@ -176,7 +176,6 @@
 :do { add list=BT address=140.248.61.32/32 } on-error={}
 :do { add list=BT address=140.248.62.32/32 } on-error={}
 :do { add list=BT address=140.248.63.32/32 } on-error={}
-:do { add list=BT address=141.11.117.16/28 } on-error={}
 :do { add list=BT address=146.75.132.14/31 } on-error={}
 :do { add list=BT address=146.75.136.4/31 } on-error={}
 :do { add list=BT address=146.75.160.14/31 } on-error={}

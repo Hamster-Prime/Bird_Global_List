@@ -1422,7 +1422,7 @@
 :do { add list=GR address=165.220.232.224/28 } on-error={}
 :do { add list=GR address=165.220.233.192/29 } on-error={}
 :do { add list=GR address=165.220.235.32/29 } on-error={}
-:do { add list=GR address=165.220.235.144/28 } on-error={}
+:do { add list=GR address=165.220.235.144/29 } on-error={}
 :do { add list=GR address=166.0.203.0/24 } on-error={}
 :do { add list=GR address=166.88.239.0/24 } on-error={}
 :do { add list=GR address=167.167.183.0/24 } on-error={}

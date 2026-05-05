@@ -7548,6 +7548,8 @@
 :do { add list=RO address=212.221.5.108/30 } on-error={}
 :do { add list=RO address=212.221.6.152/30 } on-error={}
 :do { add list=RO address=212.221.7.60/30 } on-error={}
+:do { add list=RO address=212.221.9.129/32 } on-error={}
+:do { add list=RO address=212.221.9.130/31 } on-error={}
 :do { add list=RO address=212.221.12.61/32 } on-error={}
 :do { add list=RO address=212.221.12.62/32 } on-error={}
 :do { add list=RO address=212.221.13.13/32 } on-error={}

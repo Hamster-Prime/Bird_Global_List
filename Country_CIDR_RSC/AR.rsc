@@ -621,6 +621,17 @@
 :do { add list=AR address=45.176.110.0/23 } on-error={}
 :do { add list=AR address=45.176.128.0/22 } on-error={}
 :do { add list=AR address=45.176.194.0/23 } on-error={}
+:do { add list=AR address=45.176.244.0/30 } on-error={}
+:do { add list=AR address=45.176.244.4/31 } on-error={}
+:do { add list=AR address=45.176.244.7/32 } on-error={}
+:do { add list=AR address=45.176.244.8/30 } on-error={}
+:do { add list=AR address=45.176.244.12/31 } on-error={}
+:do { add list=AR address=45.176.244.15/32 } on-error={}
+:do { add list=AR address=45.176.244.16/28 } on-error={}
+:do { add list=AR address=45.176.244.32/27 } on-error={}
+:do { add list=AR address=45.176.244.64/26 } on-error={}
+:do { add list=AR address=45.176.244.128/25 } on-error={}
+:do { add list=AR address=45.176.245.0/24 } on-error={}
 :do { add list=AR address=45.177.64.0/22 } on-error={}
 :do { add list=AR address=45.177.68.0/22 } on-error={}
 :do { add list=AR address=45.177.72.0/23 } on-error={}

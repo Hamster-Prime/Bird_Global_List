@@ -273,6 +273,7 @@
 :do { add list=FI address=31.59.168.0/24 } on-error={}
 :do { add list=FI address=31.76.224.0/24 } on-error={}
 :do { add list=FI address=31.76.226.0/24 } on-error={}
+:do { add list=FI address=31.76.231.0/24 } on-error={}
 :do { add list=FI address=31.76.240.0/24 } on-error={}
 :do { add list=FI address=31.76.245.0/24 } on-error={}
 :do { add list=FI address=31.95.248.0/22 } on-error={}

@@ -2,17 +2,7 @@
 /ip firewall address-list
 :do { add list=EE address=2.26.128.0/23 } on-error={}
 :do { add list=EE address=2.26.130.0/24 } on-error={}
-:do { add list=EE address=2.26.135.0/26 } on-error={}
-:do { add list=EE address=2.26.135.64/29 } on-error={}
-:do { add list=EE address=2.26.135.80/28 } on-error={}
-:do { add list=EE address=2.26.135.96/29 } on-error={}
-:do { add list=EE address=2.26.135.128/27 } on-error={}
-:do { add list=EE address=2.26.135.160/28 } on-error={}
-:do { add list=EE address=2.26.135.176/30 } on-error={}
-:do { add list=EE address=2.26.135.208/28 } on-error={}
-:do { add list=EE address=2.26.135.224/28 } on-error={}
-:do { add list=EE address=2.26.135.244/30 } on-error={}
-:do { add list=EE address=2.26.135.248/29 } on-error={}
+:do { add list=EE address=2.26.135.0/24 } on-error={}
 :do { add list=EE address=2.26.139.0/24 } on-error={}
 :do { add list=EE address=2.27.170.0/24 } on-error={}
 :do { add list=EE address=2.27.233.0/24 } on-error={}
@@ -704,6 +694,7 @@
 :do { add list=EE address=130.244.218.216/31 } on-error={}
 :do { add list=EE address=132.243.65.0/24 } on-error={}
 :do { add list=EE address=132.243.68.0/22 } on-error={}
+:do { add list=EE address=132.243.76.0/22 } on-error={}
 :do { add list=EE address=132.243.168.0/24 } on-error={}
 :do { add list=EE address=136.0.144.0/24 } on-error={}
 :do { add list=EE address=136.0.155.0/24 } on-error={}
@@ -1619,6 +1610,8 @@
 :do { add list=EE address=213.248.79.103/32 } on-error={}
 :do { add list=EE address=213.248.102.184/30 } on-error={}
 :do { add list=EE address=213.248.104.60/30 } on-error={}
+:do { add list=EE address=216.66.82.44/32 } on-error={}
+:do { add list=EE address=216.66.82.47/32 } on-error={}
 :do { add list=EE address=216.66.89.160/29 } on-error={}
 :do { add list=EE address=216.66.93.140/30 } on-error={}
 :do { add list=EE address=216.144.231.0/24 } on-error={}

@@ -20,4 +20,4 @@
 :do { add list=SJ address=162.120.206.16/32 } on-error={}
 :do { add list=SJ address=162.120.215.137/32 } on-error={}
 :do { add list=SJ address=185.112.132.46/32 } on-error={}
-:do { add list=SJ address=212.105.148.0/24 } on-error={}
+:do { add list=SJ address=212.105.148.0/23 } on-error={}

@@ -4994,6 +4994,7 @@
 :do { add list=TH address=172.253.97.216/32 } on-error={}
 :do { add list=TH address=173.82.67.0/24 } on-error={}
 :do { add list=TH address=173.82.76.0/24 } on-error={}
+:do { add list=TH address=173.82.94.0/24 } on-error={}
 :do { add list=TH address=173.82.104.0/24 } on-error={}
 :do { add list=TH address=173.82.226.0/24 } on-error={}
 :do { add list=TH address=173.222.188.0/22 } on-error={}
