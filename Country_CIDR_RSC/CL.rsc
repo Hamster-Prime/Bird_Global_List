@@ -5050,6 +5050,7 @@
 :do { add list=CL address=208.97.248.192/29 } on-error={}
 :do { add list=CL address=208.111.129.0/24 } on-error={}
 :do { add list=CL address=208.117.248.64/28 } on-error={}
+:do { add list=CL address=208.122.44.0/27 } on-error={}
 :do { add list=CL address=208.127.23.1/32 } on-error={}
 :do { add list=CL address=208.127.23.2/31 } on-error={}
 :do { add list=CL address=208.127.23.4/30 } on-error={}

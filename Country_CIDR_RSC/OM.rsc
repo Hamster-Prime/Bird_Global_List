@@ -609,11 +609,7 @@
 :do { add list=OM address=142.250.165.164/32 } on-error={}
 :do { add list=OM address=142.250.184.96/32 } on-error={}
 :do { add list=OM address=142.250.184.104/30 } on-error={}
-:do { add list=OM address=142.250.186.0/29 } on-error={}
-:do { add list=OM address=142.250.186.8/30 } on-error={}
-:do { add list=OM address=142.250.186.13/32 } on-error={}
-:do { add list=OM address=142.250.186.14/31 } on-error={}
-:do { add list=OM address=142.250.186.16/28 } on-error={}
+:do { add list=OM address=142.250.186.0/27 } on-error={}
 :do { add list=OM address=142.250.186.224/27 } on-error={}
 :do { add list=OM address=142.250.187.7/32 } on-error={}
 :do { add list=OM address=142.250.187.16/28 } on-error={}

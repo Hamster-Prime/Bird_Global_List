@@ -4940,6 +4940,11 @@
 :do { add list=CZ address=195.245.209.0/24 } on-error={}
 :do { add list=CZ address=195.246.96.0/23 } on-error={}
 :do { add list=CZ address=195.248.66.0/24 } on-error={}
+:do { add list=CZ address=195.250.37.160/31 } on-error={}
+:do { add list=CZ address=195.250.37.162/32 } on-error={}
+:do { add list=CZ address=195.250.37.164/30 } on-error={}
+:do { add list=CZ address=195.250.37.168/29 } on-error={}
+:do { add list=CZ address=195.250.37.176/28 } on-error={}
 :do { add list=CZ address=195.250.128.0/21 } on-error={}
 :do { add list=CZ address=195.250.136.0/23 } on-error={}
 :do { add list=CZ address=195.250.138.0/24 } on-error={}

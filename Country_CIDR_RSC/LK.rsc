@@ -571,7 +571,6 @@
 :do { add list=LK address=203.143.20.0/23 } on-error={}
 :do { add list=LK address=203.143.22.0/25 } on-error={}
 :do { add list=LK address=203.143.22.128/26 } on-error={}
-:do { add list=LK address=203.143.22.224/27 } on-error={}
 :do { add list=LK address=203.143.23.0/24 } on-error={}
 :do { add list=LK address=203.143.24.0/21 } on-error={}
 :do { add list=LK address=203.143.32.0/21 } on-error={}

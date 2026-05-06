@@ -122,8 +122,7 @@
 :do { add list=BA address=46.23.110.0/24 } on-error={}
 :do { add list=BA address=46.35.128.0/19 } on-error={}
 :do { add list=BA address=46.36.160.0/19 } on-error={}
-:do { add list=BA address=46.163.48.0/23 } on-error={}
-:do { add list=BA address=46.163.50.0/24 } on-error={}
+:do { add list=BA address=46.163.48.0/22 } on-error={}
 :do { add list=BA address=46.163.52.0/23 } on-error={}
 :do { add list=BA address=46.163.54.0/28 } on-error={}
 :do { add list=BA address=46.163.54.16/29 } on-error={}
