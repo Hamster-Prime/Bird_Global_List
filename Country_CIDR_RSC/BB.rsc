@@ -304,10 +304,12 @@
 :do { add list=BB address=216.110.123.0/24 } on-error={}
 :do { add list=BB address=216.110.124.0/24 } on-error={}
 :do { add list=BB address=217.217.127.0/32 } on-error={}
-:do { add list=BB address=217.217.127.11/32 } on-error={}
+:do { add list=BB address=217.217.127.10/31 } on-error={}
 :do { add list=BB address=217.217.127.12/32 } on-error={}
 :do { add list=BB address=217.217.127.16/32 } on-error={}
-:do { add list=BB address=217.217.127.32/30 } on-error={}
+:do { add list=BB address=217.217.127.20/32 } on-error={}
+:do { add list=BB address=217.217.127.32/32 } on-error={}
+:do { add list=BB address=217.217.127.34/31 } on-error={}
 :do { add list=BB address=217.217.127.38/32 } on-error={}
 :do { add list=BB address=217.217.127.48/28 } on-error={}
 :do { add list=BB address=217.217.127.64/27 } on-error={}
