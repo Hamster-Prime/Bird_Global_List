@@ -1832,12 +1832,7 @@
 :do { add list=SK address=213.62.42.224/29 } on-error={}
 :do { add list=SK address=213.81.128.0/17 } on-error={}
 :do { add list=SK address=213.86.220.97/32 } on-error={}
-:do { add list=SK address=213.108.120.0/23 } on-error={}
-:do { add list=SK address=213.108.122.0/24 } on-error={}
-:do { add list=SK address=213.108.123.0/24 } on-error={}
-:do { add list=SK address=213.108.124.0/23 } on-error={}
-:do { add list=SK address=213.108.126.0/24 } on-error={}
-:do { add list=SK address=213.108.127.0/24 } on-error={}
+:do { add list=SK address=213.108.120.0/21 } on-error={}
 :do { add list=SK address=213.109.110.0/24 } on-error={}
 :do { add list=SK address=213.137.158.204/32 } on-error={}
 :do { add list=SK address=213.139.30.168/29 } on-error={}

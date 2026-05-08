@@ -519,7 +519,11 @@
 :do { add list=ES address=5.154.100.0/23 } on-error={}
 :do { add list=ES address=5.154.102.0/23 } on-error={}
 :do { add list=ES address=5.154.104.0/21 } on-error={}
-:do { add list=ES address=5.154.112.0/20 } on-error={}
+:do { add list=ES address=5.154.112.0/23 } on-error={}
+:do { add list=ES address=5.154.114.0/24 } on-error={}
+:do { add list=ES address=5.154.115.0/24 } on-error={}
+:do { add list=ES address=5.154.116.0/22 } on-error={}
+:do { add list=ES address=5.154.120.0/21 } on-error={}
 :do { add list=ES address=5.154.172.0/23 } on-error={}
 :do { add list=ES address=5.154.175.0/24 } on-error={}
 :do { add list=ES address=5.154.176.0/24 } on-error={}
@@ -17047,7 +17051,12 @@
 :do { add list=ES address=194.140.188.0/22 } on-error={}
 :do { add list=ES address=194.143.142.180/31 } on-error={}
 :do { add list=ES address=194.143.142.182/32 } on-error={}
-:do { add list=ES address=194.143.192.0/21 } on-error={}
+:do { add list=ES address=194.143.192.0/23 } on-error={}
+:do { add list=ES address=194.143.194.0/24 } on-error={}
+:do { add list=ES address=194.143.195.0/24 } on-error={}
+:do { add list=ES address=194.143.196.0/24 } on-error={}
+:do { add list=ES address=194.143.197.0/24 } on-error={}
+:do { add list=ES address=194.143.198.0/23 } on-error={}
 :do { add list=ES address=194.143.200.0/23 } on-error={}
 :do { add list=ES address=194.143.202.0/24 } on-error={}
 :do { add list=ES address=194.143.204.0/24 } on-error={}
@@ -17055,7 +17064,9 @@
 :do { add list=ES address=194.143.208.0/24 } on-error={}
 :do { add list=ES address=194.143.210.0/24 } on-error={}
 :do { add list=ES address=194.143.211.0/24 } on-error={}
-:do { add list=ES address=194.143.212.0/22 } on-error={}
+:do { add list=ES address=194.143.212.0/23 } on-error={}
+:do { add list=ES address=194.143.214.0/24 } on-error={}
+:do { add list=ES address=194.143.215.0/24 } on-error={}
 :do { add list=ES address=194.143.216.0/24 } on-error={}
 :do { add list=ES address=194.143.219.0/24 } on-error={}
 :do { add list=ES address=194.143.220.0/24 } on-error={}

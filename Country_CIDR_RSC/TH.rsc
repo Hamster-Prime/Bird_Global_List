@@ -4068,7 +4068,10 @@
 :do { add list=TH address=147.243.31.0/27 } on-error={}
 :do { add list=TH address=147.243.148.128/26 } on-error={}
 :do { add list=TH address=148.135.173.0/24 } on-error={}
-:do { add list=TH address=148.145.176.0/20 } on-error={}
+:do { add list=TH address=148.145.176.0/22 } on-error={}
+:do { add list=TH address=148.145.180.0/23 } on-error={}
+:do { add list=TH address=148.145.182.0/23 } on-error={}
+:do { add list=TH address=148.145.184.0/21 } on-error={}
 :do { add list=TH address=148.145.234.0/23 } on-error={}
 :do { add list=TH address=148.164.159.0/24 } on-error={}
 :do { add list=TH address=148.222.84.0/24 } on-error={}

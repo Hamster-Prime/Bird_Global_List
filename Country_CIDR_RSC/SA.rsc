@@ -405,10 +405,7 @@
 :do { add list=SA address=46.184.72.0/22 } on-error={}
 :do { add list=SA address=46.184.76.0/22 } on-error={}
 :do { add list=SA address=46.184.80.0/21 } on-error={}
-:do { add list=SA address=46.184.88.0/22 } on-error={}
-:do { add list=SA address=46.184.92.0/24 } on-error={}
-:do { add list=SA address=46.184.93.0/24 } on-error={}
-:do { add list=SA address=46.184.94.0/23 } on-error={}
+:do { add list=SA address=46.184.88.0/21 } on-error={}
 :do { add list=SA address=46.184.96.0/20 } on-error={}
 :do { add list=SA address=46.184.112.0/21 } on-error={}
 :do { add list=SA address=46.184.120.0/22 } on-error={}

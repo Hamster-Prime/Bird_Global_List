@@ -4727,8 +4727,7 @@
 :do { add list=CL address=200.113.120.0/23 } on-error={}
 :do { add list=CL address=200.113.122.0/24 } on-error={}
 :do { add list=CL address=200.113.123.0/24 } on-error={}
-:do { add list=CL address=200.113.124.0/24 } on-error={}
-:do { add list=CL address=200.113.125.0/24 } on-error={}
+:do { add list=CL address=200.113.124.0/23 } on-error={}
 :do { add list=CL address=200.113.126.0/24 } on-error={}
 :do { add list=CL address=200.113.127.0/24 } on-error={}
 :do { add list=CL address=200.113.128.0/20 } on-error={}
