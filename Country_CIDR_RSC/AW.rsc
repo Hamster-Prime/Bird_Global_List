@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=AW address=5.62.56.20/30 } on-error={}
 :do { add list=AW address=5.62.58.20/30 } on-error={}
-:do { add list=AW address=5.175.190.80/32 } on-error={}
 :do { add list=AW address=57.74.102.0/23 } on-error={}
 :do { add list=AW address=57.91.224.0/21 } on-error={}
 :do { add list=AW address=104.28.8.81/32 } on-error={}
@@ -86,11 +85,7 @@
 :do { add list=AW address=186.96.200.0/21 } on-error={}
 :do { add list=AW address=186.96.224.0/20 } on-error={}
 :do { add list=AW address=186.96.240.0/21 } on-error={}
-:do { add list=AW address=186.148.216.0/23 } on-error={}
-:do { add list=AW address=186.148.218.0/24 } on-error={}
-:do { add list=AW address=186.148.219.0/27 } on-error={}
-:do { add list=AW address=186.148.219.64/26 } on-error={}
-:do { add list=AW address=186.148.219.128/25 } on-error={}
+:do { add list=AW address=186.148.216.0/22 } on-error={}
 :do { add list=AW address=186.189.0.0/21 } on-error={}
 :do { add list=AW address=186.189.8.0/23 } on-error={}
 :do { add list=AW address=186.189.10.0/23 } on-error={}

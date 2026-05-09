@@ -67,4 +67,3 @@
 :do { add list=TO address=202.134.24.0/22 } on-error={}
 :do { add list=TO address=202.134.28.0/24 } on-error={}
 :do { add list=TO address=202.134.30.0/23 } on-error={}
-:do { add list=TO address=204.1.222.0/24 } on-error={}

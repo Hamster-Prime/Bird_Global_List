@@ -13,12 +13,6 @@
 :do { add list=MD address=5.63.19.0/24 } on-error={}
 :do { add list=MD address=5.101.80.0/24 } on-error={}
 :do { add list=MD address=5.101.87.0/24 } on-error={}
-:do { add list=MD address=5.175.190.139/32 } on-error={}
-:do { add list=MD address=5.180.42.22/31 } on-error={}
-:do { add list=MD address=5.180.42.24/29 } on-error={}
-:do { add list=MD address=5.180.42.32/27 } on-error={}
-:do { add list=MD address=5.180.42.64/26 } on-error={}
-:do { add list=MD address=5.180.42.128/25 } on-error={}
 :do { add list=MD address=5.181.156.0/23 } on-error={}
 :do { add list=MD address=5.181.158.0/24 } on-error={}
 :do { add list=MD address=8.39.206.0/24 } on-error={}
@@ -60,7 +54,7 @@
 :do { add list=MD address=37.233.1.224/28 } on-error={}
 :do { add list=MD address=37.233.1.240/29 } on-error={}
 :do { add list=MD address=37.233.1.248/30 } on-error={}
-:do { add list=MD address=37.233.1.252/31 } on-error={}
+:do { add list=MD address=37.233.1.252/32 } on-error={}
 :do { add list=MD address=37.233.1.255/32 } on-error={}
 :do { add list=MD address=37.233.2.0/23 } on-error={}
 :do { add list=MD address=37.233.4.0/22 } on-error={}
@@ -140,9 +134,10 @@
 :do { add list=MD address=80.245.94.0/24 } on-error={}
 :do { add list=MD address=80.245.95.0/24 } on-error={}
 :do { add list=MD address=80.253.121.88/29 } on-error={}
-:do { add list=MD address=81.177.213.24/32 } on-error={}
+:do { add list=MD address=81.177.213.4/32 } on-error={}
 :do { add list=MD address=81.177.213.180/32 } on-error={}
-:do { add list=MD address=81.177.213.192/30 } on-error={}
+:do { add list=MD address=81.177.213.192/31 } on-error={}
+:do { add list=MD address=81.177.213.195/32 } on-error={}
 :do { add list=MD address=81.180.64.0/25 } on-error={}
 :do { add list=MD address=81.180.64.128/30 } on-error={}
 :do { add list=MD address=81.180.64.132/32 } on-error={}
@@ -460,7 +455,10 @@
 :do { add list=MD address=140.248.61.138/32 } on-error={}
 :do { add list=MD address=140.248.62.138/32 } on-error={}
 :do { add list=MD address=140.248.63.138/32 } on-error={}
-:do { add list=MD address=141.98.82.0/24 } on-error={}
+:do { add list=MD address=141.98.82.0/25 } on-error={}
+:do { add list=MD address=141.98.82.192/27 } on-error={}
+:do { add list=MD address=141.98.82.236/30 } on-error={}
+:do { add list=MD address=141.98.82.240/28 } on-error={}
 :do { add list=MD address=143.20.44.0/24 } on-error={}
 :do { add list=MD address=144.125.128.192/27 } on-error={}
 :do { add list=MD address=146.19.213.0/24 } on-error={}
@@ -485,10 +483,11 @@
 :do { add list=MD address=151.244.219.0/24 } on-error={}
 :do { add list=MD address=153.51.37.0/24 } on-error={}
 :do { add list=MD address=153.51.52.0/24 } on-error={}
-:do { add list=MD address=153.51.60.0/23 } on-error={}
+:do { add list=MD address=153.51.60.0/24 } on-error={}
 :do { add list=MD address=153.51.63.0/24 } on-error={}
 :do { add list=MD address=153.51.160.0/22 } on-error={}
-:do { add list=MD address=153.51.164.0/22 } on-error={}
+:do { add list=MD address=153.51.165.0/24 } on-error={}
+:do { add list=MD address=153.51.166.0/23 } on-error={}
 :do { add list=MD address=153.51.168.0/23 } on-error={}
 :do { add list=MD address=153.51.170.0/24 } on-error={}
 :do { add list=MD address=153.51.171.0/24 } on-error={}
@@ -501,7 +500,6 @@
 :do { add list=MD address=153.51.180.248/30 } on-error={}
 :do { add list=MD address=153.51.180.252/31 } on-error={}
 :do { add list=MD address=153.51.180.254/32 } on-error={}
-:do { add list=MD address=153.51.182.96/32 } on-error={}
 :do { add list=MD address=153.51.184.0/22 } on-error={}
 :do { add list=MD address=153.51.190.0/24 } on-error={}
 :do { add list=MD address=153.51.191.0/24 } on-error={}
@@ -698,6 +696,7 @@
 :do { add list=MD address=185.233.33.0/24 } on-error={}
 :do { add list=MD address=185.247.156.0/22 } on-error={}
 :do { add list=MD address=185.250.148.0/24 } on-error={}
+:do { add list=MD address=186.247.42.0/24 } on-error={}
 :do { add list=MD address=188.0.224.0/20 } on-error={}
 :do { add list=MD address=188.130.180.0/23 } on-error={}
 :do { add list=MD address=188.131.0.0/17 } on-error={}

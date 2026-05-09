@@ -63,21 +63,7 @@
 :do { add list=GY address=181.177.217.0/24 } on-error={}
 :do { add list=GY address=181.177.218.0/23 } on-error={}
 :do { add list=GY address=181.199.224.0/19 } on-error={}
-:do { add list=GY address=190.80.0.0/24 } on-error={}
-:do { add list=GY address=190.80.1.0/25 } on-error={}
-:do { add list=GY address=190.80.1.128/26 } on-error={}
-:do { add list=GY address=190.80.1.192/28 } on-error={}
-:do { add list=GY address=190.80.1.208/29 } on-error={}
-:do { add list=GY address=190.80.1.216/32 } on-error={}
-:do { add list=GY address=190.80.1.218/31 } on-error={}
-:do { add list=GY address=190.80.1.220/30 } on-error={}
-:do { add list=GY address=190.80.1.224/27 } on-error={}
-:do { add list=GY address=190.80.2.0/23 } on-error={}
-:do { add list=GY address=190.80.4.0/22 } on-error={}
-:do { add list=GY address=190.80.8.0/21 } on-error={}
-:do { add list=GY address=190.80.16.0/20 } on-error={}
-:do { add list=GY address=190.80.32.0/19 } on-error={}
-:do { add list=GY address=190.80.64.0/18 } on-error={}
+:do { add list=GY address=190.80.0.0/17 } on-error={}
 :do { add list=GY address=190.93.36.0/24 } on-error={}
 :do { add list=GY address=190.93.39.0/24 } on-error={}
 :do { add list=GY address=190.105.156.0/24 } on-error={}
@@ -94,3 +80,4 @@
 :do { add list=GY address=196.198.96.0/24 } on-error={}
 :do { add list=GY address=196.199.96.0/24 } on-error={}
 :do { add list=GY address=198.45.242.0/27 } on-error={}
+:do { add list=GY address=204.124.218.0/24 } on-error={}
