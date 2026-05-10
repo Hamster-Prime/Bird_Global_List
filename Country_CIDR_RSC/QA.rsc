@@ -792,6 +792,7 @@
 :do { add list=QA address=134.231.166.128/25 } on-error={}
 :do { add list=QA address=134.231.223.128/26 } on-error={}
 :do { add list=QA address=134.231.225.128/26 } on-error={}
+:do { add list=QA address=135.136.47.0/24 } on-error={}
 :do { add list=QA address=136.124.5.209/32 } on-error={}
 :do { add list=QA address=136.124.5.210/31 } on-error={}
 :do { add list=QA address=136.124.5.212/30 } on-error={}

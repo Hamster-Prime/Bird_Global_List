@@ -1104,6 +1104,7 @@
 :do { add list=KZ address=128.77.111.64/27 } on-error={}
 :do { add list=KZ address=128.127.96.0/21 } on-error={}
 :do { add list=KZ address=130.193.6.0/24 } on-error={}
+:do { add list=KZ address=134.168.253.0/24 } on-error={}
 :do { add list=KZ address=134.231.157.192/26 } on-error={}
 :do { add list=KZ address=136.23.1.167/32 } on-error={}
 :do { add list=KZ address=136.23.4.107/32 } on-error={}

@@ -18,6 +18,7 @@
 :do { add list=KY address=65.171.98.200/31 } on-error={}
 :do { add list=KY address=66.54.120.0/22 } on-error={}
 :do { add list=KY address=66.54.124.0/23 } on-error={}
+:do { add list=KY address=66.249.153.0/25 } on-error={}
 :do { add list=KY address=66.249.153.128/26 } on-error={}
 :do { add list=KY address=66.249.154.0/24 } on-error={}
 :do { add list=KY address=67.213.147.128/25 } on-error={}

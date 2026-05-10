@@ -566,14 +566,7 @@
 :do { add list=CZ address=45.146.90.0/24 } on-error={}
 :do { add list=CZ address=45.146.108.0/22 } on-error={}
 :do { add list=CZ address=45.148.80.0/22 } on-error={}
-:do { add list=CZ address=45.151.183.0/25 } on-error={}
-:do { add list=CZ address=45.151.183.128/26 } on-error={}
-:do { add list=CZ address=45.151.183.192/30 } on-error={}
-:do { add list=CZ address=45.151.183.196/31 } on-error={}
-:do { add list=CZ address=45.151.183.198/32 } on-error={}
-:do { add list=CZ address=45.151.183.200/29 } on-error={}
-:do { add list=CZ address=45.151.183.208/28 } on-error={}
-:do { add list=CZ address=45.151.183.224/27 } on-error={}
+:do { add list=CZ address=45.151.183.0/24 } on-error={}
 :do { add list=CZ address=45.153.83.108/31 } on-error={}
 :do { add list=CZ address=45.153.192.0/22 } on-error={}
 :do { add list=CZ address=45.155.12.0/22 } on-error={}
@@ -2946,6 +2939,7 @@
 :do { add list=CZ address=153.72.41.32/27 } on-error={}
 :do { add list=CZ address=153.72.52.64/26 } on-error={}
 :do { add list=CZ address=153.72.176.64/26 } on-error={}
+:do { add list=CZ address=153.76.160.0/19 } on-error={}
 :do { add list=CZ address=153.92.166.0/24 } on-error={}
 :do { add list=CZ address=154.7.229.0/26 } on-error={}
 :do { add list=CZ address=154.7.229.64/27 } on-error={}
@@ -5037,6 +5031,7 @@
 :do { add list=CZ address=199.41.248.0/22 } on-error={}
 :do { add list=CZ address=199.41.252.0/23 } on-error={}
 :do { add list=CZ address=199.41.254.0/23 } on-error={}
+:do { add list=CZ address=201.78.144.0/24 } on-error={}
 :do { add list=CZ address=202.14.113.0/24 } on-error={}
 :do { add list=CZ address=202.181.128.18/31 } on-error={}
 :do { add list=CZ address=202.181.128.20/30 } on-error={}
