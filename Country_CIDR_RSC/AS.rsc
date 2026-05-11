@@ -51,10 +51,8 @@
 :do { add list=AS address=172.225.244.0/28 } on-error={}
 :do { add list=AS address=172.226.77.64/27 } on-error={}
 :do { add list=AS address=194.50.99.11/32 } on-error={}
-:do { add list=AS address=198.52.29.8/29 } on-error={}
-:do { add list=AS address=198.52.29.32/29 } on-error={}
-:do { add list=AS address=198.52.29.148/30 } on-error={}
-:do { add list=AS address=198.52.29.208/30 } on-error={}
+:do { add list=AS address=198.52.28.0/25 } on-error={}
+:do { add list=AS address=198.52.29.0/24 } on-error={}
 :do { add list=AS address=198.52.30.136/29 } on-error={}
 :do { add list=AS address=198.52.30.160/27 } on-error={}
 :do { add list=AS address=198.52.30.192/26 } on-error={}

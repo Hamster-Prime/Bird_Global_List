@@ -67,7 +67,6 @@
 :do { add list=LK address=82.149.77.240/29 } on-error={}
 :do { add list=LK address=82.149.77.248/30 } on-error={}
 :do { add list=LK address=82.149.77.255/32 } on-error={}
-:do { add list=LK address=87.120.108.0/32 } on-error={}
 :do { add list=LK address=94.46.106.0/23 } on-error={}
 :do { add list=LK address=98.159.46.176/28 } on-error={}
 :do { add list=LK address=101.2.176.0/20 } on-error={}
@@ -219,9 +218,7 @@
 :do { add list=LK address=115.112.124.32/27 } on-error={}
 :do { add list=LK address=115.112.124.64/26 } on-error={}
 :do { add list=LK address=115.112.124.128/25 } on-error={}
-:do { add list=LK address=115.112.125.8/29 } on-error={}
-:do { add list=LK address=115.112.125.16/28 } on-error={}
-:do { add list=LK address=115.112.125.32/27 } on-error={}
+:do { add list=LK address=115.112.125.0/26 } on-error={}
 :do { add list=LK address=115.112.125.64/27 } on-error={}
 :do { add list=LK address=115.112.125.96/28 } on-error={}
 :do { add list=LK address=115.112.125.116/30 } on-error={}
@@ -231,10 +228,7 @@
 :do { add list=LK address=115.112.125.228/30 } on-error={}
 :do { add list=LK address=115.112.125.232/29 } on-error={}
 :do { add list=LK address=115.112.125.240/28 } on-error={}
-:do { add list=LK address=115.112.126.0/26 } on-error={}
-:do { add list=LK address=115.112.126.64/27 } on-error={}
-:do { add list=LK address=115.112.126.112/28 } on-error={}
-:do { add list=LK address=115.112.126.128/25 } on-error={}
+:do { add list=LK address=115.112.126.0/24 } on-error={}
 :do { add list=LK address=115.114.38.1/32 } on-error={}
 :do { add list=LK address=116.12.64.0/23 } on-error={}
 :do { add list=LK address=116.12.66.0/24 } on-error={}
@@ -399,6 +393,7 @@
 :do { add list=LK address=146.75.197.44/31 } on-error={}
 :do { add list=LK address=146.75.236.14/31 } on-error={}
 :do { add list=LK address=146.75.236.16/31 } on-error={}
+:do { add list=LK address=147.90.200.208/28 } on-error={}
 :do { add list=LK address=151.186.178.110/32 } on-error={}
 :do { add list=LK address=153.43.4.0/24 } on-error={}
 :do { add list=LK address=153.72.6.160/27 } on-error={}

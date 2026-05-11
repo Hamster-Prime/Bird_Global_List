@@ -27,6 +27,7 @@
 :do { add list=SK address=5.180.55.0/24 } on-error={}
 :do { add list=SK address=5.180.176.0/24 } on-error={}
 :do { add list=SK address=5.182.130.56/30 } on-error={}
+:do { add list=SK address=5.182.131.24/31 } on-error={}
 :do { add list=SK address=5.252.23.0/24 } on-error={}
 :do { add list=SK address=5.252.32.0/24 } on-error={}
 :do { add list=SK address=5.252.34.0/24 } on-error={}

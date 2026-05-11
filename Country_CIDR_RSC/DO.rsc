@@ -533,7 +533,6 @@
 :do { add list=DO address=154.50.205.56/32 } on-error={}
 :do { add list=DO address=154.50.208.56/32 } on-error={}
 :do { add list=DO address=154.56.119.0/24 } on-error={}
-:do { add list=DO address=154.57.58.0/23 } on-error={}
 :do { add list=DO address=154.59.201.0/24 } on-error={}
 :do { add list=DO address=154.59.206.0/23 } on-error={}
 :do { add list=DO address=154.88.128.0/19 } on-error={}
