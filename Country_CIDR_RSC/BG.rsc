@@ -6455,7 +6455,8 @@
 :do { add list=BG address=195.2.24.20/30 } on-error={}
 :do { add list=BG address=195.2.24.193/32 } on-error={}
 :do { add list=BG address=195.2.25.128/29 } on-error={}
-:do { add list=BG address=195.2.26.132/30 } on-error={}
+:do { add list=BG address=195.2.26.133/32 } on-error={}
+:do { add list=BG address=195.2.26.134/31 } on-error={}
 :do { add list=BG address=195.2.27.9/32 } on-error={}
 :do { add list=BG address=195.2.27.53/32 } on-error={}
 :do { add list=BG address=195.2.27.149/32 } on-error={}

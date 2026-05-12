@@ -87,7 +87,7 @@
 :do { add list=SZ address=69.63.76.133/32 } on-error={}
 :do { add list=SZ address=69.63.76.170/32 } on-error={}
 :do { add list=SZ address=69.63.77.128/27 } on-error={}
-:do { add list=SZ address=69.63.77.160/29 } on-error={}
+:do { add list=SZ address=69.63.77.160/28 } on-error={}
 :do { add list=SZ address=69.63.77.176/32 } on-error={}
 :do { add list=SZ address=69.63.77.178/31 } on-error={}
 :do { add list=SZ address=69.63.77.180/30 } on-error={}
