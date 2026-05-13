@@ -3943,8 +3943,7 @@
 :do { add list=IL address=185.151.196.0/23 } on-error={}
 :do { add list=IL address=185.151.198.0/24 } on-error={}
 :do { add list=IL address=185.151.199.0/24 } on-error={}
-:do { add list=IL address=185.159.72.0/24 } on-error={}
-:do { add list=IL address=185.159.73.0/24 } on-error={}
+:do { add list=IL address=185.159.72.0/23 } on-error={}
 :do { add list=IL address=185.159.74.0/24 } on-error={}
 :do { add list=IL address=185.159.109.0/24 } on-error={}
 :do { add list=IL address=185.159.232.0/24 } on-error={}

@@ -885,7 +885,9 @@
 :do { add list=BE address=57.188.0.0/22 } on-error={}
 :do { add list=BE address=57.188.17.0/24 } on-error={}
 :do { add list=BE address=57.188.44.0/22 } on-error={}
-:do { add list=BE address=57.188.48.0/22 } on-error={}
+:do { add list=BE address=57.188.48.0/24 } on-error={}
+:do { add list=BE address=57.188.49.0/24 } on-error={}
+:do { add list=BE address=57.188.50.0/23 } on-error={}
 :do { add list=BE address=57.188.53.0/24 } on-error={}
 :do { add list=BE address=57.188.54.0/24 } on-error={}
 :do { add list=BE address=57.188.58.0/23 } on-error={}

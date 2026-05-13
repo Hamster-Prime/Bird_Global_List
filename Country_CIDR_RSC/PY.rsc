@@ -503,9 +503,7 @@
 :do { add list=PY address=181.103.4.0/23 } on-error={}
 :do { add list=PY address=181.103.6.0/23 } on-error={}
 :do { add list=PY address=181.103.8.0/22 } on-error={}
-:do { add list=PY address=181.103.12.0/24 } on-error={}
-:do { add list=PY address=181.103.13.0/24 } on-error={}
-:do { add list=PY address=181.103.14.0/23 } on-error={}
+:do { add list=PY address=181.103.12.0/22 } on-error={}
 :do { add list=PY address=181.116.184.0/21 } on-error={}
 :do { add list=PY address=181.117.88.0/22 } on-error={}
 :do { add list=PY address=181.117.104.0/21 } on-error={}

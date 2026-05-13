@@ -1166,9 +1166,7 @@
 :do { add list=VE address=190.201.192.0/19 } on-error={}
 :do { add list=VE address=190.201.224.0/21 } on-error={}
 :do { add list=VE address=190.201.232.0/21 } on-error={}
-:do { add list=VE address=190.201.240.0/21 } on-error={}
-:do { add list=VE address=190.201.248.0/22 } on-error={}
-:do { add list=VE address=190.201.252.0/22 } on-error={}
+:do { add list=VE address=190.201.240.0/20 } on-error={}
 :do { add list=VE address=190.202.0.0/17 } on-error={}
 :do { add list=VE address=190.202.128.0/22 } on-error={}
 :do { add list=VE address=190.202.132.0/23 } on-error={}

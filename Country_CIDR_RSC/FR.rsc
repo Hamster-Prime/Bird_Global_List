@@ -21265,12 +21265,7 @@
 :do { add list=FR address=92.205.160.0/19 } on-error={}
 :do { add list=FR address=92.205.208.0/21 } on-error={}
 :do { add list=FR address=92.205.216.0/22 } on-error={}
-:do { add list=FR address=92.205.224.0/23 } on-error={}
-:do { add list=FR address=92.205.226.0/24 } on-error={}
-:do { add list=FR address=92.205.227.0/24 } on-error={}
-:do { add list=FR address=92.205.228.0/22 } on-error={}
-:do { add list=FR address=92.205.232.0/21 } on-error={}
-:do { add list=FR address=92.205.240.0/20 } on-error={}
+:do { add list=FR address=92.205.224.0/19 } on-error={}
 :do { add list=FR address=92.222.0.0/19 } on-error={}
 :do { add list=FR address=92.222.32.0/20 } on-error={}
 :do { add list=FR address=92.222.48.0/27 } on-error={}

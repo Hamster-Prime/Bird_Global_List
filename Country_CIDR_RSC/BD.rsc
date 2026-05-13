@@ -353,8 +353,7 @@
 :do { add list=BD address=103.9.187.0/24 } on-error={}
 :do { add list=BD address=103.9.224.0/24 } on-error={}
 :do { add list=BD address=103.10.52.0/22 } on-error={}
-:do { add list=BD address=103.10.194.0/24 } on-error={}
-:do { add list=BD address=103.10.195.0/24 } on-error={}
+:do { add list=BD address=103.10.194.0/23 } on-error={}
 :do { add list=BD address=103.11.136.0/22 } on-error={}
 :do { add list=BD address=103.11.196.0/23 } on-error={}
 :do { add list=BD address=103.12.44.0/22 } on-error={}

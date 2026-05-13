@@ -4187,7 +4187,9 @@
 :do { add list=AE address=217.60.104.0/22 } on-error={}
 :do { add list=AE address=217.60.116.0/22 } on-error={}
 :do { add list=AE address=217.60.120.0/22 } on-error={}
-:do { add list=AE address=217.60.188.0/22 } on-error={}
+:do { add list=AE address=217.60.188.0/24 } on-error={}
+:do { add list=AE address=217.60.189.0/24 } on-error={}
+:do { add list=AE address=217.60.190.0/23 } on-error={}
 :do { add list=AE address=217.60.192.0/22 } on-error={}
 :do { add list=AE address=217.138.71.0/24 } on-error={}
 :do { add list=AE address=217.138.84.0/24 } on-error={}
