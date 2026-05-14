@@ -5254,11 +5254,11 @@
 :do { add list=TH address=180.180.255.234/31 } on-error={}
 :do { add list=TH address=180.180.255.236/30 } on-error={}
 :do { add list=TH address=180.180.255.240/28 } on-error={}
-:do { add list=TH address=180.183.0.0/20 } on-error={}
-:do { add list=TH address=180.183.16.0/20 } on-error={}
-:do { add list=TH address=180.183.32.0/19 } on-error={}
-:do { add list=TH address=180.183.64.0/18 } on-error={}
-:do { add list=TH address=180.183.128.0/17 } on-error={}
+:do { add list=TH address=180.183.0.0/17 } on-error={}
+:do { add list=TH address=180.183.128.0/18 } on-error={}
+:do { add list=TH address=180.183.192.0/19 } on-error={}
+:do { add list=TH address=180.183.224.0/20 } on-error={}
+:do { add list=TH address=180.183.240.0/20 } on-error={}
 :do { add list=TH address=180.210.216.0/22 } on-error={}
 :do { add list=TH address=180.214.192.0/19 } on-error={}
 :do { add list=TH address=180.222.120.0/22 } on-error={}

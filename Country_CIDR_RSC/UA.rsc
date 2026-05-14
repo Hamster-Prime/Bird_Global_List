@@ -1168,8 +1168,7 @@
 :do { add list=UA address=46.185.0.0/17 } on-error={}
 :do { add list=UA address=46.200.0.0/15 } on-error={}
 :do { add list=UA address=46.202.0.0/24 } on-error={}
-:do { add list=UA address=46.202.12.0/24 } on-error={}
-:do { add list=UA address=46.202.13.0/24 } on-error={}
+:do { add list=UA address=46.202.12.0/23 } on-error={}
 :do { add list=UA address=46.202.15.0/24 } on-error={}
 :do { add list=UA address=46.202.32.0/24 } on-error={}
 :do { add list=UA address=46.202.36.0/24 } on-error={}

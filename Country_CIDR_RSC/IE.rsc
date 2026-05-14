@@ -4934,7 +4934,8 @@
 :do { add list=IE address=134.217.128.0/24 } on-error={}
 :do { add list=IE address=134.217.153.0/24 } on-error={}
 :do { add list=IE address=134.217.154.0/23 } on-error={}
-:do { add list=IE address=134.217.156.0/23 } on-error={}
+:do { add list=IE address=134.217.156.0/24 } on-error={}
+:do { add list=IE address=134.217.157.0/24 } on-error={}
 :do { add list=IE address=134.217.158.0/24 } on-error={}
 :do { add list=IE address=134.226.0.0/21 } on-error={}
 :do { add list=IE address=134.226.8.0/22 } on-error={}
