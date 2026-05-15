@@ -1,6 +1,5 @@
 /log info "Loading NP IPv4 Address List"
 /ip firewall address-list
-:do { add list=NP address=5.62.24.0/24 } on-error={}
 :do { add list=NP address=5.62.61.53/32 } on-error={}
 :do { add list=NP address=5.62.61.54/31 } on-error={}
 :do { add list=NP address=5.62.63.44/30 } on-error={}
@@ -49,8 +48,6 @@
 :do { add list=NP address=98.159.46.144/28 } on-error={}
 :do { add list=NP address=101.251.4.0/23 } on-error={}
 :do { add list=NP address=101.251.6.0/23 } on-error={}
-:do { add list=NP address=102.38.241.64/26 } on-error={}
-:do { add list=NP address=102.38.241.128/25 } on-error={}
 :do { add list=NP address=103.1.92.0/22 } on-error={}
 :do { add list=NP address=103.5.150.0/24 } on-error={}
 :do { add list=NP address=103.5.228.0/23 } on-error={}
@@ -302,17 +299,7 @@
 :do { add list=NP address=111.119.56.0/21 } on-error={}
 :do { add list=NP address=113.199.128.0/17 } on-error={}
 :do { add list=NP address=116.66.192.0/21 } on-error={}
-:do { add list=NP address=116.68.208.0/24 } on-error={}
-:do { add list=NP address=116.68.209.0/25 } on-error={}
-:do { add list=NP address=116.68.209.128/27 } on-error={}
-:do { add list=NP address=116.68.209.160/32 } on-error={}
-:do { add list=NP address=116.68.209.163/32 } on-error={}
-:do { add list=NP address=116.68.209.164/30 } on-error={}
-:do { add list=NP address=116.68.209.168/29 } on-error={}
-:do { add list=NP address=116.68.209.176/28 } on-error={}
-:do { add list=NP address=116.68.209.192/26 } on-error={}
-:do { add list=NP address=116.68.210.0/23 } on-error={}
-:do { add list=NP address=116.68.212.0/22 } on-error={}
+:do { add list=NP address=116.68.208.0/21 } on-error={}
 :do { add list=NP address=116.90.224.0/20 } on-error={}
 :do { add list=NP address=117.103.118.0/23 } on-error={}
 :do { add list=NP address=117.121.224.0/22 } on-error={}
@@ -328,7 +315,16 @@
 :do { add list=NP address=124.41.240.0/22 } on-error={}
 :do { add list=NP address=124.41.244.0/22 } on-error={}
 :do { add list=NP address=124.41.248.0/21 } on-error={}
-:do { add list=NP address=130.94.91.0/24 } on-error={}
+:do { add list=NP address=130.94.91.0/27 } on-error={}
+:do { add list=NP address=130.94.91.32/28 } on-error={}
+:do { add list=NP address=130.94.91.52/30 } on-error={}
+:do { add list=NP address=130.94.91.64/26 } on-error={}
+:do { add list=NP address=130.94.91.128/27 } on-error={}
+:do { add list=NP address=130.94.91.164/30 } on-error={}
+:do { add list=NP address=130.94.91.176/28 } on-error={}
+:do { add list=NP address=130.94.91.192/30 } on-error={}
+:do { add list=NP address=130.94.91.208/28 } on-error={}
+:do { add list=NP address=130.94.91.224/27 } on-error={}
 :do { add list=NP address=131.229.137.18/32 } on-error={}
 :do { add list=NP address=131.229.137.146/32 } on-error={}
 :do { add list=NP address=131.229.147.50/31 } on-error={}
@@ -400,6 +396,7 @@
 :do { add list=NP address=157.10.100.0/23 } on-error={}
 :do { add list=NP address=157.15.58.0/23 } on-error={}
 :do { add list=NP address=157.119.70.0/23 } on-error={}
+:do { add list=NP address=157.119.185.239/32 } on-error={}
 :do { add list=NP address=157.167.89.0/24 } on-error={}
 :do { add list=NP address=158.173.202.160/28 } on-error={}
 :do { add list=NP address=158.173.246.64/27 } on-error={}
@@ -447,6 +444,7 @@
 :do { add list=NP address=161.69.127.146/32 } on-error={}
 :do { add list=NP address=161.248.156.0/23 } on-error={}
 :do { add list=NP address=161.248.216.0/23 } on-error={}
+:do { add list=NP address=162.4.106.0/24 } on-error={}
 :do { add list=NP address=162.120.184.56/32 } on-error={}
 :do { add list=NP address=162.120.184.120/32 } on-error={}
 :do { add list=NP address=162.120.184.184/32 } on-error={}
@@ -504,7 +502,6 @@
 :do { add list=NP address=196.197.145.0/24 } on-error={}
 :do { add list=NP address=196.198.145.0/24 } on-error={}
 :do { add list=NP address=196.199.145.0/24 } on-error={}
-:do { add list=NP address=198.32.126.0/23 } on-error={}
 :do { add list=NP address=198.32.231.128/25 } on-error={}
 :do { add list=NP address=202.45.144.0/22 } on-error={}
 :do { add list=NP address=202.50.76.0/23 } on-error={}

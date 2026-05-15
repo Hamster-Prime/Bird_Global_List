@@ -10,12 +10,8 @@
 :do { add list=TD address=74.244.68.0/23 } on-error={}
 :do { add list=TD address=85.255.21.96/28 } on-error={}
 :do { add list=TD address=86.62.31.0/32 } on-error={}
-:do { add list=TD address=86.62.31.2/31 } on-error={}
-:do { add list=TD address=86.62.31.4/30 } on-error={}
 :do { add list=TD address=86.62.31.20/32 } on-error={}
-:do { add list=TD address=86.62.31.22/31 } on-error={}
-:do { add list=TD address=86.62.31.40/29 } on-error={}
-:do { add list=TD address=86.62.31.48/28 } on-error={}
+:do { add list=TD address=86.62.31.22/32 } on-error={}
 :do { add list=TD address=86.62.31.64/27 } on-error={}
 :do { add list=TD address=86.62.31.96/28 } on-error={}
 :do { add list=TD address=86.62.31.112/29 } on-error={}

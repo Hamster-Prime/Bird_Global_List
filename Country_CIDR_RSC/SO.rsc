@@ -6,10 +6,6 @@
 :do { add list=SO address=41.78.72.0/22 } on-error={}
 :do { add list=SO address=41.79.196.0/24 } on-error={}
 :do { add list=SO address=41.79.197.0/25 } on-error={}
-:do { add list=SO address=41.79.197.128/27 } on-error={}
-:do { add list=SO address=41.79.197.168/29 } on-error={}
-:do { add list=SO address=41.79.197.176/28 } on-error={}
-:do { add list=SO address=41.79.197.192/27 } on-error={}
 :do { add list=SO address=41.79.197.224/28 } on-error={}
 :do { add list=SO address=41.79.197.240/29 } on-error={}
 :do { add list=SO address=41.79.197.248/30 } on-error={}
@@ -36,7 +32,9 @@
 :do { add list=SO address=41.79.199.146/32 } on-error={}
 :do { add list=SO address=41.79.199.148/32 } on-error={}
 :do { add list=SO address=41.79.199.150/32 } on-error={}
-:do { add list=SO address=41.79.199.152/29 } on-error={}
+:do { add list=SO address=41.79.199.152/32 } on-error={}
+:do { add list=SO address=41.79.199.154/32 } on-error={}
+:do { add list=SO address=41.79.199.156/30 } on-error={}
 :do { add list=SO address=41.79.199.160/30 } on-error={}
 :do { add list=SO address=41.79.199.170/31 } on-error={}
 :do { add list=SO address=41.79.199.172/30 } on-error={}
@@ -63,6 +61,8 @@
 :do { add list=SO address=102.128.134.0/23 } on-error={}
 :do { add list=SO address=102.141.196.0/22 } on-error={}
 :do { add list=SO address=102.203.134.0/24 } on-error={}
+:do { add list=SO address=102.205.220.0/23 } on-error={}
+:do { add list=SO address=102.205.222.0/23 } on-error={}
 :do { add list=SO address=102.206.180.0/22 } on-error={}
 :do { add list=SO address=102.210.242.0/24 } on-error={}
 :do { add list=SO address=102.214.168.0/22 } on-error={}
@@ -174,6 +174,7 @@
 :do { add list=SO address=197.231.200.0/22 } on-error={}
 :do { add list=SO address=198.54.100.62/31 } on-error={}
 :do { add list=SO address=212.32.91.0/32 } on-error={}
+:do { add list=SO address=212.32.91.20/32 } on-error={}
 :do { add list=SO address=212.32.91.64/27 } on-error={}
 :do { add list=SO address=212.32.91.96/28 } on-error={}
 :do { add list=SO address=212.32.91.112/29 } on-error={}

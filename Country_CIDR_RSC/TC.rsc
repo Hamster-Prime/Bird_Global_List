@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=TC address=5.62.56.236/30 } on-error={}
 :do { add list=TC address=5.62.58.216/30 } on-error={}
+:do { add list=TC address=5.175.190.46/31 } on-error={}
 :do { add list=TC address=45.62.191.192/28 } on-error={}
 :do { add list=TC address=65.255.48.0/20 } on-error={}
 :do { add list=TC address=104.28.13.61/32 } on-error={}

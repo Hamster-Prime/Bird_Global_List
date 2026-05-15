@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=AI address=5.62.56.8/30 } on-error={}
 :do { add list=AI address=5.62.58.8/30 } on-error={}
+:do { add list=AI address=5.175.190.58/31 } on-error={}
 :do { add list=AI address=67.215.79.54/31 } on-error={}
 :do { add list=AI address=69.57.226.0/24 } on-error={}
 :do { add list=AI address=69.57.234.0/24 } on-error={}
@@ -53,11 +54,20 @@
 :do { add list=AI address=194.50.99.5/32 } on-error={}
 :do { add list=AI address=199.195.223.0/24 } on-error={}
 :do { add list=AI address=204.14.250.0/24 } on-error={}
-:do { add list=AI address=204.14.251.160/27 } on-error={}
 :do { add list=AI address=204.14.255.0/24 } on-error={}
 :do { add list=AI address=208.66.49.0/24 } on-error={}
 :do { add list=AI address=208.66.50.0/23 } on-error={}
 :do { add list=AI address=208.66.52.0/23 } on-error={}
+:do { add list=AI address=208.66.54.161/32 } on-error={}
+:do { add list=AI address=208.66.54.162/31 } on-error={}
+:do { add list=AI address=208.66.54.168/30 } on-error={}
+:do { add list=AI address=208.66.54.180/30 } on-error={}
+:do { add list=AI address=208.66.54.184/29 } on-error={}
+:do { add list=AI address=208.66.54.192/28 } on-error={}
+:do { add list=AI address=208.66.54.240/30 } on-error={}
+:do { add list=AI address=208.66.54.244/31 } on-error={}
+:do { add list=AI address=208.66.54.248/31 } on-error={}
+:do { add list=AI address=208.66.54.252/30 } on-error={}
 :do { add list=AI address=208.66.55.0/24 } on-error={}
 :do { add list=AI address=209.59.76.0/22 } on-error={}
 :do { add list=AI address=209.59.119.0/24 } on-error={}

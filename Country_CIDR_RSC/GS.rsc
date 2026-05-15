@@ -1,5 +1,6 @@
 /log info "Loading GS IPv4 Address List"
 /ip firewall address-list
+:do { add list=GS address=5.175.190.186/32 } on-error={}
 :do { add list=GS address=45.136.137.82/31 } on-error={}
 :do { add list=GS address=104.28.10.101/32 } on-error={}
 :do { add list=GS address=104.28.10.102/31 } on-error={}
