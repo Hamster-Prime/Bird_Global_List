@@ -151,7 +151,9 @@
 :do { add list=RE address=92.130.24.0/22 } on-error={}
 :do { add list=RE address=92.130.29.0/24 } on-error={}
 :do { add list=RE address=92.130.30.0/23 } on-error={}
-:do { add list=RE address=92.130.32.0/22 } on-error={}
+:do { add list=RE address=92.130.32.0/23 } on-error={}
+:do { add list=RE address=92.130.34.0/24 } on-error={}
+:do { add list=RE address=92.130.35.0/25 } on-error={}
 :do { add list=RE address=92.130.37.0/25 } on-error={}
 :do { add list=RE address=92.130.38.0/24 } on-error={}
 :do { add list=RE address=92.130.40.0/21 } on-error={}

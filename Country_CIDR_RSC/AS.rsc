@@ -60,7 +60,6 @@
 :do { add list=AS address=203.193.117.0/25 } on-error={}
 :do { add list=AS address=205.161.14.0/24 } on-error={}
 :do { add list=AS address=205.161.15.0/25 } on-error={}
-:do { add list=AS address=206.80.28.0/23 } on-error={}
-:do { add list=AS address=206.80.30.0/24 } on-error={}
+:do { add list=AS address=206.80.28.0/24 } on-error={}
 :do { add list=AS address=206.80.31.0/25 } on-error={}
 :do { add list=AS address=208.136.102.0/24 } on-error={}

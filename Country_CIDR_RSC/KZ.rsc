@@ -1,7 +1,6 @@
 /log info "Loading KZ IPv4 Address List"
 /ip firewall address-list
 :do { add list=KZ address=2.27.130.0/23 } on-error={}
-:do { add list=KZ address=2.56.123.0/24 } on-error={}
 :do { add list=KZ address=2.56.177.0/24 } on-error={}
 :do { add list=KZ address=2.57.96.0/22 } on-error={}
 :do { add list=KZ address=2.72.0.0/14 } on-error={}
@@ -1938,8 +1937,7 @@
 :do { add list=KZ address=198.45.118.0/23 } on-error={}
 :do { add list=KZ address=198.45.244.168/29 } on-error={}
 :do { add list=KZ address=198.89.88.0/21 } on-error={}
-:do { add list=KZ address=199.189.248.0/22 } on-error={}
-:do { add list=KZ address=199.189.254.0/23 } on-error={}
+:do { add list=KZ address=199.189.248.0/21 } on-error={}
 :do { add list=KZ address=202.181.128.208/29 } on-error={}
 :do { add list=KZ address=204.3.20.0/22 } on-error={}
 :do { add list=KZ address=204.3.149.0/24 } on-error={}
@@ -2000,7 +1998,6 @@
 :do { add list=KZ address=212.154.128.0/17 } on-error={}
 :do { add list=KZ address=212.192.220.0/24 } on-error={}
 :do { add list=KZ address=213.5.184.0/21 } on-error={}
-:do { add list=KZ address=213.109.97.0/24 } on-error={}
 :do { add list=KZ address=213.109.98.0/24 } on-error={}
 :do { add list=KZ address=213.109.99.0/24 } on-error={}
 :do { add list=KZ address=213.109.146.0/24 } on-error={}
