@@ -78,7 +78,8 @@
 :do { add list=DM address=198.101.28.0/22 } on-error={}
 :do { add list=DM address=199.16.58.0/24 } on-error={}
 :do { add list=DM address=199.127.196.0/24 } on-error={}
-:do { add list=DM address=199.127.198.0/23 } on-error={}
+:do { add list=DM address=199.127.198.0/24 } on-error={}
+:do { add list=DM address=199.127.199.0/24 } on-error={}
 :do { add list=DM address=199.189.112.0/22 } on-error={}
 :do { add list=DM address=205.217.232.0/21 } on-error={}
 :do { add list=DM address=205.217.244.0/26 } on-error={}

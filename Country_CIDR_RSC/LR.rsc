@@ -105,6 +105,7 @@
 :do { add list=LR address=185.35.142.109/32 } on-error={}
 :do { add list=LR address=185.112.135.20/32 } on-error={}
 :do { add list=LR address=185.138.17.151/32 } on-error={}
+:do { add list=LR address=186.247.58.0/24 } on-error={}
 :do { add list=LR address=195.110.184.4/31 } on-error={}
 :do { add list=LR address=195.110.184.80/28 } on-error={}
 :do { add list=LR address=195.110.184.124/32 } on-error={}

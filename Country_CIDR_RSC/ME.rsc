@@ -7,7 +7,11 @@
 :do { add list=ME address=31.204.192.0/18 } on-error={}
 :do { add list=ME address=37.0.64.0/23 } on-error={}
 :do { add list=ME address=37.0.67.0/24 } on-error={}
-:do { add list=ME address=37.0.69.0/24 } on-error={}
+:do { add list=ME address=37.0.69.0/25 } on-error={}
+:do { add list=ME address=37.0.69.128/26 } on-error={}
+:do { add list=ME address=37.0.69.192/27 } on-error={}
+:do { add list=ME address=37.0.69.224/28 } on-error={}
+:do { add list=ME address=37.0.69.240/29 } on-error={}
 :do { add list=ME address=37.0.70.0/23 } on-error={}
 :do { add list=ME address=37.122.160.0/19 } on-error={}
 :do { add list=ME address=37.221.176.0/22 } on-error={}

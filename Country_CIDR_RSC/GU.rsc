@@ -22,7 +22,8 @@
 :do { add list=GU address=64.71.131.186/32 } on-error={}
 :do { add list=GU address=64.193.122.0/24 } on-error={}
 :do { add list=GU address=64.193.123.66/32 } on-error={}
-:do { add list=GU address=65.19.141.132/30 } on-error={}
+:do { add list=GU address=65.19.141.133/32 } on-error={}
+:do { add list=GU address=65.19.141.134/32 } on-error={}
 :do { add list=GU address=65.19.189.169/32 } on-error={}
 :do { add list=GU address=66.96.119.0/26 } on-error={}
 :do { add list=GU address=66.110.0.174/32 } on-error={}

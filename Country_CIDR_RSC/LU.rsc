@@ -90,7 +90,7 @@
 :do { add list=LU address=31.76.249.144/28 } on-error={}
 :do { add list=LU address=31.171.215.0/24 } on-error={}
 :do { add list=LU address=31.172.144.0/21 } on-error={}
-:do { add list=LU address=31.184.244.0/23 } on-error={}
+:do { add list=LU address=31.184.244.0/24 } on-error={}
 :do { add list=LU address=31.184.247.0/24 } on-error={}
 :do { add list=LU address=31.204.1.0/24 } on-error={}
 :do { add list=LU address=31.204.88.0/25 } on-error={}

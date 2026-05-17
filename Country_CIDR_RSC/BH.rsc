@@ -301,6 +301,12 @@
 :do { add list=BH address=161.69.76.176/28 } on-error={}
 :do { add list=BH address=161.69.76.192/26 } on-error={}
 :do { add list=BH address=162.10.8.76/31 } on-error={}
+:do { add list=BH address=163.5.212.0/32 } on-error={}
+:do { add list=BH address=163.5.212.15/32 } on-error={}
+:do { add list=BH address=163.5.212.16/28 } on-error={}
+:do { add list=BH address=163.5.212.32/27 } on-error={}
+:do { add list=BH address=163.5.212.64/26 } on-error={}
+:do { add list=BH address=163.5.212.128/25 } on-error={}
 :do { add list=BH address=163.116.167.109/32 } on-error={}
 :do { add list=BH address=163.116.167.127/32 } on-error={}
 :do { add list=BH address=163.116.191.49/32 } on-error={}

@@ -547,7 +547,7 @@
 :do { add list=TZ address=197.98.2.0/25 } on-error={}
 :do { add list=TZ address=197.149.176.0/22 } on-error={}
 :do { add list=TZ address=197.152.0.0/16 } on-error={}
-:do { add list=TZ address=197.155.64.18/31 } on-error={}
+:do { add list=TZ address=197.155.64.16/29 } on-error={}
 :do { add list=TZ address=197.155.91.0/24 } on-error={}
 :do { add list=TZ address=197.155.93.184/30 } on-error={}
 :do { add list=TZ address=197.155.94.1/32 } on-error={}
