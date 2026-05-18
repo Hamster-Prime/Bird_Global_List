@@ -86,7 +86,14 @@
 :do { add list=AW address=186.96.200.0/21 } on-error={}
 :do { add list=AW address=186.96.224.0/20 } on-error={}
 :do { add list=AW address=186.96.240.0/21 } on-error={}
-:do { add list=AW address=186.148.216.0/22 } on-error={}
+:do { add list=AW address=186.148.216.0/23 } on-error={}
+:do { add list=AW address=186.148.218.0/24 } on-error={}
+:do { add list=AW address=186.148.219.0/27 } on-error={}
+:do { add list=AW address=186.148.219.32/28 } on-error={}
+:do { add list=AW address=186.148.219.48/30 } on-error={}
+:do { add list=AW address=186.148.219.56/29 } on-error={}
+:do { add list=AW address=186.148.219.64/26 } on-error={}
+:do { add list=AW address=186.148.219.128/25 } on-error={}
 :do { add list=AW address=186.189.0.0/21 } on-error={}
 :do { add list=AW address=186.189.8.0/23 } on-error={}
 :do { add list=AW address=186.189.10.0/23 } on-error={}
