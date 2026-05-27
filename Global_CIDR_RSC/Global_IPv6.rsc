@@ -3754,14 +3754,7 @@
 :do { add list=Global address=2405:a502::/31 } on-error={}
 :do { add list=Global address=2405:a501::/32 } on-error={}
 :do { add list=Global address=2405:a000::/23 } on-error={}
-:do { add list=Global address=2405:a300::/25 } on-error={}
-:do { add list=Global address=2405:a380::/26 } on-error={}
-:do { add list=Global address=2405:a3e0::/27 } on-error={}
-:do { add list=Global address=2405:a3d0::/28 } on-error={}
-:do { add list=Global address=2405:a3c8::/29 } on-error={}
-:do { add list=Global address=2405:a3c4::/30 } on-error={}
-:do { add list=Global address=2405:a3c2::/31 } on-error={}
-:do { add list=Global address=2405:a3c1::/32 } on-error={}
+:do { add list=Global address=2405:a300::/24 } on-error={}
 :do { add list=Global address=2405:a280::/25 } on-error={}
 :do { add list=Global address=2405:a200::/26 } on-error={}
 :do { add list=Global address=2405:a260::/27 } on-error={}
