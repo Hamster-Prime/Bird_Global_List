@@ -1,6 +1,5 @@
 /log info "Loading AD IPv4 Address List"
 /ip firewall address-list
-:do { add list=AD address=2.27.138.0/24 } on-error={}
 :do { add list=AD address=5.62.60.5/32 } on-error={}
 :do { add list=AD address=5.62.60.6/31 } on-error={}
 :do { add list=AD address=5.62.62.4/30 } on-error={}
@@ -31,8 +30,6 @@
 :do { add list=AD address=34.103.255.64/29 } on-error={}
 :do { add list=AD address=34.103.255.72/32 } on-error={}
 :do { add list=AD address=45.148.10.59/32 } on-error={}
-:do { add list=AD address=45.148.10.125/32 } on-error={}
-:do { add list=AD address=45.148.10.242/31 } on-error={}
 :do { add list=AD address=46.172.224.0/19 } on-error={}
 :do { add list=AD address=46.175.156.0/22 } on-error={}
 :do { add list=AD address=57.79.178.0/23 } on-error={}
@@ -49,10 +46,11 @@
 :do { add list=AD address=91.187.64.0/19 } on-error={}
 :do { add list=AD address=93.123.109.96/29 } on-error={}
 :do { add list=AD address=93.123.109.111/32 } on-error={}
-:do { add list=AD address=93.123.109.112/32 } on-error={}
-:do { add list=AD address=93.123.109.244/31 } on-error={}
-:do { add list=AD address=94.125.138.0/23 } on-error={}
-:do { add list=AD address=94.125.140.0/23 } on-error={}
+:do { add list=AD address=94.125.139.0/24 } on-error={}
+:do { add list=AD address=94.125.140.133/32 } on-error={}
+:do { add list=AD address=94.125.140.138/32 } on-error={}
+:do { add list=AD address=94.125.140.166/32 } on-error={}
+:do { add list=AD address=94.125.141.160/28 } on-error={}
 :do { add list=AD address=95.111.140.0/23 } on-error={}
 :do { add list=AD address=104.28.8.1/32 } on-error={}
 :do { add list=AD address=104.28.8.2/31 } on-error={}
@@ -83,6 +81,7 @@
 :do { add list=AD address=130.41.146.32/27 } on-error={}
 :do { add list=AD address=130.41.152.96/27 } on-error={}
 :do { add list=AD address=130.41.179.128/27 } on-error={}
+:do { add list=AD address=134.82.75.160/29 } on-error={}
 :do { add list=AD address=134.231.140.0/26 } on-error={}
 :do { add list=AD address=134.238.59.64/26 } on-error={}
 :do { add list=AD address=134.238.59.128/25 } on-error={}
@@ -91,7 +90,6 @@
 :do { add list=AD address=134.238.60.192/27 } on-error={}
 :do { add list=AD address=134.238.220.128/26 } on-error={}
 :do { add list=AD address=134.238.254.160/27 } on-error={}
-:do { add list=AD address=135.136.16.1/32 } on-error={}
 :do { add list=AD address=136.23.1.137/32 } on-error={}
 :do { add list=AD address=136.23.21.37/32 } on-error={}
 :do { add list=AD address=136.227.141.160/30 } on-error={}
@@ -120,6 +118,7 @@
 :do { add list=AD address=146.75.182.0/31 } on-error={}
 :do { add list=AD address=146.75.185.0/31 } on-error={}
 :do { add list=AD address=146.75.210.0/31 } on-error={}
+:do { add list=AD address=147.90.35.0/24 } on-error={}
 :do { add list=AD address=149.126.9.32/29 } on-error={}
 :do { add list=AD address=150.228.70.0/23 } on-error={}
 :do { add list=AD address=151.240.79.240/28 } on-error={}
@@ -160,6 +159,7 @@
 :do { add list=AD address=172.225.160.0/28 } on-error={}
 :do { add list=AD address=172.225.162.0/28 } on-error={}
 :do { add list=AD address=172.225.242.0/28 } on-error={}
+:do { add list=AD address=173.239.197.16/28 } on-error={}
 :do { add list=AD address=185.4.52.0/22 } on-error={}
 :do { add list=AD address=185.33.0.0/22 } on-error={}
 :do { add list=AD address=185.87.36.0/22 } on-error={}
@@ -169,11 +169,10 @@
 :do { add list=AD address=185.138.17.168/32 } on-error={}
 :do { add list=AD address=185.194.56.0/22 } on-error={}
 :do { add list=AD address=185.247.24.0/22 } on-error={}
+:do { add list=AD address=186.247.169.0/24 } on-error={}
 :do { add list=AD address=188.241.26.0/23 } on-error={}
 :do { add list=AD address=194.50.99.1/32 } on-error={}
 :do { add list=AD address=194.158.64.0/19 } on-error={}
-:do { add list=AD address=195.178.110.186/32 } on-error={}
-:do { add list=AD address=195.178.110.192/32 } on-error={}
 :do { add list=AD address=196.48.35.0/24 } on-error={}
 :do { add list=AD address=196.56.35.0/24 } on-error={}
 :do { add list=AD address=196.57.35.0/24 } on-error={}

@@ -2,20 +2,14 @@
 /ip firewall address-list
 :do { add list=HT address=5.62.56.120/30 } on-error={}
 :do { add list=HT address=5.62.58.112/30 } on-error={}
-:do { add list=HT address=38.92.116.0/24 } on-error={}
-:do { add list=HT address=38.92.117.0/29 } on-error={}
-:do { add list=HT address=38.92.117.12/30 } on-error={}
-:do { add list=HT address=38.92.117.16/28 } on-error={}
-:do { add list=HT address=38.92.117.32/27 } on-error={}
-:do { add list=HT address=38.92.117.64/26 } on-error={}
-:do { add list=HT address=38.92.117.128/25 } on-error={}
-:do { add list=HT address=38.92.118.0/23 } on-error={}
+:do { add list=HT address=38.92.116.0/22 } on-error={}
 :do { add list=HT address=38.93.248.0/23 } on-error={}
 :do { add list=HT address=38.93.250.0/24 } on-error={}
 :do { add list=HT address=57.74.112.0/23 } on-error={}
 :do { add list=HT address=57.91.96.0/20 } on-error={}
 :do { add list=HT address=63.243.134.0/23 } on-error={}
 :do { add list=HT address=64.86.55.0/24 } on-error={}
+:do { add list=HT address=64.110.156.117/32 } on-error={}
 :do { add list=HT address=66.9.168.0/23 } on-error={}
 :do { add list=HT address=66.36.217.72/29 } on-error={}
 :do { add list=HT address=66.96.122.0/26 } on-error={}
@@ -45,6 +39,7 @@
 :do { add list=HT address=104.28.253.211/32 } on-error={}
 :do { add list=HT address=104.28.253.212/30 } on-error={}
 :do { add list=HT address=104.28.253.216/31 } on-error={}
+:do { add list=HT address=134.82.73.56/29 } on-error={}
 :do { add list=HT address=136.23.22.49/32 } on-error={}
 :do { add list=HT address=136.23.26.33/32 } on-error={}
 :do { add list=HT address=140.248.4.42/31 } on-error={}

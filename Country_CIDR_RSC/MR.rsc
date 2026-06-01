@@ -9,7 +9,6 @@
 :do { add list=MR address=41.138.140.0/22 } on-error={}
 :do { add list=MR address=41.138.144.0/20 } on-error={}
 :do { add list=MR address=41.188.64.0/18 } on-error={}
-:do { add list=MR address=41.194.19.16/30 } on-error={}
 :do { add list=MR address=41.223.96.0/22 } on-error={}
 :do { add list=MR address=57.82.168.0/23 } on-error={}
 :do { add list=MR address=57.83.240.0/20 } on-error={}
@@ -20,6 +19,8 @@
 :do { add list=MR address=102.205.52.0/23 } on-error={}
 :do { add list=MR address=102.205.54.0/24 } on-error={}
 :do { add list=MR address=102.205.55.0/24 } on-error={}
+:do { add list=MR address=102.205.96.0/23 } on-error={}
+:do { add list=MR address=102.205.98.0/24 } on-error={}
 :do { add list=MR address=102.205.176.0/22 } on-error={}
 :do { add list=MR address=102.206.224.0/22 } on-error={}
 :do { add list=MR address=102.214.128.0/22 } on-error={}
@@ -47,6 +48,7 @@
 :do { add list=MR address=104.28.231.27/32 } on-error={}
 :do { add list=MR address=104.28.231.28/30 } on-error={}
 :do { add list=MR address=104.28.231.32/32 } on-error={}
+:do { add list=MR address=109.104.158.0/24 } on-error={}
 :do { add list=MR address=136.23.1.131/32 } on-error={}
 :do { add list=MR address=136.23.21.31/32 } on-error={}
 :do { add list=MR address=140.248.40.156/31 } on-error={}
@@ -77,6 +79,7 @@
 :do { add list=MR address=179.64.102.0/23 } on-error={}
 :do { add list=MR address=185.112.135.22/32 } on-error={}
 :do { add list=MR address=185.138.17.152/32 } on-error={}
+:do { add list=MR address=193.146.150.220/32 } on-error={}
 :do { add list=MR address=196.48.132.0/24 } on-error={}
 :do { add list=MR address=196.49.18.0/24 } on-error={}
 :do { add list=MR address=196.56.132.0/24 } on-error={}
@@ -89,7 +92,7 @@
 :do { add list=MR address=197.231.0.0/19 } on-error={}
 :do { add list=MR address=208.122.248.0/27 } on-error={}
 :do { add list=MR address=212.32.86.0/32 } on-error={}
-:do { add list=MR address=212.32.86.16/32 } on-error={}
+:do { add list=MR address=212.32.86.2/31 } on-error={}
 :do { add list=MR address=212.32.86.64/27 } on-error={}
 :do { add list=MR address=212.32.86.96/28 } on-error={}
 :do { add list=MR address=212.32.86.112/29 } on-error={}

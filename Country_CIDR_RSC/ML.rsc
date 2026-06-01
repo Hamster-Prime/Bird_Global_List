@@ -22,9 +22,7 @@
 :do { add list=ML address=102.165.101.0/24 } on-error={}
 :do { add list=ML address=102.165.102.0/23 } on-error={}
 :do { add list=ML address=102.165.104.0/21 } on-error={}
-:do { add list=ML address=102.212.72.0/23 } on-error={}
-:do { add list=ML address=102.212.74.0/24 } on-error={}
-:do { add list=ML address=102.212.75.0/24 } on-error={}
+:do { add list=ML address=102.212.72.0/22 } on-error={}
 :do { add list=ML address=102.213.136.0/22 } on-error={}
 :do { add list=ML address=102.217.24.0/22 } on-error={}
 :do { add list=ML address=102.221.132.0/22 } on-error={}
