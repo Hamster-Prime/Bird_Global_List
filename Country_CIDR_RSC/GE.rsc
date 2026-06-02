@@ -413,8 +413,6 @@
 :do { add list=GE address=178.236.48.0/20 } on-error={}
 :do { add list=GE address=178.249.16.0/21 } on-error={}
 :do { add list=GE address=179.61.254.0/24 } on-error={}
-:do { add list=GE address=179.66.179.0/24 } on-error={}
-:do { add list=GE address=179.66.185.0/24 } on-error={}
 :do { add list=GE address=181.215.15.0/24 } on-error={}
 :do { add list=GE address=182.173.68.0/23 } on-error={}
 :do { add list=GE address=184.107.153.64/29 } on-error={}

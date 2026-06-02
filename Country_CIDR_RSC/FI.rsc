@@ -5035,7 +5035,16 @@
 :do { add list=FI address=132.245.57.64/27 } on-error={}
 :do { add list=FI address=132.245.74.128/26 } on-error={}
 :do { add list=FI address=132.245.78.112/28 } on-error={}
-:do { add list=FI address=134.37.0.0/16 } on-error={}
+:do { add list=FI address=134.37.0.0/18 } on-error={}
+:do { add list=FI address=134.37.64.0/20 } on-error={}
+:do { add list=FI address=134.37.80.0/21 } on-error={}
+:do { add list=FI address=134.37.88.0/22 } on-error={}
+:do { add list=FI address=134.37.92.3/32 } on-error={}
+:do { add list=FI address=134.37.92.128/25 } on-error={}
+:do { add list=FI address=134.37.93.0/24 } on-error={}
+:do { add list=FI address=134.37.94.0/23 } on-error={}
+:do { add list=FI address=134.37.96.0/19 } on-error={}
+:do { add list=FI address=134.37.128.0/17 } on-error={}
 :do { add list=FI address=134.231.157.128/26 } on-error={}
 :do { add list=FI address=134.231.240.186/31 } on-error={}
 :do { add list=FI address=134.231.240.188/30 } on-error={}
