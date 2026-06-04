@@ -59,7 +59,12 @@
 :do { add list=TC address=205.214.204.8/29 } on-error={}
 :do { add list=TC address=205.214.204.16/28 } on-error={}
 :do { add list=TC address=205.214.204.32/27 } on-error={}
-:do { add list=TC address=205.214.204.64/26 } on-error={}
+:do { add list=TC address=205.214.204.64/27 } on-error={}
+:do { add list=TC address=205.214.204.96/30 } on-error={}
+:do { add list=TC address=205.214.204.100/32 } on-error={}
+:do { add list=TC address=205.214.204.103/32 } on-error={}
+:do { add list=TC address=205.214.204.104/29 } on-error={}
+:do { add list=TC address=205.214.204.112/28 } on-error={}
 :do { add list=TC address=205.214.204.128/27 } on-error={}
 :do { add list=TC address=205.214.204.160/30 } on-error={}
 :do { add list=TC address=205.214.204.164/31 } on-error={}

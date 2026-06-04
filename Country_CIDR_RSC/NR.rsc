@@ -58,3 +58,4 @@
 :do { add list=NR address=203.98.248.0/22 } on-error={}
 :do { add list=NR address=203.98.252.0/24 } on-error={}
 :do { add list=NR address=203.190.216.0/24 } on-error={}
+:do { add list=NR address=216.139.183.64/28 } on-error={}
