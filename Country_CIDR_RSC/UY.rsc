@@ -384,6 +384,7 @@
 :do { add list=UY address=177.101.203.40/29 } on-error={}
 :do { add list=UY address=177.101.203.48/29 } on-error={}
 :do { add list=UY address=177.101.203.64/29 } on-error={}
+:do { add list=UY address=177.101.203.80/28 } on-error={}
 :do { add list=UY address=177.101.203.96/27 } on-error={}
 :do { add list=UY address=177.101.203.132/30 } on-error={}
 :do { add list=UY address=177.101.203.140/30 } on-error={}

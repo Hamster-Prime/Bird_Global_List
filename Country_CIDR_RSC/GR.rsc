@@ -947,6 +947,7 @@
 :do { add list=GR address=104.30.171.67/32 } on-error={}
 :do { add list=GR address=104.30.171.69/32 } on-error={}
 :do { add list=GR address=104.30.171.76/32 } on-error={}
+:do { add list=GR address=104.30.179.96/32 } on-error={}
 :do { add list=GR address=104.44.37.144/31 } on-error={}
 :do { add list=GR address=104.44.40.84/32 } on-error={}
 :do { add list=GR address=104.44.42.139/32 } on-error={}

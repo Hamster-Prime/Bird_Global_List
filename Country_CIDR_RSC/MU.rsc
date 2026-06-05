@@ -791,6 +791,7 @@
 :do { add list=MU address=105.29.0.0/18 } on-error={}
 :do { add list=MU address=105.29.112.0/20 } on-error={}
 :do { add list=MU address=105.29.192.0/19 } on-error={}
+:do { add list=MU address=105.29.240.0/20 } on-error={}
 :do { add list=MU address=105.30.160.0/19 } on-error={}
 :do { add list=MU address=105.30.193.0/24 } on-error={}
 :do { add list=MU address=105.30.194.44/30 } on-error={}

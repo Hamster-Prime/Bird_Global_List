@@ -933,7 +933,6 @@
 :do { add list=IQ address=185.75.224.0/22 } on-error={}
 :do { add list=IQ address=185.76.32.0/22 } on-error={}
 :do { add list=IQ address=185.84.68.0/22 } on-error={}
-:do { add list=IQ address=185.87.32.128/25 } on-error={}
 :do { add list=IQ address=185.88.24.0/24 } on-error={}
 :do { add list=IQ address=185.88.25.0/24 } on-error={}
 :do { add list=IQ address=185.88.26.0/24 } on-error={}
