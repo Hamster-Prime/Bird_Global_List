@@ -102,11 +102,7 @@
 :do { add list=KY address=157.167.234.33/32 } on-error={}
 :do { add list=KY address=157.167.234.34/32 } on-error={}
 :do { add list=KY address=157.167.234.71/32 } on-error={}
-:do { add list=KY address=158.69.66.193/32 } on-error={}
 :do { add list=KY address=158.69.70.209/32 } on-error={}
-:do { add list=KY address=158.69.72.56/32 } on-error={}
-:do { add list=KY address=158.69.75.27/32 } on-error={}
-:do { add list=KY address=158.69.76.24/32 } on-error={}
 :do { add list=KY address=161.199.132.0/22 } on-error={}
 :do { add list=KY address=162.120.196.235/32 } on-error={}
 :do { add list=KY address=162.120.202.218/32 } on-error={}

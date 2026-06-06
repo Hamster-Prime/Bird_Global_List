@@ -2,11 +2,12 @@
 /ip firewall address-list
 :do { add list=SX address=5.175.190.96/30 } on-error={}
 :do { add list=SX address=65.198.230.0/24 } on-error={}
+:do { add list=SX address=65.208.123.166/31 } on-error={}
+:do { add list=SX address=65.208.123.232/29 } on-error={}
 :do { add list=SX address=65.217.50.0/24 } on-error={}
 :do { add list=SX address=65.248.160.0/24 } on-error={}
 :do { add list=SX address=66.119.73.114/32 } on-error={}
 :do { add list=SX address=72.252.8.0/21 } on-error={}
-:do { add list=SX address=75.105.35.142/32 } on-error={}
 :do { add list=SX address=75.105.37.199/32 } on-error={}
 :do { add list=SX address=104.28.13.52/31 } on-error={}
 :do { add list=SX address=104.28.13.54/32 } on-error={}
@@ -97,7 +98,7 @@
 :do { add list=SX address=201.220.11.128/26 } on-error={}
 :do { add list=SX address=201.220.11.192/27 } on-error={}
 :do { add list=SX address=201.220.12.0/24 } on-error={}
-:do { add list=SX address=201.220.13.64/26 } on-error={}
+:do { add list=SX address=201.220.13.0/25 } on-error={}
 :do { add list=SX address=201.220.14.0/23 } on-error={}
 :do { add list=SX address=204.27.52.0/23 } on-error={}
 :do { add list=SX address=216.152.170.107/32 } on-error={}

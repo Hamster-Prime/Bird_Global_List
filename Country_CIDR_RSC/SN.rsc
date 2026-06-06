@@ -194,7 +194,7 @@
 :do { add list=SN address=212.165.249.48/28 } on-error={}
 :do { add list=SN address=212.165.249.64/29 } on-error={}
 :do { add list=SN address=212.165.249.80/28 } on-error={}
-:do { add list=SN address=212.165.249.114/31 } on-error={}
+:do { add list=SN address=212.165.249.114/32 } on-error={}
 :do { add list=SN address=212.165.249.132/30 } on-error={}
 :do { add list=SN address=212.165.249.146/31 } on-error={}
 :do { add list=SN address=212.165.249.148/30 } on-error={}
