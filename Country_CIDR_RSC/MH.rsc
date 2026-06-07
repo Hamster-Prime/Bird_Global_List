@@ -2,8 +2,12 @@
 /ip firewall address-list
 :do { add list=MH address=23.181.56.0/24 } on-error={}
 :do { add list=MH address=31.76.108.0/24 } on-error={}
+:do { add list=MH address=45.254.247.0/30 } on-error={}
+:do { add list=MH address=45.254.247.8/29 } on-error={}
 :do { add list=MH address=45.254.247.16/28 } on-error={}
 :do { add list=MH address=45.254.247.48/28 } on-error={}
+:do { add list=MH address=45.254.247.128/29 } on-error={}
+:do { add list=MH address=45.254.247.144/28 } on-error={}
 :do { add list=MH address=45.254.247.224/29 } on-error={}
 :do { add list=MH address=57.70.178.0/23 } on-error={}
 :do { add list=MH address=57.70.186.0/23 } on-error={}
@@ -16,7 +20,6 @@
 :do { add list=MH address=85.149.184.0/23 } on-error={}
 :do { add list=MH address=85.149.186.0/24 } on-error={}
 :do { add list=MH address=85.149.187.0/24 } on-error={}
-:do { add list=MH address=85.149.188.0/24 } on-error={}
 :do { add list=MH address=85.149.191.112/31 } on-error={}
 :do { add list=MH address=85.149.191.115/32 } on-error={}
 :do { add list=MH address=85.149.191.116/30 } on-error={}
@@ -88,8 +91,10 @@
 :do { add list=MH address=196.197.131.0/24 } on-error={}
 :do { add list=MH address=196.199.131.0/24 } on-error={}
 :do { add list=MH address=202.171.240.141/32 } on-error={}
+:do { add list=MH address=202.171.240.154/31 } on-error={}
+:do { add list=MH address=202.171.240.161/32 } on-error={}
+:do { add list=MH address=202.171.240.163/32 } on-error={}
 :do { add list=MH address=203.78.152.0/22 } on-error={}
-:do { add list=MH address=204.236.6.35/32 } on-error={}
-:do { add list=MH address=204.236.8.14/32 } on-error={}
-:do { add list=MH address=204.236.8.30/32 } on-error={}
-:do { add list=MH address=204.236.9.21/32 } on-error={}
+:do { add list=MH address=204.236.16.35/32 } on-error={}
+:do { add list=MH address=204.236.30.41/32 } on-error={}
+:do { add list=MH address=204.236.30.48/32 } on-error={}

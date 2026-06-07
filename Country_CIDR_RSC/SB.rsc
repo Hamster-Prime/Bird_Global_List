@@ -44,6 +44,7 @@
 :do { add list=SB address=140.248.61.193/32 } on-error={}
 :do { add list=SB address=140.248.62.193/32 } on-error={}
 :do { add list=SB address=140.248.63.193/32 } on-error={}
+:do { add list=SB address=142.251.204.57/32 } on-error={}
 :do { add list=SB address=146.75.146.18/31 } on-error={}
 :do { add list=SB address=146.75.154.20/31 } on-error={}
 :do { add list=SB address=146.75.190.22/31 } on-error={}

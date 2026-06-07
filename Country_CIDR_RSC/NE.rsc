@@ -20,11 +20,12 @@
 :do { add list=NE address=102.217.97.8/31 } on-error={}
 :do { add list=NE address=102.217.97.12/31 } on-error={}
 :do { add list=NE address=102.217.97.18/31 } on-error={}
+:do { add list=NE address=102.217.97.20/30 } on-error={}
 :do { add list=NE address=102.217.97.28/30 } on-error={}
 :do { add list=NE address=102.217.97.32/31 } on-error={}
 :do { add list=NE address=102.217.97.34/32 } on-error={}
 :do { add list=NE address=102.217.97.36/31 } on-error={}
-:do { add list=NE address=102.217.98.0/23 } on-error={}
+:do { add list=NE address=102.217.98.0/24 } on-error={}
 :do { add list=NE address=102.220.24.0/22 } on-error={}
 :do { add list=NE address=104.28.12.18/31 } on-error={}
 :do { add list=NE address=104.28.12.20/32 } on-error={}

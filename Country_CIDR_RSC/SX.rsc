@@ -2,8 +2,6 @@
 /ip firewall address-list
 :do { add list=SX address=5.175.190.96/30 } on-error={}
 :do { add list=SX address=65.198.230.0/24 } on-error={}
-:do { add list=SX address=65.208.123.166/31 } on-error={}
-:do { add list=SX address=65.208.123.232/29 } on-error={}
 :do { add list=SX address=65.217.50.0/24 } on-error={}
 :do { add list=SX address=65.248.160.0/24 } on-error={}
 :do { add list=SX address=66.119.73.114/32 } on-error={}

@@ -62,7 +62,6 @@
 :do { add list=BQ address=190.123.16.152/29 } on-error={}
 :do { add list=BQ address=190.123.16.171/32 } on-error={}
 :do { add list=BQ address=190.123.16.192/29 } on-error={}
-:do { add list=BQ address=190.123.16.204/31 } on-error={}
 :do { add list=BQ address=190.123.16.216/29 } on-error={}
 :do { add list=BQ address=190.123.16.224/29 } on-error={}
 :do { add list=BQ address=190.123.16.244/30 } on-error={}
@@ -71,6 +70,14 @@
 :do { add list=BQ address=190.123.17.3/32 } on-error={}
 :do { add list=BQ address=190.123.17.5/32 } on-error={}
 :do { add list=BQ address=190.123.18.192/26 } on-error={}
+:do { add list=BQ address=190.123.19.0/28 } on-error={}
+:do { add list=BQ address=190.123.19.16/32 } on-error={}
+:do { add list=BQ address=190.123.19.18/31 } on-error={}
+:do { add list=BQ address=190.123.19.20/30 } on-error={}
+:do { add list=BQ address=190.123.19.24/29 } on-error={}
+:do { add list=BQ address=190.123.19.32/27 } on-error={}
+:do { add list=BQ address=190.123.19.64/26 } on-error={}
+:do { add list=BQ address=190.123.19.128/25 } on-error={}
 :do { add list=BQ address=194.50.99.30/32 } on-error={}
 :do { add list=BQ address=200.6.144.0/21 } on-error={}
 :do { add list=BQ address=200.71.248.0/21 } on-error={}
