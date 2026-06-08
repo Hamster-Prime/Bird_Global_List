@@ -152,12 +152,13 @@
 :do { add list=MQ address=83.203.96.0/19 } on-error={}
 :do { add list=MQ address=89.3.240.0/20 } on-error={}
 :do { add list=MQ address=89.16.0.0/19 } on-error={}
+:do { add list=MQ address=89.157.97.0/24 } on-error={}
 :do { add list=MQ address=89.157.99.0/24 } on-error={}
+:do { add list=MQ address=89.157.103.0/24 } on-error={}
 :do { add list=MQ address=89.157.106.0/23 } on-error={}
 :do { add list=MQ address=89.157.108.0/22 } on-error={}
 :do { add list=MQ address=89.157.114.0/23 } on-error={}
 :do { add list=MQ address=89.157.118.0/23 } on-error={}
-:do { add list=MQ address=89.157.124.0/24 } on-error={}
 :do { add list=MQ address=89.157.126.0/24 } on-error={}
 :do { add list=MQ address=89.190.157.0/24 } on-error={}
 :do { add list=MQ address=89.221.40.6/32 } on-error={}
@@ -495,6 +496,7 @@
 :do { add list=MQ address=92.144.96.0/24 } on-error={}
 :do { add list=MQ address=92.144.97.64/26 } on-error={}
 :do { add list=MQ address=92.144.98.0/23 } on-error={}
+:do { add list=MQ address=92.144.100.64/26 } on-error={}
 :do { add list=MQ address=92.144.100.240/29 } on-error={}
 :do { add list=MQ address=92.144.100.252/31 } on-error={}
 :do { add list=MQ address=92.144.101.0/24 } on-error={}
@@ -639,7 +641,8 @@
 :do { add list=MQ address=95.138.107.64/26 } on-error={}
 :do { add list=MQ address=95.138.107.128/25 } on-error={}
 :do { add list=MQ address=95.138.108.0/22 } on-error={}
-:do { add list=MQ address=95.138.112.0/22 } on-error={}
+:do { add list=MQ address=95.138.113.0/24 } on-error={}
+:do { add list=MQ address=95.138.114.0/23 } on-error={}
 :do { add list=MQ address=95.138.116.0/23 } on-error={}
 :do { add list=MQ address=95.138.118.0/24 } on-error={}
 :do { add list=MQ address=95.138.119.0/25 } on-error={}
@@ -768,7 +771,6 @@
 :do { add list=MQ address=109.62.48.0/21 } on-error={}
 :do { add list=MQ address=109.62.56.0/22 } on-error={}
 :do { add list=MQ address=109.62.62.0/24 } on-error={}
-:do { add list=MQ address=109.62.63.10/32 } on-error={}
 :do { add list=MQ address=109.62.65.0/25 } on-error={}
 :do { add list=MQ address=109.62.65.128/26 } on-error={}
 :do { add list=MQ address=109.62.65.192/28 } on-error={}

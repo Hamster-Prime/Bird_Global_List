@@ -62,7 +62,6 @@
 :do { add list=MH address=104.28.247.96/31 } on-error={}
 :do { add list=MH address=117.103.88.0/22 } on-error={}
 :do { add list=MH address=117.103.92.0/24 } on-error={}
-:do { add list=MH address=117.103.93.32/27 } on-error={}
 :do { add list=MH address=117.103.93.90/32 } on-error={}
 :do { add list=MH address=117.103.93.128/25 } on-error={}
 :do { add list=MH address=117.103.94.0/23 } on-error={}

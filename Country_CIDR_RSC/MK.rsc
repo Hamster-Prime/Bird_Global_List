@@ -524,6 +524,7 @@
 :do { add list=MK address=193.189.168.101/32 } on-error={}
 :do { add list=MK address=193.189.168.102/32 } on-error={}
 :do { add list=MK address=193.189.180.159/32 } on-error={}
+:do { add list=MK address=194.25.5.224/31 } on-error={}
 :do { add list=MK address=194.26.97.0/24 } on-error={}
 :do { add list=MK address=194.49.55.0/24 } on-error={}
 :do { add list=MK address=194.61.58.0/24 } on-error={}
@@ -613,3 +614,14 @@
 :do { add list=MK address=217.119.244.0/23 } on-error={}
 :do { add list=MK address=217.119.248.0/21 } on-error={}
 :do { add list=MK address=217.196.192.0/20 } on-error={}
+:do { add list=MK address=217.239.41.214/32 } on-error={}
+:do { add list=MK address=217.239.55.65/32 } on-error={}
+:do { add list=MK address=217.239.55.70/32 } on-error={}
+:do { add list=MK address=217.239.55.73/32 } on-error={}
+:do { add list=MK address=217.239.55.74/32 } on-error={}
+:do { add list=MK address=217.239.55.114/32 } on-error={}
+:do { add list=MK address=217.239.62.145/32 } on-error={}
+:do { add list=MK address=217.239.62.149/32 } on-error={}
+:do { add list=MK address=217.239.62.153/32 } on-error={}
+:do { add list=MK address=217.239.62.157/32 } on-error={}
+:do { add list=MK address=217.239.63.16/31 } on-error={}

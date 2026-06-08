@@ -16,7 +16,7 @@
 :do { add list=KN address=66.201.77.192/27 } on-error={}
 :do { add list=KN address=66.205.22.224/28 } on-error={}
 :do { add list=KN address=67.230.96.48/29 } on-error={}
-:do { add list=KN address=67.230.96.140/30 } on-error={}
+:do { add list=KN address=67.230.96.142/31 } on-error={}
 :do { add list=KN address=67.230.96.144/30 } on-error={}
 :do { add list=KN address=67.230.96.164/30 } on-error={}
 :do { add list=KN address=67.230.100.28/30 } on-error={}

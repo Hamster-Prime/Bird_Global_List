@@ -22,7 +22,6 @@
 :do { add list=AI address=104.28.208.182/31 } on-error={}
 :do { add list=AI address=104.28.240.181/32 } on-error={}
 :do { add list=AI address=104.28.240.182/31 } on-error={}
-:do { add list=AI address=104.192.93.128/25 } on-error={}
 :do { add list=AI address=136.23.22.50/32 } on-error={}
 :do { add list=AI address=136.23.26.34/32 } on-error={}
 :do { add list=AI address=140.248.44.4/31 } on-error={}

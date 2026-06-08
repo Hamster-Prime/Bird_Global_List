@@ -80,7 +80,7 @@
 :do { add list=MR address=185.112.135.22/32 } on-error={}
 :do { add list=MR address=185.138.17.152/32 } on-error={}
 :do { add list=MR address=187.14.58.0/24 } on-error={}
-:do { add list=MR address=193.146.150.220/32 } on-error={}
+:do { add list=MR address=193.146.150.192/27 } on-error={}
 :do { add list=MR address=196.48.132.0/24 } on-error={}
 :do { add list=MR address=196.49.18.0/24 } on-error={}
 :do { add list=MR address=196.56.132.0/24 } on-error={}

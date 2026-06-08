@@ -335,6 +335,7 @@
 :do { add list=UY address=167.116.0.0/16 } on-error={}
 :do { add list=UY address=168.121.184.0/22 } on-error={}
 :do { add list=UY address=169.224.177.192/26 } on-error={}
+:do { add list=UY address=170.51.56.32/27 } on-error={}
 :do { add list=UY address=170.51.57.0/24 } on-error={}
 :do { add list=UY address=170.51.58.0/24 } on-error={}
 :do { add list=UY address=170.51.62.0/23 } on-error={}
@@ -432,15 +433,6 @@
 :do { add list=UY address=179.31.64.0/18 } on-error={}
 :do { add list=UY address=179.31.128.0/17 } on-error={}
 :do { add list=UY address=179.61.65.0/24 } on-error={}
-:do { add list=UY address=179.108.245.64/32 } on-error={}
-:do { add list=UY address=179.108.245.66/31 } on-error={}
-:do { add list=UY address=179.108.245.69/32 } on-error={}
-:do { add list=UY address=179.108.245.70/31 } on-error={}
-:do { add list=UY address=179.108.245.72/32 } on-error={}
-:do { add list=UY address=179.108.245.74/32 } on-error={}
-:do { add list=UY address=179.108.245.79/32 } on-error={}
-:do { add list=UY address=179.108.245.84/32 } on-error={}
-:do { add list=UY address=179.108.245.86/32 } on-error={}
 :do { add list=UY address=181.96.0.6/32 } on-error={}
 :do { add list=UY address=181.96.0.22/32 } on-error={}
 :do { add list=UY address=181.96.0.31/32 } on-error={}
@@ -486,6 +478,7 @@
 :do { add list=UY address=186.208.150.197/32 } on-error={}
 :do { add list=UY address=186.219.192.4/30 } on-error={}
 :do { add list=UY address=187.13.221.0/24 } on-error={}
+:do { add list=UY address=187.84.53.86/32 } on-error={}
 :do { add list=UY address=187.102.232.0/22 } on-error={}
 :do { add list=UY address=187.251.8.0/23 } on-error={}
 :do { add list=UY address=190.0.128.0/19 } on-error={}
@@ -638,8 +631,6 @@
 :do { add list=UY address=200.40.65.12/30 } on-error={}
 :do { add list=UY address=200.40.65.16/28 } on-error={}
 :do { add list=UY address=200.40.65.32/27 } on-error={}
-:do { add list=UY address=200.40.65.76/31 } on-error={}
-:do { add list=UY address=200.40.65.79/32 } on-error={}
 :do { add list=UY address=200.40.65.128/30 } on-error={}
 :do { add list=UY address=200.40.65.132/32 } on-error={}
 :do { add list=UY address=200.40.65.134/31 } on-error={}
