@@ -214,7 +214,8 @@
 :do { add list=IS address=94.198.48.0/23 } on-error={}
 :do { add list=IS address=94.250.244.0/23 } on-error={}
 :do { add list=IS address=95.133.160.0/23 } on-error={}
-:do { add list=IS address=95.133.164.0/22 } on-error={}
+:do { add list=IS address=95.133.164.0/23 } on-error={}
+:do { add list=IS address=95.133.166.0/23 } on-error={}
 :do { add list=IS address=95.134.196.0/22 } on-error={}
 :do { add list=IS address=95.210.187.0/24 } on-error={}
 :do { add list=IS address=103.146.102.0/24 } on-error={}

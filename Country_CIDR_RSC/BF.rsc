@@ -198,7 +198,9 @@
 :do { add list=BF address=102.180.128.0/19 } on-error={}
 :do { add list=BF address=102.180.160.0/21 } on-error={}
 :do { add list=BF address=102.180.168.0/22 } on-error={}
-:do { add list=BF address=102.180.172.0/22 } on-error={}
+:do { add list=BF address=102.180.172.0/24 } on-error={}
+:do { add list=BF address=102.180.173.0/24 } on-error={}
+:do { add list=BF address=102.180.174.0/23 } on-error={}
 :do { add list=BF address=102.180.176.0/22 } on-error={}
 :do { add list=BF address=102.180.180.0/22 } on-error={}
 :do { add list=BF address=102.180.184.0/21 } on-error={}

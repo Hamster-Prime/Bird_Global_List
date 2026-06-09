@@ -370,7 +370,8 @@
 :do { add list=SI address=85.155.175.40/30 } on-error={}
 :do { add list=SI address=85.155.175.46/31 } on-error={}
 :do { add list=SI address=85.155.175.56/29 } on-error={}
-:do { add list=SI address=85.155.175.64/29 } on-error={}
+:do { add list=SI address=85.155.175.64/30 } on-error={}
+:do { add list=SI address=85.155.175.68/31 } on-error={}
 :do { add list=SI address=85.155.175.72/31 } on-error={}
 :do { add list=SI address=85.155.175.88/31 } on-error={}
 :do { add list=SI address=85.155.175.92/30 } on-error={}

@@ -97,6 +97,7 @@
 :do { add list=WS address=196.197.168.0/24 } on-error={}
 :do { add list=WS address=196.198.168.0/24 } on-error={}
 :do { add list=WS address=196.199.168.0/24 } on-error={}
+:do { add list=WS address=198.54.100.88/31 } on-error={}
 :do { add list=WS address=202.4.32.6/31 } on-error={}
 :do { add list=WS address=202.4.32.42/31 } on-error={}
 :do { add list=WS address=202.4.32.248/31 } on-error={}

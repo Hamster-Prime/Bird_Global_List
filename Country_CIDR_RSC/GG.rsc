@@ -147,6 +147,7 @@
 :do { add list=GG address=195.226.151.130/32 } on-error={}
 :do { add list=GG address=195.226.151.145/32 } on-error={}
 :do { add list=GG address=195.226.152.234/32 } on-error={}
+:do { add list=GG address=195.226.154.99/32 } on-error={}
 :do { add list=GG address=195.226.155.210/32 } on-error={}
 :do { add list=GG address=195.226.155.214/32 } on-error={}
 :do { add list=GG address=195.226.156.233/32 } on-error={}

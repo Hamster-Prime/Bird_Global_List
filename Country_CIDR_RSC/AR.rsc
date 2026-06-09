@@ -2960,7 +2960,6 @@
 :do { add list=AR address=172.253.97.4/30 } on-error={}
 :do { add list=AR address=172.253.97.8/32 } on-error={}
 :do { add list=AR address=172.253.97.16/30 } on-error={}
-:do { add list=AR address=173.82.121.0/24 } on-error={}
 :do { add list=AR address=173.194.123.56/31 } on-error={}
 :do { add list=AR address=173.194.123.80/31 } on-error={}
 :do { add list=AR address=173.194.127.96/29 } on-error={}
