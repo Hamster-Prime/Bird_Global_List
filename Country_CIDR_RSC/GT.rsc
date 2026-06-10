@@ -277,13 +277,6 @@
 :do { add list=GT address=154.202.7.52/31 } on-error={}
 :do { add list=GT address=154.202.7.55/32 } on-error={}
 :do { add list=GT address=154.202.7.56/29 } on-error={}
-:do { add list=GT address=154.202.7.96/30 } on-error={}
-:do { add list=GT address=154.202.7.101/32 } on-error={}
-:do { add list=GT address=154.202.7.102/31 } on-error={}
-:do { add list=GT address=154.202.7.104/31 } on-error={}
-:do { add list=GT address=154.202.7.107/32 } on-error={}
-:do { add list=GT address=154.202.7.108/30 } on-error={}
-:do { add list=GT address=154.202.7.112/28 } on-error={}
 :do { add list=GT address=154.202.7.128/29 } on-error={}
 :do { add list=GT address=154.202.7.136/30 } on-error={}
 :do { add list=GT address=154.202.7.140/31 } on-error={}

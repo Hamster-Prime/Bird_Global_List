@@ -6512,7 +6512,7 @@
 :do { add list=BG address=195.88.220.0/24 } on-error={}
 :do { add list=BG address=195.89.98.224/29 } on-error={}
 :do { add list=BG address=195.89.102.80/30 } on-error={}
-:do { add list=BG address=195.89.106.164/30 } on-error={}
+:do { add list=BG address=195.89.106.166/32 } on-error={}
 :do { add list=BG address=195.89.113.8/29 } on-error={}
 :do { add list=BG address=195.89.123.240/28 } on-error={}
 :do { add list=BG address=195.89.124.57/32 } on-error={}

@@ -247,7 +247,6 @@
 :do { add list=AG address=206.83.13.0/24 } on-error={}
 :do { add list=AG address=206.214.0.0/21 } on-error={}
 :do { add list=AG address=206.214.8.0/23 } on-error={}
-:do { add list=AG address=206.214.10.0/24 } on-error={}
 :do { add list=AG address=206.214.12.0/24 } on-error={}
 :do { add list=AG address=206.214.13.0/26 } on-error={}
 :do { add list=AG address=206.214.13.64/27 } on-error={}

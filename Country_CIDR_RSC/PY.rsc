@@ -75,20 +75,7 @@
 :do { add list=PY address=45.179.152.0/22 } on-error={}
 :do { add list=PY address=45.179.192.0/22 } on-error={}
 :do { add list=PY address=45.180.114.0/24 } on-error={}
-:do { add list=PY address=45.180.180.0/23 } on-error={}
-:do { add list=PY address=45.180.182.0/24 } on-error={}
-:do { add list=PY address=45.180.183.0/25 } on-error={}
-:do { add list=PY address=45.180.183.128/26 } on-error={}
-:do { add list=PY address=45.180.183.192/28 } on-error={}
-:do { add list=PY address=45.180.183.208/29 } on-error={}
-:do { add list=PY address=45.180.183.217/32 } on-error={}
-:do { add list=PY address=45.180.183.218/31 } on-error={}
-:do { add list=PY address=45.180.183.220/30 } on-error={}
-:do { add list=PY address=45.180.183.224/30 } on-error={}
-:do { add list=PY address=45.180.183.229/32 } on-error={}
-:do { add list=PY address=45.180.183.230/31 } on-error={}
-:do { add list=PY address=45.180.183.232/29 } on-error={}
-:do { add list=PY address=45.180.183.240/28 } on-error={}
+:do { add list=PY address=45.180.180.0/22 } on-error={}
 :do { add list=PY address=45.182.128.0/22 } on-error={}
 :do { add list=PY address=45.183.60.0/24 } on-error={}
 :do { add list=PY address=45.183.61.0/24 } on-error={}
@@ -120,6 +107,7 @@
 :do { add list=PY address=72.32.218.216/29 } on-error={}
 :do { add list=PY address=83.137.198.88/29 } on-error={}
 :do { add list=PY address=83.137.199.88/29 } on-error={}
+:do { add list=PY address=96.126.162.0/23 } on-error={}
 :do { add list=PY address=103.52.24.64/26 } on-error={}
 :do { add list=PY address=104.28.12.151/32 } on-error={}
 :do { add list=PY address=104.28.12.152/31 } on-error={}
@@ -349,7 +337,6 @@
 :do { add list=PY address=161.69.124.145/32 } on-error={}
 :do { add list=PY address=161.69.125.17/32 } on-error={}
 :do { add list=PY address=161.69.125.145/32 } on-error={}
-:do { add list=PY address=162.18.47.240/32 } on-error={}
 :do { add list=PY address=162.158.147.0/24 } on-error={}
 :do { add list=PY address=163.116.224.100/32 } on-error={}
 :do { add list=PY address=163.116.224.103/32 } on-error={}

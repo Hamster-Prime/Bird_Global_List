@@ -9,6 +9,7 @@
 :do { add list=MV address=43.226.220.0/22 } on-error={}
 :do { add list=MV address=43.231.28.0/22 } on-error={}
 :do { add list=MV address=43.247.140.0/22 } on-error={}
+:do { add list=MV address=45.254.246.32/27 } on-error={}
 :do { add list=MV address=45.254.246.64/28 } on-error={}
 :do { add list=MV address=45.254.246.160/28 } on-error={}
 :do { add list=MV address=45.254.246.176/30 } on-error={}

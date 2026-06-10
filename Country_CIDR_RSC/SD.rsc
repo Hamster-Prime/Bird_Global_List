@@ -177,7 +177,8 @@
 :do { add list=SD address=196.199.183.0/24 } on-error={}
 :do { add list=SD address=196.202.128.0/19 } on-error={}
 :do { add list=SD address=196.223.20.0/24 } on-error={}
-:do { add list=SD address=196.223.154.0/25 } on-error={}
+:do { add list=SD address=196.223.154.92/30 } on-error={}
+:do { add list=SD address=196.223.154.112/29 } on-error={}
 :do { add list=SD address=196.223.155.0/24 } on-error={}
 :do { add list=SD address=196.223.156.0/22 } on-error={}
 :do { add list=SD address=197.208.0.0/15 } on-error={}
