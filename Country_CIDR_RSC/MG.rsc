@@ -374,4 +374,3 @@
 :do { add list=MG address=213.144.168.129/32 } on-error={}
 :do { add list=MG address=213.144.168.130/32 } on-error={}
 :do { add list=MG address=213.156.254.9/32 } on-error={}
-:do { add list=MG address=216.250.210.60/32 } on-error={}

@@ -325,7 +325,7 @@
 :do { add list=BY address=95.46.208.0/24 } on-error={}
 :do { add list=BY address=95.47.60.0/23 } on-error={}
 :do { add list=BY address=95.47.62.0/24 } on-error={}
-:do { add list=BY address=95.111.144.0/23 } on-error={}
+:do { add list=BY address=95.111.145.0/24 } on-error={}
 :do { add list=BY address=95.128.64.0/24 } on-error={}
 :do { add list=BY address=95.128.65.0/24 } on-error={}
 :do { add list=BY address=95.128.66.0/24 } on-error={}

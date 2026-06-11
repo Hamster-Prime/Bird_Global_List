@@ -103,7 +103,6 @@
 :do { add list=KY address=157.167.234.33/32 } on-error={}
 :do { add list=KY address=157.167.234.34/32 } on-error={}
 :do { add list=KY address=157.167.234.71/32 } on-error={}
-:do { add list=KY address=158.69.70.209/32 } on-error={}
 :do { add list=KY address=161.199.132.0/22 } on-error={}
 :do { add list=KY address=162.120.196.235/32 } on-error={}
 :do { add list=KY address=162.120.202.218/32 } on-error={}
@@ -154,11 +153,7 @@
 :do { add list=KY address=208.169.82.64/29 } on-error={}
 :do { add list=KY address=208.169.82.76/30 } on-error={}
 :do { add list=KY address=208.169.82.80/28 } on-error={}
-:do { add list=KY address=208.169.82.96/28 } on-error={}
-:do { add list=KY address=208.169.82.112/30 } on-error={}
-:do { add list=KY address=208.169.82.116/32 } on-error={}
-:do { add list=KY address=208.169.82.118/31 } on-error={}
-:do { add list=KY address=208.169.82.120/29 } on-error={}
+:do { add list=KY address=208.169.82.96/27 } on-error={}
 :do { add list=KY address=208.169.82.128/25 } on-error={}
 :do { add list=KY address=208.169.86.0/23 } on-error={}
 :do { add list=KY address=208.169.88.0/22 } on-error={}

@@ -308,17 +308,6 @@
 :do { add list=BS address=206.138.24.0/21 } on-error={}
 :do { add list=BS address=208.87.32.0/21 } on-error={}
 :do { add list=BS address=209.126.78.0/24 } on-error={}
-:do { add list=BS address=209.198.216.32/32 } on-error={}
-:do { add list=BS address=209.198.216.35/32 } on-error={}
-:do { add list=BS address=209.198.216.46/32 } on-error={}
-:do { add list=BS address=209.198.216.56/32 } on-error={}
-:do { add list=BS address=209.198.216.58/31 } on-error={}
-:do { add list=BS address=209.198.216.61/32 } on-error={}
-:do { add list=BS address=209.198.216.62/31 } on-error={}
-:do { add list=BS address=209.198.216.64/32 } on-error={}
-:do { add list=BS address=209.198.216.67/32 } on-error={}
-:do { add list=BS address=209.198.216.107/32 } on-error={}
-:do { add list=BS address=209.198.216.113/32 } on-error={}
 :do { add list=BS address=216.137.0.0/20 } on-error={}
 :do { add list=BS address=216.181.104.0/23 } on-error={}
 :do { add list=BS address=216.194.96.0/28 } on-error={}

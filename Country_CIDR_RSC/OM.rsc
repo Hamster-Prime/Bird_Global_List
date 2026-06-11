@@ -76,7 +76,6 @@
 :do { add list=OM address=51.170.4.0/22 } on-error={}
 :do { add list=OM address=57.83.104.0/21 } on-error={}
 :do { add list=OM address=57.88.176.0/20 } on-error={}
-:do { add list=OM address=57.128.176.49/32 } on-error={}
 :do { add list=OM address=57.144.148.0/23 } on-error={}
 :do { add list=OM address=59.153.156.0/24 } on-error={}
 :do { add list=OM address=62.3.46.0/24 } on-error={}
@@ -358,7 +357,6 @@
 :do { add list=OM address=129.134.60.86/32 } on-error={}
 :do { add list=OM address=129.134.60.88/32 } on-error={}
 :do { add list=OM address=129.134.60.94/32 } on-error={}
-:do { add list=OM address=129.134.60.96/32 } on-error={}
 :do { add list=OM address=129.134.60.106/31 } on-error={}
 :do { add list=OM address=129.134.60.108/31 } on-error={}
 :do { add list=OM address=129.134.60.112/30 } on-error={}
@@ -642,7 +640,6 @@
 :do { add list=OM address=145.14.128.0/23 } on-error={}
 :do { add list=OM address=145.145.166.39/32 } on-error={}
 :do { add list=OM address=145.224.120.0/23 } on-error={}
-:do { add list=OM address=145.239.88.126/32 } on-error={}
 :do { add list=OM address=145.241.136.0/22 } on-error={}
 :do { add list=OM address=145.255.64.0/18 } on-error={}
 :do { add list=OM address=146.75.132.108/30 } on-error={}
@@ -951,7 +948,6 @@
 :do { add list=OM address=196.198.152.0/24 } on-error={}
 :do { add list=OM address=196.199.152.0/24 } on-error={}
 :do { add list=OM address=198.64.215.0/24 } on-error={}
-:do { add list=OM address=198.244.235.196/32 } on-error={}
 :do { add list=OM address=199.48.224.0/24 } on-error={}
 :do { add list=OM address=202.168.112.0/24 } on-error={}
 :do { add list=OM address=203.30.38.91/32 } on-error={}

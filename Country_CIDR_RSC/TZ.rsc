@@ -9,7 +9,6 @@
 :do { add list=TZ address=5.62.61.173/32 } on-error={}
 :do { add list=TZ address=5.62.61.174/31 } on-error={}
 :do { add list=TZ address=5.62.63.152/30 } on-error={}
-:do { add list=TZ address=40.160.227.243/32 } on-error={}
 :do { add list=TZ address=41.59.0.0/18 } on-error={}
 :do { add list=TZ address=41.59.64.0/19 } on-error={}
 :do { add list=TZ address=41.59.96.0/22 } on-error={}
@@ -208,6 +207,7 @@
 :do { add list=TZ address=102.140.212.0/24 } on-error={}
 :do { add list=TZ address=102.165.191.0/24 } on-error={}
 :do { add list=TZ address=102.177.80.0/21 } on-error={}
+:do { add list=TZ address=102.202.60.0/22 } on-error={}
 :do { add list=TZ address=102.202.72.0/22 } on-error={}
 :do { add list=TZ address=102.202.88.0/22 } on-error={}
 :do { add list=TZ address=102.202.104.0/22 } on-error={}
@@ -433,6 +433,7 @@
 :do { add list=TZ address=140.248.61.228/32 } on-error={}
 :do { add list=TZ address=140.248.62.228/32 } on-error={}
 :do { add list=TZ address=140.248.63.228/32 } on-error={}
+:do { add list=TZ address=143.14.63.0/24 } on-error={}
 :do { add list=TZ address=146.75.168.180/31 } on-error={}
 :do { add list=TZ address=146.75.185.180/31 } on-error={}
 :do { add list=TZ address=146.75.198.30/31 } on-error={}

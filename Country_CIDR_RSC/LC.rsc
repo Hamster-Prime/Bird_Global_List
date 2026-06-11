@@ -11,7 +11,6 @@
 :do { add list=LC address=65.48.215.0/24 } on-error={}
 :do { add list=LC address=65.48.216.0/24 } on-error={}
 :do { add list=LC address=66.96.125.128/26 } on-error={}
-:do { add list=LC address=66.133.42.94/32 } on-error={}
 :do { add list=LC address=66.212.62.0/23 } on-error={}
 :do { add list=LC address=66.249.156.0/24 } on-error={}
 :do { add list=LC address=69.57.236.0/24 } on-error={}
@@ -61,6 +60,7 @@
 :do { add list=LC address=146.75.238.28/31 } on-error={}
 :do { add list=LC address=146.75.246.20/31 } on-error={}
 :do { add list=LC address=149.112.194.0/23 } on-error={}
+:do { add list=LC address=151.124.106.117/32 } on-error={}
 :do { add list=LC address=162.0.155.8/29 } on-error={}
 :do { add list=LC address=162.120.199.174/32 } on-error={}
 :do { add list=LC address=162.120.202.219/32 } on-error={}
@@ -110,18 +110,11 @@
 :do { add list=LC address=199.127.199.92/32 } on-error={}
 :do { add list=LC address=199.127.199.94/31 } on-error={}
 :do { add list=LC address=199.127.199.96/27 } on-error={}
-:do { add list=LC address=199.127.199.128/28 } on-error={}
-:do { add list=LC address=199.127.199.144/29 } on-error={}
-:do { add list=LC address=199.127.199.152/31 } on-error={}
-:do { add list=LC address=199.127.199.154/32 } on-error={}
-:do { add list=LC address=199.127.199.156/32 } on-error={}
-:do { add list=LC address=199.127.199.158/31 } on-error={}
-:do { add list=LC address=199.127.199.160/27 } on-error={}
+:do { add list=LC address=199.127.199.128/26 } on-error={}
 :do { add list=LC address=199.127.199.192/28 } on-error={}
 :do { add list=LC address=199.127.199.208/31 } on-error={}
 :do { add list=LC address=199.127.199.211/32 } on-error={}
-:do { add list=LC address=199.127.199.212/31 } on-error={}
-:do { add list=LC address=199.127.199.214/32 } on-error={}
+:do { add list=LC address=199.127.199.212/30 } on-error={}
 :do { add list=LC address=199.127.199.216/29 } on-error={}
 :do { add list=LC address=199.127.199.224/27 } on-error={}
 :do { add list=LC address=199.192.226.0/23 } on-error={}
