@@ -514,4 +514,5 @@
 :do { add list=IM address=217.23.167.0/24 } on-error={}
 :do { add list=IM address=217.23.168.0/21 } on-error={}
 :do { add list=IM address=217.28.0.0/20 } on-error={}
+:do { add list=IM address=217.65.134.95/32 } on-error={}
 :do { add list=IM address=217.180.38.0/24 } on-error={}

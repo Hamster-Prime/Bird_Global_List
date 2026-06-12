@@ -4,6 +4,7 @@
 :do { add list=GH address=5.62.60.149/32 } on-error={}
 :do { add list=GH address=5.62.60.150/31 } on-error={}
 :do { add list=GH address=5.62.62.144/30 } on-error={}
+:do { add list=GH address=34.175.63.171/32 } on-error={}
 :do { add list=GH address=41.66.192.0/18 } on-error={}
 :do { add list=GH address=41.74.80.0/20 } on-error={}
 :do { add list=GH address=41.75.48.0/20 } on-error={}

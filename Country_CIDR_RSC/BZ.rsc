@@ -229,6 +229,5 @@
 :do { add list=BZ address=200.32.192.0/18 } on-error={}
 :do { add list=BZ address=200.123.208.0/21 } on-error={}
 :do { add list=BZ address=204.16.16.232/29 } on-error={}
-:do { add list=BZ address=207.89.18.128/25 } on-error={}
 :do { add list=BZ address=208.64.122.252/30 } on-error={}
 :do { add list=BZ address=216.194.96.64/28 } on-error={}

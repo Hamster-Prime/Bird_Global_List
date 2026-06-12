@@ -603,7 +603,8 @@
 :do { add list=GE address=188.227.192.0/22 } on-error={}
 :do { add list=GE address=191.96.169.0/24 } on-error={}
 :do { add list=GE address=192.122.253.0/24 } on-error={}
-:do { add list=GE address=192.166.124.0/23 } on-error={}
+:do { add list=GE address=192.166.124.2/32 } on-error={}
+:do { add list=GE address=192.166.124.6/32 } on-error={}
 :do { add list=GE address=192.166.127.0/24 } on-error={}
 :do { add list=GE address=193.24.126.0/24 } on-error={}
 :do { add list=GE address=193.29.184.0/23 } on-error={}

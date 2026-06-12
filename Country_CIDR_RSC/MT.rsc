@@ -332,7 +332,7 @@
 :do { add list=MT address=185.56.255.248/30 } on-error={}
 :do { add list=MT address=185.56.255.252/32 } on-error={}
 :do { add list=MT address=185.56.255.255/32 } on-error={}
-:do { add list=MT address=185.63.72.128/25 } on-error={}
+:do { add list=MT address=185.63.72.0/24 } on-error={}
 :do { add list=MT address=185.63.73.16/28 } on-error={}
 :do { add list=MT address=185.63.73.32/27 } on-error={}
 :do { add list=MT address=185.63.73.68/30 } on-error={}
