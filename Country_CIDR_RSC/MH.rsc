@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=MH address=23.181.56.0/24 } on-error={}
 :do { add list=MH address=31.76.108.0/24 } on-error={}
+:do { add list=MH address=45.12.71.0/24 } on-error={}
 :do { add list=MH address=45.254.247.0/30 } on-error={}
 :do { add list=MH address=45.254.247.4/31 } on-error={}
 :do { add list=MH address=45.254.247.8/29 } on-error={}
@@ -88,10 +89,6 @@
 :do { add list=MH address=172.226.77.224/27 } on-error={}
 :do { add list=MH address=193.227.113.0/24 } on-error={}
 :do { add list=MH address=194.55.224.0/24 } on-error={}
-:do { add list=MH address=196.48.131.0/24 } on-error={}
-:do { add list=MH address=196.56.131.0/24 } on-error={}
-:do { add list=MH address=196.197.131.0/24 } on-error={}
-:do { add list=MH address=196.199.131.0/24 } on-error={}
 :do { add list=MH address=202.171.240.141/32 } on-error={}
 :do { add list=MH address=202.171.240.154/31 } on-error={}
 :do { add list=MH address=202.171.240.161/32 } on-error={}

@@ -290,13 +290,6 @@
 :do { add list=LA address=188.240.10.0/23 } on-error={}
 :do { add list=LA address=192.109.41.128/29 } on-error={}
 :do { add list=LA address=194.26.27.0/24 } on-error={}
-:do { add list=LA address=196.48.118.0/24 } on-error={}
-:do { add list=LA address=196.56.118.0/24 } on-error={}
-:do { add list=LA address=196.57.118.0/24 } on-error={}
-:do { add list=LA address=196.58.118.0/24 } on-error={}
-:do { add list=LA address=196.197.118.0/24 } on-error={}
-:do { add list=LA address=196.198.118.0/24 } on-error={}
-:do { add list=LA address=196.199.118.0/24 } on-error={}
 :do { add list=LA address=202.9.76.0/23 } on-error={}
 :do { add list=LA address=202.62.96.0/23 } on-error={}
 :do { add list=LA address=202.62.98.0/24 } on-error={}

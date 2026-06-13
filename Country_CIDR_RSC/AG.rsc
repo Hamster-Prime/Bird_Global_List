@@ -1,5 +1,6 @@
 /log info "Loading AG IPv4 Address List"
 /ip firewall address-list
+:do { add list=AG address=2.153.0.0/16 } on-error={}
 :do { add list=AG address=5.62.56.12/30 } on-error={}
 :do { add list=AG address=5.62.58.12/30 } on-error={}
 :do { add list=AG address=23.132.144.0/24 } on-error={}
@@ -167,13 +168,6 @@
 :do { add list=AG address=185.26.72.0/24 } on-error={}
 :do { add list=AG address=192.64.120.0/22 } on-error={}
 :do { add list=AG address=194.50.99.4/32 } on-error={}
-:do { add list=AG address=196.48.37.0/24 } on-error={}
-:do { add list=AG address=196.56.37.0/24 } on-error={}
-:do { add list=AG address=196.57.37.0/24 } on-error={}
-:do { add list=AG address=196.58.37.0/24 } on-error={}
-:do { add list=AG address=196.197.37.0/24 } on-error={}
-:do { add list=AG address=196.198.37.0/24 } on-error={}
-:do { add list=AG address=196.199.37.0/24 } on-error={}
 :do { add list=AG address=199.16.59.0/24 } on-error={}
 :do { add list=AG address=199.48.204.0/23 } on-error={}
 :do { add list=AG address=199.48.206.0/23 } on-error={}
@@ -308,6 +302,12 @@
 :do { add list=AG address=209.59.94.0/23 } on-error={}
 :do { add list=AG address=209.59.96.0/24 } on-error={}
 :do { add list=AG address=209.59.98.0/25 } on-error={}
+:do { add list=AG address=209.59.98.160/28 } on-error={}
+:do { add list=AG address=209.59.98.176/30 } on-error={}
+:do { add list=AG address=209.59.98.180/31 } on-error={}
+:do { add list=AG address=209.59.98.182/32 } on-error={}
+:do { add list=AG address=209.59.98.184/29 } on-error={}
+:do { add list=AG address=209.59.98.192/26 } on-error={}
 :do { add list=AG address=209.59.99.0/24 } on-error={}
 :do { add list=AG address=209.59.100.0/22 } on-error={}
 :do { add list=AG address=209.59.114.0/23 } on-error={}

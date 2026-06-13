@@ -741,13 +741,6 @@
 :do { add list=MM address=192.109.41.72/29 } on-error={}
 :do { add list=MM address=192.169.116.0/24 } on-error={}
 :do { add list=MM address=193.186.4.163/32 } on-error={}
-:do { add list=MM address=196.48.142.0/24 } on-error={}
-:do { add list=MM address=196.56.142.0/24 } on-error={}
-:do { add list=MM address=196.57.142.0/24 } on-error={}
-:do { add list=MM address=196.58.142.0/24 } on-error={}
-:do { add list=MM address=196.197.142.0/24 } on-error={}
-:do { add list=MM address=196.198.142.0/24 } on-error={}
-:do { add list=MM address=196.199.142.0/24 } on-error={}
 :do { add list=MM address=202.36.116.0/24 } on-error={}
 :do { add list=MM address=202.36.117.0/24 } on-error={}
 :do { add list=MM address=202.53.156.0/22 } on-error={}

@@ -13,7 +13,6 @@
 :do { add list=MF address=83.137.198.136/29 } on-error={}
 :do { add list=MF address=83.137.199.136/29 } on-error={}
 :do { add list=MF address=90.31.73.0/24 } on-error={}
-:do { add list=MF address=90.31.74.0/24 } on-error={}
 :do { add list=MF address=90.31.117.0/24 } on-error={}
 :do { add list=MF address=90.31.118.0/24 } on-error={}
 :do { add list=MF address=104.28.11.204/31 } on-error={}

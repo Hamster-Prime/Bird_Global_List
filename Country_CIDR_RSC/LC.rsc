@@ -84,13 +84,6 @@
 :do { add list=LC address=186.247.64.23/32 } on-error={}
 :do { add list=LC address=192.58.142.0/23 } on-error={}
 :do { add list=LC address=192.147.231.0/24 } on-error={}
-:do { add list=LC address=196.48.166.0/24 } on-error={}
-:do { add list=LC address=196.56.166.0/24 } on-error={}
-:do { add list=LC address=196.57.166.0/24 } on-error={}
-:do { add list=LC address=196.58.166.0/24 } on-error={}
-:do { add list=LC address=196.197.166.0/24 } on-error={}
-:do { add list=LC address=196.198.166.0/24 } on-error={}
-:do { add list=LC address=196.199.166.0/24 } on-error={}
 :do { add list=LC address=199.16.57.0/24 } on-error={}
 :do { add list=LC address=199.38.192.0/22 } on-error={}
 :do { add list=LC address=199.38.196.0/24 } on-error={}

@@ -313,17 +313,10 @@
 :do { add list=CM address=192.145.186.0/23 } on-error={}
 :do { add list=CM address=195.24.192.0/19 } on-error={}
 :do { add list=CM address=196.3.90.0/24 } on-error={}
-:do { add list=CM address=196.48.61.0/24 } on-error={}
 :do { add list=CM address=196.49.38.0/24 } on-error={}
 :do { add list=CM address=196.49.84.0/24 } on-error={}
-:do { add list=CM address=196.56.61.0/24 } on-error={}
-:do { add list=CM address=196.57.61.0/24 } on-error={}
-:do { add list=CM address=196.58.61.0/24 } on-error={}
 :do { add list=CM address=196.60.6.0/23 } on-error={}
 :do { add list=CM address=196.60.84.0/24 } on-error={}
-:do { add list=CM address=196.197.61.0/24 } on-error={}
-:do { add list=CM address=196.198.61.0/24 } on-error={}
-:do { add list=CM address=196.199.61.0/24 } on-error={}
 :do { add list=CM address=196.202.232.0/21 } on-error={}
 :do { add list=CM address=196.216.212.0/24 } on-error={}
 :do { add list=CM address=197.159.0.0/19 } on-error={}

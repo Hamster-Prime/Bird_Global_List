@@ -718,14 +718,10 @@
 :do { add list=GH address=196.44.114.0/23 } on-error={}
 :do { add list=GH address=196.44.116.0/24 } on-error={}
 :do { add list=GH address=196.46.80.0/20 } on-error={}
-:do { add list=GH address=196.48.90.0/24 } on-error={}
 :do { add list=GH address=196.49.14.0/24 } on-error={}
 :do { add list=GH address=196.49.112.0/24 } on-error={}
 :do { add list=GH address=196.50.24.0/22 } on-error={}
 :do { add list=GH address=196.50.28.0/22 } on-error={}
-:do { add list=GH address=196.56.90.0/24 } on-error={}
-:do { add list=GH address=196.57.90.0/24 } on-error={}
-:do { add list=GH address=196.58.90.0/24 } on-error={}
 :do { add list=GH address=196.60.12.0/24 } on-error={}
 :do { add list=GH address=196.60.160.0/24 } on-error={}
 :do { add list=GH address=196.61.32.0/20 } on-error={}
@@ -754,9 +750,6 @@
 :do { add list=GH address=196.175.244.0/22 } on-error={}
 :do { add list=GH address=196.175.248.0/22 } on-error={}
 :do { add list=GH address=196.175.252.0/22 } on-error={}
-:do { add list=GH address=196.197.90.0/24 } on-error={}
-:do { add list=GH address=196.198.90.0/24 } on-error={}
-:do { add list=GH address=196.199.90.0/24 } on-error={}
 :do { add list=GH address=196.201.2.0/24 } on-error={}
 :do { add list=GH address=196.201.4.0/23 } on-error={}
 :do { add list=GH address=196.201.32.0/19 } on-error={}

@@ -185,13 +185,6 @@
 :do { add list=PG address=185.112.134.20/32 } on-error={}
 :do { add list=PG address=185.138.17.102/32 } on-error={}
 :do { add list=PG address=187.14.120.0/24 } on-error={}
-:do { add list=PG address=196.48.157.0/24 } on-error={}
-:do { add list=PG address=196.56.157.0/24 } on-error={}
-:do { add list=PG address=196.57.157.0/24 } on-error={}
-:do { add list=PG address=196.58.157.0/24 } on-error={}
-:do { add list=PG address=196.197.157.0/24 } on-error={}
-:do { add list=PG address=196.198.157.0/24 } on-error={}
-:do { add list=PG address=196.199.157.0/24 } on-error={}
 :do { add list=PG address=198.45.244.0/28 } on-error={}
 :do { add list=PG address=198.54.100.82/31 } on-error={}
 :do { add list=PG address=202.1.32.0/20 } on-error={}

@@ -140,7 +140,6 @@
 :do { add list=BN address=172.225.78.96/27 } on-error={}
 :do { add list=BN address=172.225.180.0/28 } on-error={}
 :do { add list=BN address=175.29.139.0/24 } on-error={}
-:do { add list=BN address=180.87.103.207/32 } on-error={}
 :do { add list=BN address=185.8.100.0/22 } on-error={}
 :do { add list=BN address=185.100.40.0/22 } on-error={}
 :do { add list=BN address=185.138.17.98/32 } on-error={}
@@ -150,13 +149,6 @@
 :do { add list=BN address=192.109.41.80/29 } on-error={}
 :do { add list=BN address=194.50.99.28/32 } on-error={}
 :do { add list=BN address=195.128.4.0/22 } on-error={}
-:do { add list=BN address=196.48.56.0/24 } on-error={}
-:do { add list=BN address=196.56.56.0/24 } on-error={}
-:do { add list=BN address=196.57.56.0/24 } on-error={}
-:do { add list=BN address=196.58.56.0/24 } on-error={}
-:do { add list=BN address=196.197.56.0/24 } on-error={}
-:do { add list=BN address=196.198.56.0/24 } on-error={}
-:do { add list=BN address=196.199.56.0/24 } on-error={}
 :do { add list=BN address=202.12.26.0/24 } on-error={}
 :do { add list=BN address=202.59.230.0/24 } on-error={}
 :do { add list=BN address=202.86.24.0/21 } on-error={}
