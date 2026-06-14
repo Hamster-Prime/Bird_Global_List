@@ -48,9 +48,7 @@
 :do { add list=FM address=119.252.112.138/31 } on-error={}
 :do { add list=FM address=119.252.112.140/30 } on-error={}
 :do { add list=FM address=119.252.112.144/28 } on-error={}
-:do { add list=FM address=119.252.112.160/30 } on-error={}
-:do { add list=FM address=119.252.112.164/31 } on-error={}
-:do { add list=FM address=119.252.112.167/32 } on-error={}
+:do { add list=FM address=119.252.112.165/32 } on-error={}
 :do { add list=FM address=119.252.112.168/29 } on-error={}
 :do { add list=FM address=119.252.112.176/28 } on-error={}
 :do { add list=FM address=119.252.112.192/26 } on-error={}
@@ -94,5 +92,12 @@
 :do { add list=FM address=172.225.58.128/27 } on-error={}
 :do { add list=FM address=172.225.126.64/26 } on-error={}
 :do { add list=FM address=172.225.230.96/28 } on-error={}
+:do { add list=FM address=196.48.135.0/24 } on-error={}
+:do { add list=FM address=196.56.135.0/24 } on-error={}
+:do { add list=FM address=196.57.135.0/24 } on-error={}
+:do { add list=FM address=196.58.135.0/24 } on-error={}
+:do { add list=FM address=196.197.135.0/24 } on-error={}
+:do { add list=FM address=196.198.135.0/24 } on-error={}
+:do { add list=FM address=196.199.135.0/24 } on-error={}
 :do { add list=FM address=203.21.143.0/24 } on-error={}
 :do { add list=FM address=203.24.106.0/24 } on-error={}
