@@ -1,8 +1,7 @@
 /log info "Loading GF IPv4 Address List"
 /ip firewall address-list
 :do { add list=GF address=5.102.79.0/24 } on-error={}
-:do { add list=GF address=45.169.164.0/23 } on-error={}
-:do { add list=GF address=45.169.166.0/24 } on-error={}
+:do { add list=GF address=45.169.164.0/22 } on-error={}
 :do { add list=GF address=46.193.3.116/32 } on-error={}
 :do { add list=GF address=46.193.53.128/32 } on-error={}
 :do { add list=GF address=46.193.54.15/32 } on-error={}
@@ -398,7 +397,17 @@
 :do { add list=GF address=104.245.113.92/30 } on-error={}
 :do { add list=GF address=109.62.31.0/24 } on-error={}
 :do { add list=GF address=109.62.60.0/23 } on-error={}
-:do { add list=GF address=109.62.63.0/24 } on-error={}
+:do { add list=GF address=109.62.63.0/28 } on-error={}
+:do { add list=GF address=109.62.63.16/31 } on-error={}
+:do { add list=GF address=109.62.63.18/32 } on-error={}
+:do { add list=GF address=109.62.63.20/30 } on-error={}
+:do { add list=GF address=109.62.63.24/29 } on-error={}
+:do { add list=GF address=109.62.63.32/27 } on-error={}
+:do { add list=GF address=109.62.63.64/26 } on-error={}
+:do { add list=GF address=109.62.63.128/26 } on-error={}
+:do { add list=GF address=109.62.63.192/27 } on-error={}
+:do { add list=GF address=109.62.63.224/29 } on-error={}
+:do { add list=GF address=109.62.63.240/28 } on-error={}
 :do { add list=GF address=109.62.65.192/27 } on-error={}
 :do { add list=GF address=109.62.66.0/24 } on-error={}
 :do { add list=GF address=109.62.67.133/32 } on-error={}
@@ -485,7 +494,8 @@
 :do { add list=GF address=193.251.163.188/30 } on-error={}
 :do { add list=GF address=193.251.163.194/31 } on-error={}
 :do { add list=GF address=193.251.163.196/30 } on-error={}
-:do { add list=GF address=193.251.163.200/30 } on-error={}
+:do { add list=GF address=193.251.163.201/32 } on-error={}
+:do { add list=GF address=193.251.163.202/31 } on-error={}
 :do { add list=GF address=193.251.163.206/31 } on-error={}
 :do { add list=GF address=193.251.163.208/29 } on-error={}
 :do { add list=GF address=193.251.163.216/32 } on-error={}

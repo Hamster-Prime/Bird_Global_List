@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=LC address=5.62.56.200/30 } on-error={}
 :do { add list=LC address=5.62.58.176/30 } on-error={}
-:do { add list=LC address=5.175.190.216/29 } on-error={}
 :do { add list=LC address=24.92.144.0/20 } on-error={}
 :do { add list=LC address=57.74.118.0/23 } on-error={}
 :do { add list=LC address=57.91.144.0/20 } on-error={}
@@ -77,8 +76,6 @@
 :do { add list=LC address=172.225.193.80/28 } on-error={}
 :do { add list=LC address=172.225.239.240/28 } on-error={}
 :do { add list=LC address=172.226.10.208/28 } on-error={}
-:do { add list=LC address=186.247.64.1/32 } on-error={}
-:do { add list=LC address=186.247.64.23/32 } on-error={}
 :do { add list=LC address=192.58.142.0/23 } on-error={}
 :do { add list=LC address=192.147.231.0/24 } on-error={}
 :do { add list=LC address=196.48.166.0/24 } on-error={}

@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=VC address=5.62.56.204/30 } on-error={}
 :do { add list=VC address=5.62.58.184/30 } on-error={}
+:do { add list=VC address=5.175.190.207/32 } on-error={}
 :do { add list=VC address=23.170.80.0/24 } on-error={}
 :do { add list=VC address=45.42.232.0/22 } on-error={}
 :do { add list=VC address=45.62.191.224/28 } on-error={}
