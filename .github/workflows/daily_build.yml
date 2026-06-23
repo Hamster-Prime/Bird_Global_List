@@ -2,7 +2,7 @@ name: update-global-route-list
 
 on:
   schedule:
-    - cron: '0 0 */2 * *' # 每2天 UTC 时间 00:00 运行
+    - cron: '0 0 */3 * *' 
   workflow_dispatch:
 
 permissions:
