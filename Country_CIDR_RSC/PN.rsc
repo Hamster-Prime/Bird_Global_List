@@ -4,8 +4,6 @@
 :do { add list=PN address=5.62.58.164/30 } on-error={}
 :do { add list=PN address=104.28.12.135/32 } on-error={}
 :do { add list=PN address=104.28.12.136/31 } on-error={}
-:do { add list=PN address=136.23.3.231/32 } on-error={}
-:do { add list=PN address=136.23.11.199/32 } on-error={}
 :do { add list=PN address=140.248.56.180/32 } on-error={}
 :do { add list=PN address=140.248.57.180/32 } on-error={}
 :do { add list=PN address=140.248.58.180/32 } on-error={}

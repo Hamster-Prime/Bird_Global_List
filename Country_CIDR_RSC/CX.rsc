@@ -6,8 +6,6 @@
 :do { add list=CX address=5.175.190.157/32 } on-error={}
 :do { add list=CX address=104.28.9.66/31 } on-error={}
 :do { add list=CX address=104.28.9.68/32 } on-error={}
-:do { add list=CX address=136.23.3.228/32 } on-error={}
-:do { add list=CX address=136.23.11.196/32 } on-error={}
 :do { add list=CX address=140.248.56.53/32 } on-error={}
 :do { add list=CX address=140.248.57.53/32 } on-error={}
 :do { add list=CX address=140.248.58.53/32 } on-error={}

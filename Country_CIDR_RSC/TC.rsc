@@ -2,9 +2,9 @@
 /ip firewall address-list
 :do { add list=TC address=5.62.56.236/30 } on-error={}
 :do { add list=TC address=5.62.58.216/30 } on-error={}
+:do { add list=TC address=5.175.190.46/31 } on-error={}
 :do { add list=TC address=45.62.191.192/28 } on-error={}
 :do { add list=TC address=65.255.48.0/20 } on-error={}
-:do { add list=TC address=75.104.92.140/32 } on-error={}
 :do { add list=TC address=75.104.92.248/32 } on-error={}
 :do { add list=TC address=104.28.13.61/32 } on-error={}
 :do { add list=TC address=104.28.13.62/31 } on-error={}
@@ -20,8 +20,6 @@
 :do { add list=TC address=104.28.229.45/32 } on-error={}
 :do { add list=TC address=104.28.229.46/31 } on-error={}
 :do { add list=TC address=104.28.229.48/31 } on-error={}
-:do { add list=TC address=136.23.9.34/32 } on-error={}
-:do { add list=TC address=136.23.15.34/32 } on-error={}
 :do { add list=TC address=140.248.4.56/31 } on-error={}
 :do { add list=TC address=140.248.44.96/31 } on-error={}
 :do { add list=TC address=140.248.56.213/32 } on-error={}
@@ -63,7 +61,7 @@
 :do { add list=TC address=205.214.204.64/27 } on-error={}
 :do { add list=TC address=205.214.204.96/30 } on-error={}
 :do { add list=TC address=205.214.204.100/32 } on-error={}
-:do { add list=TC address=205.214.204.102/31 } on-error={}
+:do { add list=TC address=205.214.204.103/32 } on-error={}
 :do { add list=TC address=205.214.204.104/29 } on-error={}
 :do { add list=TC address=205.214.204.112/28 } on-error={}
 :do { add list=TC address=205.214.204.128/27 } on-error={}

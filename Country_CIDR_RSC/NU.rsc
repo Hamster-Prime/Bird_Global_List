@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=NU address=5.62.56.152/30 } on-error={}
 :do { add list=NU address=5.62.58.144/30 } on-error={}
-:do { add list=NU address=5.175.190.158/31 } on-error={}
 :do { add list=NU address=14.1.76.0/23 } on-error={}
 :do { add list=NU address=49.156.48.0/22 } on-error={}
 :do { add list=NU address=104.28.12.83/32 } on-error={}
@@ -21,8 +20,6 @@
 :do { add list=NU address=104.28.241.119/32 } on-error={}
 :do { add list=NU address=104.28.241.120/30 } on-error={}
 :do { add list=NU address=104.28.241.124/32 } on-error={}
-:do { add list=NU address=136.23.3.230/32 } on-error={}
-:do { add list=NU address=136.23.11.198/32 } on-error={}
 :do { add list=NU address=140.248.56.169/32 } on-error={}
 :do { add list=NU address=140.248.57.169/32 } on-error={}
 :do { add list=NU address=140.248.58.169/32 } on-error={}
@@ -41,4 +38,3 @@
 :do { add list=NU address=172.225.230.208/28 } on-error={}
 :do { add list=NU address=172.225.244.144/28 } on-error={}
 :do { add list=NU address=198.54.100.92/31 } on-error={}
-:do { add list=NU address=202.59.7.138/32 } on-error={}

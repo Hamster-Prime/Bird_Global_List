@@ -1,8 +1,10 @@
 /log info "Loading TM IPv4 Address List"
 /ip firewall address-list
+:do { add list=TM address=5.61.36.123/32 } on-error={}
 :do { add list=TM address=5.62.61.189/32 } on-error={}
 :do { add list=TM address=5.62.61.190/31 } on-error={}
 :do { add list=TM address=5.62.63.168/30 } on-error={}
+:do { add list=TM address=31.58.181.240/28 } on-error={}
 :do { add list=TM address=45.15.177.4/30 } on-error={}
 :do { add list=TM address=45.15.177.68/30 } on-error={}
 :do { add list=TM address=45.89.99.4/30 } on-error={}
@@ -39,8 +41,6 @@
 :do { add list=TM address=104.28.226.148/32 } on-error={}
 :do { add list=TM address=119.235.112.0/20 } on-error={}
 :do { add list=TM address=134.82.74.24/29 } on-error={}
-:do { add list=TM address=136.23.1.135/32 } on-error={}
-:do { add list=TM address=136.23.21.35/32 } on-error={}
 :do { add list=TM address=140.248.37.48/31 } on-error={}
 :do { add list=TM address=140.248.56.221/32 } on-error={}
 :do { add list=TM address=140.248.57.221/32 } on-error={}
@@ -66,6 +66,7 @@
 :do { add list=TM address=163.116.210.114/31 } on-error={}
 :do { add list=TM address=164.137.60.0/24 } on-error={}
 :do { add list=TM address=164.137.170.0/24 } on-error={}
+:do { add list=TM address=172.87.19.40/29 } on-error={}
 :do { add list=TM address=172.225.137.112/28 } on-error={}
 :do { add list=TM address=172.225.200.224/28 } on-error={}
 :do { add list=TM address=172.225.224.48/28 } on-error={}

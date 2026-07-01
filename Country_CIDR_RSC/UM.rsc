@@ -2,8 +2,6 @@
 /ip firewall address-list
 :do { add list=UM address=104.28.13.151/32 } on-error={}
 :do { add list=UM address=104.28.13.152/31 } on-error={}
-:do { add list=UM address=136.23.10.197/32 } on-error={}
-:do { add list=UM address=136.23.21.21/32 } on-error={}
 :do { add list=UM address=140.248.56.231/32 } on-error={}
 :do { add list=UM address=140.248.57.231/32 } on-error={}
 :do { add list=UM address=140.248.58.231/32 } on-error={}

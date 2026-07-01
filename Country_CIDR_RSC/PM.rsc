@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=PM address=5.62.58.180/30 } on-error={}
 :do { add list=PM address=5.62.63.92/30 } on-error={}
+:do { add list=PM address=5.175.190.62/32 } on-error={}
 :do { add list=PM address=5.252.112.0/23 } on-error={}
 :do { add list=PM address=5.252.114.0/23 } on-error={}
 :do { add list=PM address=45.62.191.240/28 } on-error={}
@@ -30,8 +31,6 @@
 :do { add list=PM address=104.28.239.86/31 } on-error={}
 :do { add list=PM address=104.28.239.88/31 } on-error={}
 :do { add list=PM address=104.28.239.90/32 } on-error={}
-:do { add list=PM address=136.23.9.32/32 } on-error={}
-:do { add list=PM address=136.23.15.32/32 } on-error={}
 :do { add list=PM address=140.248.56.179/32 } on-error={}
 :do { add list=PM address=140.248.57.179/32 } on-error={}
 :do { add list=PM address=140.248.58.179/32 } on-error={}
