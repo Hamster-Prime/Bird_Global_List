@@ -306,8 +306,7 @@
 :do { add list=MN address=180.149.114.0/23 } on-error={}
 :do { add list=MN address=180.149.119.0/24 } on-error={}
 :do { add list=MN address=180.149.120.0/21 } on-error={}
-:do { add list=MN address=183.81.170.0/24 } on-error={}
-:do { add list=MN address=183.81.171.0/24 } on-error={}
+:do { add list=MN address=183.81.170.0/23 } on-error={}
 :do { add list=MN address=183.177.96.0/21 } on-error={}
 :do { add list=MN address=183.177.104.0/22 } on-error={}
 :do { add list=MN address=183.177.108.0/23 } on-error={}

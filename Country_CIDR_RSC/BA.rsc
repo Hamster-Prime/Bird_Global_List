@@ -1,7 +1,10 @@
 /log info "Loading BA IPv4 Address List"
 /ip firewall address-list
 :do { add list=BA address=5.43.64.0/18 } on-error={}
-:do { add list=BA address=5.59.160.0/21 } on-error={}
+:do { add list=BA address=5.59.160.0/24 } on-error={}
+:do { add list=BA address=5.59.161.128/25 } on-error={}
+:do { add list=BA address=5.59.162.0/23 } on-error={}
+:do { add list=BA address=5.59.164.0/22 } on-error={}
 :do { add list=BA address=5.62.60.41/32 } on-error={}
 :do { add list=BA address=5.62.60.42/31 } on-error={}
 :do { add list=BA address=5.62.62.40/30 } on-error={}
@@ -174,9 +177,7 @@
 :do { add list=BA address=82.117.232.0/23 } on-error={}
 :do { add list=BA address=82.117.234.0/24 } on-error={}
 :do { add list=BA address=82.117.235.0/25 } on-error={}
-:do { add list=BA address=82.117.236.0/24 } on-error={}
-:do { add list=BA address=82.117.237.128/25 } on-error={}
-:do { add list=BA address=82.117.238.0/25 } on-error={}
+:do { add list=BA address=82.117.236.128/25 } on-error={}
 :do { add list=BA address=82.117.239.0/24 } on-error={}
 :do { add list=BA address=82.118.0.0/20 } on-error={}
 :do { add list=BA address=82.214.80.0/24 } on-error={}
@@ -213,6 +214,7 @@
 :do { add list=BA address=84.41.117.116/30 } on-error={}
 :do { add list=BA address=84.41.117.128/25 } on-error={}
 :do { add list=BA address=84.41.118.0/23 } on-error={}
+:do { add list=BA address=85.8.227.0/24 } on-error={}
 :do { add list=BA address=85.92.224.0/20 } on-error={}
 :do { add list=BA address=85.92.240.0/21 } on-error={}
 :do { add list=BA address=85.92.248.0/24 } on-error={}

@@ -104,7 +104,7 @@
 :do { add list=SL address=195.110.184.156/31 } on-error={}
 :do { add list=SL address=195.110.184.178/31 } on-error={}
 :do { add list=SL address=195.110.184.192/26 } on-error={}
-:do { add list=SL address=195.110.185.0/24 } on-error={}
+:do { add list=SL address=195.110.185.0/25 } on-error={}
 :do { add list=SL address=196.43.229.0/24 } on-error={}
 :do { add list=SL address=196.48.175.0/24 } on-error={}
 :do { add list=SL address=196.49.124.0/24 } on-error={}

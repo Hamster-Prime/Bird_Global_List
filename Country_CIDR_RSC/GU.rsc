@@ -44,6 +44,7 @@
 :do { add list=GU address=67.98.160.0/21 } on-error={}
 :do { add list=GU address=69.44.203.44/30 } on-error={}
 :do { add list=GU address=69.44.203.76/30 } on-error={}
+:do { add list=GU address=69.44.203.82/32 } on-error={}
 :do { add list=GU address=69.44.203.84/30 } on-error={}
 :do { add list=GU address=69.44.203.96/30 } on-error={}
 :do { add list=GU address=69.44.203.126/31 } on-error={}
