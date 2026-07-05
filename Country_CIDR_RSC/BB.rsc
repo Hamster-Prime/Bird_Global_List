@@ -155,7 +155,13 @@
 :do { add list=BB address=104.200.99.0/24 } on-error={}
 :do { add list=BB address=104.200.100.0/22 } on-error={}
 :do { add list=BB address=104.200.104.0/21 } on-error={}
-:do { add list=BB address=104.218.176.0/25 } on-error={}
+:do { add list=BB address=104.218.176.0/26 } on-error={}
+:do { add list=BB address=104.218.176.64/27 } on-error={}
+:do { add list=BB address=104.218.176.96/28 } on-error={}
+:do { add list=BB address=104.218.176.112/30 } on-error={}
+:do { add list=BB address=104.218.176.116/31 } on-error={}
+:do { add list=BB address=104.218.176.118/32 } on-error={}
+:do { add list=BB address=104.218.176.120/29 } on-error={}
 :do { add list=BB address=104.218.176.128/27 } on-error={}
 :do { add list=BB address=104.218.176.160/29 } on-error={}
 :do { add list=BB address=104.218.176.169/32 } on-error={}

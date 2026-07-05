@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=EH address=104.28.9.164/31 } on-error={}
 :do { add list=EH address=104.28.9.166/32 } on-error={}
-:do { add list=EH address=123.208.0.159/32 } on-error={}
 :do { add list=EH address=140.248.56.65/32 } on-error={}
 :do { add list=EH address=140.248.57.65/32 } on-error={}
 :do { add list=EH address=140.248.58.65/32 } on-error={}
