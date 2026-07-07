@@ -133,6 +133,7 @@
 :do { add list=TJ address=185.194.196.0/23 } on-error={}
 :do { add list=TJ address=185.194.198.0/24 } on-error={}
 :do { add list=TJ address=185.194.199.0/24 } on-error={}
+:do { add list=TJ address=185.197.37.212/32 } on-error={}
 :do { add list=TJ address=185.208.96.0/22 } on-error={}
 :do { add list=TJ address=185.222.211.0/24 } on-error={}
 :do { add list=TJ address=185.230.71.71/32 } on-error={}

@@ -60,6 +60,7 @@
 :do { add list=ET address=104.28.220.16/30 } on-error={}
 :do { add list=ET address=104.28.252.15/32 } on-error={}
 :do { add list=ET address=104.28.252.16/30 } on-error={}
+:do { add list=ET address=104.223.111.238/32 } on-error={}
 :do { add list=ET address=109.107.60.0/24 } on-error={}
 :do { add list=ET address=140.248.36.106/31 } on-error={}
 :do { add list=ET address=140.248.56.68/32 } on-error={}

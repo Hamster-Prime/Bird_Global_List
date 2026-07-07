@@ -1,6 +1,5 @@
 /log info "Loading AX IPv4 Address List"
 /ip firewall address-list
-:do { add list=AX address=2.71.185.95/32 } on-error={}
 :do { add list=AX address=5.62.61.249/32 } on-error={}
 :do { add list=AX address=5.62.61.250/31 } on-error={}
 :do { add list=AX address=5.62.63.244/30 } on-error={}
@@ -10,15 +9,7 @@
 :do { add list=AX address=82.199.168.0/21 } on-error={}
 :do { add list=AX address=82.199.176.0/24 } on-error={}
 :do { add list=AX address=82.199.185.0/24 } on-error={}
-:do { add list=AX address=85.194.204.94/32 } on-error={}
-:do { add list=AX address=86.114.201.227/32 } on-error={}
-:do { add list=AX address=86.115.115.153/32 } on-error={}
-:do { add list=AX address=93.106.139.62/32 } on-error={}
-:do { add list=AX address=93.106.171.150/32 } on-error={}
-:do { add list=AX address=93.106.173.249/32 } on-error={}
-:do { add list=AX address=93.106.175.51/32 } on-error={}
-:do { add list=AX address=93.106.187.77/32 } on-error={}
-:do { add list=AX address=93.106.189.99/32 } on-error={}
+:do { add list=AX address=88.194.24.127/32 } on-error={}
 :do { add list=AX address=104.28.8.84/31 } on-error={}
 :do { add list=AX address=104.28.8.86/32 } on-error={}
 :do { add list=AX address=104.28.27.103/32 } on-error={}
@@ -53,16 +44,13 @@
 :do { add list=AX address=172.225.70.0/27 } on-error={}
 :do { add list=AX address=172.225.172.0/28 } on-error={}
 :do { add list=AX address=172.225.210.0/28 } on-error={}
-:do { add list=AX address=176.72.100.104/32 } on-error={}
-:do { add list=AX address=178.73.198.2/31 } on-error={}
 :do { add list=AX address=185.36.148.0/22 } on-error={}
 :do { add list=AX address=185.98.228.0/22 } on-error={}
 :do { add list=AX address=185.112.132.1/32 } on-error={}
+:do { add list=AX address=192.89.240.79/32 } on-error={}
 :do { add list=AX address=193.9.64.0/19 } on-error={}
 :do { add list=AX address=193.9.96.0/20 } on-error={}
 :do { add list=AX address=193.181.196.0/23 } on-error={}
-:do { add list=AX address=193.210.160.226/32 } on-error={}
-:do { add list=AX address=193.210.164.254/32 } on-error={}
 :do { add list=AX address=193.234.48.0/22 } on-error={}
 :do { add list=AX address=194.71.144.0/23 } on-error={}
 :do { add list=AX address=194.110.176.0/27 } on-error={}
@@ -149,7 +137,6 @@
 :do { add list=AX address=212.17.178.0/24 } on-error={}
 :do { add list=AX address=212.17.188.0/22 } on-error={}
 :do { add list=AX address=212.56.15.80/29 } on-error={}
-:do { add list=AX address=213.28.228.214/32 } on-error={}
 :do { add list=AX address=213.204.32.0/24 } on-error={}
 :do { add list=AX address=213.204.33.0/29 } on-error={}
 :do { add list=AX address=213.204.33.24/29 } on-error={}
@@ -161,6 +148,7 @@
 :do { add list=AX address=213.204.34.0/26 } on-error={}
 :do { add list=AX address=213.204.34.64/27 } on-error={}
 :do { add list=AX address=213.204.34.96/28 } on-error={}
+:do { add list=AX address=213.204.34.114/32 } on-error={}
 :do { add list=AX address=213.204.34.138/31 } on-error={}
 :do { add list=AX address=213.204.34.140/30 } on-error={}
 :do { add list=AX address=213.204.34.144/28 } on-error={}
@@ -174,13 +162,6 @@
 :do { add list=AX address=213.204.46.0/26 } on-error={}
 :do { add list=AX address=213.204.46.64/27 } on-error={}
 :do { add list=AX address=213.204.46.112/28 } on-error={}
-:do { add list=AX address=213.204.46.128/27 } on-error={}
-:do { add list=AX address=213.204.46.160/31 } on-error={}
-:do { add list=AX address=213.204.46.163/32 } on-error={}
-:do { add list=AX address=213.204.46.164/30 } on-error={}
-:do { add list=AX address=213.204.46.168/29 } on-error={}
-:do { add list=AX address=213.204.46.176/28 } on-error={}
-:do { add list=AX address=213.204.46.192/26 } on-error={}
 :do { add list=AX address=213.204.47.0/24 } on-error={}
 :do { add list=AX address=213.204.48.0/21 } on-error={}
 :do { add list=AX address=216.128.16.0/23 } on-error={}
