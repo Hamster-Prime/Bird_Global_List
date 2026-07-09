@@ -51,13 +51,18 @@
 :do { add list=GG address=78.41.5.3/32 } on-error={}
 :do { add list=GG address=78.41.5.8/32 } on-error={}
 :do { add list=GG address=78.41.5.20/32 } on-error={}
-:do { add list=GG address=78.41.5.29/32 } on-error={}
+:do { add list=GG address=78.41.5.22/32 } on-error={}
+:do { add list=GG address=78.41.5.24/31 } on-error={}
+:do { add list=GG address=78.41.5.28/30 } on-error={}
 :do { add list=GG address=78.41.5.94/32 } on-error={}
 :do { add list=GG address=78.41.5.111/32 } on-error={}
-:do { add list=GG address=78.41.5.137/32 } on-error={}
+:do { add list=GG address=78.41.5.136/29 } on-error={}
 :do { add list=GG address=78.41.5.202/32 } on-error={}
 :do { add list=GG address=78.41.5.231/32 } on-error={}
 :do { add list=GG address=78.41.5.250/32 } on-error={}
+:do { add list=GG address=78.41.6.64/28 } on-error={}
+:do { add list=GG address=78.41.6.92/31 } on-error={}
+:do { add list=GG address=78.41.7.66/31 } on-error={}
 :do { add list=GG address=78.41.7.77/32 } on-error={}
 :do { add list=GG address=78.41.7.229/32 } on-error={}
 :do { add list=GG address=78.111.192.0/20 } on-error={}
@@ -85,6 +90,7 @@
 :do { add list=GG address=89.43.49.0/24 } on-error={}
 :do { add list=GG address=89.43.172.0/23 } on-error={}
 :do { add list=GG address=91.190.160.0/21 } on-error={}
+:do { add list=GG address=92.43.208.24/32 } on-error={}
 :do { add list=GG address=92.43.214.101/32 } on-error={}
 :do { add list=GG address=92.43.215.9/32 } on-error={}
 :do { add list=GG address=92.43.215.12/31 } on-error={}
@@ -113,6 +119,7 @@
 :do { add list=GG address=93.189.163.6/32 } on-error={}
 :do { add list=GG address=93.189.163.45/32 } on-error={}
 :do { add list=GG address=93.189.167.109/32 } on-error={}
+:do { add list=GG address=93.189.167.112/30 } on-error={}
 :do { add list=GG address=93.189.167.128/32 } on-error={}
 :do { add list=GG address=93.189.167.132/32 } on-error={}
 :do { add list=GG address=93.189.167.212/32 } on-error={}
@@ -163,11 +170,8 @@
 :do { add list=GG address=185.252.253.0/24 } on-error={}
 :do { add list=GG address=188.241.17.0/24 } on-error={}
 :do { add list=GG address=195.226.129.78/32 } on-error={}
-:do { add list=GG address=195.226.129.144/32 } on-error={}
-:do { add list=GG address=195.226.129.146/31 } on-error={}
-:do { add list=GG address=195.226.129.150/31 } on-error={}
+:do { add list=GG address=195.226.129.150/32 } on-error={}
 :do { add list=GG address=195.226.129.222/32 } on-error={}
-:do { add list=GG address=195.226.133.48/28 } on-error={}
 :do { add list=GG address=195.226.133.139/32 } on-error={}
 :do { add list=GG address=195.226.142.24/32 } on-error={}
 :do { add list=GG address=195.226.142.36/32 } on-error={}
@@ -187,7 +191,6 @@
 :do { add list=GG address=195.226.145.241/32 } on-error={}
 :do { add list=GG address=195.226.149.49/32 } on-error={}
 :do { add list=GG address=195.226.149.71/32 } on-error={}
-:do { add list=GG address=195.226.149.106/31 } on-error={}
 :do { add list=GG address=195.226.149.145/32 } on-error={}
 :do { add list=GG address=195.226.151.130/32 } on-error={}
 :do { add list=GG address=195.226.151.145/32 } on-error={}

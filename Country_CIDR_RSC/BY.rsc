@@ -141,6 +141,7 @@
 :do { add list=BY address=87.245.224.177/32 } on-error={}
 :do { add list=BY address=87.245.232.50/31 } on-error={}
 :do { add list=BY address=87.245.234.24/32 } on-error={}
+:do { add list=BY address=87.245.234.40/31 } on-error={}
 :do { add list=BY address=87.245.234.237/32 } on-error={}
 :do { add list=BY address=87.245.242.104/32 } on-error={}
 :do { add list=BY address=87.252.224.0/24 } on-error={}

@@ -973,6 +973,14 @@
 :do { add list=RS address=136.234.178.82/32 } on-error={}
 :do { add list=RS address=136.234.178.170/32 } on-error={}
 :do { add list=RS address=136.234.178.226/32 } on-error={}
+:do { add list=RS address=138.16.43.0/27 } on-error={}
+:do { add list=RS address=138.16.43.32/28 } on-error={}
+:do { add list=RS address=138.16.43.48/29 } on-error={}
+:do { add list=RS address=138.16.43.57/32 } on-error={}
+:do { add list=RS address=138.16.43.58/31 } on-error={}
+:do { add list=RS address=138.16.43.60/30 } on-error={}
+:do { add list=RS address=138.16.43.64/26 } on-error={}
+:do { add list=RS address=138.16.43.128/25 } on-error={}
 :do { add list=RS address=138.249.17.0/24 } on-error={}
 :do { add list=RS address=139.28.12.0/22 } on-error={}
 :do { add list=RS address=139.45.193.160/27 } on-error={}

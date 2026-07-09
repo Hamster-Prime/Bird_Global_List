@@ -68,7 +68,9 @@
 :do { add list=NP address=103.57.99.0/24 } on-error={}
 :do { add list=NP address=103.58.144.0/23 } on-error={}
 :do { add list=NP address=103.65.200.0/23 } on-error={}
-:do { add list=NP address=103.69.124.0/22 } on-error={}
+:do { add list=NP address=103.69.124.0/23 } on-error={}
+:do { add list=NP address=103.69.126.0/24 } on-error={}
+:do { add list=NP address=103.69.127.0/24 } on-error={}
 :do { add list=NP address=103.71.242.0/23 } on-error={}
 :do { add list=NP address=103.74.14.0/23 } on-error={}
 :do { add list=NP address=103.75.48.0/24 } on-error={}

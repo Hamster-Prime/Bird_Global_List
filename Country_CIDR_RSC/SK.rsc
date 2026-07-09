@@ -64,6 +64,7 @@
 :do { add list=SK address=5.252.32.0/24 } on-error={}
 :do { add list=SK address=5.252.33.0/27 } on-error={}
 :do { add list=SK address=5.252.34.0/25 } on-error={}
+:do { add list=SK address=13.140.48.0/24 } on-error={}
 :do { add list=SK address=23.12.36.3/32 } on-error={}
 :do { add list=SK address=23.12.36.8/31 } on-error={}
 :do { add list=SK address=23.12.36.11/32 } on-error={}
@@ -331,6 +332,8 @@
 :do { add list=SK address=79.140.90.76/30 } on-error={}
 :do { add list=SK address=79.140.90.80/28 } on-error={}
 :do { add list=SK address=80.81.224.0/20 } on-error={}
+:do { add list=SK address=80.82.154.125/32 } on-error={}
+:do { add list=SK address=80.82.155.203/32 } on-error={}
 :do { add list=SK address=80.86.240.0/20 } on-error={}
 :do { add list=SK address=80.87.208.0/20 } on-error={}
 :do { add list=SK address=80.94.48.0/20 } on-error={}
@@ -536,6 +539,7 @@
 :do { add list=SK address=89.173.56.0/21 } on-error={}
 :do { add list=SK address=89.173.64.0/18 } on-error={}
 :do { add list=SK address=89.173.128.0/17 } on-error={}
+:do { add list=SK address=89.190.131.162/32 } on-error={}
 :do { add list=SK address=89.202.149.72/29 } on-error={}
 :do { add list=SK address=89.202.153.0/24 } on-error={}
 :do { add list=SK address=90.64.0.0/16 } on-error={}
@@ -1868,12 +1872,7 @@
 :do { add list=SK address=213.215.72.0/21 } on-error={}
 :do { add list=SK address=213.215.80.0/21 } on-error={}
 :do { add list=SK address=213.215.88.0/22 } on-error={}
-:do { add list=SK address=213.215.92.0/25 } on-error={}
-:do { add list=SK address=213.215.92.128/28 } on-error={}
-:do { add list=SK address=213.215.92.144/29 } on-error={}
-:do { add list=SK address=213.215.92.156/30 } on-error={}
-:do { add list=SK address=213.215.92.160/27 } on-error={}
-:do { add list=SK address=213.215.92.192/26 } on-error={}
+:do { add list=SK address=213.215.92.0/24 } on-error={}
 :do { add list=SK address=213.215.93.0/24 } on-error={}
 :do { add list=SK address=213.215.94.0/23 } on-error={}
 :do { add list=SK address=213.215.96.0/21 } on-error={}

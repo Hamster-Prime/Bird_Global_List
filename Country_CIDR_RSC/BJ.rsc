@@ -15,7 +15,8 @@
 :do { add list=BJ address=41.85.170.0/23 } on-error={}
 :do { add list=BJ address=41.85.172.0/24 } on-error={}
 :do { add list=BJ address=41.85.173.0/24 } on-error={}
-:do { add list=BJ address=41.85.174.0/23 } on-error={}
+:do { add list=BJ address=41.85.174.0/24 } on-error={}
+:do { add list=BJ address=41.85.175.0/24 } on-error={}
 :do { add list=BJ address=41.85.176.0/22 } on-error={}
 :do { add list=BJ address=41.85.180.0/24 } on-error={}
 :do { add list=BJ address=41.85.181.0/24 } on-error={}
