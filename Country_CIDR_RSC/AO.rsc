@@ -9,6 +9,7 @@
 :do { add list=AO address=41.70.128.0/17 } on-error={}
 :do { add list=AO address=41.74.240.0/20 } on-error={}
 :do { add list=AO address=41.78.16.0/22 } on-error={}
+:do { add list=AO address=41.194.72.0/24 } on-error={}
 :do { add list=AO address=41.205.32.0/19 } on-error={}
 :do { add list=AO address=41.210.192.0/18 } on-error={}
 :do { add list=AO address=41.216.236.0/22 } on-error={}
@@ -58,6 +59,8 @@
 :do { add list=AO address=41.223.156.0/22 } on-error={}
 :do { add list=AO address=41.223.164.0/22 } on-error={}
 :do { add list=AO address=57.82.52.0/23 } on-error={}
+:do { add list=AO address=63.222.95.4/32 } on-error={}
+:do { add list=AO address=63.223.154.9/32 } on-error={}
 :do { add list=AO address=63.223.154.54/32 } on-error={}
 :do { add list=AO address=63.223.154.69/32 } on-error={}
 :do { add list=AO address=63.223.154.73/32 } on-error={}
@@ -151,6 +154,7 @@
 :do { add list=AO address=102.177.112.0/25 } on-error={}
 :do { add list=AO address=102.177.112.128/29 } on-error={}
 :do { add list=AO address=102.177.112.136/31 } on-error={}
+:do { add list=AO address=102.202.0.0/22 } on-error={}
 :do { add list=AO address=102.202.4.0/24 } on-error={}
 :do { add list=AO address=102.202.244.0/22 } on-error={}
 :do { add list=AO address=102.203.1.0/24 } on-error={}
@@ -537,12 +541,7 @@
 :do { add list=AO address=196.216.48.57/32 } on-error={}
 :do { add list=AO address=196.216.48.58/31 } on-error={}
 :do { add list=AO address=196.216.48.60/30 } on-error={}
-:do { add list=AO address=196.216.48.64/28 } on-error={}
-:do { add list=AO address=196.216.48.80/29 } on-error={}
-:do { add list=AO address=196.216.48.88/31 } on-error={}
-:do { add list=AO address=196.216.48.91/32 } on-error={}
-:do { add list=AO address=196.216.48.92/30 } on-error={}
-:do { add list=AO address=196.216.48.96/27 } on-error={}
+:do { add list=AO address=196.216.48.64/26 } on-error={}
 :do { add list=AO address=196.216.48.128/27 } on-error={}
 :do { add list=AO address=196.216.48.160/28 } on-error={}
 :do { add list=AO address=196.216.48.176/30 } on-error={}

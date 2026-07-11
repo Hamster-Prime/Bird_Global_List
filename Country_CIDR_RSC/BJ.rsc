@@ -152,6 +152,7 @@
 :do { add list=BJ address=164.137.113.0/24 } on-error={}
 :do { add list=BJ address=164.137.222.0/24 } on-error={}
 :do { add list=BJ address=164.160.140.0/22 } on-error={}
+:do { add list=BJ address=168.113.36.0/24 } on-error={}
 :do { add list=BJ address=172.225.97.0/27 } on-error={}
 :do { add list=BJ address=172.225.178.16/28 } on-error={}
 :do { add list=BJ address=172.225.212.48/28 } on-error={}

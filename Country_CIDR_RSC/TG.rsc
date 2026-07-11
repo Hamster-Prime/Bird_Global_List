@@ -8,7 +8,6 @@
 :do { add list=TG address=41.207.160.0/19 } on-error={}
 :do { add list=TG address=57.82.148.0/23 } on-error={}
 :do { add list=TG address=57.85.16.0/20 } on-error={}
-:do { add list=TG address=57.129.74.17/32 } on-error={}
 :do { add list=TG address=66.102.36.0/26 } on-error={}
 :do { add list=TG address=80.248.64.0/20 } on-error={}
 :do { add list=TG address=81.192.254.38/32 } on-error={}
@@ -64,7 +63,6 @@
 :do { add list=TG address=146.75.185.178/31 } on-error={}
 :do { add list=TG address=149.6.147.203/32 } on-error={}
 :do { add list=TG address=149.6.147.237/32 } on-error={}
-:do { add list=TG address=151.115.96.251/32 } on-error={}
 :do { add list=TG address=153.67.66.0/23 } on-error={}
 :do { add list=TG address=154.70.80.0/20 } on-error={}
 :do { add list=TG address=156.38.64.0/19 } on-error={}

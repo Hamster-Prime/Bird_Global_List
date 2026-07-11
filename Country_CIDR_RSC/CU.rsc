@@ -2,23 +2,14 @@
 /ip firewall address-list
 :do { add list=CU address=5.62.56.72/30 } on-error={}
 :do { add list=CU address=5.62.58.68/30 } on-error={}
+:do { add list=CU address=41.194.23.160/28 } on-error={}
 :do { add list=CU address=57.74.110.0/23 } on-error={}
 :do { add list=CU address=57.91.32.0/20 } on-error={}
 :do { add list=CU address=62.115.128.209/32 } on-error={}
 :do { add list=CU address=67.143.180.2/32 } on-error={}
-:do { add list=CU address=67.143.180.7/32 } on-error={}
 :do { add list=CU address=67.143.180.10/32 } on-error={}
 :do { add list=CU address=67.143.180.22/32 } on-error={}
-:do { add list=CU address=67.143.180.34/32 } on-error={}
 :do { add list=CU address=67.143.180.40/32 } on-error={}
-:do { add list=CU address=67.143.180.45/32 } on-error={}
-:do { add list=CU address=67.143.180.51/32 } on-error={}
-:do { add list=CU address=67.143.180.60/32 } on-error={}
-:do { add list=CU address=67.143.180.66/32 } on-error={}
-:do { add list=CU address=68.169.37.240/32 } on-error={}
-:do { add list=CU address=68.169.43.119/32 } on-error={}
-:do { add list=CU address=68.169.43.150/32 } on-error={}
-:do { add list=CU address=69.36.182.59/32 } on-error={}
 :do { add list=CU address=81.52.179.44/32 } on-error={}
 :do { add list=CU address=85.153.57.0/24 } on-error={}
 :do { add list=CU address=89.221.37.167/32 } on-error={}
@@ -78,8 +69,11 @@
 :do { add list=CU address=163.116.134.184/31 } on-error={}
 :do { add list=CU address=163.116.250.141/32 } on-error={}
 :do { add list=CU address=163.116.250.142/32 } on-error={}
+:do { add list=CU address=168.113.13.0/24 } on-error={}
+:do { add list=CU address=168.113.40.0/24 } on-error={}
+:do { add list=CU address=168.113.88.0/24 } on-error={}
+:do { add list=CU address=168.113.124.0/24 } on-error={}
 :do { add list=CU address=169.158.0.0/16 } on-error={}
-:do { add list=CU address=173.244.210.64/32 } on-error={}
 :do { add list=CU address=177.104.60.202/32 } on-error={}
 :do { add list=CU address=177.104.60.225/32 } on-error={}
 :do { add list=CU address=181.225.224.0/19 } on-error={}

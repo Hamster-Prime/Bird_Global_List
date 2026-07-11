@@ -167,7 +167,7 @@
 :do { add list=LB address=85.208.206.0/23 } on-error={}
 :do { add list=LB address=88.218.140.0/22 } on-error={}
 :do { add list=LB address=89.17.96.0/19 } on-error={}
-:do { add list=LB address=89.40.28.0/24 } on-error={}
+:do { add list=LB address=89.40.28.128/25 } on-error={}
 :do { add list=LB address=89.108.128.0/22 } on-error={}
 :do { add list=LB address=89.108.132.0/24 } on-error={}
 :do { add list=LB address=89.108.133.0/24 } on-error={}
@@ -523,7 +523,9 @@
 :do { add list=LB address=185.164.79.0/24 } on-error={}
 :do { add list=LB address=185.164.104.0/22 } on-error={}
 :do { add list=LB address=185.169.7.0/24 } on-error={}
+:do { add list=LB address=185.170.128.0/24 } on-error={}
 :do { add list=LB address=185.170.129.0/24 } on-error={}
+:do { add list=LB address=185.170.130.0/24 } on-error={}
 :do { add list=LB address=185.170.131.0/24 } on-error={}
 :do { add list=LB address=185.171.108.0/23 } on-error={}
 :do { add list=LB address=185.171.110.0/23 } on-error={}
@@ -552,7 +554,7 @@
 :do { add list=LB address=185.194.152.0/23 } on-error={}
 :do { add list=LB address=185.194.154.0/23 } on-error={}
 :do { add list=LB address=185.204.48.0/23 } on-error={}
-:do { add list=LB address=185.204.50.0/24 } on-error={}
+:do { add list=LB address=185.204.50.0/25 } on-error={}
 :do { add list=LB address=185.204.51.0/24 } on-error={}
 :do { add list=LB address=185.206.200.0/22 } on-error={}
 :do { add list=LB address=185.212.220.0/22 } on-error={}
@@ -586,7 +588,6 @@
 :do { add list=LB address=187.13.2.0/24 } on-error={}
 :do { add list=LB address=188.66.52.0/22 } on-error={}
 :do { add list=LB address=188.93.113.0/24 } on-error={}
-:do { add list=LB address=188.120.149.150/32 } on-error={}
 :do { add list=LB address=192.109.41.112/29 } on-error={}
 :do { add list=LB address=193.27.232.0/22 } on-error={}
 :do { add list=LB address=193.30.96.0/22 } on-error={}
