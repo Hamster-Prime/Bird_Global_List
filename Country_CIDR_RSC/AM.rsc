@@ -527,6 +527,7 @@
 :do { add list=AM address=163.116.241.80/32 } on-error={}
 :do { add list=AM address=164.137.73.0/24 } on-error={}
 :do { add list=AM address=164.137.194.0/24 } on-error={}
+:do { add list=AM address=166.0.220.0/24 } on-error={}
 :do { add list=AM address=167.160.20.2/31 } on-error={}
 :do { add list=AM address=167.160.20.4/31 } on-error={}
 :do { add list=AM address=167.160.20.16/28 } on-error={}

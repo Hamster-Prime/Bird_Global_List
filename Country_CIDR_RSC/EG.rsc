@@ -1365,6 +1365,7 @@
 :do { add list=EG address=165.85.142.192/27 } on-error={}
 :do { add list=EG address=165.85.184.192/27 } on-error={}
 :do { add list=EG address=165.85.187.64/27 } on-error={}
+:do { add list=EG address=166.1.228.0/24 } on-error={}
 :do { add list=EG address=167.103.148.0/24 } on-error={}
 :do { add list=EG address=168.113.16.0/24 } on-error={}
 :do { add list=EG address=168.113.50.0/24 } on-error={}

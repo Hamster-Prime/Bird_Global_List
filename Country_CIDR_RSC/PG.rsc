@@ -281,7 +281,7 @@
 :do { add list=PG address=210.79.30.0/24 } on-error={}
 :do { add list=PG address=210.79.31.0/25 } on-error={}
 :do { add list=PG address=210.79.31.128/26 } on-error={}
-:do { add list=PG address=210.79.31.192/27 } on-error={}
+:do { add list=PG address=210.79.31.208/28 } on-error={}
 :do { add list=PG address=210.79.31.224/29 } on-error={}
 :do { add list=PG address=210.79.31.236/30 } on-error={}
 :do { add list=PG address=210.79.31.240/28 } on-error={}

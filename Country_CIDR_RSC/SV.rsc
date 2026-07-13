@@ -709,6 +709,7 @@
 :do { add list=SV address=196.198.82.0/24 } on-error={}
 :do { add list=SV address=196.199.82.0/24 } on-error={}
 :do { add list=SV address=198.16.70.176/29 } on-error={}
+:do { add list=SV address=199.60.215.200/29 } on-error={}
 :do { add list=SV address=200.0.108.0/24 } on-error={}
 :do { add list=SV address=200.0.180.0/24 } on-error={}
 :do { add list=SV address=200.11.31.0/24 } on-error={}

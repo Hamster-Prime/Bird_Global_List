@@ -6,12 +6,10 @@
 :do { add list=RE address=5.57.100.4/30 } on-error={}
 :do { add list=RE address=5.57.100.8/29 } on-error={}
 :do { add list=RE address=5.57.100.16/28 } on-error={}
-:do { add list=RE address=5.57.100.32/29 } on-error={}
+:do { add list=RE address=5.57.100.32/30 } on-error={}
 :do { add list=RE address=5.57.100.40/30 } on-error={}
-:do { add list=RE address=5.57.100.46/31 } on-error={}
 :do { add list=RE address=5.57.100.48/28 } on-error={}
 :do { add list=RE address=5.57.100.64/27 } on-error={}
-:do { add list=RE address=5.57.100.97/32 } on-error={}
 :do { add list=RE address=5.57.100.98/31 } on-error={}
 :do { add list=RE address=5.57.100.100/30 } on-error={}
 :do { add list=RE address=5.57.100.104/29 } on-error={}

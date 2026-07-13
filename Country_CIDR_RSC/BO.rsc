@@ -443,7 +443,10 @@
 :do { add list=BO address=190.129.252.0/23 } on-error={}
 :do { add list=BO address=190.129.254.0/25 } on-error={}
 :do { add list=BO address=190.129.254.128/27 } on-error={}
-:do { add list=BO address=190.129.254.160/28 } on-error={}
+:do { add list=BO address=190.129.254.160/30 } on-error={}
+:do { add list=BO address=190.129.254.164/32 } on-error={}
+:do { add list=BO address=190.129.254.166/31 } on-error={}
+:do { add list=BO address=190.129.254.168/29 } on-error={}
 :do { add list=BO address=190.129.254.177/32 } on-error={}
 :do { add list=BO address=190.129.254.178/31 } on-error={}
 :do { add list=BO address=190.129.254.180/30 } on-error={}

@@ -72,7 +72,11 @@
 :do { add list=TM address=178.171.66.0/23 } on-error={}
 :do { add list=TM address=185.69.184.0/24 } on-error={}
 :do { add list=TM address=185.69.185.0/24 } on-error={}
-:do { add list=TM address=185.69.186.0/24 } on-error={}
+:do { add list=TM address=185.69.186.0/25 } on-error={}
+:do { add list=TM address=185.69.186.128/26 } on-error={}
+:do { add list=TM address=185.69.186.192/27 } on-error={}
+:do { add list=TM address=185.69.186.224/28 } on-error={}
+:do { add list=TM address=185.69.186.248/29 } on-error={}
 :do { add list=TM address=185.69.187.0/24 } on-error={}
 :do { add list=TM address=185.138.17.73/32 } on-error={}
 :do { add list=TM address=185.246.72.0/22 } on-error={}

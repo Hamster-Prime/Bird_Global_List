@@ -24,7 +24,11 @@
 :do { add list=CW address=63.245.107.12/31 } on-error={}
 :do { add list=CW address=65.208.122.0/24 } on-error={}
 :do { add list=CW address=65.208.123.0/26 } on-error={}
-:do { add list=CW address=65.208.123.64/27 } on-error={}
+:do { add list=CW address=65.208.123.64/31 } on-error={}
+:do { add list=CW address=65.208.123.66/32 } on-error={}
+:do { add list=CW address=65.208.123.68/30 } on-error={}
+:do { add list=CW address=65.208.123.72/29 } on-error={}
+:do { add list=CW address=65.208.123.80/28 } on-error={}
 :do { add list=CW address=65.208.123.96/28 } on-error={}
 :do { add list=CW address=65.208.123.112/32 } on-error={}
 :do { add list=CW address=65.208.123.114/31 } on-error={}
