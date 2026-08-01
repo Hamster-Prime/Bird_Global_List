@@ -93,5 +93,4 @@
 :do { add list=FM address=196.197.135.0/24 } on-error={}
 :do { add list=FM address=196.198.135.0/24 } on-error={}
 :do { add list=FM address=196.199.135.0/24 } on-error={}
-:do { add list=FM address=203.21.143.0/24 } on-error={}
 :do { add list=FM address=203.24.106.0/24 } on-error={}
