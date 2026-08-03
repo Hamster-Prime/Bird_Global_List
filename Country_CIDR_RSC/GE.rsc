@@ -75,7 +75,6 @@
 :do { add list=GE address=45.95.20.0/24 } on-error={}
 :do { add list=GE address=45.134.241.0/24 } on-error={}
 :do { add list=GE address=45.136.52.0/22 } on-error={}
-:do { add list=GE address=45.137.78.0/32 } on-error={}
 :do { add list=GE address=45.138.44.0/22 } on-error={}
 :do { add list=GE address=45.143.108.0/22 } on-error={}
 :do { add list=GE address=45.153.24.0/22 } on-error={}

@@ -4,8 +4,7 @@
 :do { add list=SH address=5.62.61.114/31 } on-error={}
 :do { add list=SH address=5.62.63.89/32 } on-error={}
 :do { add list=SH address=5.62.63.90/31 } on-error={}
-:do { add list=SH address=80.73.219.18/31 } on-error={}
-:do { add list=SH address=80.73.219.74/32 } on-error={}
+:do { add list=SH address=80.73.219.0/25 } on-error={}
 :do { add list=SH address=80.73.219.192/26 } on-error={}
 :do { add list=SH address=80.73.221.64/26 } on-error={}
 :do { add list=SH address=91.232.198.0/24 } on-error={}

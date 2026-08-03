@@ -75,6 +75,8 @@
 :do { add list=AX address=194.110.184.0/22 } on-error={}
 :do { add list=AX address=194.110.189.0/24 } on-error={}
 :do { add list=AX address=194.110.191.0/24 } on-error={}
+:do { add list=AX address=194.112.0.204/32 } on-error={}
+:do { add list=AX address=194.112.0.214/32 } on-error={}
 :do { add list=AX address=194.112.1.32/27 } on-error={}
 :do { add list=AX address=194.112.1.64/26 } on-error={}
 :do { add list=AX address=194.112.1.128/26 } on-error={}
@@ -103,6 +105,7 @@
 :do { add list=AX address=194.112.2.152/31 } on-error={}
 :do { add list=AX address=194.112.2.154/32 } on-error={}
 :do { add list=AX address=194.112.2.156/30 } on-error={}
+:do { add list=AX address=194.112.2.182/32 } on-error={}
 :do { add list=AX address=194.112.2.208/29 } on-error={}
 :do { add list=AX address=194.112.2.216/30 } on-error={}
 :do { add list=AX address=194.112.2.224/27 } on-error={}
@@ -110,6 +113,7 @@
 :do { add list=AX address=194.112.6.0/24 } on-error={}
 :do { add list=AX address=194.112.7.8/31 } on-error={}
 :do { add list=AX address=194.112.7.28/30 } on-error={}
+:do { add list=AX address=194.112.7.56/32 } on-error={}
 :do { add list=AX address=194.112.7.64/32 } on-error={}
 :do { add list=AX address=194.112.8.0/26 } on-error={}
 :do { add list=AX address=194.112.8.80/28 } on-error={}

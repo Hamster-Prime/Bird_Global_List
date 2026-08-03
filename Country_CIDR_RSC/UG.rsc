@@ -505,6 +505,7 @@
 :do { add list=UG address=105.21.73.32/27 } on-error={}
 :do { add list=UG address=105.21.73.64/26 } on-error={}
 :do { add list=UG address=105.21.73.128/25 } on-error={}
+:do { add list=UG address=105.21.76.2/32 } on-error={}
 :do { add list=UG address=105.21.76.16/28 } on-error={}
 :do { add list=UG address=105.21.76.32/27 } on-error={}
 :do { add list=UG address=105.21.76.64/26 } on-error={}

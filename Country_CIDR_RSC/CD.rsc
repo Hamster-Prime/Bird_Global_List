@@ -529,10 +529,13 @@
 :do { add list=CD address=157.167.240.138/32 } on-error={}
 :do { add list=CD address=159.26.127.12/30 } on-error={}
 :do { add list=CD address=160.119.215.0/24 } on-error={}
-:do { add list=CD address=160.242.29.0/29 } on-error={}
-:do { add list=CD address=160.242.29.12/30 } on-error={}
-:do { add list=CD address=160.242.29.16/28 } on-error={}
-:do { add list=CD address=160.242.29.32/28 } on-error={}
+:do { add list=CD address=160.242.29.2/31 } on-error={}
+:do { add list=CD address=160.242.29.13/32 } on-error={}
+:do { add list=CD address=160.242.29.16/31 } on-error={}
+:do { add list=CD address=160.242.29.18/32 } on-error={}
+:do { add list=CD address=160.242.29.20/30 } on-error={}
+:do { add list=CD address=160.242.29.25/32 } on-error={}
+:do { add list=CD address=160.242.29.26/32 } on-error={}
 :do { add list=CD address=160.242.29.56/29 } on-error={}
 :do { add list=CD address=160.242.29.64/26 } on-error={}
 :do { add list=CD address=160.242.119.96/31 } on-error={}

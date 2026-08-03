@@ -97,6 +97,7 @@
 :do { add list=VE address=38.84.58.0/24 } on-error={}
 :do { add list=VE address=38.86.90.0/24 } on-error={}
 :do { add list=VE address=38.86.240.0/22 } on-error={}
+:do { add list=VE address=38.87.218.0/24 } on-error={}
 :do { add list=VE address=38.87.248.0/22 } on-error={}
 :do { add list=VE address=38.89.88.0/24 } on-error={}
 :do { add list=VE address=38.92.16.0/22 } on-error={}
@@ -107,7 +108,6 @@
 :do { add list=VE address=38.96.12.0/24 } on-error={}
 :do { add list=VE address=38.97.46.0/24 } on-error={}
 :do { add list=VE address=38.97.240.0/24 } on-error={}
-:do { add list=VE address=38.97.245.0/24 } on-error={}
 :do { add list=VE address=38.103.210.0/24 } on-error={}
 :do { add list=VE address=38.104.94.73/32 } on-error={}
 :do { add list=VE address=38.106.30.0/24 } on-error={}
@@ -165,7 +165,9 @@
 :do { add list=VE address=38.172.138.0/23 } on-error={}
 :do { add list=VE address=38.172.160.0/20 } on-error={}
 :do { add list=VE address=38.172.176.0/21 } on-error={}
-:do { add list=VE address=38.172.184.0/22 } on-error={}
+:do { add list=VE address=38.172.184.0/24 } on-error={}
+:do { add list=VE address=38.172.185.0/24 } on-error={}
+:do { add list=VE address=38.172.186.0/23 } on-error={}
 :do { add list=VE address=38.172.188.0/23 } on-error={}
 :do { add list=VE address=38.172.190.0/23 } on-error={}
 :do { add list=VE address=38.183.112.0/21 } on-error={}
@@ -991,6 +993,7 @@
 :do { add list=VE address=172.225.239.208/29 } on-error={}
 :do { add list=VE address=172.226.10.0/28 } on-error={}
 :do { add list=VE address=172.226.10.16/29 } on-error={}
+:do { add list=VE address=177.29.224.0/24 } on-error={}
 :do { add list=VE address=178.19.41.0/24 } on-error={}
 :do { add list=VE address=179.0.104.0/22 } on-error={}
 :do { add list=VE address=179.20.0.0/14 } on-error={}

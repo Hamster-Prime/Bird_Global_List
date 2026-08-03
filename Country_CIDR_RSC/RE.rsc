@@ -268,7 +268,7 @@
 :do { add list=RE address=92.130.33.176/28 } on-error={}
 :do { add list=RE address=92.130.33.192/26 } on-error={}
 :do { add list=RE address=92.130.34.128/25 } on-error={}
-:do { add list=RE address=92.130.35.0/25 } on-error={}
+:do { add list=RE address=92.130.35.0/24 } on-error={}
 :do { add list=RE address=92.130.36.0/22 } on-error={}
 :do { add list=RE address=92.130.40.0/24 } on-error={}
 :do { add list=RE address=92.130.42.0/23 } on-error={}

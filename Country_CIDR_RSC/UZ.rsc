@@ -437,6 +437,7 @@
 :do { add list=UZ address=146.158.28.0/23 } on-error={}
 :do { add list=UZ address=146.158.94.0/24 } on-error={}
 :do { add list=UZ address=149.6.168.154/32 } on-error={}
+:do { add list=UZ address=149.7.24.0/24 } on-error={}
 :do { add list=UZ address=156.235.0.0/24 } on-error={}
 :do { add list=UZ address=157.22.128.0/20 } on-error={}
 :do { add list=UZ address=157.22.144.0/21 } on-error={}

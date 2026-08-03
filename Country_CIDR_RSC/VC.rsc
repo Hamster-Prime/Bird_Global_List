@@ -77,7 +77,11 @@
 :do { add list=VC address=192.147.231.5/32 } on-error={}
 :do { add list=VC address=192.147.231.19/32 } on-error={}
 :do { add list=VC address=192.147.231.28/32 } on-error={}
-:do { add list=VC address=192.147.231.32/27 } on-error={}
+:do { add list=VC address=192.147.231.32/29 } on-error={}
+:do { add list=VC address=192.147.231.40/31 } on-error={}
+:do { add list=VC address=192.147.231.42/32 } on-error={}
+:do { add list=VC address=192.147.231.44/30 } on-error={}
+:do { add list=VC address=192.147.231.48/28 } on-error={}
 :do { add list=VC address=192.147.231.64/27 } on-error={}
 :do { add list=VC address=192.147.231.100/30 } on-error={}
 :do { add list=VC address=192.147.231.104/31 } on-error={}
