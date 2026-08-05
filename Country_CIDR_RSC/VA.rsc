@@ -1,5 +1,8 @@
 /log info "Loading VA IPv4 Address List"
 /ip firewall address-list
+:do { add list=VA address=2.56.112.48/28 } on-error={}
+:do { add list=VA address=2.56.112.64/26 } on-error={}
+:do { add list=VA address=2.56.112.128/25 } on-error={}
 :do { add list=VA address=5.62.61.209/32 } on-error={}
 :do { add list=VA address=5.62.61.210/31 } on-error={}
 :do { add list=VA address=5.62.63.196/30 } on-error={}
@@ -27,6 +30,8 @@
 :do { add list=VA address=140.248.63.235/32 } on-error={}
 :do { add list=VA address=146.75.166.140/31 } on-error={}
 :do { add list=VA address=146.75.186.46/31 } on-error={}
+:do { add list=VA address=156.54.225.98/31 } on-error={}
+:do { add list=VA address=156.54.225.104/29 } on-error={}
 :do { add list=VA address=162.120.215.7/32 } on-error={}
 :do { add list=VA address=162.120.216.130/32 } on-error={}
 :do { add list=VA address=172.225.96.160/27 } on-error={}
@@ -38,11 +43,18 @@
 :do { add list=VA address=185.152.68.200/29 } on-error={}
 :do { add list=VA address=185.152.68.208/28 } on-error={}
 :do { add list=VA address=185.152.68.224/27 } on-error={}
+:do { add list=VA address=185.152.70.20/30 } on-error={}
+:do { add list=VA address=185.152.70.24/30 } on-error={}
+:do { add list=VA address=185.152.70.28/31 } on-error={}
+:do { add list=VA address=185.152.70.36/31 } on-error={}
+:do { add list=VA address=185.152.70.48/28 } on-error={}
+:do { add list=VA address=185.152.70.108/30 } on-error={}
+:do { add list=VA address=185.152.70.144/29 } on-error={}
+:do { add list=VA address=185.152.70.152/30 } on-error={}
+:do { add list=VA address=185.152.70.156/31 } on-error={}
+:do { add list=VA address=185.152.70.160/27 } on-error={}
 :do { add list=VA address=185.152.71.0/24 } on-error={}
-:do { add list=VA address=193.43.103.0/26 } on-error={}
 :do { add list=VA address=193.43.103.128/26 } on-error={}
-:do { add list=VA address=193.43.103.192/27 } on-error={}
-:do { add list=VA address=193.43.128.57/32 } on-error={}
 :do { add list=VA address=195.133.0.0/24 } on-error={}
 :do { add list=VA address=212.77.3.82/32 } on-error={}
 :do { add list=VA address=212.77.8.0/24 } on-error={}

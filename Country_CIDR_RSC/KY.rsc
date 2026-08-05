@@ -2,7 +2,6 @@
 /ip firewall address-list
 :do { add list=KY address=5.62.56.48/30 } on-error={}
 :do { add list=KY address=5.62.58.48/30 } on-error={}
-:do { add list=KY address=5.175.190.44/31 } on-error={}
 :do { add list=KY address=5.175.190.232/29 } on-error={}
 :do { add list=KY address=23.188.0.0/24 } on-error={}
 :do { add list=KY address=45.62.191.80/28 } on-error={}
@@ -17,9 +16,7 @@
 :do { add list=KY address=64.94.63.0/24 } on-error={}
 :do { add list=KY address=66.54.120.0/22 } on-error={}
 :do { add list=KY address=66.54.124.0/23 } on-error={}
-:do { add list=KY address=66.249.153.0/25 } on-error={}
-:do { add list=KY address=66.249.153.150/32 } on-error={}
-:do { add list=KY address=66.249.153.223/32 } on-error={}
+:do { add list=KY address=66.249.152.0/23 } on-error={}
 :do { add list=KY address=66.249.154.0/24 } on-error={}
 :do { add list=KY address=67.213.147.128/25 } on-error={}
 :do { add list=KY address=67.213.149.128/25 } on-error={}
@@ -108,9 +105,9 @@
 :do { add list=KY address=172.226.10.192/28 } on-error={}
 :do { add list=KY address=172.226.79.48/28 } on-error={}
 :do { add list=KY address=173.225.208.0/20 } on-error={}
-:do { add list=KY address=187.40.50.0/24 } on-error={}
 :do { add list=KY address=192.0.4.0/22 } on-error={}
 :do { add list=KY address=192.160.250.0/24 } on-error={}
+:do { add list=KY address=198.207.22.1/32 } on-error={}
 :do { add list=KY address=198.207.22.27/32 } on-error={}
 :do { add list=KY address=198.207.22.39/32 } on-error={}
 :do { add list=KY address=198.207.22.229/32 } on-error={}
@@ -133,7 +130,15 @@
 :do { add list=KY address=208.168.224.0/19 } on-error={}
 :do { add list=KY address=208.169.64.0/22 } on-error={}
 :do { add list=KY address=208.169.68.0/23 } on-error={}
+:do { add list=KY address=208.169.72.49/32 } on-error={}
+:do { add list=KY address=208.169.72.226/32 } on-error={}
 :do { add list=KY address=208.169.76.0/23 } on-error={}
+:do { add list=KY address=208.169.78.75/32 } on-error={}
+:do { add list=KY address=208.169.78.77/32 } on-error={}
+:do { add list=KY address=208.169.78.79/32 } on-error={}
+:do { add list=KY address=208.169.78.81/32 } on-error={}
+:do { add list=KY address=208.169.78.201/32 } on-error={}
+:do { add list=KY address=208.169.78.203/32 } on-error={}
 :do { add list=KY address=208.169.80.0/24 } on-error={}
 :do { add list=KY address=208.169.82.0/24 } on-error={}
 :do { add list=KY address=208.169.86.0/23 } on-error={}
@@ -142,4 +147,5 @@
 :do { add list=KY address=208.169.94.0/23 } on-error={}
 :do { add list=KY address=209.27.52.0/22 } on-error={}
 :do { add list=KY address=209.27.60.0/22 } on-error={}
+:do { add list=KY address=213.247.47.184/29 } on-error={}
 :do { add list=KY address=216.144.80.0/20 } on-error={}

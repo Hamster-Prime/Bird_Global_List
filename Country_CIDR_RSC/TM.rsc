@@ -3,7 +3,6 @@
 :do { add list=TM address=5.62.61.189/32 } on-error={}
 :do { add list=TM address=5.62.61.190/31 } on-error={}
 :do { add list=TM address=5.62.63.168/30 } on-error={}
-:do { add list=TM address=31.58.181.240/28 } on-error={}
 :do { add list=TM address=45.15.177.4/30 } on-error={}
 :do { add list=TM address=45.15.177.68/30 } on-error={}
 :do { add list=TM address=45.89.99.4/30 } on-error={}
@@ -11,6 +10,7 @@
 :do { add list=TM address=57.88.240.0/20 } on-error={}
 :do { add list=TM address=57.90.150.0/23 } on-error={}
 :do { add list=TM address=77.83.59.0/24 } on-error={}
+:do { add list=TM address=85.132.90.254/32 } on-error={}
 :do { add list=TM address=85.153.45.0/24 } on-error={}
 :do { add list=TM address=93.171.174.0/24 } on-error={}
 :do { add list=TM address=93.171.220.0/22 } on-error={}
@@ -48,6 +48,7 @@
 :do { add list=TM address=140.248.61.221/32 } on-error={}
 :do { add list=TM address=140.248.62.221/32 } on-error={}
 :do { add list=TM address=140.248.63.221/32 } on-error={}
+:do { add list=TM address=144.31.225.166/32 } on-error={}
 :do { add list=TM address=146.75.162.96/31 } on-error={}
 :do { add list=TM address=146.75.202.12/31 } on-error={}
 :do { add list=TM address=160.25.104.122/32 } on-error={}
@@ -70,7 +71,6 @@
 :do { add list=TM address=172.225.200.224/28 } on-error={}
 :do { add list=TM address=172.225.224.48/28 } on-error={}
 :do { add list=TM address=177.93.143.0/24 } on-error={}
-:do { add list=TM address=178.171.66.0/23 } on-error={}
 :do { add list=TM address=185.69.184.0/24 } on-error={}
 :do { add list=TM address=185.69.185.0/24 } on-error={}
 :do { add list=TM address=185.69.186.0/24 } on-error={}
@@ -87,6 +87,6 @@
 :do { add list=TM address=196.198.195.0/24 } on-error={}
 :do { add list=TM address=196.199.195.0/24 } on-error={}
 :do { add list=TM address=216.250.8.0/21 } on-error={}
-:do { add list=TM address=217.8.117.0/24 } on-error={}
 :do { add list=TM address=217.65.78.0/24 } on-error={}
+:do { add list=TM address=217.150.50.56/31 } on-error={}
 :do { add list=TM address=217.174.224.0/20 } on-error={}

@@ -4,7 +4,6 @@
 :do { add list=MS address=5.62.56.138/31 } on-error={}
 :do { add list=MS address=5.62.58.129/32 } on-error={}
 :do { add list=MS address=5.62.58.130/31 } on-error={}
-:do { add list=MS address=5.175.190.198/32 } on-error={}
 :do { add list=MS address=45.62.191.176/28 } on-error={}
 :do { add list=MS address=66.96.114.64/26 } on-error={}
 :do { add list=MS address=74.244.148.0/23 } on-error={}
@@ -40,6 +39,7 @@
 :do { add list=MS address=172.226.86.0/28 } on-error={}
 :do { add list=MS address=172.226.143.64/27 } on-error={}
 :do { add list=MS address=199.7.90.0/24 } on-error={}
+:do { add list=MS address=205.217.234.0/24 } on-error={}
 :do { add list=MS address=208.90.112.0/22 } on-error={}
 :do { add list=MS address=209.59.97.0/29 } on-error={}
 :do { add list=MS address=209.59.97.16/28 } on-error={}
