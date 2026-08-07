@@ -9389,7 +9389,11 @@
 :do { add list=Global address=160.232.0.0/14 } on-error={}
 :do { add list=Global address=160.238.0.0/15 } on-error={}
 :do { add list=Global address=160.237.0.0/16 } on-error={}
-:do { add list=Global address=160.236.192.0/18 } on-error={}
+:do { add list=Global address=160.236.192.0/19 } on-error={}
+:do { add list=Global address=160.236.240.0/20 } on-error={}
+:do { add list=Global address=160.236.224.0/21 } on-error={}
+:do { add list=Global address=160.236.236.0/22 } on-error={}
+:do { add list=Global address=160.236.232.0/23 } on-error={}
 :do { add list=Global address=160.236.176.0/20 } on-error={}
 :do { add list=Global address=160.236.168.0/21 } on-error={}
 :do { add list=Global address=160.236.164.0/22 } on-error={}
