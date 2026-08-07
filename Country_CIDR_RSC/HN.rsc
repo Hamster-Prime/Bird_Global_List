@@ -490,7 +490,14 @@
 :do { add list=HN address=200.30.142.104/29 } on-error={}
 :do { add list=HN address=200.30.142.112/28 } on-error={}
 :do { add list=HN address=200.30.142.128/25 } on-error={}
-:do { add list=HN address=200.30.145.0/24 } on-error={}
+:do { add list=HN address=200.30.145.0/26 } on-error={}
+:do { add list=HN address=200.30.145.64/27 } on-error={}
+:do { add list=HN address=200.30.145.96/28 } on-error={}
+:do { add list=HN address=200.30.145.112/29 } on-error={}
+:do { add list=HN address=200.30.145.120/31 } on-error={}
+:do { add list=HN address=200.30.145.123/32 } on-error={}
+:do { add list=HN address=200.30.145.124/30 } on-error={}
+:do { add list=HN address=200.30.145.128/25 } on-error={}
 :do { add list=HN address=200.30.146.0/24 } on-error={}
 :do { add list=HN address=200.30.147.0/26 } on-error={}
 :do { add list=HN address=200.30.147.64/29 } on-error={}

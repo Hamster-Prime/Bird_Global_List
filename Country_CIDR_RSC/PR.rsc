@@ -8,15 +8,6 @@
 :do { add list=PR address=8.243.238.118/31 } on-error={}
 :do { add list=PR address=12.205.80.0/20 } on-error={}
 :do { add list=PR address=12.205.96.0/20 } on-error={}
-:do { add list=PR address=12.252.81.0/29 } on-error={}
-:do { add list=PR address=12.252.81.52/30 } on-error={}
-:do { add list=PR address=12.252.81.56/29 } on-error={}
-:do { add list=PR address=12.252.81.72/30 } on-error={}
-:do { add list=PR address=12.252.81.80/30 } on-error={}
-:do { add list=PR address=12.252.81.92/30 } on-error={}
-:do { add list=PR address=12.252.81.96/28 } on-error={}
-:do { add list=PR address=12.252.81.112/30 } on-error={}
-:do { add list=PR address=12.252.81.120/30 } on-error={}
 :do { add list=PR address=13.104.183.56/29 } on-error={}
 :do { add list=PR address=13.106.78.0/23 } on-error={}
 :do { add list=PR address=13.106.95.232/29 } on-error={}

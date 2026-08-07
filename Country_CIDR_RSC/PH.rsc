@@ -3729,8 +3729,7 @@
 :do { add list=PH address=160.236.74.0/23 } on-error={}
 :do { add list=PH address=160.236.90.0/24 } on-error={}
 :do { add list=PH address=160.236.91.0/24 } on-error={}
-:do { add list=PH address=160.236.98.0/24 } on-error={}
-:do { add list=PH address=160.236.99.0/24 } on-error={}
+:do { add list=PH address=160.236.98.0/23 } on-error={}
 :do { add list=PH address=160.236.126.0/23 } on-error={}
 :do { add list=PH address=160.236.182.0/23 } on-error={}
 :do { add list=PH address=160.250.6.0/23 } on-error={}
@@ -4457,8 +4456,10 @@
 :do { add list=PH address=182.239.34.0/23 } on-error={}
 :do { add list=PH address=182.239.36.0/23 } on-error={}
 :do { add list=PH address=182.239.38.0/24 } on-error={}
-:do { add list=PH address=182.255.28.0/24 } on-error={}
+:do { add list=PH address=182.255.28.0/23 } on-error={}
 :do { add list=PH address=182.255.30.0/24 } on-error={}
+:do { add list=PH address=182.255.31.0/27 } on-error={}
+:do { add list=PH address=182.255.31.32/28 } on-error={}
 :do { add list=PH address=182.255.40.0/22 } on-error={}
 :do { add list=PH address=183.81.227.0/24 } on-error={}
 :do { add list=PH address=183.177.112.0/21 } on-error={}
@@ -5395,7 +5396,7 @@
 :do { add list=PH address=210.87.99.0/24 } on-error={}
 :do { add list=PH address=210.176.35.0/24 } on-error={}
 :do { add list=PH address=210.176.36.0/24 } on-error={}
-:do { add list=PH address=210.176.138.134/32 } on-error={}
+:do { add list=PH address=210.176.138.134/31 } on-error={}
 :do { add list=PH address=210.176.143.0/24 } on-error={}
 :do { add list=PH address=210.185.160.0/21 } on-error={}
 :do { add list=PH address=210.185.168.0/21 } on-error={}

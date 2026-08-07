@@ -1142,7 +1142,6 @@
 :do { add list=CR address=209.130.131.41/32 } on-error={}
 :do { add list=CR address=209.170.100.56/29 } on-error={}
 :do { add list=CR address=209.198.217.96/29 } on-error={}
-:do { add list=CR address=209.198.217.184/29 } on-error={}
 :do { add list=CR address=209.198.217.200/30 } on-error={}
 :do { add list=CR address=209.198.217.224/29 } on-error={}
 :do { add list=CR address=209.213.176.0/21 } on-error={}

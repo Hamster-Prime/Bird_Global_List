@@ -4,6 +4,7 @@
 :do { add list=NP address=5.62.61.54/31 } on-error={}
 :do { add list=NP address=5.62.63.44/30 } on-error={}
 :do { add list=NP address=14.137.51.128/25 } on-error={}
+:do { add list=NP address=14.137.53.0/24 } on-error={}
 :do { add list=NP address=27.34.0.0/17 } on-error={}
 :do { add list=NP address=27.111.16.0/20 } on-error={}
 :do { add list=NP address=36.0.4.0/22 } on-error={}

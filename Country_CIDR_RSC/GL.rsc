@@ -145,9 +145,7 @@
 :do { add list=GL address=194.177.227.136/30 } on-error={}
 :do { add list=GL address=194.177.227.140/31 } on-error={}
 :do { add list=GL address=194.177.227.142/32 } on-error={}
-:do { add list=GL address=194.177.227.144/31 } on-error={}
-:do { add list=GL address=194.177.227.146/32 } on-error={}
-:do { add list=GL address=194.177.227.148/30 } on-error={}
+:do { add list=GL address=194.177.227.144/29 } on-error={}
 :do { add list=GL address=194.177.227.152/31 } on-error={}
 :do { add list=GL address=194.177.227.154/32 } on-error={}
 :do { add list=GL address=194.177.227.156/30 } on-error={}
