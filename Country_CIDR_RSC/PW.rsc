@@ -60,6 +60,7 @@
 :do { add list=PW address=172.225.127.128/27 } on-error={}
 :do { add list=PW address=179.65.130.0/23 } on-error={}
 :do { add list=PW address=179.65.152.0/23 } on-error={}
+:do { add list=PW address=192.42.241.13/32 } on-error={}
 :do { add list=PW address=196.48.154.0/24 } on-error={}
 :do { add list=PW address=196.56.154.0/24 } on-error={}
 :do { add list=PW address=196.57.154.0/24 } on-error={}

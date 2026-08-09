@@ -91,7 +91,6 @@
 :do { add list=KN address=146.75.248.26/31 } on-error={}
 :do { add list=KN address=149.112.30.0/24 } on-error={}
 :do { add list=KN address=153.67.162.0/23 } on-error={}
-:do { add list=KN address=157.167.124.0/24 } on-error={}
 :do { add list=KN address=162.120.193.228/32 } on-error={}
 :do { add list=KN address=162.120.202.217/32 } on-error={}
 :do { add list=KN address=162.222.86.128/25 } on-error={}

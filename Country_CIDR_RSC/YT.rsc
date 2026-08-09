@@ -1,6 +1,5 @@
 /log info "Loading YT IPv4 Address List"
 /ip firewall address-list
-:do { add list=YT address=5.102.72.0/24 } on-error={}
 :do { add list=YT address=41.242.116.0/22 } on-error={}
 :do { add list=YT address=46.193.53.121/32 } on-error={}
 :do { add list=YT address=46.193.53.149/32 } on-error={}
@@ -46,8 +45,7 @@
 :do { add list=YT address=92.142.221.64/26 } on-error={}
 :do { add list=YT address=92.142.221.128/25 } on-error={}
 :do { add list=YT address=92.142.222.0/24 } on-error={}
-:do { add list=YT address=94.124.154.0/24 } on-error={}
-:do { add list=YT address=94.124.159.0/24 } on-error={}
+:do { add list=YT address=94.124.154.159/32 } on-error={}
 :do { add list=YT address=102.135.226.0/23 } on-error={}
 :do { add list=YT address=102.135.229.0/24 } on-error={}
 :do { add list=YT address=104.28.15.100/31 } on-error={}
@@ -94,7 +92,6 @@
 :do { add list=YT address=146.75.185.182/31 } on-error={}
 :do { add list=YT address=153.67.90.0/23 } on-error={}
 :do { add list=YT address=153.67.92.0/23 } on-error={}
-:do { add list=YT address=154.67.12.151/32 } on-error={}
 :do { add list=YT address=163.116.164.165/32 } on-error={}
 :do { add list=YT address=163.116.164.166/32 } on-error={}
 :do { add list=YT address=163.116.205.112/32 } on-error={}
@@ -109,16 +106,6 @@
 :do { add list=YT address=193.55.5.128/26 } on-error={}
 :do { add list=YT address=193.248.117.0/24 } on-error={}
 :do { add list=YT address=193.248.118.0/23 } on-error={}
-:do { add list=YT address=194.3.192.22/32 } on-error={}
-:do { add list=YT address=194.3.192.43/32 } on-error={}
-:do { add list=YT address=194.3.192.50/32 } on-error={}
-:do { add list=YT address=194.3.192.94/31 } on-error={}
-:do { add list=YT address=194.3.192.99/32 } on-error={}
-:do { add list=YT address=194.3.192.103/32 } on-error={}
-:do { add list=YT address=194.3.192.104/32 } on-error={}
-:do { add list=YT address=194.3.192.109/32 } on-error={}
-:do { add list=YT address=194.3.192.117/32 } on-error={}
-:do { add list=YT address=194.3.192.121/32 } on-error={}
 :do { add list=YT address=194.3.198.194/32 } on-error={}
 :do { add list=YT address=213.55.61.42/32 } on-error={}
 :do { add list=YT address=213.222.123.177/32 } on-error={}
