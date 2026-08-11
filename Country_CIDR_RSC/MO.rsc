@@ -149,6 +149,7 @@
 :do { add list=MO address=178.253.32.0/24 } on-error={}
 :do { add list=MO address=180.94.128.0/18 } on-error={}
 :do { add list=MO address=182.93.0.0/18 } on-error={}
+:do { add list=MO address=184.104.216.96/27 } on-error={}
 :do { add list=MO address=185.138.17.81/32 } on-error={}
 :do { add list=MO address=185.164.53.112/28 } on-error={}
 :do { add list=MO address=188.93.236.0/24 } on-error={}

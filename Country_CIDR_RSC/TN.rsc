@@ -506,16 +506,10 @@
 :do { add list=TN address=196.203.247.0/24 } on-error={}
 :do { add list=TN address=196.203.248.0/21 } on-error={}
 :do { add list=TN address=196.216.156.0/24 } on-error={}
-:do { add list=TN address=196.216.159.0/27 } on-error={}
-:do { add list=TN address=196.216.159.32/28 } on-error={}
 :do { add list=TN address=196.216.159.56/29 } on-error={}
 :do { add list=TN address=196.216.159.64/28 } on-error={}
 :do { add list=TN address=196.216.159.84/32 } on-error={}
-:do { add list=TN address=196.216.159.86/31 } on-error={}
 :do { add list=TN address=196.216.159.96/30 } on-error={}
-:do { add list=TN address=196.216.159.102/31 } on-error={}
-:do { add list=TN address=196.216.159.104/29 } on-error={}
-:do { add list=TN address=196.216.159.112/28 } on-error={}
 :do { add list=TN address=196.224.0.0/12 } on-error={}
 :do { add list=TN address=197.0.0.0/15 } on-error={}
 :do { add list=TN address=197.2.0.0/16 } on-error={}

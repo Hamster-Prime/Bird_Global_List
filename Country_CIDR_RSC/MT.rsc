@@ -379,7 +379,7 @@
 :do { add list=MT address=195.10.217.0/24 } on-error={}
 :do { add list=MT address=195.38.30.0/24 } on-error={}
 :do { add list=MT address=195.138.224.0/21 } on-error={}
-:do { add list=MT address=195.149.126.240/28 } on-error={}
+:do { add list=MT address=195.149.126.0/24 } on-error={}
 :do { add list=MT address=195.158.64.0/18 } on-error={}
 :do { add list=MT address=195.160.232.2/31 } on-error={}
 :do { add list=MT address=195.160.232.96/30 } on-error={}

@@ -39,8 +39,17 @@
 :do { add list=LI address=45.90.8.0/23 } on-error={}
 :do { add list=LI address=45.90.10.128/25 } on-error={}
 :do { add list=LI address=45.90.11.0/24 } on-error={}
+:do { add list=LI address=45.128.16.0/27 } on-error={}
+:do { add list=LI address=45.128.16.32/31 } on-error={}
+:do { add list=LI address=45.128.16.35/32 } on-error={}
+:do { add list=LI address=45.128.16.36/30 } on-error={}
+:do { add list=LI address=45.128.16.40/29 } on-error={}
+:do { add list=LI address=45.128.16.48/28 } on-error={}
+:do { add list=LI address=45.128.16.64/27 } on-error={}
+:do { add list=LI address=45.128.16.96/28 } on-error={}
 :do { add list=LI address=45.128.16.128/26 } on-error={}
 :do { add list=LI address=45.128.16.192/27 } on-error={}
+:do { add list=LI address=45.128.16.248/29 } on-error={}
 :do { add list=LI address=45.128.17.0/24 } on-error={}
 :do { add list=LI address=46.18.111.0/24 } on-error={}
 :do { add list=LI address=57.79.176.0/23 } on-error={}
@@ -49,6 +58,7 @@
 :do { add list=LI address=69.161.159.0/24 } on-error={}
 :do { add list=LI address=72.14.198.53/32 } on-error={}
 :do { add list=LI address=75.125.64.0/24 } on-error={}
+:do { add list=LI address=77.237.196.56/29 } on-error={}
 :do { add list=LI address=77.237.208.90/32 } on-error={}
 :do { add list=LI address=80.66.224.0/21 } on-error={}
 :do { add list=LI address=80.66.232.0/22 } on-error={}
@@ -311,7 +321,10 @@
 :do { add list=LI address=194.147.69.126/31 } on-error={}
 :do { add list=LI address=194.147.69.128/25 } on-error={}
 :do { add list=LI address=194.147.196.0/22 } on-error={}
-:do { add list=LI address=194.147.200.0/21 } on-error={}
+:do { add list=LI address=194.147.200.0/22 } on-error={}
+:do { add list=LI address=194.147.204.0/23 } on-error={}
+:do { add list=LI address=194.147.206.0/24 } on-error={}
+:do { add list=LI address=194.147.207.0/24 } on-error={}
 :do { add list=LI address=194.159.40.129/32 } on-error={}
 :do { add list=LI address=195.2.8.147/32 } on-error={}
 :do { add list=LI address=195.2.10.63/32 } on-error={}

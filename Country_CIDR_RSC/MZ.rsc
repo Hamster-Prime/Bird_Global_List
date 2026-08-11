@@ -213,11 +213,6 @@
 :do { add list=MZ address=196.28.224.0/20 } on-error={}
 :do { add list=MZ address=196.32.210.37/32 } on-error={}
 :do { add list=MZ address=196.32.210.39/32 } on-error={}
-:do { add list=MZ address=196.32.210.52/31 } on-error={}
-:do { add list=MZ address=196.32.211.5/32 } on-error={}
-:do { add list=MZ address=196.32.211.29/32 } on-error={}
-:do { add list=MZ address=196.32.211.33/32 } on-error={}
-:do { add list=MZ address=196.32.211.238/32 } on-error={}
 :do { add list=MZ address=196.40.112.0/20 } on-error={}
 :do { add list=MZ address=196.43.234.0/24 } on-error={}
 :do { add list=MZ address=196.43.241.0/24 } on-error={}

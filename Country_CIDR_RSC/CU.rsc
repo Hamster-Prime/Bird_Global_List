@@ -1,6 +1,5 @@
 /log info "Loading CU IPv4 Address List"
 /ip firewall address-list
-:do { add list=CU address=2.255.249.214/32 } on-error={}
 :do { add list=CU address=5.53.3.243/32 } on-error={}
 :do { add list=CU address=5.62.56.72/30 } on-error={}
 :do { add list=CU address=5.62.58.68/30 } on-error={}

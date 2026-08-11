@@ -232,7 +232,7 @@
 :do { add list=EE address=62.115.200.228/31 } on-error={}
 :do { add list=EE address=62.115.202.224/30 } on-error={}
 :do { add list=EE address=62.115.205.224/30 } on-error={}
-:do { add list=EE address=62.115.215.8/31 } on-error={}
+:do { add list=EE address=62.115.215.9/32 } on-error={}
 :do { add list=EE address=62.115.215.58/31 } on-error={}
 :do { add list=EE address=62.115.215.60/30 } on-error={}
 :do { add list=EE address=62.115.215.64/31 } on-error={}
@@ -531,6 +531,7 @@
 :do { add list=EE address=91.208.26.0/24 } on-error={}
 :do { add list=EE address=91.212.244.0/24 } on-error={}
 :do { add list=EE address=91.213.43.0/24 } on-error={}
+:do { add list=EE address=91.213.126.0/24 } on-error={}
 :do { add list=EE address=91.216.86.0/24 } on-error={}
 :do { add list=EE address=91.217.50.0/24 } on-error={}
 :do { add list=EE address=91.217.240.0/24 } on-error={}
@@ -1383,6 +1384,7 @@
 :do { add list=EE address=193.56.122.0/24 } on-error={}
 :do { add list=EE address=193.109.120.0/24 } on-error={}
 :do { add list=EE address=193.138.8.0/24 } on-error={}
+:do { add list=EE address=193.138.27.0/24 } on-error={}
 :do { add list=EE address=193.143.8.0/21 } on-error={}
 :do { add list=EE address=193.143.240.0/21 } on-error={}
 :do { add list=EE address=193.148.76.0/22 } on-error={}
@@ -1624,6 +1626,7 @@
 :do { add list=EE address=204.9.164.64/27 } on-error={}
 :do { add list=EE address=204.9.165.80/29 } on-error={}
 :do { add list=EE address=204.17.195.0/24 } on-error={}
+:do { add list=EE address=204.61.210.194/32 } on-error={}
 :do { add list=EE address=206.123.128.0/24 } on-error={}
 :do { add list=EE address=206.148.26.104/32 } on-error={}
 :do { add list=EE address=206.148.26.107/32 } on-error={}
@@ -1730,6 +1733,7 @@
 :do { add list=EE address=212.151.253.0/26 } on-error={}
 :do { add list=EE address=212.151.254.128/26 } on-error={}
 :do { add list=EE address=212.188.28.6/32 } on-error={}
+:do { add list=EE address=212.188.28.57/32 } on-error={}
 :do { add list=EE address=212.188.29.17/32 } on-error={}
 :do { add list=EE address=212.188.55.54/32 } on-error={}
 :do { add list=EE address=212.192.10.0/24 } on-error={}
