@@ -57,6 +57,7 @@
 :do { add list=MD address=37.233.1.240/29 } on-error={}
 :do { add list=MD address=37.233.1.248/30 } on-error={}
 :do { add list=MD address=37.233.1.252/32 } on-error={}
+:do { add list=MD address=37.233.1.254/31 } on-error={}
 :do { add list=MD address=37.233.2.0/23 } on-error={}
 :do { add list=MD address=37.233.4.0/22 } on-error={}
 :do { add list=MD address=37.233.8.0/21 } on-error={}

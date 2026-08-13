@@ -98,17 +98,7 @@
 :do { add list=MT address=80.77.206.0/24 } on-error={}
 :do { add list=MT address=80.77.207.0/24 } on-error={}
 :do { add list=MT address=80.81.195.251/32 } on-error={}
-:do { add list=MT address=80.85.96.0/23 } on-error={}
-:do { add list=MT address=80.85.98.0/25 } on-error={}
-:do { add list=MT address=80.85.98.128/26 } on-error={}
-:do { add list=MT address=80.85.98.192/28 } on-error={}
-:do { add list=MT address=80.85.98.208/30 } on-error={}
-:do { add list=MT address=80.85.98.214/32 } on-error={}
-:do { add list=MT address=80.85.98.216/29 } on-error={}
-:do { add list=MT address=80.85.98.224/27 } on-error={}
-:do { add list=MT address=80.85.99.0/24 } on-error={}
-:do { add list=MT address=80.85.100.0/22 } on-error={}
-:do { add list=MT address=80.85.104.0/21 } on-error={}
+:do { add list=MT address=80.85.96.0/20 } on-error={}
 :do { add list=MT address=80.93.144.0/20 } on-error={}
 :do { add list=MT address=80.245.210.0/23 } on-error={}
 :do { add list=MT address=80.245.213.0/24 } on-error={}
@@ -116,6 +106,7 @@
 :do { add list=MT address=80.245.216.0/21 } on-error={}
 :do { add list=MT address=80.254.80.0/20 } on-error={}
 :do { add list=MT address=82.38.43.112/28 } on-error={}
+:do { add list=MT address=82.113.16.255/32 } on-error={}
 :do { add list=MT address=82.149.80.0/31 } on-error={}
 :do { add list=MT address=83.97.88.129/32 } on-error={}
 :do { add list=MT address=83.142.248.0/22 } on-error={}

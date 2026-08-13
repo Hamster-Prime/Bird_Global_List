@@ -379,6 +379,7 @@
 :do { add list=AL address=185.120.181.0/24 } on-error={}
 :do { add list=AL address=185.122.228.0/22 } on-error={}
 :do { add list=AL address=185.132.92.0/23 } on-error={}
+:do { add list=AL address=185.132.94.0/24 } on-error={}
 :do { add list=AL address=185.132.95.0/24 } on-error={}
 :do { add list=AL address=185.138.17.64/32 } on-error={}
 :do { add list=AL address=185.139.4.0/24 } on-error={}

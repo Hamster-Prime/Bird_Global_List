@@ -83,6 +83,8 @@
 :do { add list=OM address=57.83.104.0/21 } on-error={}
 :do { add list=OM address=57.88.176.0/20 } on-error={}
 :do { add list=OM address=57.144.148.0/23 } on-error={}
+:do { add list=OM address=58.65.193.233/32 } on-error={}
+:do { add list=OM address=58.65.193.237/32 } on-error={}
 :do { add list=OM address=59.153.156.0/24 } on-error={}
 :do { add list=OM address=62.3.46.0/24 } on-error={}
 :do { add list=OM address=62.61.160.0/19 } on-error={}
