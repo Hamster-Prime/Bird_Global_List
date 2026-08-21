@@ -9794,7 +9794,6 @@
 :do { add list=Global address=163.61.60.0/23 } on-error={}
 :do { add list=Global address=163.48.0.0/14 } on-error={}
 :do { add list=Global address=163.54.0.0/15 } on-error={}
-:do { add list=Global address=163.52.0.0/16 } on-error={}
 :do { add list=Global address=163.53.192.0/19 } on-error={}
 :do { add list=Global address=163.53.224.0/20 } on-error={}
 :do { add list=Global address=163.53.248.0/21 } on-error={}
@@ -9808,6 +9807,13 @@
 :do { add list=Global address=163.53.68.0/22 } on-error={}
 :do { add list=Global address=163.53.32.0/22 } on-error={}
 :do { add list=Global address=163.53.16.0/20 } on-error={}
+:do { add list=Global address=163.52.128.0/17 } on-error={}
+:do { add list=Global address=163.52.64.0/18 } on-error={}
+:do { add list=Global address=163.52.32.0/19 } on-error={}
+:do { add list=Global address=163.52.0.0/20 } on-error={}
+:do { add list=Global address=163.52.16.0/21 } on-error={}
+:do { add list=Global address=163.52.24.0/22 } on-error={}
+:do { add list=Global address=163.52.30.0/23 } on-error={}
 :do { add list=Global address=163.32.0.0/13 } on-error={}
 :do { add list=Global address=163.40.0.0/14 } on-error={}
 :do { add list=Global address=163.44.0.0/15 } on-error={}
