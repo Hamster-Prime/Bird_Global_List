@@ -13378,11 +13378,7 @@
 :do { add list=Global address=2400:7342::/31 } on-error={}
 :do { add list=Global address=2400:7341::/32 } on-error={}
 :do { add list=Global address=2400:7280::/26 } on-error={}
-:do { add list=Global address=2400:72f0::/28 } on-error={}
-:do { add list=Global address=2400:72e8::/29 } on-error={}
-:do { add list=Global address=2400:72e4::/30 } on-error={}
-:do { add list=Global address=2400:72e2::/31 } on-error={}
-:do { add list=Global address=2400:72e1::/32 } on-error={}
+:do { add list=Global address=2400:72e0::/27 } on-error={}
 :do { add list=Global address=2400:72d0::/28 } on-error={}
 :do { add list=Global address=2400:72c8::/29 } on-error={}
 :do { add list=Global address=2400:72c4::/30 } on-error={}

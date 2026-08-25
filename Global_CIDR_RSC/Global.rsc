@@ -5786,13 +5786,7 @@
 :do { add list=Global address=103.52.48.0/20 } on-error={}
 :do { add list=Global address=103.52.32.0/21 } on-error={}
 :do { add list=Global address=103.52.44.0/22 } on-error={}
-:do { add list=Global address=103.51.128.0/17 } on-error={}
-:do { add list=Global address=103.51.64.0/18 } on-error={}
-:do { add list=Global address=103.51.0.0/19 } on-error={}
-:do { add list=Global address=103.51.32.0/20 } on-error={}
-:do { add list=Global address=103.51.48.0/21 } on-error={}
-:do { add list=Global address=103.51.56.0/22 } on-error={}
-:do { add list=Global address=103.51.60.0/23 } on-error={}
+:do { add list=Global address=103.51.0.0/16 } on-error={}
 :do { add list=Global address=103.50.252.0/22 } on-error={}
 :do { add list=Global address=103.50.208.0/21 } on-error={}
 :do { add list=Global address=103.50.216.0/22 } on-error={}
