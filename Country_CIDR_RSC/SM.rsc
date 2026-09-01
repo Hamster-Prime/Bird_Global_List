@@ -1,11 +1,9 @@
 /log info "Loading SM IPv4 Address List"
 /ip firewall address-list
-:do { add list=SM address=5.62.61.117/32 } on-error={}
-:do { add list=SM address=5.62.61.118/31 } on-error={}
 :do { add list=SM address=5.62.63.96/30 } on-error={}
 :do { add list=SM address=5.183.163.0/24 } on-error={}
 :do { add list=SM address=9.246.84.0/23 } on-error={}
-:do { add list=SM address=31.193.32.0/22 } on-error={}
+:do { add list=SM address=31.193.32.0/21 } on-error={}
 :do { add list=SM address=45.65.80.0/22 } on-error={}
 :do { add list=SM address=57.79.180.0/23 } on-error={}
 :do { add list=SM address=57.79.208.0/21 } on-error={}
@@ -27,7 +25,6 @@
 :do { add list=SM address=89.186.50.0/24 } on-error={}
 :do { add list=SM address=89.186.54.0/23 } on-error={}
 :do { add list=SM address=89.186.56.0/21 } on-error={}
-:do { add list=SM address=91.201.67.176/32 } on-error={}
 :do { add list=SM address=94.232.114.0/23 } on-error={}
 :do { add list=SM address=94.232.117.0/24 } on-error={}
 :do { add list=SM address=104.28.13.31/32 } on-error={}
@@ -48,7 +45,6 @@
 :do { add list=SM address=104.28.245.248/32 } on-error={}
 :do { add list=SM address=109.233.80.0/21 } on-error={}
 :do { add list=SM address=109.235.104.0/21 } on-error={}
-:do { add list=SM address=134.82.75.248/29 } on-error={}
 :do { add list=SM address=140.248.37.38/31 } on-error={}
 :do { add list=SM address=140.248.40.186/31 } on-error={}
 :do { add list=SM address=140.248.56.203/32 } on-error={}
@@ -61,6 +57,7 @@
 :do { add list=SM address=140.248.63.203/32 } on-error={}
 :do { add list=SM address=146.75.186.32/31 } on-error={}
 :do { add list=SM address=151.240.79.80/28 } on-error={}
+:do { add list=SM address=157.167.109.0/24 } on-error={}
 :do { add list=SM address=162.120.206.19/32 } on-error={}
 :do { add list=SM address=162.120.215.5/32 } on-error={}
 :do { add list=SM address=163.116.172.194/31 } on-error={}
@@ -79,7 +76,6 @@
 :do { add list=SM address=185.86.62.0/23 } on-error={}
 :do { add list=SM address=185.112.132.41/32 } on-error={}
 :do { add list=SM address=185.125.240.0/24 } on-error={}
-:do { add list=SM address=185.138.17.170/32 } on-error={}
 :do { add list=SM address=185.168.170.0/23 } on-error={}
 :do { add list=SM address=188.209.140.80/28 } on-error={}
 :do { add list=SM address=192.145.48.0/22 } on-error={}

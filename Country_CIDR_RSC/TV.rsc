@@ -2,9 +2,11 @@
 /ip firewall address-list
 :do { add list=TV address=5.62.56.240/30 } on-error={}
 :do { add list=TV address=5.62.58.220/30 } on-error={}
+:do { add list=TV address=14.137.42.0/24 } on-error={}
 :do { add list=TV address=57.70.170.0/23 } on-error={}
 :do { add list=TV address=57.71.64.0/20 } on-error={}
 :do { add list=TV address=66.96.121.64/26 } on-error={}
+:do { add list=TV address=103.103.61.168/31 } on-error={}
 :do { add list=TV address=104.28.13.128/31 } on-error={}
 :do { add list=TV address=104.28.13.130/32 } on-error={}
 :do { add list=TV address=104.28.29.83/32 } on-error={}
@@ -43,7 +45,6 @@
 :do { add list=TV address=172.225.157.48/28 } on-error={}
 :do { add list=TV address=172.225.231.96/28 } on-error={}
 :do { add list=TV address=172.225.245.32/28 } on-error={}
-:do { add list=TV address=185.55.242.0/24 } on-error={}
 :do { add list=TV address=196.48.196.0/24 } on-error={}
 :do { add list=TV address=196.56.196.0/24 } on-error={}
 :do { add list=TV address=196.57.196.0/24 } on-error={}

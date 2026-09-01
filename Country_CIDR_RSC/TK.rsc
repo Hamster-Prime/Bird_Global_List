@@ -7,7 +7,6 @@
 :do { add list=TK address=27.96.28.0/23 } on-error={}
 :do { add list=TK address=27.96.30.0/24 } on-error={}
 :do { add list=TK address=27.96.31.0/24 } on-error={}
-:do { add list=TK address=66.116.95.241/32 } on-error={}
 :do { add list=TK address=83.147.248.0/22 } on-error={}
 :do { add list=TK address=104.28.13.91/32 } on-error={}
 :do { add list=TK address=104.28.13.92/31 } on-error={}

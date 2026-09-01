@@ -1,10 +1,9 @@
 /log info "Loading GW IPv4 Address List"
 /ip firewall address-list
-:do { add list=GW address=5.62.60.169/32 } on-error={}
-:do { add list=GW address=5.62.60.170/31 } on-error={}
 :do { add list=GW address=5.62.62.160/30 } on-error={}
 :do { add list=GW address=57.82.162.0/23 } on-error={}
 :do { add list=GW address=84.254.160.0/24 } on-error={}
+:do { add list=GW address=102.201.160.0/22 } on-error={}
 :do { add list=GW address=102.219.174.0/23 } on-error={}
 :do { add list=GW address=104.28.10.110/31 } on-error={}
 :do { add list=GW address=104.28.10.112/32 } on-error={}
@@ -51,7 +50,6 @@
 :do { add list=GW address=172.226.183.128/27 } on-error={}
 :do { add list=GW address=179.64.92.0/23 } on-error={}
 :do { add list=GW address=185.112.135.19/32 } on-error={}
-:do { add list=GW address=185.138.17.148/32 } on-error={}
 :do { add list=GW address=193.251.251.182/32 } on-error={}
 :do { add list=GW address=196.48.95.0/24 } on-error={}
 :do { add list=GW address=196.56.95.0/24 } on-error={}

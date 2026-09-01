@@ -1,7 +1,5 @@
 /log info "Loading CV IPv4 Address List"
 /ip firewall address-list
-:do { add list=CV address=5.62.60.73/32 } on-error={}
-:do { add list=CV address=5.62.60.74/31 } on-error={}
 :do { add list=CV address=5.62.62.72/30 } on-error={}
 :do { add list=CV address=38.41.80.0/21 } on-error={}
 :do { add list=CV address=38.44.64.0/20 } on-error={}
@@ -63,6 +61,19 @@
 :do { add list=CV address=156.233.144.0/21 } on-error={}
 :do { add list=CV address=156.238.40.0/21 } on-error={}
 :do { add list=CV address=156.252.136.0/21 } on-error={}
+:do { add list=CV address=160.0.131.176/29 } on-error={}
+:do { add list=CV address=160.0.131.191/32 } on-error={}
+:do { add list=CV address=160.0.131.200/29 } on-error={}
+:do { add list=CV address=160.0.132.0/25 } on-error={}
+:do { add list=CV address=160.0.134.0/25 } on-error={}
+:do { add list=CV address=160.0.140.0/26 } on-error={}
+:do { add list=CV address=160.0.140.128/31 } on-error={}
+:do { add list=CV address=160.0.140.192/26 } on-error={}
+:do { add list=CV address=160.0.142.0/31 } on-error={}
+:do { add list=CV address=160.0.142.2/32 } on-error={}
+:do { add list=CV address=160.0.142.4/30 } on-error={}
+:do { add list=CV address=160.0.142.8/29 } on-error={}
+:do { add list=CV address=160.0.143.0/24 } on-error={}
 :do { add list=CV address=162.120.204.68/32 } on-error={}
 :do { add list=CV address=162.120.205.1/32 } on-error={}
 :do { add list=CV address=163.116.169.103/32 } on-error={}
@@ -73,7 +84,6 @@
 :do { add list=CV address=163.116.245.55/32 } on-error={}
 :do { add list=CV address=165.90.96.0/19 } on-error={}
 :do { add list=CV address=169.239.12.0/22 } on-error={}
-:do { add list=CV address=170.238.233.18/31 } on-error={}
 :do { add list=CV address=172.225.159.0/28 } on-error={}
 :do { add list=CV address=172.225.162.16/28 } on-error={}
 :do { add list=CV address=172.225.178.48/28 } on-error={}
@@ -82,10 +92,7 @@
 :do { add list=CV address=172.226.116.64/27 } on-error={}
 :do { add list=CV address=179.64.20.0/23 } on-error={}
 :do { add list=CV address=179.64.100.0/23 } on-error={}
-:do { add list=CV address=184.104.231.126/32 } on-error={}
 :do { add list=CV address=185.112.135.17/32 } on-error={}
-:do { add list=CV address=185.138.17.166/32 } on-error={}
-:do { add list=CV address=195.8.10.158/32 } on-error={}
 :do { add list=CV address=196.48.63.0/24 } on-error={}
 :do { add list=CV address=196.49.96.0/24 } on-error={}
 :do { add list=CV address=196.56.63.0/24 } on-error={}

@@ -1,7 +1,5 @@
 /log info "Loading YE IPv4 Address List"
 /ip firewall address-list
-:do { add list=YE address=5.62.61.217/32 } on-error={}
-:do { add list=YE address=5.62.61.218/31 } on-error={}
 :do { add list=YE address=5.62.63.204/30 } on-error={}
 :do { add list=YE address=5.100.160.0/21 } on-error={}
 :do { add list=YE address=5.255.0.0/21 } on-error={}
@@ -10,12 +8,11 @@
 :do { add list=YE address=9.246.38.0/23 } on-error={}
 :do { add list=YE address=9.246.68.0/22 } on-error={}
 :do { add list=YE address=9.246.72.0/23 } on-error={}
+:do { add list=YE address=9.246.148.0/22 } on-error={}
 :do { add list=YE address=31.31.176.0/20 } on-error={}
 :do { add list=YE address=46.35.64.0/19 } on-error={}
 :do { add list=YE address=46.161.224.0/19 } on-error={}
 :do { add list=YE address=57.89.16.0/20 } on-error={}
-:do { add list=YE address=62.115.148.119/32 } on-error={}
-:do { add list=YE address=62.216.155.26/32 } on-error={}
 :do { add list=YE address=63.173.172.0/23 } on-error={}
 :do { add list=YE address=65.162.184.0/23 } on-error={}
 :do { add list=YE address=78.137.64.0/19 } on-error={}
@@ -97,6 +94,7 @@
 :do { add list=YE address=146.75.160.176/31 } on-error={}
 :do { add list=YE address=146.75.166.142/31 } on-error={}
 :do { add list=YE address=150.228.10.0/23 } on-error={}
+:do { add list=YE address=157.167.77.0/24 } on-error={}
 :do { add list=YE address=159.26.127.184/30 } on-error={}
 :do { add list=YE address=159.254.17.0/24 } on-error={}
 :do { add list=YE address=163.116.167.152/31 } on-error={}
@@ -115,10 +113,7 @@
 :do { add list=YE address=185.80.44.0/22 } on-error={}
 :do { add list=YE address=185.80.140.0/22 } on-error={}
 :do { add list=YE address=185.112.200.0/22 } on-error={}
-:do { add list=YE address=185.138.17.112/32 } on-error={}
 :do { add list=YE address=185.240.64.0/22 } on-error={}
-:do { add list=YE address=186.247.69.2/32 } on-error={}
-:do { add list=YE address=186.247.69.22/32 } on-error={}
 :do { add list=YE address=188.209.224.0/19 } on-error={}
 :do { add list=YE address=188.240.96.0/19 } on-error={}
 :do { add list=YE address=195.94.0.0/21 } on-error={}

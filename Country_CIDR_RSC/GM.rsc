@@ -1,7 +1,5 @@
 /log info "Loading GM IPv4 Address List"
 /ip firewall address-list
-:do { add list=GM address=5.62.60.141/32 } on-error={}
-:do { add list=GM address=5.62.60.142/31 } on-error={}
 :do { add list=GM address=5.62.62.136/30 } on-error={}
 :do { add list=GM address=41.76.8.0/21 } on-error={}
 :do { add list=GM address=41.138.246.0/24 } on-error={}
@@ -15,13 +13,11 @@
 :do { add list=GM address=102.132.114.0/24 } on-error={}
 :do { add list=GM address=102.140.128.0/19 } on-error={}
 :do { add list=GM address=102.203.168.0/23 } on-error={}
-:do { add list=GM address=102.203.170.0/24 } on-error={}
-:do { add list=GM address=102.203.171.0/24 } on-error={}
+:do { add list=GM address=102.203.170.0/23 } on-error={}
 :do { add list=GM address=102.206.88.0/22 } on-error={}
 :do { add list=GM address=102.211.12.0/22 } on-error={}
 :do { add list=GM address=102.211.244.0/22 } on-error={}
 :do { add list=GM address=102.213.220.0/22 } on-error={}
-:do { add list=GM address=102.215.58.38/32 } on-error={}
 :do { add list=GM address=102.215.58.63/32 } on-error={}
 :do { add list=GM address=102.215.58.160/32 } on-error={}
 :do { add list=GM address=102.215.58.190/32 } on-error={}
@@ -57,7 +53,7 @@
 :do { add list=GM address=146.75.210.32/31 } on-error={}
 :do { add list=GM address=146.196.128.0/17 } on-error={}
 :do { add list=GM address=149.6.144.27/32 } on-error={}
-:do { add list=GM address=149.6.144.138/32 } on-error={}
+:do { add list=GM address=149.6.145.226/32 } on-error={}
 :do { add list=GM address=153.67.64.0/23 } on-error={}
 :do { add list=GM address=154.53.192.0/23 } on-error={}
 :do { add list=GM address=155.251.0.0/16 } on-error={}
@@ -76,17 +72,16 @@
 :do { add list=GM address=172.225.178.128/28 } on-error={}
 :do { add list=GM address=172.225.212.176/28 } on-error={}
 :do { add list=GM address=179.64.94.0/23 } on-error={}
-:do { add list=GM address=185.35.140.47/32 } on-error={}
 :do { add list=GM address=185.35.140.99/32 } on-error={}
+:do { add list=GM address=185.35.141.20/32 } on-error={}
 :do { add list=GM address=185.35.141.65/32 } on-error={}
 :do { add list=GM address=185.35.141.67/32 } on-error={}
 :do { add list=GM address=185.35.141.139/32 } on-error={}
-:do { add list=GM address=185.35.141.163/32 } on-error={}
+:do { add list=GM address=185.35.141.157/32 } on-error={}
 :do { add list=GM address=185.35.142.111/32 } on-error={}
 :do { add list=GM address=185.35.142.113/32 } on-error={}
 :do { add list=GM address=185.35.142.115/32 } on-error={}
-:do { add list=GM address=185.138.17.147/32 } on-error={}
-:do { add list=GM address=195.8.30.158/32 } on-error={}
+:do { add list=GM address=195.8.10.54/32 } on-error={}
 :do { add list=GM address=196.46.232.0/21 } on-error={}
 :do { add list=GM address=196.48.89.0/24 } on-error={}
 :do { add list=GM address=196.49.1.0/24 } on-error={}
@@ -104,4 +99,3 @@
 :do { add list=GM address=197.242.128.0/20 } on-error={}
 :do { add list=GM address=197.255.192.0/20 } on-error={}
 :do { add list=GM address=212.60.64.0/19 } on-error={}
-:do { add list=GM address=213.144.168.213/32 } on-error={}

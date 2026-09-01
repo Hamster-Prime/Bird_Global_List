@@ -1,10 +1,9 @@
 /log info "Loading TL IPv4 Address List"
 /ip firewall address-list
-:do { add list=TL address=14.137.33.16/32 } on-error={}
-:do { add list=TL address=14.137.55.29/32 } on-error={}
-:do { add list=TL address=36.67.255.242/32 } on-error={}
+:do { add list=TL address=14.137.33.0/24 } on-error={}
+:do { add list=TL address=36.91.235.190/31 } on-error={}
 :do { add list=TL address=36.92.255.217/32 } on-error={}
-:do { add list=TL address=36.92.255.218/32 } on-error={}
+:do { add list=TL address=36.92.255.218/31 } on-error={}
 :do { add list=TL address=43.243.120.0/22 } on-error={}
 :do { add list=TL address=43.243.176.0/22 } on-error={}
 :do { add list=TL address=43.254.56.0/22 } on-error={}
@@ -13,7 +12,6 @@
 :do { add list=TL address=45.89.99.48/30 } on-error={}
 :do { add list=TL address=45.89.99.112/30 } on-error={}
 :do { add list=TL address=45.115.72.0/22 } on-error={}
-:do { add list=TL address=49.255.254.218/31 } on-error={}
 :do { add list=TL address=59.153.132.0/22 } on-error={}
 :do { add list=TL address=62.115.174.209/32 } on-error={}
 :do { add list=TL address=103.26.95.0/24 } on-error={}
@@ -22,6 +20,7 @@
 :do { add list=TL address=103.70.66.0/24 } on-error={}
 :do { add list=TL address=103.94.180.0/22 } on-error={}
 :do { add list=TL address=103.99.26.0/24 } on-error={}
+:do { add list=TL address=103.103.61.148/31 } on-error={}
 :do { add list=TL address=103.112.36.0/22 } on-error={}
 :do { add list=TL address=103.143.164.0/23 } on-error={}
 :do { add list=TL address=103.148.184.0/23 } on-error={}
@@ -32,9 +31,7 @@
 :do { add list=TL address=103.176.215.0/24 } on-error={}
 :do { add list=TL address=103.193.252.0/23 } on-error={}
 :do { add list=TL address=103.193.254.0/24 } on-error={}
-:do { add list=TL address=103.198.176.0/24 } on-error={}
-:do { add list=TL address=103.198.177.0/24 } on-error={}
-:do { add list=TL address=103.198.178.0/23 } on-error={}
+:do { add list=TL address=103.198.176.0/22 } on-error={}
 :do { add list=TL address=103.208.36.0/22 } on-error={}
 :do { add list=TL address=103.231.123.0/24 } on-error={}
 :do { add list=TL address=103.236.128.0/23 } on-error={}
@@ -81,14 +78,9 @@
 :do { add list=TL address=150.228.168.0/23 } on-error={}
 :do { add list=TL address=150.242.108.0/22 } on-error={}
 :do { add list=TL address=151.158.20.0/23 } on-error={}
+:do { add list=TL address=157.167.30.0/24 } on-error={}
 :do { add list=TL address=160.22.52.0/24 } on-error={}
 :do { add list=TL address=160.22.53.0/24 } on-error={}
-:do { add list=TL address=160.30.30.0/25 } on-error={}
-:do { add list=TL address=160.30.30.128/26 } on-error={}
-:do { add list=TL address=160.30.30.192/27 } on-error={}
-:do { add list=TL address=160.30.30.224/28 } on-error={}
-:do { add list=TL address=160.30.30.240/30 } on-error={}
-:do { add list=TL address=160.30.30.246/31 } on-error={}
 :do { add list=TL address=160.30.31.0/24 } on-error={}
 :do { add list=TL address=160.236.195.0/24 } on-error={}
 :do { add list=TL address=163.116.193.158/31 } on-error={}
@@ -103,6 +95,7 @@
 :do { add list=TL address=172.225.211.64/28 } on-error={}
 :do { add list=TL address=172.226.46.128/26 } on-error={}
 :do { add list=TL address=180.189.160.0/20 } on-error={}
+:do { add list=TL address=180.240.195.74/32 } on-error={}
 :do { add list=TL address=185.112.134.25/32 } on-error={}
 :do { add list=TL address=185.126.46.0/23 } on-error={}
 :do { add list=TL address=185.242.38.0/23 } on-error={}

@@ -2,12 +2,17 @@
 /ip firewall address-list
 :do { add list=WS address=5.62.56.208/30 } on-error={}
 :do { add list=WS address=5.62.58.188/30 } on-error={}
+:do { add list=WS address=43.241.164.128/27 } on-error={}
+:do { add list=WS address=43.241.164.160/28 } on-error={}
+:do { add list=WS address=43.241.164.184/30 } on-error={}
+:do { add list=WS address=43.241.164.192/26 } on-error={}
 :do { add list=WS address=57.70.168.0/23 } on-error={}
 :do { add list=WS address=57.71.16.0/20 } on-error={}
 :do { add list=WS address=82.25.20.0/24 } on-error={}
 :do { add list=WS address=103.9.230.0/23 } on-error={}
 :do { add list=WS address=103.55.178.0/24 } on-error={}
 :do { add list=WS address=103.63.27.0/24 } on-error={}
+:do { add list=WS address=103.103.63.158/31 } on-error={}
 :do { add list=WS address=103.131.62.0/23 } on-error={}
 :do { add list=WS address=103.143.149.0/24 } on-error={}
 :do { add list=WS address=103.154.194.0/23 } on-error={}
@@ -91,7 +96,6 @@
 :do { add list=WS address=182.50.72.0/22 } on-error={}
 :do { add list=WS address=182.50.168.0/22 } on-error={}
 :do { add list=WS address=185.112.134.29/32 } on-error={}
-:do { add list=WS address=185.138.17.104/32 } on-error={}
 :do { add list=WS address=196.48.168.0/24 } on-error={}
 :do { add list=WS address=196.56.168.0/24 } on-error={}
 :do { add list=WS address=196.57.168.0/24 } on-error={}
@@ -100,6 +104,12 @@
 :do { add list=WS address=196.198.168.0/24 } on-error={}
 :do { add list=WS address=196.199.168.0/24 } on-error={}
 :do { add list=WS address=198.54.100.88/31 } on-error={}
+:do { add list=WS address=202.4.32.0/30 } on-error={}
+:do { add list=WS address=202.4.32.6/31 } on-error={}
+:do { add list=WS address=202.4.32.13/32 } on-error={}
+:do { add list=WS address=202.4.32.32/27 } on-error={}
+:do { add list=WS address=202.4.32.64/26 } on-error={}
+:do { add list=WS address=202.4.32.128/25 } on-error={}
 :do { add list=WS address=202.4.33.0/24 } on-error={}
 :do { add list=WS address=202.4.34.0/23 } on-error={}
 :do { add list=WS address=202.4.36.0/22 } on-error={}

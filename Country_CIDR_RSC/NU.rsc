@@ -3,7 +3,9 @@
 :do { add list=NU address=5.62.56.152/30 } on-error={}
 :do { add list=NU address=5.62.58.144/30 } on-error={}
 :do { add list=NU address=14.1.76.0/23 } on-error={}
+:do { add list=NU address=14.137.50.128/25 } on-error={}
 :do { add list=NU address=49.156.48.0/22 } on-error={}
+:do { add list=NU address=103.103.61.176/31 } on-error={}
 :do { add list=NU address=104.28.12.83/32 } on-error={}
 :do { add list=NU address=104.28.12.84/31 } on-error={}
 :do { add list=NU address=104.28.29.71/32 } on-error={}
