@@ -13,3 +13,4 @@
 :do { add list=CX address=140.248.63.53/32 } on-error={}
 :do { add list=CX address=162.120.204.51/32 } on-error={}
 :do { add list=CX address=162.120.216.147/32 } on-error={}
+:do { add list=CX address=203.29.114.36/31 } on-error={}
