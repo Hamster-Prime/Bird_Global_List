@@ -14,7 +14,13 @@
 :do { add list=TD address=86.62.31.112/29 } on-error={}
 :do { add list=TD address=86.62.31.120/30 } on-error={}
 :do { add list=TD address=86.62.31.124/32 } on-error={}
-:do { add list=TD address=86.62.31.128/25 } on-error={}
+:do { add list=TD address=86.62.31.128/26 } on-error={}
+:do { add list=TD address=86.62.31.192/27 } on-error={}
+:do { add list=TD address=86.62.31.224/28 } on-error={}
+:do { add list=TD address=86.62.31.240/29 } on-error={}
+:do { add list=TD address=86.62.31.248/30 } on-error={}
+:do { add list=TD address=86.62.31.252/32 } on-error={}
+:do { add list=TD address=86.62.31.254/31 } on-error={}
 :do { add list=TD address=87.255.97.204/32 } on-error={}
 :do { add list=TD address=87.255.98.204/32 } on-error={}
 :do { add list=TD address=102.23.84.0/22 } on-error={}

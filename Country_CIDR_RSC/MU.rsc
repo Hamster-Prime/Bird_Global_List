@@ -315,7 +315,6 @@
 :do { add list=MU address=102.201.0.0/18 } on-error={}
 :do { add list=MU address=102.201.64.0/19 } on-error={}
 :do { add list=MU address=102.201.96.0/22 } on-error={}
-:do { add list=MU address=102.201.110.0/24 } on-error={}
 :do { add list=MU address=102.201.216.0/21 } on-error={}
 :do { add list=MU address=102.201.224.0/22 } on-error={}
 :do { add list=MU address=102.202.140.0/22 } on-error={}
@@ -1083,7 +1082,7 @@
 :do { add list=MU address=197.226.230.64/32 } on-error={}
 :do { add list=MU address=197.226.230.66/32 } on-error={}
 :do { add list=MU address=197.226.230.68/30 } on-error={}
-:do { add list=MU address=197.226.230.72/31 } on-error={}
+:do { add list=MU address=197.226.230.72/32 } on-error={}
 :do { add list=MU address=197.226.230.74/32 } on-error={}
 :do { add list=MU address=197.226.230.76/32 } on-error={}
 :do { add list=MU address=197.226.230.78/31 } on-error={}
@@ -1091,7 +1090,7 @@
 :do { add list=MU address=197.226.230.84/31 } on-error={}
 :do { add list=MU address=197.226.230.88/32 } on-error={}
 :do { add list=MU address=197.226.230.90/32 } on-error={}
-:do { add list=MU address=197.226.230.94/31 } on-error={}
+:do { add list=MU address=197.226.230.94/32 } on-error={}
 :do { add list=MU address=197.226.230.96/32 } on-error={}
 :do { add list=MU address=197.226.230.98/32 } on-error={}
 :do { add list=MU address=197.226.230.100/32 } on-error={}
@@ -1099,7 +1098,10 @@
 :do { add list=MU address=197.226.230.104/30 } on-error={}
 :do { add list=MU address=197.226.230.108/31 } on-error={}
 :do { add list=MU address=197.226.230.110/32 } on-error={}
-:do { add list=MU address=197.226.230.112/28 } on-error={}
+:do { add list=MU address=197.226.230.112/30 } on-error={}
+:do { add list=MU address=197.226.230.117/32 } on-error={}
+:do { add list=MU address=197.226.230.118/31 } on-error={}
+:do { add list=MU address=197.226.230.120/29 } on-error={}
 :do { add list=MU address=197.226.230.128/26 } on-error={}
 :do { add list=MU address=197.226.230.192/27 } on-error={}
 :do { add list=MU address=197.226.230.224/28 } on-error={}

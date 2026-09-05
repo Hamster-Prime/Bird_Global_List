@@ -96,7 +96,6 @@
 :do { add list=BM address=172.226.21.160/28 } on-error={}
 :do { add list=BM address=172.226.189.160/27 } on-error={}
 :do { add list=BM address=172.226.199.128/27 } on-error={}
-:do { add list=BM address=173.255.163.192/26 } on-error={}
 :do { add list=BM address=185.121.178.88/29 } on-error={}
 :do { add list=BM address=187.40.59.68/30 } on-error={}
 :do { add list=BM address=187.40.59.72/29 } on-error={}

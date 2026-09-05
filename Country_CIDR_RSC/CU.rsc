@@ -10,7 +10,6 @@
 :do { add list=CU address=66.226.65.0/32 } on-error={}
 :do { add list=CU address=69.79.100.98/32 } on-error={}
 :do { add list=CU address=81.173.106.147/32 } on-error={}
-:do { add list=CU address=83.219.96.128/25 } on-error={}
 :do { add list=CU address=84.16.26.131/32 } on-error={}
 :do { add list=CU address=89.221.37.183/32 } on-error={}
 :do { add list=CU address=89.238.155.0/25 } on-error={}
@@ -71,7 +70,6 @@
 :do { add list=CU address=163.116.134.184/31 } on-error={}
 :do { add list=CU address=163.116.250.141/32 } on-error={}
 :do { add list=CU address=163.116.250.142/32 } on-error={}
-:do { add list=CU address=168.100.15.252/32 } on-error={}
 :do { add list=CU address=168.113.13.0/24 } on-error={}
 :do { add list=CU address=168.113.40.0/24 } on-error={}
 :do { add list=CU address=168.113.88.0/24 } on-error={}

@@ -65,6 +65,4 @@
 :do { add list=TO address=196.199.192.0/24 } on-error={}
 :do { add list=TO address=198.54.100.86/31 } on-error={}
 :do { add list=TO address=202.43.8.0/21 } on-error={}
-:do { add list=TO address=202.134.24.0/22 } on-error={}
-:do { add list=TO address=202.134.28.0/24 } on-error={}
-:do { add list=TO address=202.134.30.0/23 } on-error={}
+:do { add list=TO address=202.134.24.0/21 } on-error={}

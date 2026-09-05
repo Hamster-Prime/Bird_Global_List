@@ -71,6 +71,7 @@
 :do { add list=AS address=198.52.28.32/28 } on-error={}
 :do { add list=AS address=198.52.28.52/30 } on-error={}
 :do { add list=AS address=198.52.28.64/27 } on-error={}
+:do { add list=AS address=198.52.28.102/32 } on-error={}
 :do { add list=AS address=198.52.28.112/28 } on-error={}
 :do { add list=AS address=198.52.28.144/28 } on-error={}
 :do { add list=AS address=198.52.28.192/28 } on-error={}

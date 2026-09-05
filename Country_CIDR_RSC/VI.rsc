@@ -32,7 +32,9 @@
 :do { add list=VI address=5.175.190.240/28 } on-error={}
 :do { add list=VI address=8.38.118.167/32 } on-error={}
 :do { add list=VI address=23.143.120.0/24 } on-error={}
+:do { add list=VI address=24.41.133.0/26 } on-error={}
 :do { add list=VI address=24.41.133.96/27 } on-error={}
+:do { add list=VI address=24.41.151.64/28 } on-error={}
 :do { add list=VI address=24.55.69.0/24 } on-error={}
 :do { add list=VI address=24.55.160.0/24 } on-error={}
 :do { add list=VI address=24.55.173.0/24 } on-error={}

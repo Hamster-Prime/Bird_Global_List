@@ -1,6 +1,5 @@
 /log info "Loading IS IPv4 Address List"
 /ip firewall address-list
-:do { add list=IS address=2.56.174.0/24 } on-error={}
 :do { add list=IS address=2.56.243.0/24 } on-error={}
 :do { add list=IS address=5.23.64.0/24 } on-error={}
 :do { add list=IS address=5.23.65.0/25 } on-error={}
@@ -186,6 +185,7 @@
 :do { add list=IS address=93.95.72.0/21 } on-error={}
 :do { add list=IS address=93.95.224.0/21 } on-error={}
 :do { add list=IS address=94.142.152.0/21 } on-error={}
+:do { add list=IS address=94.143.224.0/24 } on-error={}
 :do { add list=IS address=94.198.48.0/23 } on-error={}
 :do { add list=IS address=94.249.184.57/32 } on-error={}
 :do { add list=IS address=94.250.244.0/23 } on-error={}
@@ -219,7 +219,6 @@
 :do { add list=IS address=109.105.101.68/31 } on-error={}
 :do { add list=IS address=109.105.102.180/30 } on-error={}
 :do { add list=IS address=128.140.232.0/21 } on-error={}
-:do { add list=IS address=130.49.86.0/24 } on-error={}
 :do { add list=IS address=130.208.0.0/16 } on-error={}
 :do { add list=IS address=134.82.75.184/29 } on-error={}
 :do { add list=IS address=139.28.147.0/24 } on-error={}
@@ -263,14 +262,13 @@
 :do { add list=IS address=150.228.118.0/23 } on-error={}
 :do { add list=IS address=151.236.24.0/24 } on-error={}
 :do { add list=IS address=151.243.181.0/24 } on-error={}
+:do { add list=IS address=152.89.114.0/24 } on-error={}
 :do { add list=IS address=153.92.128.0/19 } on-error={}
 :do { add list=IS address=154.194.43.0/24 } on-error={}
 :do { add list=IS address=155.2.163.80/29 } on-error={}
 :do { add list=IS address=155.2.167.80/29 } on-error={}
 :do { add list=IS address=155.2.171.80/29 } on-error={}
 :do { add list=IS address=155.2.175.80/29 } on-error={}
-:do { add list=IS address=155.212.100.0/24 } on-error={}
-:do { add list=IS address=157.22.81.0/24 } on-error={}
 :do { add list=IS address=157.97.0.0/19 } on-error={}
 :do { add list=IS address=157.157.0.0/19 } on-error={}
 :do { add list=IS address=157.157.32.0/20 } on-error={}
@@ -637,6 +635,7 @@
 :do { add list=IS address=196.197.100.0/24 } on-error={}
 :do { add list=IS address=196.198.100.0/24 } on-error={}
 :do { add list=IS address=196.199.100.0/24 } on-error={}
+:do { add list=IS address=206.109.204.0/23 } on-error={}
 :do { add list=IS address=209.206.12.128/25 } on-error={}
 :do { add list=IS address=212.14.72.232/29 } on-error={}
 :do { add list=IS address=212.30.192.0/19 } on-error={}
@@ -693,7 +692,15 @@
 :do { add list=IS address=213.181.112.224/27 } on-error={}
 :do { add list=IS address=213.181.113.0/24 } on-error={}
 :do { add list=IS address=213.181.114.0/23 } on-error={}
-:do { add list=IS address=213.181.116.0/22 } on-error={}
+:do { add list=IS address=213.181.116.0/25 } on-error={}
+:do { add list=IS address=213.181.116.128/26 } on-error={}
+:do { add list=IS address=213.181.116.192/31 } on-error={}
+:do { add list=IS address=213.181.116.196/30 } on-error={}
+:do { add list=IS address=213.181.116.200/29 } on-error={}
+:do { add list=IS address=213.181.116.208/28 } on-error={}
+:do { add list=IS address=213.181.116.224/27 } on-error={}
+:do { add list=IS address=213.181.117.0/24 } on-error={}
+:do { add list=IS address=213.181.118.0/23 } on-error={}
 :do { add list=IS address=213.181.120.0/22 } on-error={}
 :do { add list=IS address=213.181.124.0/24 } on-error={}
 :do { add list=IS address=213.181.125.0/28 } on-error={}

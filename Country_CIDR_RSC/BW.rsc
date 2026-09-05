@@ -55,6 +55,10 @@
 :do { add list=BW address=41.79.136.191/32 } on-error={}
 :do { add list=BW address=41.79.137.0/24 } on-error={}
 :do { add list=BW address=41.79.138.0/24 } on-error={}
+:do { add list=BW address=41.79.139.0/26 } on-error={}
+:do { add list=BW address=41.79.139.64/27 } on-error={}
+:do { add list=BW address=41.79.139.96/28 } on-error={}
+:do { add list=BW address=41.79.139.112/29 } on-error={}
 :do { add list=BW address=41.79.139.122/32 } on-error={}
 :do { add list=BW address=41.79.139.128/25 } on-error={}
 :do { add list=BW address=41.87.160.0/20 } on-error={}
@@ -129,11 +133,6 @@
 :do { add list=BW address=102.165.133.36/32 } on-error={}
 :do { add list=BW address=102.165.133.48/28 } on-error={}
 :do { add list=BW address=102.165.133.81/32 } on-error={}
-:do { add list=BW address=102.165.133.96/29 } on-error={}
-:do { add list=BW address=102.165.133.104/30 } on-error={}
-:do { add list=BW address=102.165.133.108/31 } on-error={}
-:do { add list=BW address=102.165.133.111/32 } on-error={}
-:do { add list=BW address=102.165.133.112/28 } on-error={}
 :do { add list=BW address=102.165.133.136/30 } on-error={}
 :do { add list=BW address=102.165.133.144/28 } on-error={}
 :do { add list=BW address=102.165.133.180/30 } on-error={}
@@ -240,6 +239,13 @@
 :do { add list=BW address=129.205.195.112/30 } on-error={}
 :do { add list=BW address=129.205.195.124/30 } on-error={}
 :do { add list=BW address=129.205.195.128/26 } on-error={}
+:do { add list=BW address=129.205.195.192/27 } on-error={}
+:do { add list=BW address=129.205.195.224/28 } on-error={}
+:do { add list=BW address=129.205.195.240/31 } on-error={}
+:do { add list=BW address=129.205.195.243/32 } on-error={}
+:do { add list=BW address=129.205.195.244/31 } on-error={}
+:do { add list=BW address=129.205.195.247/32 } on-error={}
+:do { add list=BW address=129.205.195.248/29 } on-error={}
 :do { add list=BW address=129.205.196.0/22 } on-error={}
 :do { add list=BW address=129.205.200.0/22 } on-error={}
 :do { add list=BW address=129.205.204.0/23 } on-error={}
