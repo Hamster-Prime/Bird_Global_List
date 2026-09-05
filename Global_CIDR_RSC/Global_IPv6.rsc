@@ -9400,7 +9400,14 @@
 :do { add list=Global address=2402:7544::/30 } on-error={}
 :do { add list=Global address=2402:7542::/31 } on-error={}
 :do { add list=Global address=2402:7541::/32 } on-error={}
-:do { add list=Global address=2402:7300::/24 } on-error={}
+:do { add list=Global address=2402:7300::/25 } on-error={}
+:do { add list=Global address=2402:7380::/26 } on-error={}
+:do { add list=Global address=2402:73c0::/27 } on-error={}
+:do { add list=Global address=2402:73f0::/28 } on-error={}
+:do { add list=Global address=2402:73e8::/29 } on-error={}
+:do { add list=Global address=2402:73e4::/30 } on-error={}
+:do { add list=Global address=2402:73e2::/31 } on-error={}
+:do { add list=Global address=2402:73e1::/32 } on-error={}
 :do { add list=Global address=2402:72e0::/27 } on-error={}
 :do { add list=Global address=2402:72d0::/28 } on-error={}
 :do { add list=Global address=2402:72c8::/29 } on-error={}
