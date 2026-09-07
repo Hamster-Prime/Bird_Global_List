@@ -2,7 +2,9 @@
 /ip firewall address-list
 :do { add list=GN address=5.62.62.164/30 } on-error={}
 :do { add list=GN address=41.77.184.0/21 } on-error={}
-:do { add list=GN address=41.79.200.0/22 } on-error={}
+:do { add list=GN address=41.79.200.0/24 } on-error={}
+:do { add list=GN address=41.79.201.0/25 } on-error={}
+:do { add list=GN address=41.79.202.0/23 } on-error={}
 :do { add list=GN address=41.79.236.0/22 } on-error={}
 :do { add list=GN address=41.191.220.0/22 } on-error={}
 :do { add list=GN address=41.223.48.0/22 } on-error={}
@@ -69,7 +71,6 @@
 :do { add list=GN address=172.225.192.144/28 } on-error={}
 :do { add list=GN address=179.64.90.0/23 } on-error={}
 :do { add list=GN address=185.112.135.18/32 } on-error={}
-:do { add list=GN address=193.251.150.146/32 } on-error={}
 :do { add list=GN address=196.48.94.0/24 } on-error={}
 :do { add list=GN address=196.49.40.0/24 } on-error={}
 :do { add list=GN address=196.49.64.0/24 } on-error={}
@@ -93,9 +94,7 @@
 :do { add list=GN address=197.149.210.0/24 } on-error={}
 :do { add list=GN address=197.149.211.0/24 } on-error={}
 :do { add list=GN address=197.149.212.0/22 } on-error={}
-:do { add list=GN address=197.149.216.0/24 } on-error={}
-:do { add list=GN address=197.149.217.0/24 } on-error={}
-:do { add list=GN address=197.149.218.0/23 } on-error={}
+:do { add list=GN address=197.149.216.0/22 } on-error={}
 :do { add list=GN address=197.149.220.0/23 } on-error={}
 :do { add list=GN address=197.149.222.0/23 } on-error={}
 :do { add list=GN address=197.149.224.0/22 } on-error={}

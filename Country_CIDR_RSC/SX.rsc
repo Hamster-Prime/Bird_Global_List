@@ -4,7 +4,7 @@
 :do { add list=SX address=5.175.190.96/30 } on-error={}
 :do { add list=SX address=65.198.230.0/24 } on-error={}
 :do { add list=SX address=65.208.123.128/30 } on-error={}
-:do { add list=SX address=65.208.123.133/32 } on-error={}
+:do { add list=SX address=65.208.123.132/31 } on-error={}
 :do { add list=SX address=65.208.123.136/31 } on-error={}
 :do { add list=SX address=65.208.123.141/32 } on-error={}
 :do { add list=SX address=65.208.123.144/31 } on-error={}
@@ -13,7 +13,8 @@
 :do { add list=SX address=65.208.123.155/32 } on-error={}
 :do { add list=SX address=65.208.123.157/32 } on-error={}
 :do { add list=SX address=65.208.123.159/32 } on-error={}
-:do { add list=SX address=65.208.123.171/32 } on-error={}
+:do { add list=SX address=65.208.123.160/31 } on-error={}
+:do { add list=SX address=65.208.123.170/31 } on-error={}
 :do { add list=SX address=65.208.123.172/32 } on-error={}
 :do { add list=SX address=65.208.123.174/31 } on-error={}
 :do { add list=SX address=65.208.123.177/32 } on-error={}
@@ -37,9 +38,9 @@
 :do { add list=SX address=65.208.123.232/31 } on-error={}
 :do { add list=SX address=65.208.123.235/32 } on-error={}
 :do { add list=SX address=65.208.123.236/30 } on-error={}
-:do { add list=SX address=65.208.123.247/32 } on-error={}
-:do { add list=SX address=65.208.123.248/32 } on-error={}
-:do { add list=SX address=65.208.123.252/30 } on-error={}
+:do { add list=SX address=65.208.123.241/32 } on-error={}
+:do { add list=SX address=65.208.123.248/31 } on-error={}
+:do { add list=SX address=65.208.123.252/31 } on-error={}
 :do { add list=SX address=65.217.50.0/24 } on-error={}
 :do { add list=SX address=65.248.160.0/24 } on-error={}
 :do { add list=SX address=72.252.8.0/21 } on-error={}
@@ -128,6 +129,4 @@
 :do { add list=SX address=201.220.12.0/24 } on-error={}
 :do { add list=SX address=201.220.14.0/23 } on-error={}
 :do { add list=SX address=204.27.52.0/23 } on-error={}
-:do { add list=SX address=204.27.55.160/32 } on-error={}
-:do { add list=SX address=204.27.55.169/32 } on-error={}
 :do { add list=SX address=216.152.170.107/32 } on-error={}

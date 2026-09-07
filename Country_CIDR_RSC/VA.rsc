@@ -61,7 +61,6 @@
 :do { add list=VA address=156.54.226.0/24 } on-error={}
 :do { add list=VA address=156.54.242.0/23 } on-error={}
 :do { add list=VA address=156.54.247.0/24 } on-error={}
-:do { add list=VA address=156.54.250.0/24 } on-error={}
 :do { add list=VA address=156.54.251.0/24 } on-error={}
 :do { add list=VA address=156.54.255.0/24 } on-error={}
 :do { add list=VA address=162.120.215.7/32 } on-error={}

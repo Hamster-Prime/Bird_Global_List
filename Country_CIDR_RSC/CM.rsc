@@ -2,17 +2,10 @@
 /ip firewall address-list
 :do { add list=CM address=2.16.134.0/24 } on-error={}
 :do { add list=CM address=5.62.62.68/30 } on-error={}
-:do { add list=CM address=38.109.102.0/25 } on-error={}
-:do { add list=CM address=38.109.102.128/31 } on-error={}
-:do { add list=CM address=38.109.102.131/32 } on-error={}
-:do { add list=CM address=38.109.102.132/30 } on-error={}
-:do { add list=CM address=38.109.102.136/29 } on-error={}
-:do { add list=CM address=38.109.102.144/28 } on-error={}
-:do { add list=CM address=38.109.102.160/27 } on-error={}
-:do { add list=CM address=38.109.102.192/26 } on-error={}
 :do { add list=CM address=38.110.123.0/24 } on-error={}
 :do { add list=CM address=41.77.80.0/22 } on-error={}
-:do { add list=CM address=41.77.84.0/23 } on-error={}
+:do { add list=CM address=41.77.84.0/24 } on-error={}
+:do { add list=CM address=41.77.85.0/24 } on-error={}
 :do { add list=CM address=41.77.86.0/23 } on-error={}
 :do { add list=CM address=41.77.211.4/32 } on-error={}
 :do { add list=CM address=41.92.128.0/21 } on-error={}
@@ -71,7 +64,6 @@
 :do { add list=CM address=63.220.64.112/32 } on-error={}
 :do { add list=CM address=63.220.64.114/32 } on-error={}
 :do { add list=CM address=66.102.47.64/26 } on-error={}
-:do { add list=CM address=69.161.152.0/24 } on-error={}
 :do { add list=CM address=80.15.247.0/24 } on-error={}
 :do { add list=CM address=85.255.21.176/28 } on-error={}
 :do { add list=CM address=88.202.5.0/24 } on-error={}
@@ -109,8 +101,7 @@
 :do { add list=CM address=102.219.44.96/27 } on-error={}
 :do { add list=CM address=102.219.44.128/28 } on-error={}
 :do { add list=CM address=102.219.44.144/29 } on-error={}
-:do { add list=CM address=102.219.44.152/31 } on-error={}
-:do { add list=CM address=102.219.44.155/32 } on-error={}
+:do { add list=CM address=102.219.44.152/30 } on-error={}
 :do { add list=CM address=102.219.44.162/31 } on-error={}
 :do { add list=CM address=102.219.44.164/30 } on-error={}
 :do { add list=CM address=102.219.44.170/31 } on-error={}
@@ -217,7 +208,6 @@
 :do { add list=CM address=154.126.136.0/21 } on-error={}
 :do { add list=CM address=154.126.144.0/20 } on-error={}
 :do { add list=CM address=154.126.160.0/19 } on-error={}
-:do { add list=CM address=154.219.214.0/24 } on-error={}
 :do { add list=CM address=157.167.228.19/32 } on-error={}
 :do { add list=CM address=157.167.228.20/32 } on-error={}
 :do { add list=CM address=157.167.228.140/32 } on-error={}
@@ -305,14 +295,6 @@
 :do { add list=CM address=185.35.143.88/29 } on-error={}
 :do { add list=CM address=185.35.143.100/30 } on-error={}
 :do { add list=CM address=185.112.133.6/32 } on-error={}
-:do { add list=CM address=186.247.48.0/26 } on-error={}
-:do { add list=CM address=186.247.48.64/27 } on-error={}
-:do { add list=CM address=186.247.48.96/28 } on-error={}
-:do { add list=CM address=186.247.48.112/29 } on-error={}
-:do { add list=CM address=186.247.48.120/30 } on-error={}
-:do { add list=CM address=186.247.48.124/32 } on-error={}
-:do { add list=CM address=186.247.48.126/31 } on-error={}
-:do { add list=CM address=186.247.48.128/25 } on-error={}
 :do { add list=CM address=192.145.186.0/23 } on-error={}
 :do { add list=CM address=193.251.255.58/32 } on-error={}
 :do { add list=CM address=195.24.192.0/19 } on-error={}

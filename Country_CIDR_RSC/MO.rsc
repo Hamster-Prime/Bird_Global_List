@@ -33,7 +33,6 @@
 :do { add list=MO address=66.234.153.31/32 } on-error={}
 :do { add list=MO address=66.234.153.64/26 } on-error={}
 :do { add list=MO address=74.119.64.0/21 } on-error={}
-:do { add list=MO address=84.252.92.0/24 } on-error={}
 :do { add list=MO address=98.159.46.96/28 } on-error={}
 :do { add list=MO address=103.5.218.0/23 } on-error={}
 :do { add list=MO address=103.43.108.0/28 } on-error={}
@@ -179,13 +178,13 @@
 :do { add list=MO address=202.175.0.128/28 } on-error={}
 :do { add list=MO address=202.175.0.144/31 } on-error={}
 :do { add list=MO address=202.175.0.148/30 } on-error={}
-:do { add list=MO address=202.175.0.152/30 } on-error={}
+:do { add list=MO address=202.175.0.152/31 } on-error={}
+:do { add list=MO address=202.175.0.154/32 } on-error={}
 :do { add list=MO address=202.175.0.158/32 } on-error={}
 :do { add list=MO address=202.175.0.160/29 } on-error={}
-:do { add list=MO address=202.175.0.176/29 } on-error={}
+:do { add list=MO address=202.175.0.182/32 } on-error={}
 :do { add list=MO address=202.175.0.184/30 } on-error={}
 :do { add list=MO address=202.175.0.196/30 } on-error={}
-:do { add list=MO address=202.175.0.200/30 } on-error={}
 :do { add list=MO address=202.175.0.210/31 } on-error={}
 :do { add list=MO address=202.175.0.216/31 } on-error={}
 :do { add list=MO address=202.175.0.219/32 } on-error={}
@@ -196,7 +195,10 @@
 :do { add list=MO address=202.175.0.232/29 } on-error={}
 :do { add list=MO address=202.175.0.240/28 } on-error={}
 :do { add list=MO address=202.175.1.0/27 } on-error={}
-:do { add list=MO address=202.175.1.32/28 } on-error={}
+:do { add list=MO address=202.175.1.32/29 } on-error={}
+:do { add list=MO address=202.175.1.40/31 } on-error={}
+:do { add list=MO address=202.175.1.42/32 } on-error={}
+:do { add list=MO address=202.175.1.44/30 } on-error={}
 :do { add list=MO address=202.175.1.48/31 } on-error={}
 :do { add list=MO address=202.175.1.50/32 } on-error={}
 :do { add list=MO address=202.175.1.52/30 } on-error={}
@@ -204,8 +206,6 @@
 :do { add list=MO address=202.175.1.60/31 } on-error={}
 :do { add list=MO address=202.175.1.72/29 } on-error={}
 :do { add list=MO address=202.175.1.80/30 } on-error={}
-:do { add list=MO address=202.175.1.84/31 } on-error={}
-:do { add list=MO address=202.175.1.87/32 } on-error={}
 :do { add list=MO address=202.175.1.88/29 } on-error={}
 :do { add list=MO address=202.175.1.96/27 } on-error={}
 :do { add list=MO address=202.175.1.128/25 } on-error={}

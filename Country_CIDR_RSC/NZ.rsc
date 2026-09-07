@@ -9,7 +9,6 @@
 :do { add list=NZ address=5.60.32.0/20 } on-error={}
 :do { add list=NZ address=5.105.246.0/24 } on-error={}
 :do { add list=NZ address=5.180.22.0/24 } on-error={}
-:do { add list=NZ address=5.181.67.0/24 } on-error={}
 :do { add list=NZ address=8.29.109.116/32 } on-error={}
 :do { add list=NZ address=8.29.228.114/32 } on-error={}
 :do { add list=NZ address=8.29.230.153/32 } on-error={}
@@ -103,7 +102,7 @@
 :do { add list=NZ address=14.1.59.0/25 } on-error={}
 :do { add list=NZ address=14.1.59.128/26 } on-error={}
 :do { add list=NZ address=14.1.59.192/27 } on-error={}
-:do { add list=NZ address=14.1.59.224/32 } on-error={}
+:do { add list=NZ address=14.1.59.224/31 } on-error={}
 :do { add list=NZ address=14.1.59.227/32 } on-error={}
 :do { add list=NZ address=14.1.59.228/30 } on-error={}
 :do { add list=NZ address=14.1.59.232/32 } on-error={}
@@ -440,7 +439,6 @@
 :do { add list=NZ address=45.65.6.0/23 } on-error={}
 :do { add list=NZ address=45.74.42.0/24 } on-error={}
 :do { add list=NZ address=45.74.210.0/23 } on-error={}
-:do { add list=NZ address=45.80.51.0/24 } on-error={}
 :do { add list=NZ address=45.93.149.0/24 } on-error={}
 :do { add list=NZ address=45.112.60.0/22 } on-error={}
 :do { add list=NZ address=45.113.83.0/24 } on-error={}
@@ -450,7 +448,6 @@
 :do { add list=NZ address=45.120.116.0/22 } on-error={}
 :do { add list=NZ address=45.123.208.0/22 } on-error={}
 :do { add list=NZ address=45.125.168.0/22 } on-error={}
-:do { add list=NZ address=45.125.244.0/24 } on-error={}
 :do { add list=NZ address=45.126.128.0/22 } on-error={}
 :do { add list=NZ address=45.133.7.0/24 } on-error={}
 :do { add list=NZ address=45.146.186.0/24 } on-error={}
@@ -485,9 +482,8 @@
 :do { add list=NZ address=49.255.75.0/24 } on-error={}
 :do { add list=NZ address=49.255.159.0/24 } on-error={}
 :do { add list=NZ address=49.255.210.0/23 } on-error={}
-:do { add list=NZ address=49.255.249.52/31 } on-error={}
 :do { add list=NZ address=49.255.249.54/32 } on-error={}
-:do { add list=NZ address=49.255.249.56/30 } on-error={}
+:do { add list=NZ address=49.255.249.58/32 } on-error={}
 :do { add list=NZ address=51.5.59.0/24 } on-error={}
 :do { add list=NZ address=51.5.63.0/24 } on-error={}
 :do { add list=NZ address=51.10.1.156/31 } on-error={}
@@ -722,6 +718,7 @@
 :do { add list=NZ address=74.80.125.0/24 } on-error={}
 :do { add list=NZ address=74.244.234.0/24 } on-error={}
 :do { add list=NZ address=75.125.92.0/24 } on-error={}
+:do { add list=NZ address=75.125.225.48/28 } on-error={}
 :do { add list=NZ address=75.125.239.80/28 } on-error={}
 :do { add list=NZ address=76.223.170.96/28 } on-error={}
 :do { add list=NZ address=77.81.118.64/30 } on-error={}
@@ -734,11 +731,10 @@
 :do { add list=NZ address=82.26.65.0/24 } on-error={}
 :do { add list=NZ address=82.26.106.0/24 } on-error={}
 :do { add list=NZ address=82.29.107.0/24 } on-error={}
-:do { add list=NZ address=85.12.4.160/27 } on-error={}
+:do { add list=NZ address=85.12.4.176/28 } on-error={}
 :do { add list=NZ address=85.28.54.0/23 } on-error={}
 :do { add list=NZ address=85.237.91.0/24 } on-error={}
 :do { add list=NZ address=87.76.184.0/24 } on-error={}
-:do { add list=NZ address=88.80.138.0/24 } on-error={}
 :do { add list=NZ address=89.35.159.0/24 } on-error={}
 :do { add list=NZ address=89.37.131.0/24 } on-error={}
 :do { add list=NZ address=89.41.190.0/24 } on-error={}
@@ -813,6 +809,7 @@
 :do { add list=NZ address=101.98.5.240/29 } on-error={}
 :do { add list=NZ address=101.98.5.248/30 } on-error={}
 :do { add list=NZ address=101.98.5.252/31 } on-error={}
+:do { add list=NZ address=101.98.5.255/32 } on-error={}
 :do { add list=NZ address=101.98.6.0/23 } on-error={}
 :do { add list=NZ address=101.98.8.0/21 } on-error={}
 :do { add list=NZ address=101.98.16.0/20 } on-error={}
@@ -974,7 +971,6 @@
 :do { add list=NZ address=103.66.124.0/22 } on-error={}
 :do { add list=NZ address=103.67.94.0/24 } on-error={}
 :do { add list=NZ address=103.68.58.0/23 } on-error={}
-:do { add list=NZ address=103.68.121.0/24 } on-error={}
 :do { add list=NZ address=103.68.122.0/23 } on-error={}
 :do { add list=NZ address=103.68.197.0/24 } on-error={}
 :do { add list=NZ address=103.68.228.0/22 } on-error={}
@@ -1225,7 +1221,6 @@
 :do { add list=NZ address=103.193.136.0/23 } on-error={}
 :do { add list=NZ address=103.193.138.0/24 } on-error={}
 :do { add list=NZ address=103.193.139.0/24 } on-error={}
-:do { add list=NZ address=103.194.112.0/24 } on-error={}
 :do { add list=NZ address=103.195.8.0/22 } on-error={}
 :do { add list=NZ address=103.196.24.0/23 } on-error={}
 :do { add list=NZ address=103.196.80.0/22 } on-error={}
@@ -1268,7 +1263,7 @@
 :do { add list=NZ address=103.214.204.0/23 } on-error={}
 :do { add list=NZ address=103.216.132.0/24 } on-error={}
 :do { add list=NZ address=103.216.189.0/24 } on-error={}
-:do { add list=NZ address=103.216.222.96/31 } on-error={}
+:do { add list=NZ address=103.216.222.97/32 } on-error={}
 :do { add list=NZ address=103.216.222.143/32 } on-error={}
 :do { add list=NZ address=103.216.222.144/32 } on-error={}
 :do { add list=NZ address=103.216.222.230/31 } on-error={}
@@ -1357,7 +1352,6 @@
 :do { add list=NZ address=103.243.161.0/24 } on-error={}
 :do { add list=NZ address=103.243.162.0/23 } on-error={}
 :do { add list=NZ address=103.243.170.0/23 } on-error={}
-:do { add list=NZ address=103.243.204.0/22 } on-error={}
 :do { add list=NZ address=103.244.50.64/26 } on-error={}
 :do { add list=NZ address=103.244.180.0/22 } on-error={}
 :do { add list=NZ address=103.244.212.0/23 } on-error={}
@@ -1526,6 +1520,7 @@
 :do { add list=NZ address=104.30.179.207/32 } on-error={}
 :do { add list=NZ address=104.30.180.42/32 } on-error={}
 :do { add list=NZ address=104.30.180.50/32 } on-error={}
+:do { add list=NZ address=104.30.180.85/32 } on-error={}
 :do { add list=NZ address=104.44.6.112/31 } on-error={}
 :do { add list=NZ address=104.44.6.168/31 } on-error={}
 :do { add list=NZ address=104.44.15.100/31 } on-error={}
@@ -1564,7 +1559,6 @@
 :do { add list=NZ address=104.109.52.0/24 } on-error={}
 :do { add list=NZ address=104.135.193.20/30 } on-error={}
 :do { add list=NZ address=104.135.209.20/30 } on-error={}
-:do { add list=NZ address=104.160.24.0/24 } on-error={}
 :do { add list=NZ address=104.164.117.0/24 } on-error={}
 :do { add list=NZ address=104.165.201.0/24 } on-error={}
 :do { add list=NZ address=104.192.94.0/24 } on-error={}
@@ -2159,7 +2153,18 @@
 :do { add list=NZ address=131.203.136.0/21 } on-error={}
 :do { add list=NZ address=131.203.144.0/20 } on-error={}
 :do { add list=NZ address=131.203.160.0/19 } on-error={}
-:do { add list=NZ address=131.203.192.0/18 } on-error={}
+:do { add list=NZ address=131.203.192.0/19 } on-error={}
+:do { add list=NZ address=131.203.224.0/21 } on-error={}
+:do { add list=NZ address=131.203.232.0/24 } on-error={}
+:do { add list=NZ address=131.203.233.0/26 } on-error={}
+:do { add list=NZ address=131.203.233.64/27 } on-error={}
+:do { add list=NZ address=131.203.233.96/30 } on-error={}
+:do { add list=NZ address=131.203.233.104/29 } on-error={}
+:do { add list=NZ address=131.203.233.112/28 } on-error={}
+:do { add list=NZ address=131.203.233.128/25 } on-error={}
+:do { add list=NZ address=131.203.234.0/23 } on-error={}
+:do { add list=NZ address=131.203.236.0/22 } on-error={}
+:do { add list=NZ address=131.203.240.0/20 } on-error={}
 :do { add list=NZ address=131.229.137.19/32 } on-error={}
 :do { add list=NZ address=131.229.137.147/32 } on-error={}
 :do { add list=NZ address=131.229.147.25/32 } on-error={}
@@ -2241,8 +2246,6 @@
 :do { add list=NZ address=136.226.248.0/23 } on-error={}
 :do { add list=NZ address=136.227.141.128/30 } on-error={}
 :do { add list=NZ address=136.227.141.132/31 } on-error={}
-:do { add list=NZ address=136.234.173.0/24 } on-error={}
-:do { add list=NZ address=136.234.210.0/24 } on-error={}
 :do { add list=NZ address=137.83.126.225/32 } on-error={}
 :do { add list=NZ address=137.83.126.227/32 } on-error={}
 :do { add list=NZ address=137.83.184.0/24 } on-error={}
@@ -2404,8 +2407,12 @@
 :do { add list=NZ address=150.107.160.0/22 } on-error={}
 :do { add list=NZ address=150.107.172.0/22 } on-error={}
 :do { add list=NZ address=150.171.109.17/32 } on-error={}
-:do { add list=NZ address=150.171.109.18/31 } on-error={}
+:do { add list=NZ address=150.171.109.19/32 } on-error={}
+:do { add list=NZ address=150.171.109.20/31 } on-error={}
+:do { add list=NZ address=150.171.109.25/32 } on-error={}
 :do { add list=NZ address=150.171.113.1/32 } on-error={}
+:do { add list=NZ address=150.171.113.2/32 } on-error={}
+:do { add list=NZ address=150.171.113.6/31 } on-error={}
 :do { add list=NZ address=150.222.54.160/27 } on-error={}
 :do { add list=NZ address=150.222.54.192/26 } on-error={}
 :do { add list=NZ address=150.228.154.0/23 } on-error={}
@@ -2589,7 +2596,7 @@
 :do { add list=NZ address=157.240.90.136/31 } on-error={}
 :do { add list=NZ address=158.95.66.0/23 } on-error={}
 :do { add list=NZ address=158.95.193.0/24 } on-error={}
-:do { add list=NZ address=158.115.242.0/23 } on-error={}
+:do { add list=NZ address=158.115.242.118/32 } on-error={}
 :do { add list=NZ address=158.140.224.0/20 } on-error={}
 :do { add list=NZ address=158.140.240.0/21 } on-error={}
 :do { add list=NZ address=158.140.248.0/22 } on-error={}
@@ -2834,7 +2841,6 @@
 :do { add list=NZ address=168.199.252.0/22 } on-error={}
 :do { add list=NZ address=169.128.48.192/27 } on-error={}
 :do { add list=NZ address=170.62.184.0/22 } on-error={}
-:do { add list=NZ address=170.168.83.0/24 } on-error={}
 :do { add list=NZ address=170.205.56.0/23 } on-error={}
 :do { add list=NZ address=170.205.58.0/24 } on-error={}
 :do { add list=NZ address=170.251.131.0/25 } on-error={}
@@ -2871,9 +2877,7 @@
 :do { add list=NZ address=172.225.245.128/25 } on-error={}
 :do { add list=NZ address=172.235.118.0/23 } on-error={}
 :do { add list=NZ address=173.82.77.0/24 } on-error={}
-:do { add list=NZ address=173.82.123.0/24 } on-error={}
 :do { add list=NZ address=173.82.125.0/24 } on-error={}
-:do { add list=NZ address=173.82.173.0/24 } on-error={}
 :do { add list=NZ address=173.82.228.0/24 } on-error={}
 :do { add list=NZ address=173.223.228.0/22 } on-error={}
 :do { add list=NZ address=175.45.87.0/24 } on-error={}
@@ -2939,8 +2943,6 @@
 :do { add list=NZ address=185.125.86.0/24 } on-error={}
 :do { add list=NZ address=185.125.87.0/24 } on-error={}
 :do { add list=NZ address=185.205.191.0/24 } on-error={}
-:do { add list=NZ address=185.205.220.0/24 } on-error={}
-:do { add list=NZ address=185.207.11.224/27 } on-error={}
 :do { add list=NZ address=186.247.184.0/24 } on-error={}
 :do { add list=NZ address=186.247.185.0/24 } on-error={}
 :do { add list=NZ address=188.125.176.0/20 } on-error={}
@@ -3020,7 +3022,6 @@
 :do { add list=NZ address=194.0.1.25/32 } on-error={}
 :do { add list=NZ address=194.5.147.0/24 } on-error={}
 :do { add list=NZ address=194.104.133.0/24 } on-error={}
-:do { add list=NZ address=194.150.204.0/24 } on-error={}
 :do { add list=NZ address=195.8.201.0/24 } on-error={}
 :do { add list=NZ address=195.252.168.0/22 } on-error={}
 :do { add list=NZ address=196.48.146.0/24 } on-error={}
@@ -4186,8 +4187,7 @@
 :do { add list=NZ address=210.55.96.0/26 } on-error={}
 :do { add list=NZ address=210.55.96.80/28 } on-error={}
 :do { add list=NZ address=210.55.96.96/27 } on-error={}
-:do { add list=NZ address=210.55.96.160/27 } on-error={}
-:do { add list=NZ address=210.55.96.192/26 } on-error={}
+:do { add list=NZ address=210.55.96.128/25 } on-error={}
 :do { add list=NZ address=210.55.97.0/24 } on-error={}
 :do { add list=NZ address=210.55.98.0/23 } on-error={}
 :do { add list=NZ address=210.55.100.0/22 } on-error={}
@@ -4315,7 +4315,6 @@
 :do { add list=NZ address=216.218.252.48/32 } on-error={}
 :do { add list=NZ address=216.218.253.109/32 } on-error={}
 :do { add list=NZ address=216.250.98.0/24 } on-error={}
-:do { add list=NZ address=217.18.49.0/24 } on-error={}
 :do { add list=NZ address=217.22.252.0/23 } on-error={}
 :do { add list=NZ address=217.114.33.0/24 } on-error={}
 :do { add list=NZ address=217.114.36.0/24 } on-error={}

@@ -1,6 +1,7 @@
 /log info "Loading SN IPv4 Address List"
 /ip firewall address-list
 :do { add list=SN address=5.62.63.108/30 } on-error={}
+:do { add list=SN address=34.175.234.195/32 } on-error={}
 :do { add list=SN address=41.82.0.0/17 } on-error={}
 :do { add list=SN address=41.82.128.0/18 } on-error={}
 :do { add list=SN address=41.82.192.0/21 } on-error={}
@@ -82,18 +83,11 @@
 :do { add list=SN address=81.52.179.170/32 } on-error={}
 :do { add list=SN address=82.206.180.0/24 } on-error={}
 :do { add list=SN address=85.255.21.240/28 } on-error={}
-:do { add list=SN address=95.142.125.0/32 } on-error={}
-:do { add list=SN address=95.142.125.2/31 } on-error={}
-:do { add list=SN address=95.142.125.4/30 } on-error={}
-:do { add list=SN address=95.142.125.8/29 } on-error={}
-:do { add list=SN address=95.142.125.16/28 } on-error={}
-:do { add list=SN address=95.142.125.32/27 } on-error={}
-:do { add list=SN address=95.142.125.64/26 } on-error={}
-:do { add list=SN address=95.142.125.128/25 } on-error={}
 :do { add list=SN address=102.36.136.0/22 } on-error={}
 :do { add list=SN address=102.36.147.0/24 } on-error={}
 :do { add list=SN address=102.164.128.0/18 } on-error={}
 :do { add list=SN address=102.176.186.0/23 } on-error={}
+:do { add list=SN address=102.201.99.0/24 } on-error={}
 :do { add list=SN address=102.202.197.0/24 } on-error={}
 :do { add list=SN address=102.203.86.0/23 } on-error={}
 :do { add list=SN address=102.203.220.0/22 } on-error={}
@@ -151,7 +145,7 @@
 :do { add list=SN address=149.6.9.77/32 } on-error={}
 :do { add list=SN address=149.6.144.9/32 } on-error={}
 :do { add list=SN address=149.6.144.31/32 } on-error={}
-:do { add list=SN address=149.6.145.138/32 } on-error={}
+:do { add list=SN address=149.6.145.138/31 } on-error={}
 :do { add list=SN address=149.6.145.227/32 } on-error={}
 :do { add list=SN address=149.14.104.19/32 } on-error={}
 :do { add list=SN address=149.14.104.215/32 } on-error={}
@@ -209,8 +203,7 @@
 :do { add list=SN address=179.64.80.0/23 } on-error={}
 :do { add list=SN address=185.112.132.79/32 } on-error={}
 :do { add list=SN address=185.153.21.3/32 } on-error={}
-:do { add list=SN address=185.153.21.83/32 } on-error={}
-:do { add list=SN address=187.14.244.0/24 } on-error={}
+:do { add list=SN address=187.14.244.16/32 } on-error={}
 :do { add list=SN address=192.109.41.232/29 } on-error={}
 :do { add list=SN address=193.251.144.76/32 } on-error={}
 :do { add list=SN address=193.251.249.244/32 } on-error={}
@@ -291,7 +284,6 @@
 :do { add list=SN address=199.116.175.96/28 } on-error={}
 :do { add list=SN address=202.181.130.32/29 } on-error={}
 :do { add list=SN address=203.79.36.0/24 } on-error={}
-:do { add list=SN address=212.32.90.0/24 } on-error={}
 :do { add list=SN address=212.165.142.0/24 } on-error={}
 :do { add list=SN address=212.165.242.0/31 } on-error={}
 :do { add list=SN address=212.165.242.2/32 } on-error={}

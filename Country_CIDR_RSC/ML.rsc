@@ -105,7 +105,6 @@
 :do { add list=ML address=165.90.218.192/26 } on-error={}
 :do { add list=ML address=165.90.219.0/24 } on-error={}
 :do { add list=ML address=165.90.220.0/22 } on-error={}
-:do { add list=ML address=168.113.32.0/24 } on-error={}
 :do { add list=ML address=169.239.100.0/22 } on-error={}
 :do { add list=ML address=172.225.118.192/27 } on-error={}
 :do { add list=ML address=172.225.161.96/28 } on-error={}

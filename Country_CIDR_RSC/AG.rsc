@@ -103,7 +103,7 @@
 :do { add list=AG address=172.225.238.0/28 } on-error={}
 :do { add list=AG address=172.226.191.160/27 } on-error={}
 :do { add list=AG address=173.225.249.128/25 } on-error={}
-:do { add list=AG address=186.247.66.0/24 } on-error={}
+:do { add list=AG address=185.26.72.0/24 } on-error={}
 :do { add list=AG address=192.64.120.0/22 } on-error={}
 :do { add list=AG address=194.50.99.4/32 } on-error={}
 :do { add list=AG address=196.48.37.0/24 } on-error={}
