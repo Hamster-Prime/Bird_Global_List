@@ -43,7 +43,7 @@
 :do { add list=IM address=5.62.85.144/30 } on-error={}
 :do { add list=IM address=5.62.85.150/31 } on-error={}
 :do { add list=IM address=5.62.85.152/30 } on-error={}
-:do { add list=IM address=5.62.85.156/31 } on-error={}
+:do { add list=IM address=5.62.85.157/32 } on-error={}
 :do { add list=IM address=5.62.85.161/32 } on-error={}
 :do { add list=IM address=5.62.85.164/32 } on-error={}
 :do { add list=IM address=5.62.85.166/32 } on-error={}
@@ -84,7 +84,8 @@
 :do { add list=IM address=62.68.188.0/22 } on-error={}
 :do { add list=IM address=66.84.69.88/32 } on-error={}
 :do { add list=IM address=66.84.69.90/31 } on-error={}
-:do { add list=IM address=66.84.69.116/30 } on-error={}
+:do { add list=IM address=66.84.69.116/32 } on-error={}
+:do { add list=IM address=66.84.69.118/31 } on-error={}
 :do { add list=IM address=66.84.69.128/32 } on-error={}
 :do { add list=IM address=66.84.69.130/32 } on-error={}
 :do { add list=IM address=66.84.69.136/31 } on-error={}
@@ -316,9 +317,7 @@
 :do { add list=IM address=193.107.206.0/23 } on-error={}
 :do { add list=IM address=193.169.206.0/23 } on-error={}
 :do { add list=IM address=193.219.111.0/24 } on-error={}
-:do { add list=IM address=195.10.96.0/23 } on-error={}
-:do { add list=IM address=195.10.99.0/24 } on-error={}
-:do { add list=IM address=195.10.100.0/22 } on-error={}
+:do { add list=IM address=195.10.96.0/21 } on-error={}
 :do { add list=IM address=195.10.104.0/24 } on-error={}
 :do { add list=IM address=195.10.105.0/25 } on-error={}
 :do { add list=IM address=195.10.105.128/28 } on-error={}
@@ -346,7 +345,7 @@
 :do { add list=IM address=195.10.110.32/28 } on-error={}
 :do { add list=IM address=195.10.110.60/30 } on-error={}
 :do { add list=IM address=195.10.110.64/26 } on-error={}
-:do { add list=IM address=195.10.110.160/27 } on-error={}
+:do { add list=IM address=195.10.110.160/28 } on-error={}
 :do { add list=IM address=195.10.110.192/26 } on-error={}
 :do { add list=IM address=195.10.111.0/24 } on-error={}
 :do { add list=IM address=195.10.112.0/20 } on-error={}

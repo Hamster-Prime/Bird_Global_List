@@ -408,10 +408,7 @@
 :do { add list=MN address=202.179.20.0/24 } on-error={}
 :do { add list=MN address=202.179.21.0/24 } on-error={}
 :do { add list=MN address=202.179.22.0/23 } on-error={}
-:do { add list=MN address=202.179.24.0/22 } on-error={}
-:do { add list=MN address=202.179.28.0/24 } on-error={}
-:do { add list=MN address=202.179.29.0/24 } on-error={}
-:do { add list=MN address=202.179.30.0/23 } on-error={}
+:do { add list=MN address=202.179.24.0/21 } on-error={}
 :do { add list=MN address=202.180.216.0/21 } on-error={}
 :do { add list=MN address=203.17.23.0/24 } on-error={}
 :do { add list=MN address=203.21.120.0/24 } on-error={}

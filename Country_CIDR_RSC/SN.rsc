@@ -1,7 +1,6 @@
 /log info "Loading SN IPv4 Address List"
 /ip firewall address-list
 :do { add list=SN address=5.62.63.108/30 } on-error={}
-:do { add list=SN address=34.175.234.195/32 } on-error={}
 :do { add list=SN address=41.82.0.0/17 } on-error={}
 :do { add list=SN address=41.82.128.0/18 } on-error={}
 :do { add list=SN address=41.82.192.0/21 } on-error={}
@@ -52,15 +51,12 @@
 :do { add list=SN address=41.214.96.0/19 } on-error={}
 :do { add list=SN address=41.216.216.0/24 } on-error={}
 :do { add list=SN address=41.219.0.0/18 } on-error={}
-:do { add list=SN address=41.242.112.124/30 } on-error={}
+:do { add list=SN address=41.242.112.127/32 } on-error={}
 :do { add list=SN address=41.242.112.225/32 } on-error={}
 :do { add list=SN address=41.242.113.104/30 } on-error={}
 :do { add list=SN address=41.242.113.208/32 } on-error={}
 :do { add list=SN address=41.242.113.212/30 } on-error={}
 :do { add list=SN address=41.242.115.33/32 } on-error={}
-:do { add list=SN address=41.242.115.104/30 } on-error={}
-:do { add list=SN address=41.242.115.136/30 } on-error={}
-:do { add list=SN address=41.242.115.216/30 } on-error={}
 :do { add list=SN address=41.242.115.241/32 } on-error={}
 :do { add list=SN address=46.235.158.128/27 } on-error={}
 :do { add list=SN address=57.82.140.0/22 } on-error={}

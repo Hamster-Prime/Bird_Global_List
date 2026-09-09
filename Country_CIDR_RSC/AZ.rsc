@@ -912,7 +912,6 @@
 :do { add list=AZ address=198.45.245.224/27 } on-error={}
 :do { add list=AZ address=198.54.100.40/31 } on-error={}
 :do { add list=AZ address=198.64.208.0/24 } on-error={}
-:do { add list=AZ address=198.145.224.26/32 } on-error={}
 :do { add list=AZ address=198.145.224.48/28 } on-error={}
 :do { add list=AZ address=198.145.224.64/26 } on-error={}
 :do { add list=AZ address=198.145.224.128/25 } on-error={}

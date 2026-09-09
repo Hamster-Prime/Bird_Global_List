@@ -196,6 +196,8 @@
 :do { add list=KH address=79.109.237.0/24 } on-error={}
 :do { add list=KH address=79.109.240.0/23 } on-error={}
 :do { add list=KH address=79.109.248.0/22 } on-error={}
+:do { add list=KH address=79.109.254.0/26 } on-error={}
+:do { add list=KH address=79.109.254.192/27 } on-error={}
 :do { add list=KH address=79.109.255.128/27 } on-error={}
 :do { add list=KH address=79.109.255.192/26 } on-error={}
 :do { add list=KH address=87.247.160.0/21 } on-error={}

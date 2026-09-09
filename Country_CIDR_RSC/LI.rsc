@@ -305,7 +305,6 @@
 :do { add list=LI address=185.208.121.178/32 } on-error={}
 :do { add list=LI address=185.208.121.194/32 } on-error={}
 :do { add list=LI address=185.208.252.45/32 } on-error={}
-:do { add list=LI address=185.208.252.49/32 } on-error={}
 :do { add list=LI address=185.208.252.67/32 } on-error={}
 :do { add list=LI address=185.208.252.178/32 } on-error={}
 :do { add list=LI address=185.208.252.186/32 } on-error={}

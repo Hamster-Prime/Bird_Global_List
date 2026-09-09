@@ -310,12 +310,7 @@
 :do { add list=PS address=185.21.121.0/24 } on-error={}
 :do { add list=PS address=185.21.122.0/24 } on-error={}
 :do { add list=PS address=185.21.123.0/24 } on-error={}
-:do { add list=PS address=185.27.104.16/30 } on-error={}
-:do { add list=PS address=185.27.104.20/32 } on-error={}
-:do { add list=PS address=185.27.104.22/31 } on-error={}
-:do { add list=PS address=185.27.104.24/32 } on-error={}
-:do { add list=PS address=185.27.104.27/32 } on-error={}
-:do { add list=PS address=185.27.104.28/30 } on-error={}
+:do { add list=PS address=185.27.104.22/32 } on-error={}
 :do { add list=PS address=185.27.105.228/30 } on-error={}
 :do { add list=PS address=185.27.105.232/29 } on-error={}
 :do { add list=PS address=185.33.168.0/22 } on-error={}

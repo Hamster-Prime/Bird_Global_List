@@ -8,6 +8,7 @@
 :do { add list=JM address=32.59.116.0/28 } on-error={}
 :do { add list=JM address=38.57.6.0/23 } on-error={}
 :do { add list=JM address=45.62.191.64/28 } on-error={}
+:do { add list=JM address=51.161.109.240/28 } on-error={}
 :do { add list=JM address=57.74.98.0/23 } on-error={}
 :do { add list=JM address=57.91.112.0/20 } on-error={}
 :do { add list=JM address=63.143.64.0/24 } on-error={}

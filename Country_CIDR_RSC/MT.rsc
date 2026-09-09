@@ -8,7 +8,6 @@
 :do { add list=MT address=5.62.86.64/29 } on-error={}
 :do { add list=MT address=31.213.210.0/23 } on-error={}
 :do { add list=MT address=31.213.212.0/24 } on-error={}
-:do { add list=MT address=34.154.50.128/27 } on-error={}
 :do { add list=MT address=37.75.32.0/19 } on-error={}
 :do { add list=MT address=37.77.175.0/24 } on-error={}
 :do { add list=MT address=37.114.72.0/24 } on-error={}
