@@ -334,7 +334,11 @@
 :do { add list=SV address=168.243.255.0/24 } on-error={}
 :do { add list=SV address=170.0.176.0/22 } on-error={}
 :do { add list=SV address=170.239.236.0/22 } on-error={}
-:do { add list=SV address=172.10.96.0/24 } on-error={}
+:do { add list=SV address=172.10.96.0/26 } on-error={}
+:do { add list=SV address=172.10.96.64/29 } on-error={}
+:do { add list=SV address=172.10.96.80/28 } on-error={}
+:do { add list=SV address=172.10.96.96/27 } on-error={}
+:do { add list=SV address=172.10.96.128/25 } on-error={}
 :do { add list=SV address=172.224.232.40/29 } on-error={}
 :do { add list=SV address=172.224.232.48/28 } on-error={}
 :do { add list=SV address=172.225.30.176/28 } on-error={}

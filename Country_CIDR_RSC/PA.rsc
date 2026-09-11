@@ -591,10 +591,7 @@
 :do { add list=PA address=181.78.163.236/30 } on-error={}
 :do { add list=PA address=181.78.163.240/28 } on-error={}
 :do { add list=PA address=181.78.164.0/22 } on-error={}
-:do { add list=PA address=181.78.184.0/22 } on-error={}
-:do { add list=PA address=181.78.188.0/24 } on-error={}
-:do { add list=PA address=181.78.189.0/24 } on-error={}
-:do { add list=PA address=181.78.190.0/23 } on-error={}
+:do { add list=PA address=181.78.184.0/21 } on-error={}
 :do { add list=PA address=181.78.212.0/22 } on-error={}
 :do { add list=PA address=181.119.122.0/24 } on-error={}
 :do { add list=PA address=181.119.124.0/23 } on-error={}

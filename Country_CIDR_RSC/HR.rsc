@@ -219,7 +219,6 @@
 :do { add list=HR address=77.81.160.0/22 } on-error={}
 :do { add list=HR address=77.237.96.0/19 } on-error={}
 :do { add list=HR address=78.0.0.0/14 } on-error={}
-:do { add list=HR address=78.105.239.0/24 } on-error={}
 :do { add list=HR address=78.134.128.0/19 } on-error={}
 :do { add list=HR address=78.134.160.0/20 } on-error={}
 :do { add list=HR address=78.134.176.0/24 } on-error={}
@@ -634,7 +633,6 @@
 :do { add list=HR address=99.86.0.0/21 } on-error={}
 :do { add list=HR address=99.86.8.0/24 } on-error={}
 :do { add list=HR address=102.38.234.0/24 } on-error={}
-:do { add list=HR address=103.141.78.8/29 } on-error={}
 :do { add list=HR address=103.141.79.0/25 } on-error={}
 :do { add list=HR address=103.141.79.128/27 } on-error={}
 :do { add list=HR address=103.141.79.160/28 } on-error={}

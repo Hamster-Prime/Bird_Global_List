@@ -2,7 +2,10 @@
 /ip firewall address-list
 :do { add list=PS address=1.178.112.0/20 } on-error={}
 :do { add list=PS address=1.178.128.0/20 } on-error={}
-:do { add list=PS address=1.178.144.0/20 } on-error={}
+:do { add list=PS address=1.178.144.0/21 } on-error={}
+:do { add list=PS address=1.178.152.0/23 } on-error={}
+:do { add list=PS address=1.178.155.0/24 } on-error={}
+:do { add list=PS address=1.178.156.0/22 } on-error={}
 :do { add list=PS address=1.178.160.0/21 } on-error={}
 :do { add list=PS address=1.178.168.0/22 } on-error={}
 :do { add list=PS address=1.178.180.0/26 } on-error={}

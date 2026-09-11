@@ -24,7 +24,6 @@
 :do { add list=TL address=103.112.36.0/22 } on-error={}
 :do { add list=TL address=103.143.164.0/23 } on-error={}
 :do { add list=TL address=103.148.184.0/23 } on-error={}
-:do { add list=TL address=103.150.74.178/32 } on-error={}
 :do { add list=TL address=103.175.148.0/24 } on-error={}
 :do { add list=TL address=103.176.12.0/23 } on-error={}
 :do { add list=TL address=103.176.215.0/24 } on-error={}

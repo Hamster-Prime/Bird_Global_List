@@ -182,7 +182,7 @@
 :do { add list=SI address=80.65.168.0/21 } on-error={}
 :do { add list=SI address=80.68.153.0/24 } on-error={}
 :do { add list=SI address=80.95.224.0/20 } on-error={}
-:do { add list=SI address=80.120.167.22/32 } on-error={}
+:do { add list=SI address=80.120.167.22/31 } on-error={}
 :do { add list=SI address=80.120.167.30/32 } on-error={}
 :do { add list=SI address=80.246.224.0/24 } on-error={}
 :do { add list=SI address=80.253.96.130/31 } on-error={}
