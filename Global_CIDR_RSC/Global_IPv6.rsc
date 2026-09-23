@@ -7697,6 +7697,7 @@
 :do { add list=Global address=2403:5282::/31 } on-error={}
 :do { add list=Global address=2403:5281::/32 } on-error={}
 :do { add list=Global address=2403:5100::/24 } on-error={}
+:do { add list=Global address=2403:5000::/25 } on-error={}
 :do { add list=Global address=2403:50c0::/26 } on-error={}
 :do { add list=Global address=2403:50a0::/27 } on-error={}
 :do { add list=Global address=2403:5090::/28 } on-error={}
@@ -7704,13 +7705,6 @@
 :do { add list=Global address=2403:5084::/30 } on-error={}
 :do { add list=Global address=2403:5082::/31 } on-error={}
 :do { add list=Global address=2403:5081::/32 } on-error={}
-:do { add list=Global address=2403:5000::/26 } on-error={}
-:do { add list=Global address=2403:5060::/27 } on-error={}
-:do { add list=Global address=2403:5050::/28 } on-error={}
-:do { add list=Global address=2403:5048::/29 } on-error={}
-:do { add list=Global address=2403:5044::/30 } on-error={}
-:do { add list=Global address=2403:5042::/31 } on-error={}
-:do { add list=Global address=2403:5041::/32 } on-error={}
 :do { add list=Global address=2403:4f00::/24 } on-error={}
 :do { add list=Global address=2403:4e00::/25 } on-error={}
 :do { add list=Global address=2403:4e80::/26 } on-error={}
