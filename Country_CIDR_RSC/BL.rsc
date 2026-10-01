@@ -1,11 +1,10 @@
 /log info "Loading BL IPv4 Address List"
 /ip firewall address-list
-:do { add list=BL address=5.175.190.128/29 } on-error={}
-:do { add list=BL address=5.175.190.217/32 } on-error={}
+:do { add list=BL address=5.187.121.250/32 } on-error={}
 :do { add list=BL address=23.135.232.0/24 } on-error={}
 :do { add list=BL address=23.136.248.0/24 } on-error={}
 :do { add list=BL address=63.246.43.192/26 } on-error={}
-:do { add list=BL address=66.119.73.114/31 } on-error={}
+:do { add list=BL address=80.10.238.205/32 } on-error={}
 :do { add list=BL address=81.248.23.105/32 } on-error={}
 :do { add list=BL address=81.248.25.84/32 } on-error={}
 :do { add list=BL address=81.248.28.123/32 } on-error={}
@@ -13,11 +12,9 @@
 :do { add list=BL address=81.248.135.132/32 } on-error={}
 :do { add list=BL address=81.248.138.145/32 } on-error={}
 :do { add list=BL address=81.248.139.147/32 } on-error={}
+:do { add list=BL address=81.248.139.162/32 } on-error={}
 :do { add list=BL address=81.248.168.26/32 } on-error={}
 :do { add list=BL address=81.248.168.95/32 } on-error={}
-:do { add list=BL address=83.147.240.43/32 } on-error={}
-:do { add list=BL address=83.147.240.215/32 } on-error={}
-:do { add list=BL address=93.121.171.18/31 } on-error={}
 :do { add list=BL address=93.121.206.73/32 } on-error={}
 :do { add list=BL address=104.28.8.125/32 } on-error={}
 :do { add list=BL address=104.28.8.126/31 } on-error={}
@@ -54,18 +51,16 @@
 :do { add list=BL address=172.225.32.0/27 } on-error={}
 :do { add list=BL address=172.225.173.32/27 } on-error={}
 :do { add list=BL address=172.225.238.48/28 } on-error={}
-:do { add list=BL address=172.226.13.176/28 } on-error={}
 :do { add list=BL address=172.226.78.0/28 } on-error={}
-:do { add list=BL address=185.121.178.128/29 } on-error={}
 :do { add list=BL address=185.212.75.0/24 } on-error={}
 :do { add list=BL address=190.123.16.112/29 } on-error={}
 :do { add list=BL address=190.123.16.160/32 } on-error={}
 :do { add list=BL address=190.123.16.162/32 } on-error={}
 :do { add list=BL address=190.123.16.173/32 } on-error={}
 :do { add list=BL address=190.123.16.224/31 } on-error={}
-:do { add list=BL address=192.77.0.224/27 } on-error={}
+:do { add list=BL address=192.77.0.252/31 } on-error={}
 :do { add list=BL address=192.96.136.0/24 } on-error={}
 :do { add list=BL address=192.131.134.0/24 } on-error={}
 :do { add list=BL address=193.248.2.175/32 } on-error={}
 :do { add list=BL address=193.248.7.43/32 } on-error={}
-:do { add list=BL address=194.50.99.26/32 } on-error={}
+:do { add list=BL address=193.248.105.119/32 } on-error={}

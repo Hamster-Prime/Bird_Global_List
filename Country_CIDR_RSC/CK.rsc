@@ -4,7 +4,7 @@
 :do { add list=CK address=5.62.58.60/30 } on-error={}
 :do { add list=CK address=14.137.40.0/23 } on-error={}
 :do { add list=CK address=103.103.61.164/30 } on-error={}
-:do { add list=CK address=103.254.224.64/28 } on-error={}
+:do { add list=CK address=103.254.224.70/32 } on-error={}
 :do { add list=CK address=104.28.9.31/32 } on-error={}
 :do { add list=CK address=104.28.9.32/31 } on-error={}
 :do { add list=CK address=104.28.29.39/32 } on-error={}
@@ -45,7 +45,6 @@
 :do { add list=CK address=146.75.152.2/31 } on-error={}
 :do { add list=CK address=162.120.204.50/32 } on-error={}
 :do { add list=CK address=162.120.228.71/32 } on-error={}
-:do { add list=CK address=162.249.176.176/30 } on-error={}
 :do { add list=CK address=163.116.192.100/31 } on-error={}
 :do { add list=CK address=163.116.194.93/32 } on-error={}
 :do { add list=CK address=163.116.194.94/32 } on-error={}

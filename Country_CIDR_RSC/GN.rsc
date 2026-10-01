@@ -1,6 +1,7 @@
 /log info "Loading GN IPv4 Address List"
 /ip firewall address-list
 :do { add list=GN address=5.62.62.164/30 } on-error={}
+:do { add list=GN address=9.170.230.0/23 } on-error={}
 :do { add list=GN address=41.77.184.0/21 } on-error={}
 :do { add list=GN address=41.79.200.0/22 } on-error={}
 :do { add list=GN address=41.79.236.0/22 } on-error={}
@@ -10,12 +11,9 @@
 :do { add list=GN address=45.220.52.0/22 } on-error={}
 :do { add list=GN address=57.82.160.0/23 } on-error={}
 :do { add list=GN address=63.246.45.64/26 } on-error={}
-:do { add list=GN address=70.35.146.160/27 } on-error={}
-:do { add list=GN address=74.118.126.80/30 } on-error={}
 :do { add list=GN address=80.15.230.0/24 } on-error={}
 :do { add list=GN address=84.254.158.0/24 } on-error={}
 :do { add list=GN address=92.122.186.0/24 } on-error={}
-:do { add list=GN address=102.132.123.0/24 } on-error={}
 :do { add list=GN address=102.176.160.0/20 } on-error={}
 :do { add list=GN address=102.205.74.0/24 } on-error={}
 :do { add list=GN address=102.206.72.0/22 } on-error={}
@@ -55,6 +53,8 @@
 :do { add list=GN address=140.248.63.85/32 } on-error={}
 :do { add list=GN address=146.75.174.106/31 } on-error={}
 :do { add list=GN address=153.67.60.0/23 } on-error={}
+:do { add list=GN address=154.53.197.164/32 } on-error={}
+:do { add list=GN address=154.53.197.181/32 } on-error={}
 :do { add list=GN address=159.26.127.60/30 } on-error={}
 :do { add list=GN address=160.119.128.0/21 } on-error={}
 :do { add list=GN address=162.120.210.9/32 } on-error={}
@@ -69,20 +69,12 @@
 :do { add list=GN address=172.225.192.144/28 } on-error={}
 :do { add list=GN address=179.64.90.0/23 } on-error={}
 :do { add list=GN address=185.112.135.18/32 } on-error={}
-:do { add list=GN address=196.48.94.0/24 } on-error={}
+:do { add list=GN address=193.251.150.146/32 } on-error={}
 :do { add list=GN address=196.49.40.0/24 } on-error={}
 :do { add list=GN address=196.49.64.0/24 } on-error={}
-:do { add list=GN address=196.56.94.0/24 } on-error={}
-:do { add list=GN address=196.57.94.0/24 } on-error={}
-:do { add list=GN address=196.58.94.0/24 } on-error={}
 :do { add list=GN address=196.60.38.0/24 } on-error={}
 :do { add list=GN address=196.60.61.0/24 } on-error={}
-:do { add list=GN address=196.197.94.0/24 } on-error={}
-:do { add list=GN address=196.198.94.0/24 } on-error={}
-:do { add list=GN address=196.199.94.0/24 } on-error={}
 :do { add list=GN address=196.207.204.219/32 } on-error={}
-:do { add list=GN address=196.207.219.250/32 } on-error={}
-:do { add list=GN address=197.29.123.0/24 } on-error={}
 :do { add list=GN address=197.149.192.0/23 } on-error={}
 :do { add list=GN address=197.149.194.0/24 } on-error={}
 :do { add list=GN address=197.149.195.0/24 } on-error={}

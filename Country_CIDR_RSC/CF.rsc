@@ -2,13 +2,13 @@
 /ip firewall address-list
 :do { add list=CF address=5.62.62.76/30 } on-error={}
 :do { add list=CF address=41.78.120.0/22 } on-error={}
-:do { add list=CF address=41.181.105.176/32 } on-error={}
 :do { add list=CF address=41.223.184.0/22 } on-error={}
 :do { add list=CF address=57.82.56.0/23 } on-error={}
 :do { add list=CF address=57.82.170.0/23 } on-error={}
 :do { add list=CF address=57.82.172.0/22 } on-error={}
 :do { add list=CF address=87.255.97.203/32 } on-error={}
 :do { add list=CF address=87.255.98.203/32 } on-error={}
+:do { add list=CF address=102.201.32.0/22 } on-error={}
 :do { add list=CF address=102.205.60.0/23 } on-error={}
 :do { add list=CF address=104.28.9.18/31 } on-error={}
 :do { add list=CF address=104.28.9.20/32 } on-error={}
@@ -31,6 +31,7 @@
 :do { add list=CF address=104.28.250.166/31 } on-error={}
 :do { add list=CF address=104.28.250.168/31 } on-error={}
 :do { add list=CF address=104.28.250.170/32 } on-error={}
+:do { add list=CF address=105.177.33.1/32 } on-error={}
 :do { add list=CF address=140.248.40.12/31 } on-error={}
 :do { add list=CF address=140.248.56.40/32 } on-error={}
 :do { add list=CF address=140.248.57.40/32 } on-error={}
@@ -53,16 +54,8 @@
 :do { add list=CF address=172.225.98.128/27 } on-error={}
 :do { add list=CF address=172.225.226.112/28 } on-error={}
 :do { add list=CF address=172.225.242.64/28 } on-error={}
-:do { add list=CF address=185.21.168.16/28 } on-error={}
-:do { add list=CF address=185.21.169.16/28 } on-error={}
-:do { add list=CF address=185.21.170.16/28 } on-error={}
-:do { add list=CF address=185.21.171.16/28 } on-error={}
 :do { add list=CF address=193.220.96.251/32 } on-error={}
 :do { add list=CF address=193.220.97.18/32 } on-error={}
-:do { add list=CF address=196.48.64.0/24 } on-error={}
-:do { add list=CF address=196.56.64.0/24 } on-error={}
-:do { add list=CF address=196.197.64.0/24 } on-error={}
-:do { add list=CF address=196.199.64.0/24 } on-error={}
 :do { add list=CF address=196.201.141.128/27 } on-error={}
 :do { add list=CF address=196.201.159.0/25 } on-error={}
 :do { add list=CF address=196.201.159.128/27 } on-error={}
