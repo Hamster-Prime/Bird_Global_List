@@ -21,6 +21,8 @@
 :do { add list=TV address=104.28.220.240/31 } on-error={}
 :do { add list=TV address=104.28.252.236/30 } on-error={}
 :do { add list=TV address=104.28.252.240/31 } on-error={}
+:do { add list=TV address=104.29.206.130/31 } on-error={}
+:do { add list=TV address=104.29.206.132/32 } on-error={}
 :do { add list=TV address=140.248.20.22/31 } on-error={}
 :do { add list=TV address=140.248.56.226/32 } on-error={}
 :do { add list=TV address=140.248.57.226/32 } on-error={}

@@ -42,6 +42,8 @@
 :do { add list=CV address=104.28.237.234/31 } on-error={}
 :do { add list=CV address=104.28.237.236/31 } on-error={}
 :do { add list=CV address=104.28.237.238/32 } on-error={}
+:do { add list=CV address=104.29.199.55/32 } on-error={}
+:do { add list=CV address=104.29.199.56/31 } on-error={}
 :do { add list=CV address=140.248.40.20/31 } on-error={}
 :do { add list=CV address=140.248.56.51/32 } on-error={}
 :do { add list=CV address=140.248.57.51/32 } on-error={}

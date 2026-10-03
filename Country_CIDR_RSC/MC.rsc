@@ -1,13 +1,7 @@
 /log info "Loading MC IPv4 Address List"
 /ip firewall address-list
-:do { add list=MC address=3.172.24.6/32 } on-error={}
 :do { add list=MC address=5.62.63.16/30 } on-error={}
 :do { add list=MC address=9.246.88.0/23 } on-error={}
-:do { add list=MC address=18.68.32.7/32 } on-error={}
-:do { add list=MC address=18.68.32.45/32 } on-error={}
-:do { add list=MC address=18.68.32.51/32 } on-error={}
-:do { add list=MC address=18.68.32.75/32 } on-error={}
-:do { add list=MC address=18.68.32.88/29 } on-error={}
 :do { add list=MC address=34.99.172.0/23 } on-error={}
 :do { add list=MC address=34.99.244.0/23 } on-error={}
 :do { add list=MC address=34.103.188.0/23 } on-error={}
@@ -64,7 +58,6 @@
 :do { add list=MC address=82.113.18.0/23 } on-error={}
 :do { add list=MC address=82.113.20.0/22 } on-error={}
 :do { add list=MC address=82.113.24.0/21 } on-error={}
-:do { add list=MC address=83.169.66.112/28 } on-error={}
 :do { add list=MC address=87.254.224.0/19 } on-error={}
 :do { add list=MC address=88.209.64.0/18 } on-error={}
 :do { add list=MC address=91.198.207.0/24 } on-error={}
@@ -90,6 +83,8 @@
 :do { add list=MC address=104.28.254.166/31 } on-error={}
 :do { add list=MC address=104.28.254.168/31 } on-error={}
 :do { add list=MC address=104.28.254.170/32 } on-error={}
+:do { add list=MC address=104.29.207.89/32 } on-error={}
+:do { add list=MC address=104.29.207.90/31 } on-error={}
 :do { add list=MC address=104.44.39.152/32 } on-error={}
 :do { add list=MC address=104.44.45.228/32 } on-error={}
 :do { add list=MC address=128.77.119.128/27 } on-error={}
@@ -169,7 +164,6 @@
 :do { add list=MC address=176.114.96.0/20 } on-error={}
 :do { add list=MC address=176.121.52.0/22 } on-error={}
 :do { add list=MC address=185.47.116.0/22 } on-error={}
-:do { add list=MC address=185.104.173.9/32 } on-error={}
 :do { add list=MC address=185.112.132.33/32 } on-error={}
 :do { add list=MC address=185.162.120.0/22 } on-error={}
 :do { add list=MC address=185.193.109.0/24 } on-error={}
@@ -307,6 +301,7 @@
 :do { add list=MC address=209.206.29.192/28 } on-error={}
 :do { add list=MC address=212.3.235.134/32 } on-error={}
 :do { add list=MC address=212.73.200.150/32 } on-error={}
+:do { add list=MC address=212.133.60.18/32 } on-error={}
 :do { add list=MC address=213.19.202.218/32 } on-error={}
 :do { add list=MC address=213.19.202.222/32 } on-error={}
 :do { add list=MC address=213.19.206.17/32 } on-error={}

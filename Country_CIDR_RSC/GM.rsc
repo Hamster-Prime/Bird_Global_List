@@ -38,6 +38,8 @@
 :do { add list=GM address=104.28.252.226/31 } on-error={}
 :do { add list=GM address=104.28.252.228/31 } on-error={}
 :do { add list=GM address=104.28.252.230/32 } on-error={}
+:do { add list=GM address=104.29.206.125/32 } on-error={}
+:do { add list=GM address=104.29.206.126/31 } on-error={}
 :do { add list=GM address=130.117.170.0/24 } on-error={}
 :do { add list=GM address=140.248.24.52/31 } on-error={}
 :do { add list=GM address=140.248.41.52/31 } on-error={}

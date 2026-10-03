@@ -53,6 +53,8 @@
 :do { add list=ML address=104.28.253.234/31 } on-error={}
 :do { add list=ML address=104.28.253.236/31 } on-error={}
 :do { add list=ML address=104.28.253.238/32 } on-error={}
+:do { add list=ML address=104.29.206.252/31 } on-error={}
+:do { add list=ML address=104.29.206.254/32 } on-error={}
 :do { add list=ML address=140.248.24.82/31 } on-error={}
 :do { add list=ML address=140.248.40.154/31 } on-error={}
 :do { add list=ML address=140.248.41.82/31 } on-error={}

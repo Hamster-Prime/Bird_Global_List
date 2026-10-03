@@ -2,7 +2,7 @@
 /ip firewall address-list
 :do { add list=CK address=5.62.56.64/30 } on-error={}
 :do { add list=CK address=5.62.58.60/30 } on-error={}
-:do { add list=CK address=14.137.40.0/23 } on-error={}
+:do { add list=CK address=14.137.41.0/24 } on-error={}
 :do { add list=CK address=103.103.61.164/30 } on-error={}
 :do { add list=CK address=103.254.224.70/32 } on-error={}
 :do { add list=CK address=104.28.9.31/32 } on-error={}
@@ -21,6 +21,8 @@
 :do { add list=CK address=104.28.218.96/30 } on-error={}
 :do { add list=CK address=104.28.250.94/31 } on-error={}
 :do { add list=CK address=104.28.250.96/30 } on-error={}
+:do { add list=CK address=104.29.205.71/32 } on-error={}
+:do { add list=CK address=104.29.205.72/31 } on-error={}
 :do { add list=CK address=116.199.200.0/25 } on-error={}
 :do { add list=CK address=116.199.200.128/26 } on-error={}
 :do { add list=CK address=116.199.200.192/27 } on-error={}

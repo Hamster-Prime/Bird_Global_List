@@ -3,6 +3,13 @@
 :do { add list=SC address=5.10.240.0/22 } on-error={}
 :do { add list=SC address=5.10.252.0/22 } on-error={}
 :do { add list=SC address=31.56.19.0/24 } on-error={}
+:do { add list=SC address=36.255.97.0/27 } on-error={}
+:do { add list=SC address=36.255.97.32/28 } on-error={}
+:do { add list=SC address=36.255.97.48/29 } on-error={}
+:do { add list=SC address=36.255.97.56/31 } on-error={}
+:do { add list=SC address=36.255.97.60/30 } on-error={}
+:do { add list=SC address=36.255.97.64/26 } on-error={}
+:do { add list=SC address=36.255.97.128/25 } on-error={}
 :do { add list=SC address=37.128.200.0/22 } on-error={}
 :do { add list=SC address=41.79.60.0/22 } on-error={}
 :do { add list=SC address=41.86.32.0/19 } on-error={}
@@ -54,6 +61,7 @@
 :do { add list=SC address=41.222.206.0/23 } on-error={}
 :do { add list=SC address=41.223.204.0/22 } on-error={}
 :do { add list=SC address=41.223.216.0/22 } on-error={}
+:do { add list=SC address=43.228.157.0/24 } on-error={}
 :do { add list=SC address=45.67.214.0/24 } on-error={}
 :do { add list=SC address=45.92.247.0/24 } on-error={}
 :do { add list=SC address=45.95.171.64/27 } on-error={}
@@ -419,6 +427,8 @@
 :do { add list=SC address=104.28.226.199/32 } on-error={}
 :do { add list=SC address=104.28.226.200/30 } on-error={}
 :do { add list=SC address=104.28.226.204/32 } on-error={}
+:do { add list=SC address=104.29.193.112/31 } on-error={}
+:do { add list=SC address=104.29.193.114/32 } on-error={}
 :do { add list=SC address=109.205.210.0/24 } on-error={}
 :do { add list=SC address=128.0.32.0/24 } on-error={}
 :do { add list=SC address=137.63.0.0/18 } on-error={}
@@ -749,6 +759,7 @@
 :do { add list=SC address=196.251.108.0/22 } on-error={}
 :do { add list=SC address=196.251.112.0/21 } on-error={}
 :do { add list=SC address=196.251.120.0/24 } on-error={}
+:do { add list=SC address=196.251.121.0/24 } on-error={}
 :do { add list=SC address=196.251.124.0/22 } on-error={}
 :do { add list=SC address=197.157.96.0/19 } on-error={}
 :do { add list=SC address=197.158.192.0/19 } on-error={}

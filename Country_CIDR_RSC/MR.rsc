@@ -66,6 +66,8 @@
 :do { add list=MR address=104.28.231.27/32 } on-error={}
 :do { add list=MR address=104.28.231.28/30 } on-error={}
 :do { add list=MR address=104.28.231.32/32 } on-error={}
+:do { add list=MR address=104.29.195.174/31 } on-error={}
+:do { add list=MR address=104.29.195.176/32 } on-error={}
 :do { add list=MR address=140.248.40.156/31 } on-error={}
 :do { add list=MR address=140.248.56.150/32 } on-error={}
 :do { add list=MR address=140.248.57.150/32 } on-error={}
