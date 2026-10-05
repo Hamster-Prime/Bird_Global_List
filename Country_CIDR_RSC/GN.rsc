@@ -13,6 +13,7 @@
 :do { add list=GN address=63.246.45.64/26 } on-error={}
 :do { add list=GN address=80.15.230.0/24 } on-error={}
 :do { add list=GN address=84.254.158.0/24 } on-error={}
+:do { add list=GN address=90.96.180.246/32 } on-error={}
 :do { add list=GN address=92.122.186.0/24 } on-error={}
 :do { add list=GN address=102.176.160.0/20 } on-error={}
 :do { add list=GN address=102.205.74.0/24 } on-error={}

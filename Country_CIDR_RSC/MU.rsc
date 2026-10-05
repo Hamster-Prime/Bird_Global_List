@@ -245,6 +245,9 @@
 :do { add list=MU address=80.67.128.0/20 } on-error={}
 :do { add list=MU address=87.255.97.210/32 } on-error={}
 :do { add list=MU address=87.255.98.210/32 } on-error={}
+:do { add list=MU address=90.96.189.128/31 } on-error={}
+:do { add list=MU address=90.96.189.130/32 } on-error={}
+:do { add list=MU address=90.96.191.188/32 } on-error={}
 :do { add list=MU address=92.184.148.82/31 } on-error={}
 :do { add list=MU address=102.22.84.0/22 } on-error={}
 :do { add list=MU address=102.22.96.0/22 } on-error={}

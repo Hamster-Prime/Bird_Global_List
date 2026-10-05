@@ -39,6 +39,7 @@
 :do { add list=GD address=72.51.124.0/24 } on-error={}
 :do { add list=GD address=74.117.84.0/22 } on-error={}
 :do { add list=GD address=74.122.88.0/21 } on-error={}
+:do { add list=GD address=90.96.190.89/32 } on-error={}
 :do { add list=GD address=104.28.10.61/32 } on-error={}
 :do { add list=GD address=104.28.10.62/31 } on-error={}
 :do { add list=GD address=104.28.32.66/31 } on-error={}

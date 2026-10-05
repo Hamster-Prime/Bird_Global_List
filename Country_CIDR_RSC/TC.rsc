@@ -6,6 +6,7 @@
 :do { add list=TC address=63.245.69.190/32 } on-error={}
 :do { add list=TC address=65.255.48.0/20 } on-error={}
 :do { add list=TC address=66.54.226.144/28 } on-error={}
+:do { add list=TC address=90.96.178.194/32 } on-error={}
 :do { add list=TC address=104.28.13.61/32 } on-error={}
 :do { add list=TC address=104.28.13.62/31 } on-error={}
 :do { add list=TC address=104.28.25.34/31 } on-error={}

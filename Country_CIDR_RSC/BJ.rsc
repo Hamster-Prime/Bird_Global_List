@@ -57,6 +57,7 @@
 :do { add list=BJ address=84.254.141.0/24 } on-error={}
 :do { add list=BJ address=85.255.21.208/28 } on-error={}
 :do { add list=BJ address=88.202.1.0/25 } on-error={}
+:do { add list=BJ address=90.96.186.160/32 } on-error={}
 :do { add list=BJ address=102.38.128.0/19 } on-error={}
 :do { add list=BJ address=102.201.64.0/22 } on-error={}
 :do { add list=BJ address=102.202.108.0/22 } on-error={}

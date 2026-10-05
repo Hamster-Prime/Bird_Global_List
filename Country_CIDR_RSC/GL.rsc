@@ -10,6 +10,7 @@
 :do { add list=GL address=46.16.16.0/21 } on-error={}
 :do { add list=GL address=46.243.151.0/24 } on-error={}
 :do { add list=GL address=88.83.0.0/19 } on-error={}
+:do { add list=GL address=90.96.178.230/32 } on-error={}
 :do { add list=GL address=104.28.10.79/32 } on-error={}
 :do { add list=GL address=104.28.10.80/31 } on-error={}
 :do { add list=GL address=104.28.25.76/30 } on-error={}

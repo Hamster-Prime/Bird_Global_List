@@ -52,6 +52,7 @@
 :do { add list=SO address=84.254.175.0/24 } on-error={}
 :do { add list=SO address=87.255.97.214/32 } on-error={}
 :do { add list=SO address=87.255.98.214/32 } on-error={}
+:do { add list=SO address=90.96.191.232/32 } on-error={}
 :do { add list=SO address=102.38.48.0/22 } on-error={}
 :do { add list=SO address=102.68.16.0/22 } on-error={}
 :do { add list=SO address=102.68.144.0/23 } on-error={}

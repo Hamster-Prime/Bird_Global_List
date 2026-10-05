@@ -8,6 +8,7 @@
 :do { add list=TG address=66.102.36.0/26 } on-error={}
 :do { add list=TG address=80.248.64.0/20 } on-error={}
 :do { add list=TG address=81.192.254.38/32 } on-error={}
+:do { add list=TG address=90.96.176.220/32 } on-error={}
 :do { add list=TG address=95.210.138.0/24 } on-error={}
 :do { add list=TG address=102.16.4.10/32 } on-error={}
 :do { add list=TG address=102.16.4.62/32 } on-error={}

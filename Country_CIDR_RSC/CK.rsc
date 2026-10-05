@@ -3,6 +3,7 @@
 :do { add list=CK address=5.62.56.64/30 } on-error={}
 :do { add list=CK address=5.62.58.60/30 } on-error={}
 :do { add list=CK address=14.137.41.0/24 } on-error={}
+:do { add list=CK address=90.96.189.109/32 } on-error={}
 :do { add list=CK address=103.103.61.164/30 } on-error={}
 :do { add list=CK address=103.254.224.70/32 } on-error={}
 :do { add list=CK address=104.28.9.31/32 } on-error={}

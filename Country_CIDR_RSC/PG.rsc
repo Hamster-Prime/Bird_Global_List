@@ -24,6 +24,8 @@
 :do { add list=PG address=64.71.131.29/32 } on-error={}
 :do { add list=PG address=64.71.151.201/32 } on-error={}
 :do { add list=PG address=75.125.93.0/24 } on-error={}
+:do { add list=PG address=90.96.181.190/32 } on-error={}
+:do { add list=PG address=90.96.187.137/32 } on-error={}
 :do { add list=PG address=99.196.217.0/28 } on-error={}
 :do { add list=PG address=103.3.168.0/22 } on-error={}
 :do { add list=PG address=103.9.226.0/24 } on-error={}
@@ -66,14 +68,10 @@
 :do { add list=PG address=103.146.200.0/23 } on-error={}
 :do { add list=PG address=103.152.8.0/24 } on-error={}
 :do { add list=PG address=103.153.108.0/24 } on-error={}
-:do { add list=PG address=103.153.158.203/32 } on-error={}
+:do { add list=PG address=103.153.158.0/24 } on-error={}
 :do { add list=PG address=103.153.159.0/25 } on-error={}
 :do { add list=PG address=103.153.159.128/26 } on-error={}
-:do { add list=PG address=103.153.159.192/29 } on-error={}
-:do { add list=PG address=103.153.159.200/30 } on-error={}
-:do { add list=PG address=103.153.159.204/32 } on-error={}
-:do { add list=PG address=103.153.159.206/31 } on-error={}
-:do { add list=PG address=103.153.159.208/28 } on-error={}
+:do { add list=PG address=103.153.159.192/27 } on-error={}
 :do { add list=PG address=103.153.159.224/28 } on-error={}
 :do { add list=PG address=103.153.159.240/29 } on-error={}
 :do { add list=PG address=103.155.112.0/24 } on-error={}
@@ -281,4 +279,11 @@
 :do { add list=PG address=210.57.5.98/32 } on-error={}
 :do { add list=PG address=210.79.30.0/24 } on-error={}
 :do { add list=PG address=210.79.31.0/25 } on-error={}
+:do { add list=PG address=210.79.31.128/28 } on-error={}
+:do { add list=PG address=210.79.31.144/30 } on-error={}
+:do { add list=PG address=210.79.31.148/31 } on-error={}
+:do { add list=PG address=210.79.31.150/32 } on-error={}
+:do { add list=PG address=210.79.31.152/29 } on-error={}
+:do { add list=PG address=210.79.31.160/27 } on-error={}
+:do { add list=PG address=210.79.31.192/26 } on-error={}
 :do { add list=PG address=220.101.48.3/32 } on-error={}

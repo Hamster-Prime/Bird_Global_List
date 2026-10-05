@@ -66,6 +66,9 @@
 :do { add list=BO address=84.16.7.45/32 } on-error={}
 :do { add list=BO address=84.16.9.83/32 } on-error={}
 :do { add list=BO address=89.221.42.197/32 } on-error={}
+:do { add list=BO address=90.96.184.255/32 } on-error={}
+:do { add list=BO address=90.96.189.40/32 } on-error={}
+:do { add list=BO address=90.96.189.177/32 } on-error={}
 :do { add list=BO address=91.244.144.0/23 } on-error={}
 :do { add list=BO address=96.45.38.112/32 } on-error={}
 :do { add list=BO address=104.28.8.134/31 } on-error={}

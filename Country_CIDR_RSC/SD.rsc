@@ -61,6 +61,8 @@
 :do { add list=SD address=81.10.87.73/32 } on-error={}
 :do { add list=SD address=85.255.21.160/28 } on-error={}
 :do { add list=SD address=87.255.97.219/32 } on-error={}
+:do { add list=SD address=90.96.182.90/32 } on-error={}
+:do { add list=SD address=90.96.186.181/32 } on-error={}
 :do { add list=SD address=98.97.72.0/23 } on-error={}
 :do { add list=SD address=98.97.172.0/23 } on-error={}
 :do { add list=SD address=98.97.190.0/23 } on-error={}
@@ -143,14 +145,10 @@
 :do { add list=SD address=154.100.52.0/23 } on-error={}
 :do { add list=SD address=154.100.54.0/23 } on-error={}
 :do { add list=SD address=154.100.56.0/21 } on-error={}
-:do { add list=SD address=154.100.64.0/24 } on-error={}
-:do { add list=SD address=154.100.65.0/24 } on-error={}
-:do { add list=SD address=154.100.66.0/24 } on-error={}
-:do { add list=SD address=154.100.67.0/24 } on-error={}
+:do { add list=SD address=154.100.64.0/22 } on-error={}
 :do { add list=SD address=154.100.68.0/24 } on-error={}
 :do { add list=SD address=154.100.69.0/24 } on-error={}
-:do { add list=SD address=154.100.70.0/24 } on-error={}
-:do { add list=SD address=154.100.71.0/24 } on-error={}
+:do { add list=SD address=154.100.70.0/23 } on-error={}
 :do { add list=SD address=154.100.72.0/21 } on-error={}
 :do { add list=SD address=154.100.80.0/20 } on-error={}
 :do { add list=SD address=154.100.96.0/19 } on-error={}

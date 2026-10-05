@@ -17,6 +17,7 @@
 :do { add list=MV address=80.81.194.158/32 } on-error={}
 :do { add list=MV address=80.95.153.250/31 } on-error={}
 :do { add list=MV address=83.137.200.0/21 } on-error={}
+:do { add list=MV address=90.96.186.88/32 } on-error={}
 :do { add list=MV address=103.4.96.157/32 } on-error={}
 :do { add list=MV address=103.15.52.0/22 } on-error={}
 :do { add list=MV address=103.19.224.0/22 } on-error={}

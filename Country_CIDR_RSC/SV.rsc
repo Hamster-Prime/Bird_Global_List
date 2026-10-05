@@ -99,6 +99,8 @@
 :do { add list=SV address=69.79.100.89/32 } on-error={}
 :do { add list=SV address=69.79.100.115/32 } on-error={}
 :do { add list=SV address=69.167.93.64/29 } on-error={}
+:do { add list=SV address=90.96.186.51/32 } on-error={}
+:do { add list=SV address=90.96.187.190/31 } on-error={}
 :do { add list=SV address=103.158.32.0/24 } on-error={}
 :do { add list=SV address=104.28.13.49/32 } on-error={}
 :do { add list=SV address=104.28.13.50/31 } on-error={}

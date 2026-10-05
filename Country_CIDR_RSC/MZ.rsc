@@ -53,6 +53,7 @@
 :do { add list=MZ address=84.254.169.0/24 } on-error={}
 :do { add list=MZ address=87.255.97.211/32 } on-error={}
 :do { add list=MZ address=87.255.98.211/32 } on-error={}
+:do { add list=MZ address=90.96.187.180/32 } on-error={}
 :do { add list=MZ address=98.97.150.0/23 } on-error={}
 :do { add list=MZ address=102.36.146.0/24 } on-error={}
 :do { add list=MZ address=102.67.188.0/22 } on-error={}
