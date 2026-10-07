@@ -5708,7 +5708,10 @@
 :do { add list=AU address=94.250.221.0/24 } on-error={}
 :do { add list=AU address=95.36.77.0/24 } on-error={}
 :do { add list=AU address=95.82.0.0/21 } on-error={}
-:do { add list=AU address=95.82.8.0/21 } on-error={}
+:do { add list=AU address=95.82.8.0/23 } on-error={}
+:do { add list=AU address=95.82.10.0/24 } on-error={}
+:do { add list=AU address=95.82.11.0/24 } on-error={}
+:do { add list=AU address=95.82.12.0/22 } on-error={}
 :do { add list=AU address=95.82.16.0/20 } on-error={}
 :do { add list=AU address=95.82.32.0/21 } on-error={}
 :do { add list=AU address=95.100.157.14/32 } on-error={}
@@ -21968,7 +21971,8 @@
 :do { add list=AU address=203.19.212.0/23 } on-error={}
 :do { add list=AU address=203.19.214.0/23 } on-error={}
 :do { add list=AU address=203.19.216.0/23 } on-error={}
-:do { add list=AU address=203.19.218.0/23 } on-error={}
+:do { add list=AU address=203.19.218.0/24 } on-error={}
+:do { add list=AU address=203.19.219.0/24 } on-error={}
 :do { add list=AU address=203.19.220.0/24 } on-error={}
 :do { add list=AU address=203.19.221.0/24 } on-error={}
 :do { add list=AU address=203.19.222.0/24 } on-error={}

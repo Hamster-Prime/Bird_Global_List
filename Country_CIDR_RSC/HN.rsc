@@ -287,9 +287,7 @@
 :do { add list=HN address=181.78.44.0/23 } on-error={}
 :do { add list=HN address=181.78.100.0/23 } on-error={}
 :do { add list=HN address=181.78.219.0/24 } on-error={}
-:do { add list=HN address=181.79.172.0/23 } on-error={}
-:do { add list=HN address=181.79.174.0/24 } on-error={}
-:do { add list=HN address=181.79.175.0/24 } on-error={}
+:do { add list=HN address=181.79.172.0/22 } on-error={}
 :do { add list=HN address=181.79.210.0/24 } on-error={}
 :do { add list=HN address=181.79.224.0/22 } on-error={}
 :do { add list=HN address=181.79.228.0/23 } on-error={}

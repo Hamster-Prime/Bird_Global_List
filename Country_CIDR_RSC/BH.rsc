@@ -384,7 +384,8 @@
 :do { add list=BH address=204.3.152.0/24 } on-error={}
 :do { add list=BH address=204.155.254.37/32 } on-error={}
 :do { add list=BH address=206.159.148.137/32 } on-error={}
-:do { add list=BH address=212.2.38.0/23 } on-error={}
+:do { add list=BH address=212.2.38.0/24 } on-error={}
+:do { add list=BH address=212.2.39.0/24 } on-error={}
 :do { add list=BH address=213.156.251.2/32 } on-error={}
 :do { add list=BH address=213.202.3.209/32 } on-error={}
 :do { add list=BH address=216.66.89.125/32 } on-error={}

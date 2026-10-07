@@ -1052,9 +1052,9 @@
 :do { add list=PH address=103.30.9.192/26 } on-error={}
 :do { add list=PH address=103.31.72.0/22 } on-error={}
 :do { add list=PH address=103.31.79.0/24 } on-error={}
-:do { add list=PH address=103.36.16.0/24 } on-error={}
-:do { add list=PH address=103.36.17.0/24 } on-error={}
-:do { add list=PH address=103.36.18.0/23 } on-error={}
+:do { add list=PH address=103.36.16.0/23 } on-error={}
+:do { add list=PH address=103.36.18.0/24 } on-error={}
+:do { add list=PH address=103.36.19.0/24 } on-error={}
 :do { add list=PH address=103.37.48.0/22 } on-error={}
 :do { add list=PH address=103.38.151.0/24 } on-error={}
 :do { add list=PH address=103.38.172.0/23 } on-error={}
