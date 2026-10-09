@@ -10,6 +10,8 @@
 :do { add list=SB address=103.2.88.0/22 } on-error={}
 :do { add list=SB address=103.9.50.0/24 } on-error={}
 :do { add list=SB address=103.21.230.0/23 } on-error={}
+:do { add list=SB address=103.21.248.65/32 } on-error={}
+:do { add list=SB address=103.21.249.5/32 } on-error={}
 :do { add list=SB address=103.26.69.75/32 } on-error={}
 :do { add list=SB address=103.89.36.0/24 } on-error={}
 :do { add list=SB address=103.103.61.152/31 } on-error={}

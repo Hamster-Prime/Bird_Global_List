@@ -36,8 +36,8 @@
 :do { add list=AD address=75.125.118.0/24 } on-error={}
 :do { add list=AD address=80.80.84.0/22 } on-error={}
 :do { add list=AD address=80.80.92.0/22 } on-error={}
-:do { add list=AD address=81.52.179.66/32 } on-error={}
 :do { add list=AD address=85.94.160.0/19 } on-error={}
+:do { add list=AD address=85.189.84.0/22 } on-error={}
 :do { add list=AD address=89.150.2.0/23 } on-error={}
 :do { add list=AD address=89.150.4.0/22 } on-error={}
 :do { add list=AD address=89.150.8.0/21 } on-error={}
@@ -107,6 +107,8 @@
 :do { add list=AD address=140.248.63.0/32 } on-error={}
 :do { add list=AD address=144.125.25.128/27 } on-error={}
 :do { add list=AD address=144.125.134.192/27 } on-error={}
+:do { add list=AD address=146.19.190.48/28 } on-error={}
+:do { add list=AD address=146.19.190.64/26 } on-error={}
 :do { add list=AD address=146.75.168.0/31 } on-error={}
 :do { add list=AD address=146.75.182.0/31 } on-error={}
 :do { add list=AD address=146.75.185.0/31 } on-error={}
@@ -121,6 +123,7 @@
 :do { add list=AD address=163.116.163.158/31 } on-error={}
 :do { add list=AD address=163.116.184.111/32 } on-error={}
 :do { add list=AD address=163.116.184.112/32 } on-error={}
+:do { add list=AD address=164.37.45.0/24 } on-error={}
 :do { add list=AD address=165.1.187.0/27 } on-error={}
 :do { add list=AD address=165.1.191.96/30 } on-error={}
 :do { add list=AD address=165.1.191.100/32 } on-error={}
@@ -154,7 +157,19 @@
 :do { add list=AD address=188.209.140.240/28 } on-error={}
 :do { add list=AD address=188.241.26.0/23 } on-error={}
 :do { add list=AD address=188.241.82.0/24 } on-error={}
-:do { add list=AD address=194.158.64.0/19 } on-error={}
+:do { add list=AD address=194.158.64.0/21 } on-error={}
+:do { add list=AD address=194.158.72.0/23 } on-error={}
+:do { add list=AD address=194.158.74.0/25 } on-error={}
+:do { add list=AD address=194.158.74.128/27 } on-error={}
+:do { add list=AD address=194.158.74.160/31 } on-error={}
+:do { add list=AD address=194.158.74.162/32 } on-error={}
+:do { add list=AD address=194.158.74.164/30 } on-error={}
+:do { add list=AD address=194.158.74.168/29 } on-error={}
+:do { add list=AD address=194.158.74.176/28 } on-error={}
+:do { add list=AD address=194.158.74.192/26 } on-error={}
+:do { add list=AD address=194.158.75.0/24 } on-error={}
+:do { add list=AD address=194.158.76.0/22 } on-error={}
+:do { add list=AD address=194.158.80.0/20 } on-error={}
 :do { add list=AD address=202.181.129.176/29 } on-error={}
 :do { add list=AD address=208.127.27.1/32 } on-error={}
 :do { add list=AD address=208.127.27.2/31 } on-error={}
