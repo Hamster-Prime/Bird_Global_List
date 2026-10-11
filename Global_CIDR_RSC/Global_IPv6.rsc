@@ -9356,7 +9356,11 @@
 :do { add list=Global address=2402:7e00::/23 } on-error={}
 :do { add list=Global address=2402:7c00::/24 } on-error={}
 :do { add list=Global address=2402:7dc0::/26 } on-error={}
-:do { add list=Global address=2402:7da0::/27 } on-error={}
+:do { add list=Global address=2402:7db0::/28 } on-error={}
+:do { add list=Global address=2402:7da8::/29 } on-error={}
+:do { add list=Global address=2402:7da4::/30 } on-error={}
+:do { add list=Global address=2402:7da2::/31 } on-error={}
+:do { add list=Global address=2402:7da1::/32 } on-error={}
 :do { add list=Global address=2402:7d90::/28 } on-error={}
 :do { add list=Global address=2402:7d88::/29 } on-error={}
 :do { add list=Global address=2402:7d84::/30 } on-error={}
