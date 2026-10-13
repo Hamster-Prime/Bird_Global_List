@@ -9353,7 +9353,15 @@
 :do { add list=Global address=2402:8184::/30 } on-error={}
 :do { add list=Global address=2402:8182::/31 } on-error={}
 :do { add list=Global address=2402:8181::/32 } on-error={}
-:do { add list=Global address=2402:7e00::/23 } on-error={}
+:do { add list=Global address=2402:7f00::/24 } on-error={}
+:do { add list=Global address=2402:7e80::/25 } on-error={}
+:do { add list=Global address=2402:7e40::/26 } on-error={}
+:do { add list=Global address=2402:7e00::/27 } on-error={}
+:do { add list=Global address=2402:7e30::/28 } on-error={}
+:do { add list=Global address=2402:7e28::/29 } on-error={}
+:do { add list=Global address=2402:7e24::/30 } on-error={}
+:do { add list=Global address=2402:7e22::/31 } on-error={}
+:do { add list=Global address=2402:7e21::/32 } on-error={}
 :do { add list=Global address=2402:7c00::/24 } on-error={}
 :do { add list=Global address=2402:7dc0::/26 } on-error={}
 :do { add list=Global address=2402:7db0::/28 } on-error={}
