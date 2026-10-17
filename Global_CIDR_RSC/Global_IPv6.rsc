@@ -9354,7 +9354,13 @@
 :do { add list=Global address=2402:8182::/31 } on-error={}
 :do { add list=Global address=2402:8181::/32 } on-error={}
 :do { add list=Global address=2402:7f00::/24 } on-error={}
-:do { add list=Global address=2402:7e80::/25 } on-error={}
+:do { add list=Global address=2402:7e80::/26 } on-error={}
+:do { add list=Global address=2402:7ec0::/27 } on-error={}
+:do { add list=Global address=2402:7ef0::/28 } on-error={}
+:do { add list=Global address=2402:7ee8::/29 } on-error={}
+:do { add list=Global address=2402:7ee4::/30 } on-error={}
+:do { add list=Global address=2402:7ee2::/31 } on-error={}
+:do { add list=Global address=2402:7ee1::/32 } on-error={}
 :do { add list=Global address=2402:7e40::/26 } on-error={}
 :do { add list=Global address=2402:7e00::/27 } on-error={}
 :do { add list=Global address=2402:7e30::/28 } on-error={}
