@@ -8640,14 +8640,7 @@
 :do { add list=Global address=2402:e684::/30 } on-error={}
 :do { add list=Global address=2402:e682::/31 } on-error={}
 :do { add list=Global address=2402:e681::/32 } on-error={}
-:do { add list=Global address=2402:e580::/25 } on-error={}
-:do { add list=Global address=2402:e500::/26 } on-error={}
-:do { add list=Global address=2402:e560::/27 } on-error={}
-:do { add list=Global address=2402:e550::/28 } on-error={}
-:do { add list=Global address=2402:e548::/29 } on-error={}
-:do { add list=Global address=2402:e544::/30 } on-error={}
-:do { add list=Global address=2402:e542::/31 } on-error={}
-:do { add list=Global address=2402:e541::/32 } on-error={}
+:do { add list=Global address=2402:e500::/24 } on-error={}
 :do { add list=Global address=2402:e400::/25 } on-error={}
 :do { add list=Global address=2402:e4c0::/26 } on-error={}
 :do { add list=Global address=2402:e4a0::/27 } on-error={}
