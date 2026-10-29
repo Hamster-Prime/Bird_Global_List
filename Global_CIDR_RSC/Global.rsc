@@ -586,7 +586,9 @@
 :do { add list=Global address=27.99.0.0/17 } on-error={}
 :do { add list=Global address=27.98.0.0/17 } on-error={}
 :do { add list=Global address=27.98.128.0/18 } on-error={}
-:do { add list=Global address=27.98.192.0/20 } on-error={}
+:do { add list=Global address=27.98.192.0/21 } on-error={}
+:do { add list=Global address=27.98.204.0/22 } on-error={}
+:do { add list=Global address=27.98.200.0/23 } on-error={}
 :do { add list=Global address=27.56.0.0/13 } on-error={}
 :do { add list=Global address=27.52.0.0/15 } on-error={}
 :do { add list=Global address=27.55.0.0/16 } on-error={}
