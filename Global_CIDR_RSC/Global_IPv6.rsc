@@ -9338,7 +9338,6 @@
 :do { add list=Global address=2402:8302::/31 } on-error={}
 :do { add list=Global address=2402:8301::/32 } on-error={}
 :do { add list=Global address=2402:8000::/24 } on-error={}
-:do { add list=Global address=2402:8100::/25 } on-error={}
 :do { add list=Global address=2402:81c0::/26 } on-error={}
 :do { add list=Global address=2402:81a0::/27 } on-error={}
 :do { add list=Global address=2402:8190::/28 } on-error={}
@@ -9346,6 +9345,13 @@
 :do { add list=Global address=2402:8184::/30 } on-error={}
 :do { add list=Global address=2402:8182::/31 } on-error={}
 :do { add list=Global address=2402:8181::/32 } on-error={}
+:do { add list=Global address=2402:8100::/26 } on-error={}
+:do { add list=Global address=2402:8140::/27 } on-error={}
+:do { add list=Global address=2402:8170::/28 } on-error={}
+:do { add list=Global address=2402:8168::/29 } on-error={}
+:do { add list=Global address=2402:8164::/30 } on-error={}
+:do { add list=Global address=2402:8162::/31 } on-error={}
+:do { add list=Global address=2402:8161::/32 } on-error={}
 :do { add list=Global address=2402:7f00::/24 } on-error={}
 :do { add list=Global address=2402:7e80::/26 } on-error={}
 :do { add list=Global address=2402:7ec0::/27 } on-error={}
