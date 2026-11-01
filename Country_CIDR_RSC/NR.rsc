@@ -7,7 +7,7 @@
 :do { add list=NR address=57.70.208.0/20 } on-error={}
 :do { add list=NR address=90.96.187.169/32 } on-error={}
 :do { add list=NR address=103.20.124.0/24 } on-error={}
-:do { add list=NR address=103.36.151.0/24 } on-error={}
+:do { add list=NR address=103.36.150.0/23 } on-error={}
 :do { add list=NR address=103.49.173.0/24 } on-error={}
 :do { add list=NR address=103.49.174.0/23 } on-error={}
 :do { add list=NR address=104.28.12.80/31 } on-error={}

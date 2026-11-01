@@ -2,7 +2,7 @@
 /ip firewall address-list
 :do { add list=AS address=5.62.56.4/30 } on-error={}
 :do { add list=AS address=5.62.58.4/30 } on-error={}
-:do { add list=AS address=8.41.132.0/23 } on-error={}
+:do { add list=AS address=8.41.132.0/24 } on-error={}
 :do { add list=AS address=8.41.134.0/24 } on-error={}
 :do { add list=AS address=38.101.165.0/24 } on-error={}
 :do { add list=AS address=65.167.226.0/24 } on-error={}

@@ -9,6 +9,7 @@
 :do { add list=SR address=63.246.37.128/26 } on-error={}
 :do { add list=SR address=67.230.96.153/32 } on-error={}
 :do { add list=SR address=81.52.186.144/32 } on-error={}
+:do { add list=SR address=90.96.177.122/32 } on-error={}
 :do { add list=SR address=90.96.185.51/32 } on-error={}
 :do { add list=SR address=104.28.13.40/31 } on-error={}
 :do { add list=SR address=104.28.13.42/32 } on-error={}
