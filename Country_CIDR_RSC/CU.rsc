@@ -2,17 +2,19 @@
 /ip firewall address-list
 :do { add list=CU address=5.62.56.72/30 } on-error={}
 :do { add list=CU address=5.62.58.68/30 } on-error={}
+:do { add list=CU address=32.130.25.132/32 } on-error={}
 :do { add list=CU address=41.194.23.160/28 } on-error={}
 :do { add list=CU address=57.74.110.0/23 } on-error={}
 :do { add list=CU address=63.245.90.205/32 } on-error={}
-:do { add list=CU address=79.140.83.12/32 } on-error={}
-:do { add list=CU address=79.140.83.16/30 } on-error={}
-:do { add list=CU address=79.140.83.24/29 } on-error={}
-:do { add list=CU address=79.140.83.128/26 } on-error={}
-:do { add list=CU address=79.140.83.192/27 } on-error={}
-:do { add list=CU address=79.140.83.224/28 } on-error={}
-:do { add list=CU address=79.140.83.240/29 } on-error={}
-:do { add list=CU address=79.140.83.248/30 } on-error={}
+:do { add list=CU address=79.140.83.10/32 } on-error={}
+:do { add list=CU address=79.140.83.13/32 } on-error={}
+:do { add list=CU address=79.140.83.14/32 } on-error={}
+:do { add list=CU address=79.140.83.20/30 } on-error={}
+:do { add list=CU address=79.140.83.52/32 } on-error={}
+:do { add list=CU address=79.140.83.54/31 } on-error={}
+:do { add list=CU address=79.140.83.76/32 } on-error={}
+:do { add list=CU address=79.140.83.78/31 } on-error={}
+:do { add list=CU address=79.140.83.80/30 } on-error={}
 :do { add list=CU address=80.239.160.219/32 } on-error={}
 :do { add list=CU address=81.52.186.186/32 } on-error={}
 :do { add list=CU address=81.173.106.147/32 } on-error={}
@@ -77,7 +79,6 @@
 :do { add list=CU address=104.29.202.74/31 } on-error={}
 :do { add list=CU address=104.29.202.76/31 } on-error={}
 :do { add list=CU address=104.29.202.78/32 } on-error={}
-:do { add list=CU address=134.82.73.8/29 } on-error={}
 :do { add list=CU address=149.18.41.0/24 } on-error={}
 :do { add list=CU address=152.206.0.0/15 } on-error={}
 :do { add list=CU address=163.116.134.184/31 } on-error={}
@@ -92,6 +93,7 @@
 :do { add list=CU address=190.107.0.0/20 } on-error={}
 :do { add list=CU address=193.251.128.32/32 } on-error={}
 :do { add list=CU address=193.251.248.64/32 } on-error={}
+:do { add list=CU address=193.251.254.98/32 } on-error={}
 :do { add list=CU address=196.1.112.0/24 } on-error={}
 :do { add list=CU address=196.1.135.0/24 } on-error={}
 :do { add list=CU address=196.3.152.0/24 } on-error={}
@@ -104,8 +106,8 @@
 :do { add list=CU address=200.55.128.0/18 } on-error={}
 :do { add list=CU address=200.123.198.224/27 } on-error={}
 :do { add list=CU address=201.220.192.0/19 } on-error={}
-:do { add list=CU address=202.97.49.170/32 } on-error={}
 :do { add list=CU address=202.97.49.173/32 } on-error={}
 :do { add list=CU address=202.97.49.246/32 } on-error={}
+:do { add list=CU address=206.224.73.20/32 } on-error={}
 :do { add list=CU address=213.46.186.38/32 } on-error={}
 :do { add list=CU address=213.248.67.201/32 } on-error={}

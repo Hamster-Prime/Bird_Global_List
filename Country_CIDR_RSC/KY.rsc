@@ -13,6 +13,7 @@
 :do { add list=KY address=64.94.58.0/24 } on-error={}
 :do { add list=KY address=64.94.61.0/24 } on-error={}
 :do { add list=KY address=64.94.63.0/24 } on-error={}
+:do { add list=KY address=64.239.34.0/24 } on-error={}
 :do { add list=KY address=66.54.120.0/22 } on-error={}
 :do { add list=KY address=66.54.124.0/23 } on-error={}
 :do { add list=KY address=66.249.152.0/23 } on-error={}
@@ -69,9 +70,7 @@
 :do { add list=KY address=148.51.0.0/17 } on-error={}
 :do { add list=KY address=149.112.19.0/24 } on-error={}
 :do { add list=KY address=154.81.208.0/21 } on-error={}
-:do { add list=KY address=154.81.216.0/24 } on-error={}
-:do { add list=KY address=154.81.219.5/32 } on-error={}
-:do { add list=KY address=154.81.219.192/27 } on-error={}
+:do { add list=KY address=154.81.216.0/22 } on-error={}
 :do { add list=KY address=156.236.80.0/22 } on-error={}
 :do { add list=KY address=157.167.118.0/24 } on-error={}
 :do { add list=KY address=157.167.224.33/32 } on-error={}
@@ -109,6 +108,7 @@
 :do { add list=KY address=192.0.4.0/22 } on-error={}
 :do { add list=KY address=192.160.250.0/24 } on-error={}
 :do { add list=KY address=198.207.22.1/32 } on-error={}
+:do { add list=KY address=198.207.22.27/32 } on-error={}
 :do { add list=KY address=198.207.22.39/32 } on-error={}
 :do { add list=KY address=198.207.22.225/32 } on-error={}
 :do { add list=KY address=198.207.22.229/32 } on-error={}
@@ -131,9 +131,9 @@
 :do { add list=KY address=208.168.224.0/19 } on-error={}
 :do { add list=KY address=208.169.64.0/22 } on-error={}
 :do { add list=KY address=208.169.68.0/23 } on-error={}
+:do { add list=KY address=208.169.72.113/32 } on-error={}
 :do { add list=KY address=208.169.76.0/23 } on-error={}
-:do { add list=KY address=208.169.78.75/32 } on-error={}
-:do { add list=KY address=208.169.78.77/32 } on-error={}
+:do { add list=KY address=208.169.78.201/32 } on-error={}
 :do { add list=KY address=208.169.78.203/32 } on-error={}
 :do { add list=KY address=208.169.80.0/24 } on-error={}
 :do { add list=KY address=208.169.86.0/23 } on-error={}

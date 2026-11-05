@@ -13,7 +13,6 @@
 :do { add list=YE address=46.35.64.0/19 } on-error={}
 :do { add list=YE address=46.161.224.0/19 } on-error={}
 :do { add list=YE address=62.115.148.119/32 } on-error={}
-:do { add list=YE address=62.216.155.14/32 } on-error={}
 :do { add list=YE address=62.216.155.26/32 } on-error={}
 :do { add list=YE address=63.173.172.0/23 } on-error={}
 :do { add list=YE address=65.162.184.0/23 } on-error={}

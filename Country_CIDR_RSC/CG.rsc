@@ -33,9 +33,17 @@
 :do { add list=CG address=102.64.116.0/23 } on-error={}
 :do { add list=CG address=102.64.118.0/24 } on-error={}
 :do { add list=CG address=102.64.119.0/24 } on-error={}
-:do { add list=CG address=102.129.64.32/31 } on-error={}
 :do { add list=CG address=102.129.65.0/24 } on-error={}
-:do { add list=CG address=102.129.66.0/23 } on-error={}
+:do { add list=CG address=102.129.66.0/32 } on-error={}
+:do { add list=CG address=102.129.66.2/31 } on-error={}
+:do { add list=CG address=102.129.66.4/32 } on-error={}
+:do { add list=CG address=102.129.66.6/31 } on-error={}
+:do { add list=CG address=102.129.66.8/29 } on-error={}
+:do { add list=CG address=102.129.66.16/28 } on-error={}
+:do { add list=CG address=102.129.66.32/27 } on-error={}
+:do { add list=CG address=102.129.66.64/26 } on-error={}
+:do { add list=CG address=102.129.66.128/25 } on-error={}
+:do { add list=CG address=102.129.67.0/24 } on-error={}
 :do { add list=CG address=102.129.68.0/22 } on-error={}
 :do { add list=CG address=102.129.72.0/21 } on-error={}
 :do { add list=CG address=102.129.80.0/24 } on-error={}
@@ -65,6 +73,7 @@
 :do { add list=CG address=102.213.234.0/23 } on-error={}
 :do { add list=CG address=102.220.18.0/24 } on-error={}
 :do { add list=CG address=102.220.244.0/22 } on-error={}
+:do { add list=CG address=102.223.53.203/32 } on-error={}
 :do { add list=CG address=102.223.220.0/22 } on-error={}
 :do { add list=CG address=104.28.9.21/32 } on-error={}
 :do { add list=CG address=104.28.9.22/31 } on-error={}
@@ -99,7 +108,6 @@
 :do { add list=CG address=146.75.174.2/31 } on-error={}
 :do { add list=CG address=146.75.198.8/31 } on-error={}
 :do { add list=CG address=146.75.224.12/31 } on-error={}
-:do { add list=CG address=149.6.8.51/32 } on-error={}
 :do { add list=CG address=154.53.208.0/22 } on-error={}
 :do { add list=CG address=160.113.0.0/16 } on-error={}
 :do { add list=CG address=163.116.180.104/32 } on-error={}
@@ -113,8 +121,9 @@
 :do { add list=CG address=172.224.231.208/28 } on-error={}
 :do { add list=CG address=172.225.98.160/27 } on-error={}
 :do { add list=CG address=172.225.242.80/28 } on-error={}
+:do { add list=CG address=185.35.141.153/32 } on-error={}
+:do { add list=CG address=185.35.142.253/32 } on-error={}
 :do { add list=CG address=185.183.229.200/32 } on-error={}
-:do { add list=CG address=185.183.229.203/32 } on-error={}
 :do { add list=CG address=185.183.229.217/32 } on-error={}
 :do { add list=CG address=185.183.229.221/32 } on-error={}
 :do { add list=CG address=196.43.240.0/24 } on-error={}
