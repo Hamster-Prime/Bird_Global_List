@@ -2253,6 +2253,7 @@
 :do { add list=CL address=152.231.108.0/23 } on-error={}
 :do { add list=CL address=152.231.110.0/23 } on-error={}
 :do { add list=CL address=152.231.112.0/20 } on-error={}
+:do { add list=CL address=152.236.57.0/24 } on-error={}
 :do { add list=CL address=153.43.42.0/24 } on-error={}
 :do { add list=CL address=153.51.252.0/24 } on-error={}
 :do { add list=CL address=153.67.26.0/23 } on-error={}
@@ -2962,8 +2963,7 @@
 :do { add list=CL address=179.60.151.0/24 } on-error={}
 :do { add list=CL address=179.61.96.0/20 } on-error={}
 :do { add list=CL address=179.61.200.0/24 } on-error={}
-:do { add list=CL address=179.63.224.0/22 } on-error={}
-:do { add list=CL address=179.63.228.0/22 } on-error={}
+:do { add list=CL address=179.63.224.0/21 } on-error={}
 :do { add list=CL address=179.63.232.0/22 } on-error={}
 :do { add list=CL address=179.63.244.0/22 } on-error={}
 :do { add list=CL address=179.189.216.0/23 } on-error={}
@@ -3203,10 +3203,7 @@
 :do { add list=CL address=190.2.88.0/21 } on-error={}
 :do { add list=CL address=190.3.168.0/21 } on-error={}
 :do { add list=CL address=190.3.176.0/21 } on-error={}
-:do { add list=CL address=190.4.80.0/24 } on-error={}
-:do { add list=CL address=190.4.81.0/24 } on-error={}
-:do { add list=CL address=190.4.82.0/23 } on-error={}
-:do { add list=CL address=190.4.84.0/22 } on-error={}
+:do { add list=CL address=190.4.80.0/21 } on-error={}
 :do { add list=CL address=190.4.96.0/20 } on-error={}
 :do { add list=CL address=190.4.192.0/19 } on-error={}
 :do { add list=CL address=190.4.224.0/19 } on-error={}
@@ -4044,7 +4041,8 @@
 :do { add list=CL address=200.0.66.0/24 } on-error={}
 :do { add list=CL address=200.0.82.0/24 } on-error={}
 :do { add list=CL address=200.0.115.0/24 } on-error={}
-:do { add list=CL address=200.0.116.0/23 } on-error={}
+:do { add list=CL address=200.0.116.0/24 } on-error={}
+:do { add list=CL address=200.0.117.0/24 } on-error={}
 :do { add list=CL address=200.0.120.0/22 } on-error={}
 :do { add list=CL address=200.0.124.0/24 } on-error={}
 :do { add list=CL address=200.0.140.0/23 } on-error={}

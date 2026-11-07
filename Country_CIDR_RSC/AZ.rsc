@@ -225,7 +225,6 @@
 :do { add list=AZ address=82.38.21.0/24 } on-error={}
 :do { add list=AZ address=82.38.35.0/24 } on-error={}
 :do { add list=AZ address=82.38.61.0/24 } on-error={}
-:do { add list=AZ address=82.38.88.0/23 } on-error={}
 :do { add list=AZ address=82.38.202.0/24 } on-error={}
 :do { add list=AZ address=82.194.0.0/21 } on-error={}
 :do { add list=AZ address=82.194.8.0/22 } on-error={}
@@ -871,6 +870,7 @@
 :do { add list=AZ address=185.230.199.0/24 } on-error={}
 :do { add list=AZ address=185.233.35.0/24 } on-error={}
 :do { add list=AZ address=185.233.180.0/22 } on-error={}
+:do { add list=AZ address=187.78.204.128/25 } on-error={}
 :do { add list=AZ address=188.64.8.0/21 } on-error={}
 :do { add list=AZ address=188.65.162.0/24 } on-error={}
 :do { add list=AZ address=188.72.128.0/18 } on-error={}

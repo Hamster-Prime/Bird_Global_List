@@ -286,8 +286,10 @@
 :do { add list=IM address=185.180.168.230/31 } on-error={}
 :do { add list=IM address=185.180.168.232/29 } on-error={}
 :do { add list=IM address=185.180.168.240/28 } on-error={}
-:do { add list=IM address=185.180.169.0/24 } on-error={}
-:do { add list=IM address=185.180.170.0/24 } on-error={}
+:do { add list=IM address=185.180.169.0/25 } on-error={}
+:do { add list=IM address=185.180.169.144/28 } on-error={}
+:do { add list=IM address=185.180.169.160/27 } on-error={}
+:do { add list=IM address=185.180.169.192/26 } on-error={}
 :do { add list=IM address=185.184.229.0/24 } on-error={}
 :do { add list=IM address=188.214.59.0/24 } on-error={}
 :do { add list=IM address=192.75.207.0/26 } on-error={}

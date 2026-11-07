@@ -64,16 +64,10 @@
 :do { add list=GW address=197.214.89.20/30 } on-error={}
 :do { add list=GW address=197.214.89.24/31 } on-error={}
 :do { add list=GW address=197.214.89.27/32 } on-error={}
-:do { add list=GW address=197.214.89.42/31 } on-error={}
 :do { add list=GW address=197.214.89.44/30 } on-error={}
-:do { add list=GW address=197.214.89.48/30 } on-error={}
-:do { add list=GW address=197.214.89.55/32 } on-error={}
 :do { add list=GW address=197.214.89.56/31 } on-error={}
-:do { add list=GW address=197.214.89.60/31 } on-error={}
 :do { add list=GW address=197.214.89.66/31 } on-error={}
 :do { add list=GW address=197.214.89.74/31 } on-error={}
-:do { add list=GW address=197.214.89.80/32 } on-error={}
-:do { add list=GW address=197.214.89.84/30 } on-error={}
 :do { add list=GW address=197.214.89.88/30 } on-error={}
 :do { add list=GW address=197.214.89.94/31 } on-error={}
 :do { add list=GW address=197.214.89.98/32 } on-error={}

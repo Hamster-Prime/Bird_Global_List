@@ -30,7 +30,10 @@
 :do { add list=BB address=65.48.155.136/32 } on-error={}
 :do { add list=BB address=65.48.155.138/31 } on-error={}
 :do { add list=BB address=65.48.155.140/30 } on-error={}
-:do { add list=BB address=65.48.155.144/28 } on-error={}
+:do { add list=BB address=65.48.155.144/29 } on-error={}
+:do { add list=BB address=65.48.155.152/30 } on-error={}
+:do { add list=BB address=65.48.155.156/31 } on-error={}
+:do { add list=BB address=65.48.155.159/32 } on-error={}
 :do { add list=BB address=65.48.155.160/27 } on-error={}
 :do { add list=BB address=65.48.155.192/27 } on-error={}
 :do { add list=BB address=65.48.155.224/28 } on-error={}

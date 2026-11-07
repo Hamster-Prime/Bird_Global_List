@@ -320,7 +320,7 @@
 :do { add list=MU address=102.200.32.0/19 } on-error={}
 :do { add list=MU address=102.200.64.0/18 } on-error={}
 :do { add list=MU address=102.200.128.0/19 } on-error={}
-:do { add list=MU address=102.200.160.0/21 } on-error={}
+:do { add list=MU address=102.200.160.0/22 } on-error={}
 :do { add list=MU address=102.200.168.0/22 } on-error={}
 :do { add list=MU address=102.200.212.0/22 } on-error={}
 :do { add list=MU address=102.201.224.0/22 } on-error={}

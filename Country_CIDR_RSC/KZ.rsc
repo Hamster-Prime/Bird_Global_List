@@ -1321,7 +1321,6 @@
 :do { add list=KZ address=164.138.47.0/24 } on-error={}
 :do { add list=KZ address=164.139.232.0/24 } on-error={}
 :do { add list=KZ address=165.85.14.0/24 } on-error={}
-:do { add list=KZ address=165.140.199.0/24 } on-error={}
 :do { add list=KZ address=165.220.244.112/28 } on-error={}
 :do { add list=KZ address=167.150.153.0/24 } on-error={}
 :do { add list=KZ address=168.235.200.0/28 } on-error={}
@@ -1520,7 +1519,6 @@
 :do { add list=KZ address=178.238.76.0/23 } on-error={}
 :do { add list=KZ address=178.238.78.0/23 } on-error={}
 :do { add list=KZ address=179.65.58.0/23 } on-error={}
-:do { add list=KZ address=179.236.129.0/24 } on-error={}
 :do { add list=KZ address=184.63.92.176/29 } on-error={}
 :do { add list=KZ address=184.63.131.72/29 } on-error={}
 :do { add list=KZ address=185.0.22.0/24 } on-error={}
@@ -1706,6 +1704,7 @@
 :do { add list=KZ address=186.243.229.0/24 } on-error={}
 :do { add list=KZ address=186.243.244.0/24 } on-error={}
 :do { add list=KZ address=186.246.52.0/24 } on-error={}
+:do { add list=KZ address=187.78.203.0/25 } on-error={}
 :do { add list=KZ address=188.0.128.0/19 } on-error={}
 :do { add list=KZ address=188.43.3.241/32 } on-error={}
 :do { add list=KZ address=188.43.17.137/32 } on-error={}
@@ -2026,7 +2025,8 @@
 :do { add list=KZ address=217.171.144.0/24 } on-error={}
 :do { add list=KZ address=217.179.51.0/24 } on-error={}
 :do { add list=KZ address=217.180.0.0/22 } on-error={}
-:do { add list=KZ address=217.180.18.0/23 } on-error={}
+:do { add list=KZ address=217.180.18.0/24 } on-error={}
+:do { add list=KZ address=217.180.19.0/24 } on-error={}
 :do { add list=KZ address=217.196.16.0/21 } on-error={}
 :do { add list=KZ address=217.196.24.0/22 } on-error={}
 :do { add list=KZ address=217.196.28.0/24 } on-error={}

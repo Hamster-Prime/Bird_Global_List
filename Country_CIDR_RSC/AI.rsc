@@ -2,6 +2,7 @@
 /ip firewall address-list
 :do { add list=AI address=5.62.56.8/30 } on-error={}
 :do { add list=AI address=5.62.58.8/30 } on-error={}
+:do { add list=AI address=67.213.153.89/32 } on-error={}
 :do { add list=AI address=67.213.153.154/32 } on-error={}
 :do { add list=AI address=67.213.153.179/32 } on-error={}
 :do { add list=AI address=67.213.153.183/32 } on-error={}
