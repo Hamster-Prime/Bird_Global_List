@@ -1,5 +1,6 @@
 /log info "Loading VA IPv4 Address List"
 /ip firewall address-list
+:do { add list=VA address=2.56.112.128/25 } on-error={}
 :do { add list=VA address=5.62.63.196/30 } on-error={}
 :do { add list=VA address=57.79.216.0/21 } on-error={}
 :do { add list=VA address=104.28.15.69/32 } on-error={}

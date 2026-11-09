@@ -6,7 +6,6 @@
 :do { add list=FK address=63.130.248.0/24 } on-error={}
 :do { add list=FK address=80.73.208.0/21 } on-error={}
 :do { add list=FK address=80.73.216.0/23 } on-error={}
-:do { add list=FK address=80.73.218.0/24 } on-error={}
 :do { add list=FK address=90.96.187.128/32 } on-error={}
 :do { add list=FK address=104.28.9.197/32 } on-error={}
 :do { add list=FK address=104.28.9.198/31 } on-error={}

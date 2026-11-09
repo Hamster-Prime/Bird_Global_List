@@ -5,6 +5,10 @@
 :do { add list=MS address=5.62.58.129/32 } on-error={}
 :do { add list=MS address=5.62.58.130/31 } on-error={}
 :do { add list=MS address=45.62.191.176/28 } on-error={}
+:do { add list=MS address=69.57.250.36/30 } on-error={}
+:do { add list=MS address=69.57.250.40/29 } on-error={}
+:do { add list=MS address=69.57.250.52/30 } on-error={}
+:do { add list=MS address=69.57.250.56/29 } on-error={}
 :do { add list=MS address=74.244.148.0/23 } on-error={}
 :do { add list=MS address=90.96.187.38/32 } on-error={}
 :do { add list=MS address=104.28.11.238/31 } on-error={}

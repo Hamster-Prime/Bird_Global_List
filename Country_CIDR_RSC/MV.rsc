@@ -29,8 +29,8 @@
 :do { add list=MV address=103.76.2.0/24 } on-error={}
 :do { add list=MV address=103.84.132.0/24 } on-error={}
 :do { add list=MV address=103.84.134.0/24 } on-error={}
-:do { add list=MV address=103.87.125.22/31 } on-error={}
-:do { add list=MV address=103.87.125.86/31 } on-error={}
+:do { add list=MV address=103.87.125.22/32 } on-error={}
+:do { add list=MV address=103.87.125.86/32 } on-error={}
 :do { add list=MV address=103.103.66.0/24 } on-error={}
 :do { add list=MV address=103.110.40.0/24 } on-error={}
 :do { add list=MV address=103.110.109.0/24 } on-error={}
@@ -40,6 +40,7 @@
 :do { add list=MV address=103.143.252.0/24 } on-error={}
 :do { add list=MV address=103.172.31.0/24 } on-error={}
 :do { add list=MV address=103.173.79.0/31 } on-error={}
+:do { add list=MV address=103.173.79.16/31 } on-error={}
 :do { add list=MV address=103.173.79.20/30 } on-error={}
 :do { add list=MV address=103.173.79.24/29 } on-error={}
 :do { add list=MV address=103.173.79.32/27 } on-error={}
@@ -158,7 +159,17 @@
 :do { add list=MV address=202.21.188.0/23 } on-error={}
 :do { add list=MV address=202.21.190.0/24 } on-error={}
 :do { add list=MV address=202.21.191.0/24 } on-error={}
-:do { add list=MV address=202.153.80.0/21 } on-error={}
+:do { add list=MV address=202.153.80.0/22 } on-error={}
+:do { add list=MV address=202.153.84.0/24 } on-error={}
+:do { add list=MV address=202.153.85.0/25 } on-error={}
+:do { add list=MV address=202.153.85.128/27 } on-error={}
+:do { add list=MV address=202.153.85.160/28 } on-error={}
+:do { add list=MV address=202.153.85.176/29 } on-error={}
+:do { add list=MV address=202.153.85.184/30 } on-error={}
+:do { add list=MV address=202.153.85.189/32 } on-error={}
+:do { add list=MV address=202.153.85.190/31 } on-error={}
+:do { add list=MV address=202.153.85.192/26 } on-error={}
+:do { add list=MV address=202.153.86.0/23 } on-error={}
 :do { add list=MV address=203.82.2.0/23 } on-error={}
 :do { add list=MV address=203.104.24.0/21 } on-error={}
 :do { add list=MV address=203.208.148.162/31 } on-error={}
