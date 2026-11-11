@@ -401,7 +401,7 @@
 :do { add list=AM address=129.134.191.0/24 } on-error={}
 :do { add list=AM address=130.193.27.0/24 } on-error={}
 :do { add list=AM address=130.193.120.0/21 } on-error={}
-:do { add list=AM address=130.248.84.0/24 } on-error={}
+:do { add list=AM address=130.248.84.0/23 } on-error={}
 :do { add list=AM address=134.82.75.32/29 } on-error={}
 :do { add list=AM address=138.124.81.0/24 } on-error={}
 :do { add list=AM address=138.249.0.0/23 } on-error={}

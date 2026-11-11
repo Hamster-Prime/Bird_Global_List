@@ -351,9 +351,7 @@
 :do { add list=HN address=190.4.8.0/29 } on-error={}
 :do { add list=HN address=190.4.8.16/28 } on-error={}
 :do { add list=HN address=190.4.8.32/27 } on-error={}
-:do { add list=HN address=190.4.8.64/27 } on-error={}
-:do { add list=HN address=190.4.8.96/28 } on-error={}
-:do { add list=HN address=190.4.8.120/29 } on-error={}
+:do { add list=HN address=190.4.8.64/26 } on-error={}
 :do { add list=HN address=190.4.8.128/26 } on-error={}
 :do { add list=HN address=190.4.8.192/28 } on-error={}
 :do { add list=HN address=190.4.8.210/31 } on-error={}

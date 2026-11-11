@@ -1105,6 +1105,7 @@
 :do { add list=EG address=149.11.240.234/32 } on-error={}
 :do { add list=EG address=149.14.126.146/32 } on-error={}
 :do { add list=EG address=149.19.50.0/24 } on-error={}
+:do { add list=EG address=149.87.165.0/24 } on-error={}
 :do { add list=EG address=149.126.9.96/29 } on-error={}
 :do { add list=EG address=150.171.66.52/31 } on-error={}
 :do { add list=EG address=153.43.44.0/24 } on-error={}

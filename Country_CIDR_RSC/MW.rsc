@@ -181,9 +181,6 @@
 :do { add list=MW address=137.64.6.0/23 } on-error={}
 :do { add list=MW address=137.64.8.0/22 } on-error={}
 :do { add list=MW address=137.64.12.0/22 } on-error={}
-:do { add list=MW address=137.64.16.70/32 } on-error={}
-:do { add list=MW address=137.64.18.0/23 } on-error={}
-:do { add list=MW address=137.64.20.0/22 } on-error={}
 :do { add list=MW address=137.64.24.0/21 } on-error={}
 :do { add list=MW address=137.64.32.0/19 } on-error={}
 :do { add list=MW address=137.64.64.0/18 } on-error={}
