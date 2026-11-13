@@ -14373,7 +14373,6 @@
 :do { add list=Global address=2001:de0::/28 } on-error={}
 :do { add list=Global address=2001:df8::/29 } on-error={}
 :do { add list=Global address=2001:df7:8000::/34 } on-error={}
-:do { add list=Global address=2001:df7:c000::/35 } on-error={}
 :do { add list=Global address=2001:df7:f000::/36 } on-error={}
 :do { add list=Global address=2001:df7:e800::/37 } on-error={}
 :do { add list=Global address=2001:df7:e000::/38 } on-error={}
@@ -14387,6 +14386,19 @@
 :do { add list=Global address=2001:df7:e584::/46 } on-error={}
 :do { add list=Global address=2001:df7:e582::/47 } on-error={}
 :do { add list=Global address=2001:df7:e581::/48 } on-error={}
+:do { add list=Global address=2001:df7:c000::/36 } on-error={}
+:do { add list=Global address=2001:df7:d000::/37 } on-error={}
+:do { add list=Global address=2001:df7:dc00::/38 } on-error={}
+:do { add list=Global address=2001:df7:da00::/39 } on-error={}
+:do { add list=Global address=2001:df7:d800::/40 } on-error={}
+:do { add list=Global address=2001:df7:d980::/41 } on-error={}
+:do { add list=Global address=2001:df7:d900::/42 } on-error={}
+:do { add list=Global address=2001:df7:d960::/43 } on-error={}
+:do { add list=Global address=2001:df7:d950::/44 } on-error={}
+:do { add list=Global address=2001:df7:d948::/45 } on-error={}
+:do { add list=Global address=2001:df7:d944::/46 } on-error={}
+:do { add list=Global address=2001:df7:d942::/47 } on-error={}
+:do { add list=Global address=2001:df7:d941::/48 } on-error={}
 :do { add list=Global address=2001:df7:4000::/35 } on-error={}
 :do { add list=Global address=2001:df7:7000::/36 } on-error={}
 :do { add list=Global address=2001:df7:6800::/37 } on-error={}
