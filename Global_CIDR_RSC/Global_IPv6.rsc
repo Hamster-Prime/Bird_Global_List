@@ -1807,12 +1807,7 @@
 :do { add list=Global address=2406:be84::/30 } on-error={}
 :do { add list=Global address=2406:be82::/31 } on-error={}
 :do { add list=Global address=2406:be81::/32 } on-error={}
-:do { add list=Global address=2406:bde0::/27 } on-error={}
-:do { add list=Global address=2406:bdd0::/28 } on-error={}
-:do { add list=Global address=2406:bdc8::/29 } on-error={}
-:do { add list=Global address=2406:bdc4::/30 } on-error={}
-:do { add list=Global address=2406:bdc2::/31 } on-error={}
-:do { add list=Global address=2406:bdc1::/32 } on-error={}
+:do { add list=Global address=2406:bdc0::/26 } on-error={}
 :do { add list=Global address=2406:bda0::/27 } on-error={}
 :do { add list=Global address=2406:bd90::/28 } on-error={}
 :do { add list=Global address=2406:bd88::/29 } on-error={}
